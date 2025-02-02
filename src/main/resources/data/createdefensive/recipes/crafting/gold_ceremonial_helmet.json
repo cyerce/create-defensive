@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "$": {
+      "tag": "forge:gems/emerald"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "# #"
+  ],
+  "result": {
+    "item": "createdefensive:gold_ceremonial_helmet"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:silver_ingot"
+  },
+  "base": {
+    "item": "createdefensive:iron_staff"
+  },
+  "result": {
+    "item": "createdefensive:silver_staff"
+  },
+  "template": {
+    "item": "createdefensive:silver_upgrade_smithing_template"
+  }
+}

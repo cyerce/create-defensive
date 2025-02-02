@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:platinum_ingot"
+  },
+  "base": {
+    "item": "createdefensive:diamond_greatsword"
+  },
+  "result": {
+    "item": "createdefensive:platinum_greatsword"
+  },
+  "template": {
+    "item": "createdefensive:platinum_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:silver_ore",
+    "createdefensive:platinum_ore",
+    "createdefensive:deepslate_silver_ore",
+    "createdefensive:deepslate_platinum_ore",
+    "createdefensive:raw_aluminum_block",
+    "createdefensive:raw_silver_block",
+    "createdefensive:raw_platinum_block",
+    "createdefensive:aluminum_block",
+    "createdefensive:silver_block",
+    "createdefensive:platinum_block",
+    "createdefensive:steel_block",
+    "createdefensive:rose_gold_block",
+    "createdefensive:violet_gold_block",
+    "createdefensive:electrum_block"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/silver"
+  },
+  "base": {
+    "item": "createdefensive:iron_greataxe"
+  },
+  "result": {
+    "item": "createdefensive:silver_greataxe"
+  },
+  "template": {
+    "item": "createdefensive:silver_upgrade_smithing_template"
+  }
+}

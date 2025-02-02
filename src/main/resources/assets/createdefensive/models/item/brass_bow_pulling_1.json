@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/brass_bow",
+  "textures": {
+    "layer0": "createdefensive:item/brass_bow_pulling_1"
+  }
+}

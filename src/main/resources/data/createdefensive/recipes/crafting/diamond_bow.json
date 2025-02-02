@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:gems/diamond"
+    },
+    "$": {
+      "tag": "forge:string"
+    },
+    "%": {
+      "item": "createdefensive:diamond_cam"
+    }
+  },
+  "pattern": [
+    " #%",
+    "# $",
+    "%$ "
+  ],
+  "result": {
+    "item": "createdefensive:diamond_bow"
+  }
+}

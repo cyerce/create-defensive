@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "createdefensive:item/rose_gold_dagger"
+  }
+}

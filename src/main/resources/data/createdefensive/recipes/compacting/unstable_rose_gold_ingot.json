@@ -1,0 +1,24 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/rose_gold"
+    },
+    {
+      "item": "createdefensive:energized_rose_quartz"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:unstable_rose_gold_ingot"
+    }
+  ]
+}

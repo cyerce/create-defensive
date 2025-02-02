@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/steel"
+    },
+    "$": {
+      "tag": "forge:string"
+    },
+    "%": {
+      "item": "createdefensive:steel_cam"
+    }
+  },
+  "pattern": [
+    " #%",
+    "# $",
+    "%$ "
+  ],
+  "result": {
+    "item": "createdefensive:steel_bow"
+  }
+}

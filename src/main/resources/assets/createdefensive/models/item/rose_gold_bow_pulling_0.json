@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/rose_gold_bow",
+  "textures": {
+    "layer0": "createdefensive:item/rose_gold_bow_pulling_0"
+  }
+}

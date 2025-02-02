@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:platinum_ingot"
+  },
+  "base": {
+    "item": "createdefensive:platinum_staff"
+  },
+  "result": {
+    "item": "createdefensive:platinum_staff"
+  },
+  "template": {
+    "item": "createdefensive:platinum_upgrade_smithing_template"
+  }
+}

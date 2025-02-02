@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/brass"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    " $#",
+    "$  "
+  ],
+  "result": {
+    "item": "createdefensive:brass_scythe"
+  }
+}

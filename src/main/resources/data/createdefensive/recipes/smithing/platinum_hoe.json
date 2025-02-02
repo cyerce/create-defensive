@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/platinum"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "result": {
+    "item": "createdefensive:platinum_hoe"
+  },
+  "template": {
+    "item": "createdefensive:platinum_upgrade_smithing_template"
+  }
+}

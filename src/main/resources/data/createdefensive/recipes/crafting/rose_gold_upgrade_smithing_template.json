@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/netherite"
+    },
+    "@": {
+      "tag": "forge:nuggets/rose_gold"
+    }
+  },
+  "pattern": [
+    "@@@",
+    "@#@",
+    "@@@"
+  ],
+  "result": {
+    "item": "createdefensive:rose_gold_upgrade_smithing_template"
+  }
+}

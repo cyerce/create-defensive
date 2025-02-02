@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/rose_gold"
+    },
+    "$": {
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "# #"
+  ],
+  "result": {
+    "item": "createdefensive:rose_gold_ceremonial_helmet"
+  }
+}

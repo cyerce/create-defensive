@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:energized_electrum_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "item": "createdefensive:electrum_chestplate"
+  },
+  "template": {
+    "item": "createdefensive:electrum_upgrade_smithing_template"
+  }
+}

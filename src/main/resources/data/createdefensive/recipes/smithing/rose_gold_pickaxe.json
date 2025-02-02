@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:unstable_rose_gold_ingot"
+  },
+  "base": {
+    "item": "createdefensive:redstone_pickaxe"
+  },
+  "result": {
+    "item": "createdefensive:rose_gold_pickaxe"
+  },
+  "template": {
+    "item": "createdefensive:rose_gold_upgrade_smithing_template"
+  }
+}

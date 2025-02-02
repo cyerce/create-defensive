@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:unstable_redstone_ingot"
+  },
+  "base": {
+    "item": "createdefensive:electrum_staff"
+  },
+  "result": {
+    "item": "createdefensive:redstone_staff"
+  },
+  "template": {
+    "item": "createdefensive:redstone_upgrade_smithing_template"
+  }
+}

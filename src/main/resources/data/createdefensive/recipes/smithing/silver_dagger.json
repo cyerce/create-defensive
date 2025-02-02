@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:silver_ingot"
+  },
+  "base": {
+    "item": "createdefensive:iron_dagger"
+  },
+  "result": {
+    "item": "createdefensive:silver_dagger"
+  },
+  "template": {
+    "item": "createdefensive:silver_upgrade_smithing_template"
+  }
+}

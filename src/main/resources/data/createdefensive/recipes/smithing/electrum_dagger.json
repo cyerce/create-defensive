@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:energized_electrum_ingot"
+  },
+  "base": {
+    "item": "createdefensive:netherite_dagger"
+  },
+  "result": {
+    "item": "createdefensive:electrum_dagger"
+  },
+  "template": {
+    "item": "createdefensive:electrum_upgrade_smithing_template"
+  }
+}

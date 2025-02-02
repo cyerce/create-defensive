@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/aluminum_bow",
+  "textures": {
+    "layer0": "createdefensive:item/aluminum_bow_pulling_0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:aluminum_ore",
+    "createdefensive:deepslate_aluminum_ore"
+  ]
+}

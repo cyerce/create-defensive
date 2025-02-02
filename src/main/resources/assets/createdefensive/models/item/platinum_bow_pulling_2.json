@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/platinum_bow",
+  "textures": {
+    "layer0": "createdefensive:item/platinum_bow_pulling_2"
+  }
+}

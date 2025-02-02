@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/netherite_bow",
+  "textures": {
+    "layer0": "createdefensive:item/netherite_bow_pulling_0"
+  }
+}

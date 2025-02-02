@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.4,
+  "ingredient": {
+    "item": "create:crushed_raw_silver"
+  },
+  "result": {
+    "item": "createdefensive:silver_ingot"
+  }
+}

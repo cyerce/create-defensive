@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:energized_electrum_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "createdefensive:electrum_leggings"
+  },
+  "template": {
+    "item": "createdefensive:electrum_upgrade_smithing_template"
+  }
+}

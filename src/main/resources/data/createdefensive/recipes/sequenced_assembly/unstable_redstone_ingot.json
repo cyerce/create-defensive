@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_redstone_ingot"
+  },
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_redstone_ingot"
+        },
+        {
+          "item": "createdefensive:energized_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_redstone_ingot"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_redstone_ingot"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_redstone_ingot"
+        }
+      ]
+    }
+  ],
+  "loops": 1,
+  "results": [
+    {
+      "item": "createdefensive:unstable_redstone_ingot"
+    }
+  ]
+}

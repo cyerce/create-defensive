@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_aluminum"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:aluminum_nugget",
+      "count": 9
+    },
+    {
+      "item": "minecraft:flint",
+      "chance": 0.75
+    }
+  ]
+}
