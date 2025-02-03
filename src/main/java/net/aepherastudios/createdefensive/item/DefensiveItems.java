@@ -57,6 +57,7 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ELECTRUM_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("electrum_upgrade_smithing_template", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("redstone_upgrade_smithing_template", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROSE_GOLD_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("rose_gold_upgrade_smithing_template", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STARDUST_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("stardust_upgrade_smithing_template", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties()));
@@ -563,7 +564,7 @@ public class DefensiveItems {
             () -> new CompoundBowItem(new Item.Properties().durability(11288)));
 
     public static final RegistryObject<Item> STARDUST_HAMMER = ITEMS.register("stardust_hammer",
-            () -> new HammerItem(25, -3.8f, DefensiveToolTiers.STARDUST, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(14620)));
+            () -> new HammerItem(45, -3.8f, DefensiveToolTiers.STARDUST, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(14620)));
 
     public static final RegistryObject<Item> WOODEN_HALBERD = ITEMS.register("wooden_halberd",
             () -> new SwordItem(Tiers.WOOD, 5, -2.7f, new Item.Properties()));

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "createdefensive:stardust_ingot"
+    },
+    "@": {
+      "item": "createdefensive:yellow_stardust"
+    },
+    "$": {
+      "item": "createdefensive:blue_stardust"
+    }
+  },
+  "pattern": [
+    "@$@",
+    "$#$",
+    "@$@"
+  ],
+  "result": {
+    "item": "createdefensive:stardust_upgrade_smithing_template"
+  }
+}

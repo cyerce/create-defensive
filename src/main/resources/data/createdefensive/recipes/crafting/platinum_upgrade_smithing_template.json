@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "createdefensive:stardust_ingot"
+      "tag": "forge:gems/diamond"
     },
     "@": {
-      "tag": "createdefensive:stardust"
+      "tag": "forge:nuggets/platinum"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
     "@@@"
   ],
   "result": {
-    "item": "createdefensive:stardust_upgrade_smithing_template"
+    "item": "createdefensive:platinum_upgrade_smithing_template"
   }
 }
