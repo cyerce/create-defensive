@@ -13,6 +13,9 @@
   "item.createdefensive.energized_rose_quartz": "Energized Rose Quartz",
   "item.createdefensive.rose_quartz_rod": "Rose Quartz Rod",
   "item.createdefensive.weapon_handle": "Weapon Handle",
+  "item.createdefensive.yellow_stardust": "Stardust",
+  "item.createdefensive.blue_stardust": "Stardust",
+  "item.createdefensive.stardust_ingot": "Stardust Ingot",
 
   "item.createdefensive.aluminum_nugget": "Aluminum Nugget",
   "item.createdefensive.silver_nugget": "Silver Nugget",
@@ -87,6 +90,11 @@
   "item.createdefensive.rose_gold_leggings": "Rose Gold Leggings",
   "item.createdefensive.rose_gold_boots": "Rose Gold Boots",
 
+  "item.createdefensive.stardust_helmet": "Stardust Helmet",
+  "item.createdefensive.stardust_chestplate": "Stardust Chestplate",
+  "item.createdefensive.stardust_leggings": "Stardust Leggings",
+  "item.createdefensive.stardust_boots": "Stardust Boots",
+
   "item.createdefensive.steel_helmet": "Steel Helmet",
   "item.createdefensive.steel_chestplate": "Steel Chestplate",
   "item.createdefensive.steel_leggings": "Steel Leggings",
@@ -97,6 +105,7 @@
   "item.createdefensive.electrum_upgrade_smithing_template": "Smithing Template (Electrum Upgrade)",
   "item.createdefensive.redstone_upgrade_smithing_template": "Smithing Template (Redstone Upgrade)",
   "item.createdefensive.rose_gold_upgrade_smithing_template": "Smithing Template (Rose Gold Upgrade)",
+  "item.createdefensive.stardust_upgrade_smithing_template": "Smithing Template (Stardust Upgrade)",
 
   "block.createdefensive.aluminum_ore": "Aluminum Ore",
   "block.createdefensive.silver_ore": "Silver Ore",
@@ -323,6 +332,8 @@
   "item.createdefensive.rose_gold_staff": "Rose_Gold Staff",
   "item.createdefensive.rose_gold_bow": "Rose Gold Compound Bow",
   "item.createdefensive.rose_gold_cam": "Rose Gold Cam Wheel",
+
+  "item.createdefensive.stardust_hammer": "Stardust Hammer",
 
   "item.createdefensive.wooden_halberd": "Wooden Halberd",
   "item.createdefensive.wooden_scythe": "Wooden Scythe",

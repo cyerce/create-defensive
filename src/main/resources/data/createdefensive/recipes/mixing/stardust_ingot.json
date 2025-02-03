@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "createdefensive:blue_stardust"
+    },
+    {
+      "item": "createdefensive:blue_stardust"
+    },
+    {
+      "item": "createdefensive:yellow_stardust"
+    },
+    {
+      "item": "createdefensive:yellow_stardust"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:stardust_ingot"
+    }
+  ]
+}

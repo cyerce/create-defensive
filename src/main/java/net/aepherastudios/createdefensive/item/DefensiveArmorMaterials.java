@@ -33,6 +33,8 @@ public enum DefensiveArmorMaterials implements ArmorMaterial {
     ROSE_GOLD("rose_gold", 65, new int[]{ 7, 16, 14, 9 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 5f, 0.3f, () -> Ingredient.of(DefensiveItems.UNSTABLE_ROSE_GOLD_INGOT.get())),
     DEV_NETHERSCALE("dev_netherscale", 70, new int[]{ 8, 17, 15, 10 }, 25,
+            SoundEvents.ARMOR_EQUIP_IRON, 5f, 0.3f, () -> Ingredient.of(Items.NETHERITE_INGOT)),
+    DEV_STARDUST("dev_stardust", 70, new int[]{ 8, 17, 15, 10 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 5f, 0.3f, () -> Ingredient.of(DefensiveItems.UNSTABLE_ROSE_GOLD_INGOT.get())),
     STEEL("steel", 45, new int[]{ 4, 10, 8, 5 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(DefensiveItems.ELECTRUM_INGOT.get())),

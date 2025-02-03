@@ -69,4 +69,9 @@ public class DefensiveToolTiers {
                     DefensiveTags.Blocks.NEEDS_ROSE_GOLD_TOOL, () -> Ingredient.of(DefensiveItems.UNSTABLE_ROSE_GOLD_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "rose_gold"), List.of(Tiers.NETHERITE), List.of());
 
+    public static final Tier STARDUST = TierSortingRegistry.registerTier(
+            new ForgeTier(8, 10000, 13f, 4f, 40,
+                    DefensiveTags.Blocks.NEEDS_STARDUST_TOOL, () -> Ingredient.of(DefensiveItems.STARDUST_INGOT.get())),
+            new ResourceLocation(CreateDefensive.MOD_ID, "stardust"), List.of(Tiers.NETHERITE), List.of());
+
 }

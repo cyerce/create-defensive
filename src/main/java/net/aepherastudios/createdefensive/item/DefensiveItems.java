@@ -40,6 +40,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> IRON_CAM = ITEMS.register("iron_cam", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_CAM = ITEMS.register("golden_cam", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_CAM = ITEMS.register("diamond_cam", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> YELLOW_STARDUST = ITEMS.register("yellow_stardust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLUE_STARDUST = ITEMS.register("blue_stardust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STARDUST_INGOT = ITEMS.register("stardust_ingot", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties()));
@@ -168,6 +171,15 @@ public class DefensiveItems {
             () -> new DefensiveArmorItem(DefensiveArmorMaterials.ROSE_GOLD, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ROSE_GOLD_BOOTS = ITEMS.register("rose_gold_boots",
             () -> new DefensiveArmorItem(DefensiveArmorMaterials.ROSE_GOLD, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> STARDUST_HELMET = ITEMS.register("stardust_helmet",
+            () -> new DefensiveArmorItem(DefensiveArmorMaterials.DEV_STARDUST, ArmorItem.Type.HELMET, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STARDUST_CHESTPLATE = ITEMS.register("stardust_chestplate",
+            () -> new DefensiveArmorItem(DefensiveArmorMaterials.DEV_STARDUST, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STARDUST_LEGGINGS = ITEMS.register("stardust_leggings",
+            () -> new DefensiveArmorItem(DefensiveArmorMaterials.DEV_STARDUST, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STARDUST_BOOTS = ITEMS.register("stardust_boots",
+            () -> new DefensiveArmorItem(DefensiveArmorMaterials.DEV_STARDUST, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
     public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
             () -> new DefensiveArmorItem(DefensiveArmorMaterials.STEEL, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -549,6 +561,9 @@ public class DefensiveItems {
             () -> new SwordItem(DefensiveToolTiers.ROSE_GOLD, 8, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ROSE_GOLD_BOW = ITEMS.register("rose_gold_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(11288)));
+
+    public static final RegistryObject<Item> STARDUST_HAMMER = ITEMS.register("stardust_hammer",
+            () -> new HammerItem(25, -3.8f, DefensiveToolTiers.STARDUST, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(14620)));
 
     public static final RegistryObject<Item> WOODEN_HALBERD = ITEMS.register("wooden_halberd",
             () -> new SwordItem(Tiers.WOOD, 5, -2.7f, new Item.Properties()));
