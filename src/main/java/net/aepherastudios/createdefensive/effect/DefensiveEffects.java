@@ -40,7 +40,10 @@ public class DefensiveEffects {
             () -> new SteelArmorEffect(MobEffectCategory.BENEFICIAL, 25518819));
 
     public static final RegistryObject<MobEffect> LACERATION = MOB_EFFECTS.register("laceration",
-            () -> new LacerationEffect(MobEffectCategory.HARMFUL, 25518819));
+            () -> new LacerationEffect(MobEffectCategory.HARMFUL, 7208960));
+
+    public static final RegistryObject<MobEffect> CRIMSON = MOB_EFFECTS.register("crimson",
+            () -> new LacerationEffect(MobEffectCategory.NEUTRAL, 7208960));
 
 
     public static void register(IEventBus eventBus) {

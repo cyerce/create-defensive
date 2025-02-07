@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createdefensive:unstable_rose_gold_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:rose_gold_arrow_head",
+      "count": 16
+    }
+  ]
+}

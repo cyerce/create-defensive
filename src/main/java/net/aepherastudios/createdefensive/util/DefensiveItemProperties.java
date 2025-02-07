@@ -5,6 +5,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 
 public class DefensiveItemProperties {
     public static void addCustomItemProperties() {
@@ -28,7 +29,6 @@ public class DefensiveItemProperties {
 
         makeShield(DefensiveItems.OAK_SHIELD.get());
     }
-
     private static void makeBow(Item item) {
         ItemProperties.register(item, new ResourceLocation("pull"), (p_174635_, p_174636_, p_174637_, p_174638_) -> {
             if (p_174637_ == null) {

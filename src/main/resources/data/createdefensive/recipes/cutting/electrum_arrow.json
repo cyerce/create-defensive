@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createdefensive:energized_electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:electrum_arrow_head",
+      "count": 4
+    }
+  ]
+}

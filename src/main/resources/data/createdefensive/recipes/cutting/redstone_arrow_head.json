@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createdefensive:unstable_redstone_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:redstone_arrow_head",
+      "count": 16
+    }
+  ]
+}

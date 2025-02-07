@@ -1,11 +1,16 @@
 package net.aepherastudios.createdefensive;
 
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
+import net.aepherastudios.createdefensive.entity.DefensiveEntities;
+import net.aepherastudios.createdefensive.entity.custom.AluminumArrowEntity;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.DefensiveCreativeModeTabs;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
 import com.mojang.logging.LogUtils;
+import net.aepherastudios.createdefensive.item.client.*;
+import net.aepherastudios.createdefensive.potion.DefensivePotions;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -32,6 +37,8 @@ public class CreateDefensive {
         DefensiveBlocks.register(modEventBus);
         DefensiveCreativeModeTabs.register(modEventBus);
         DefensiveEffects.register(modEventBus);
+        DefensivePotions.register(modEventBus);
+        DefensiveEntities.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -54,6 +61,23 @@ public class CreateDefensive {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(DefensiveEntities.ALUMINUM_ARROW.get(), AluminumArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.SILVER_ARROW.get(), SilverArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PLATINUM_ARROW.get(), PlatinumArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STEEL_ARROW.get(), SteelArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.COPPER_ARROW.get(), CopperArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ZINC_ARROW.get(), ZincArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.BRASS_ARROW.get(), BrassArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ROSE_QUARTZ_ARROW.get(), RoseQuartzArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.WOODEN_ARROW.get(), WoodenArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STONE_ARROW.get(), StoneArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.IRON_ARROW.get(), IronArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.GOLDEN_ARROW.get(), GoldenArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.DIAMOND_ARROW.get(), DiamondArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.NETHERITE_ARROW.get(), NetheriteArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ELECTRUM_ARROW.get(), ElectrumArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.REDSTONE_ARROW.get(), RedstoneArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ROSE_GOLD_ARROW.get(), RoseGoldArrowRenderer::new);
         }
     }
 }

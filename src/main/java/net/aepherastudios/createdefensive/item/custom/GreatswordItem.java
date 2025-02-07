@@ -17,7 +17,7 @@ public class GreatswordItem extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
-        pTarget.addEffect(new MobEffectInstance(DefensiveEffects.LACERATION.get(), 200, 0), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(DefensiveEffects.LACERATION.get(), 200, 0, true, false), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }
