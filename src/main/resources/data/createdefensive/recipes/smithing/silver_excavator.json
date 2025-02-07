@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/silver"
+  },
+  "base": {
+    "item": "createdefensive:iron_excavator"
+  },
+  "result": {
+    "item": "createdefensive:silver_excavator"
+  },
+  "template": {
+    "item": "createdefensive:silver_upgrade_smithing_template"
+  }
+}

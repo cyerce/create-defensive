@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/platinum"
+  },
+  "base": {
+    "item": "createdefensive:diamond_excavator"
+  },
+  "result": {
+    "item": "createdefensive:platinum_excavator"
+  },
+  "template": {
+    "item": "createdefensive:platinum_upgrade_smithing_template"
+  }
+}

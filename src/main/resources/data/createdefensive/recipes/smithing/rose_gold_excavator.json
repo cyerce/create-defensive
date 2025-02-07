@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:unstable_rose_gold_ingot"
+  },
+  "base": {
+    "item": "createdefensive:redstone_excavator"
+  },
+  "result": {
+    "item": "createdefensive:rose_gold_excavator"
+  },
+  "template": {
+    "item": "createdefensive:rose_gold_upgrade_smithing_template"
+  }
+}
