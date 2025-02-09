@@ -9,9 +9,9 @@
     }
   },
   "pattern": [
-    "##",
-    "$#",
-    "$ "
+    " ##",
+    " $#",
+    "$  "
   ],
   "result": {
     "item": "createdefensive:copper_excavator"

@@ -9,9 +9,9 @@
     }
   },
   "pattern": [
-    "##",
-    "$#",
-    "$ "
+    " ##",
+    " $#",
+    "$  "
   ],
   "result": {
     "item": "createdefensive:stone_excavator"

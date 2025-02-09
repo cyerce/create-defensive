@@ -9,9 +9,9 @@
     }
   },
   "pattern": [
-    "##",
-    "$#",
-    "$ "
+    " ##",
+    " $#",
+    "$  "
   ],
   "result": {
     "item": "createdefensive:aluminum_excavator"

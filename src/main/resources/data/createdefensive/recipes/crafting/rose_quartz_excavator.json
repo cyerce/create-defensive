@@ -9,9 +9,9 @@
     }
   },
   "pattern": [
-    "##",
-    "$#",
-    "$ "
+    " ##",
+    " $#",
+    "$  "
   ],
   "result": {
     "item": "createdefensive:rose_quartz_excavator"
