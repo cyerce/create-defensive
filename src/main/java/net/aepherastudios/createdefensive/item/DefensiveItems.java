@@ -42,6 +42,7 @@ public class DefensiveItems {
     public static final RegistryObject<Item> BLUE_STARDUST = ITEMS.register("blue_stardust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STARDUST_INGOT = ITEMS.register("stardust_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRIMSON_ESSENCE = ITEMS.register("crimson_essence", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSTEEL_INGOT = ITEMS.register("crimsteel_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PAINITE = ITEMS.register("painite", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ENERGIZED_PAINITE = ITEMS.register("energized_painite", () -> new Item(new Item.Properties()));
 
@@ -767,23 +768,77 @@ public class DefensiveItems {
     public static final RegistryObject<Item> REDSTONE_ARROW = ITEMS.register("redstone_arrow", () -> new RedstoneArrowItem(3.4f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_GOLD_ARROW = ITEMS.register("rose_gold_arrow", () -> new RoseGoldArrowItem(3.8f, new Item.Properties()));
 
-    public static final RegistryObject<Item> ALUMINUM_ARROW_HEAD = ITEMS.register("aluminum_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SILVER_ARROW_HEAD = ITEMS.register("silver_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PLATINUM_ARROW_HEAD = ITEMS.register("platinum_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_ARROW_HEAD = ITEMS.register("steel_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> COPPER_ARROW_HEAD = ITEMS.register("copper_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ZINC_ARROW_HEAD = ITEMS.register("zinc_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BRASS_ARROW_HEAD = ITEMS.register("brass_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ROSE_QUARTZ_ARROW_HEAD = ITEMS.register("rose_quartz_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> WOODEN_ARROW_HEAD = ITEMS.register("wooden_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> STONE_ARROW_HEAD = ITEMS.register("stone_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> IRON_ARROW_HEAD = ITEMS.register("iron_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GOLDEN_ARROW_HEAD = ITEMS.register("golden_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> DIAMOND_ARROW_HEAD = ITEMS.register("diamond_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> NETHERITE_ARROW_HEAD = ITEMS.register("netherite_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ELECTRUM_ARROW_HEAD = ITEMS.register("electrum_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> REDSTONE_ARROW_HEAD = ITEMS.register("redstone_arrow_head", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ROSE_GOLD_ARROW_HEAD = ITEMS.register("rose_gold_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALUMINUM_ARROW_HEAD = ITEMS.register("aluminum_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_ARROW_HEAD = ITEMS.register("silver_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_ARROW_HEAD = ITEMS.register("platinum_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_ARROW_HEAD = ITEMS.register("steel_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_ARROW_HEAD = ITEMS.register("copper_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_ARROW_HEAD = ITEMS.register("zinc_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_ARROW_HEAD = ITEMS.register("brass_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_ARROW_HEAD = ITEMS.register("rose_quartz_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_ARROW_HEAD = ITEMS.register("wooden_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STONE_ARROW_HEAD = ITEMS.register("stone_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_ARROW_HEAD = ITEMS.register("iron_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_ARROW_HEAD = ITEMS.register("golden_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_ARROW_HEAD = ITEMS.register("diamond_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_ARROW_HEAD = ITEMS.register("netherite_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_ARROW_HEAD = ITEMS.register("electrum_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_ARROW_HEAD = ITEMS.register("redstone_straight_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_GOLD_ARROW_HEAD = ITEMS.register("rose_gold_straight_arrow_head", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_STRAIGHT_ARROW_HEAD = ITEMS.register("aluminum_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_STRAIGHT_ARROW_HEAD = ITEMS.register("silver_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_STRAIGHT_ARROW_HEAD = ITEMS.register("platinum_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_STRAIGHT_ARROW_HEAD = ITEMS.register("steel_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_STRAIGHT_ARROW_HEAD = ITEMS.register("copper_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_STRAIGHT_ARROW_HEAD = ITEMS.register("zinc_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_STRAIGHT_ARROW_HEAD = ITEMS.register("brass_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_STRAIGHT_ARROW_HEAD = ITEMS.register("rose_quartz_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_STRAIGHT_ARROW_HEAD = ITEMS.register("wooden_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STONE_STRAIGHT_ARROW_HEAD = ITEMS.register("stone_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_STRAIGHT_ARROW_HEAD = ITEMS.register("iron_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_STRAIGHT_ARROW_HEAD = ITEMS.register("golden_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_STRAIGHT_ARROW_HEAD = ITEMS.register("diamond_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_STRAIGHT_ARROW_HEAD = ITEMS.register("netherite_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_STRAIGHT_ARROW_HEAD = ITEMS.register("electrum_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_STRAIGHT_ARROW_HEAD = ITEMS.register("redstone_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_GOLD_STRAIGHT_ARROW_HEAD = ITEMS.register("rose_gold_arrow_head", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_HOOKED_ARROW_HEAD = ITEMS.register("aluminum_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_HOOKED_ARROW_HEAD = ITEMS.register("silver_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_HOOKED_ARROW_HEAD = ITEMS.register("platinum_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_HOOKED_ARROW_HEAD = ITEMS.register("steel_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_HOOKED_ARROW_HEAD = ITEMS.register("copper_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_HOOKED_ARROW_HEAD = ITEMS.register("zinc_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_HOOKED_ARROW_HEAD = ITEMS.register("brass_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_HOOKED_ARROW_HEAD = ITEMS.register("rose_quartz_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_HOOKED_ARROW_HEAD = ITEMS.register("wooden_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STONE_HOOKED_ARROW_HEAD = ITEMS.register("stone_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_HOOKED_ARROW_HEAD = ITEMS.register("iron_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_HOOKED_ARROW_HEAD = ITEMS.register("golden_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_HOOKED_ARROW_HEAD = ITEMS.register("diamond_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_HOOKED_ARROW_HEAD = ITEMS.register("netherite_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_HOOKED_ARROW_HEAD = ITEMS.register("electrum_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_HOOKED_ARROW_HEAD = ITEMS.register("redstone_hooked_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_GOLD_HOOKED_ARROW_HEAD = ITEMS.register("rose_gold_hooked_arrow_head", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_BARBED_ARROW_HEAD = ITEMS.register("aluminum_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_BARBED_ARROW_HEAD = ITEMS.register("silver_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_BARBED_ARROW_HEAD = ITEMS.register("platinum_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_BARBED_ARROW_HEAD = ITEMS.register("steel_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_BARBED_ARROW_HEAD = ITEMS.register("copper_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_BARBED_ARROW_HEAD = ITEMS.register("zinc_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_BARBED_ARROW_HEAD = ITEMS.register("brass_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_BARBED_ARROW_HEAD = ITEMS.register("rose_quartz_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_BARBED_ARROW_HEAD = ITEMS.register("wooden_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STONE_BARBED_ARROW_HEAD = ITEMS.register("stone_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_BARBED_ARROW_HEAD = ITEMS.register("iron_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_BARBED_ARROW_HEAD = ITEMS.register("golden_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_BARBED_ARROW_HEAD = ITEMS.register("diamond_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_BARBED_ARROW_HEAD = ITEMS.register("netherite_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_BARBED_ARROW_HEAD = ITEMS.register("electrum_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_BARBED_ARROW_HEAD = ITEMS.register("redstone_barbed_arrow_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_GOLD_BARBED_ARROW_HEAD = ITEMS.register("rose_gold_barbed_arrow_head", () -> new Item(new Item.Properties()));
 
 
 

@@ -74,4 +74,9 @@ public class DefensiveToolTiers {
                     DefensiveTags.Blocks.NEEDS_STARDUST_TOOL, () -> Ingredient.of(DefensiveItems.STARDUST_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "stardust"), List.of(Tiers.NETHERITE), List.of());
 
+    public static final Tier CRIMSTEEL = TierSortingRegistry.registerTier(
+            new ForgeTier(8, 12500, 14f, 5f, 45,
+                    DefensiveTags.Blocks.NEEDS_CRIMSTEEL_TOOL, () -> Ingredient.of(DefensiveItems.CRIMSTEEL_INGOT.get())),
+            new ResourceLocation(CreateDefensive.MOD_ID, "crimsteel"), List.of(Tiers.NETHERITE), List.of());
+
 }

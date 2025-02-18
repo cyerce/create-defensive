@@ -23,6 +23,7 @@ public class DefensiveTags {
         public static final TagKey<Block> NEEDS_REDSTONE_TOOL = tag("needs_redstone_tool");
         public static final TagKey<Block> NEEDS_ROSE_GOLD_TOOL = tag("needs_rose_gold_tool");
         public static final TagKey<Block> NEEDS_STARDUST_TOOL = tag("needs_stardust_tool");
+        public static final TagKey<Block> NEEDS_CRIMSTEEL_TOOL = tag("needs_crimsteel_tool");
 
         public static final TagKey<Block> STARDUST = tag("stardust");
 
