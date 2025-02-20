@@ -33,8 +33,8 @@
         0
       ],
       "scale": [
-        1.7,
-        1.7,
+        3.0,
+        3.0,
         0.85
       ]
     },
@@ -50,9 +50,9 @@
         -0.26
       ],
       "scale": [
-        1.36,
-        1.36,
-        0.68
+        3.0,
+        3.0,
+        0.85
       ]
     },
     "firstperson_lefthand": {
@@ -67,9 +67,9 @@
         -0.26
       ],
       "scale": [
-        1.36,
-        1.36,
-        0.68
+        3.0,
+        3.0,
+        0.85
       ]
     },
     "gui": {
@@ -89,5 +89,13 @@
         1.1
       ]
     }
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "throwing": 1
+      },
+      "model": "createdefensive:item/aluminum_spear_throwing"
+    }
+  ]
 }

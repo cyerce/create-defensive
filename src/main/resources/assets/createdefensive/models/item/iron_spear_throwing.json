@@ -1,0 +1,93 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createdefensive:item/iron_spear"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        180,
+        -90,
+        55
+      ],
+      "translation": [
+        0,
+        -15,
+        5
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        0.85
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        180,
+        90,
+        -55
+      ],
+      "translation": [
+        0,
+        -15,
+        5
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        0.85
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -45,
+        -90,
+        10
+      ],
+      "translation": [
+        1.13,
+        5.2,
+        -0.26
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        0.85
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -45,
+        -90,
+        -80
+      ],
+      "translation": [
+        1.13,
+        5.2,
+        -0.26
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        0.85
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  }
+}

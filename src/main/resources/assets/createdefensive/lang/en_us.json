@@ -106,8 +106,8 @@
   "item.createdefensive.silver_upgrade_smithing_template": "Smithing Template (Silver Upgrade)",
   "item.createdefensive.platinum_upgrade_smithing_template": "Smithing Template (Platinum Upgrade)",
   "item.createdefensive.electrum_upgrade_smithing_template": "Smithing Template (Electrum Upgrade)",
-  "item.createdefensive.redstone_upgrade_smithing_template": "Smithing Template (Redstone Upgrade)",
-  "item.createdefensive.rose_gold_upgrade_smithing_template": "Smithing Template (Rose Gold Upgrade)",
+  "item.createdefensive.redstone_upgrade_smithing_template": "Smithing Template (Unstable Redstone Upgrade)",
+  "item.createdefensive.rose_gold_upgrade_smithing_template": "Smithing Template (Unstable Rose Gold Upgrade)",
   "item.createdefensive.stardust_upgrade_smithing_template": "Smithing Template (Stardust Upgrade)",
 
   "block.createdefensive.aluminum_ore": "Aluminum Ore",
@@ -353,6 +353,8 @@
   "item.createdefensive.rose_gold_excavator": "Unstable Rose Gold Excavator",
 
   "item.createdefensive.crimsteel_halberd": "Crimsteel Halberd",
+  "item.createdefensive.painite": "Painite",
+  "item.createdefensive.cut_painite": "Cut Painite",
 
   "item.createdefensive.stardust_hammer": "Stardust Hammer",
 
@@ -454,8 +456,8 @@
   "item.createdefensive.diamond_arrow": "Diamond Arrow",
   "item.createdefensive.netherite_arrow": "Netherite Arrow",
   "item.createdefensive.electrum_arrow": "Electrum Arrow",
-  "item.createdefensive.redstone_arrow": "Redstone Arrow",
-  "item.createdefensive.rose_gold_arrow": "Rose Gold Arrow",
+  "item.createdefensive.redstone_arrow": "Unstable Redstone Arrow",
+  "item.createdefensive.rose_gold_arrow": "Unstable Rose Gold Arrow",
 
   "item.createdefensive.aluminum_arrow_head": "Aluminum Arrow Head",
   "item.createdefensive.silver_arrow_head": "Silver Arrow Head",
@@ -472,8 +474,31 @@
   "item.createdefensive.diamond_arrow_head": "Diamond Arrow Head",
   "item.createdefensive.netherite_arrow_head": "Netherite Arrow Head",
   "item.createdefensive.electrum_arrow_head": "Electrum Arrow Head",
-  "item.createdefensive.redstone_arrow_head": "Redstone Arrow Head",
-  "item.createdefensive.rose_gold_arrow_head": "Rose Gold Arrow Head",
+  "item.createdefensive.redstone_arrow_head": "Unstable Redstone Arrow Head",
+  "item.createdefensive.rose_gold_arrow_head": "Unstable Rose Gold Arrow Head",
+
+
+
+  "entity.createdefensive.painite_elemental": "Painite Elemental",
+
+  "entity.createdefensive.aluminum_spear": "Aluminum Spear",
+  "entity.createdefensive.silver_spear": "Silver Spear",
+  "entity.createdefensive.platinum_spear": "Platinum Spear",
+  "entity.createdefensive.steel_spear": "Steel Spear",
+  "entity.createdefensive.copper_spear": "Copper Spear",
+  "entity.createdefensive.zinc_spear": "Zinc Spear",
+  "entity.createdefensive.brass_spear": "Brass Spear",
+  "entity.createdefensive.rose_quartz_spear": "Rose Quartz Spear",
+  "entity.createdefensive.wooden_spear": "Wooden Spear",
+  "entity.createdefensive.stone_spear": "Stone Spear",
+  "entity.createdefensive.iron_spear": "Iron Spear",
+  "entity.createdefensive.golden_spear": "Golden Spear",
+  "entity.createdefensive.diamond_spear": "Diamond Spear",
+  "entity.createdefensive.netherite_spear": "Netherite Spear",
+  "entity.createdefensive.electrum_spear": "Electrum Spear",
+  "entity.createdefensive.redstone_spear": "Unstable Redstone Spear",
+  "entity.createdefensive.rose_gold_spear": "Unstable Rose Gold Spear",
+
 
 
   "creativetab.createdefensive_items": "Create: Defensive Items",

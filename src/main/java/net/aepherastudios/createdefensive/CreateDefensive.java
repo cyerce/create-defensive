@@ -2,7 +2,8 @@ package net.aepherastudios.createdefensive;
 
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.aepherastudios.createdefensive.entity.DefensiveEntities;
-import net.aepherastudios.createdefensive.entity.custom.AluminumArrowEntity;
+import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRenderer;
+import net.aepherastudios.createdefensive.entity.client.PainiteProjectileEntityRenderer;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.DefensiveCreativeModeTabs;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
@@ -78,6 +79,27 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.ELECTRUM_ARROW.get(), ElectrumArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.REDSTONE_ARROW.get(), RedstoneArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.ROSE_GOLD_ARROW.get(), RoseGoldArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PAINITE_PROJECTILE.get(), PainiteProjectileEntityRenderer::new);
+
+            EntityRenderers.register(DefensiveEntities.PAINITE_ELEMENTAL.get(), PainiteElementalEntityRenderer::new);
+
+            EntityRenderers.register(DefensiveEntities.ALUMINUM_SPEAR.get(), AluminumSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.SILVER_SPEAR.get(), SilverSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PLATINUM_SPEAR.get(), PlatinumSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STEEL_SPEAR.get(), SteelSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.COPPER_SPEAR.get(), CopperSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ZINC_SPEAR.get(), ZincSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.BRASS_SPEAR.get(), BrassSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ROSE_QUARTZ_SPEAR.get(), RoseQuartzSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.WOODEN_SPEAR.get(), WoodenSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STONE_SPEAR.get(), StoneSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.IRON_SPEAR.get(), IronSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.GOLDEN_SPEAR.get(), GoldenSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.DIAMOND_SPEAR.get(), DiamondSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.NETHERITE_SPEAR.get(), NetheriteSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ELECTRUM_SPEAR.get(), ElectrumSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.REDSTONE_SPEAR.get(), RedstoneSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ROSE_GOLD_SPEAR.get(), RoseGoldSpearRenderer::new);
         }
     }
 }
