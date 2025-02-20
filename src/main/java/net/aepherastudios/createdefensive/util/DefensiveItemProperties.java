@@ -30,6 +30,22 @@ public class DefensiveItemProperties {
         makeShield(DefensiveItems.OAK_SHIELD.get());
 
         makeSpear(DefensiveItems.ALUMINUM_SPEAR.get());
+        makeSpear(DefensiveItems.SILVER_SPEAR.get());
+        makeSpear(DefensiveItems.PLATINUM_SPEAR.get());
+        makeSpear(DefensiveItems.STEEL_SPEAR.get());
+        makeSpear(DefensiveItems.COPPER_SPEAR.get());
+        makeSpear(DefensiveItems.ZINC_SPEAR.get());
+        makeSpear(DefensiveItems.BRASS_SPEAR.get());
+        makeSpear(DefensiveItems.ROSE_QUARTZ_SPEAR.get());
+        makeSpear(DefensiveItems.WOODEN_SPEAR.get());
+        makeSpear(DefensiveItems.STONE_SPEAR.get());
+        makeSpear(DefensiveItems.IRON_SPEAR.get());
+        makeSpear(DefensiveItems.GOLDEN_SPEAR.get());
+        makeSpear(DefensiveItems.DIAMOND_SPEAR.get());
+        makeSpear(DefensiveItems.NETHERITE_SPEAR.get());
+        makeSpear(DefensiveItems.ELECTRUM_SPEAR.get());
+        makeSpear(DefensiveItems.REDSTONE_SPEAR.get());
+        makeSpear(DefensiveItems.ROSE_GOLD_SPEAR.get());
     }
     private static void makeBow(Item item) {
         ItemProperties.register(item, new ResourceLocation("pull"), (p_174635_, p_174636_, p_174637_, p_174638_) -> {
