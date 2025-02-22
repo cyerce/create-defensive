@@ -3,6 +3,7 @@ package net.aepherastudios.createdefensive.entity.client;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.aepherastudios.createdefensive.CreateDefensive;
+import net.minecraft.client.model.BlazeModel;
 import net.minecraft.client.model.Model;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
@@ -19,7 +20,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public class IronSpearModel extends Model {
     public static final ResourceLocation TEXTURE = new ResourceLocation(CreateDefensive.MOD_ID, "textures/entity/projectiles/iron_spear.png");
     private final ModelPart root;
-
     public IronSpearModel(ModelPart pRoot) {
         super(RenderType::entitySolid);
         this.root = pRoot;

@@ -1,8 +1,15 @@
 package net.aepherastudios.createdefensive.entity.client;
 
+import com.simibubi.create.content.fluids.drain.ItemDrainRenderer;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.model.geom.ModelLayers;
+import net.minecraft.client.renderer.ItemInHandRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.renderer.entity.ItemEntityRenderer;
+import net.minecraft.client.renderer.entity.ItemRenderer;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ShieldItem;
 
 public class DefensiveModelLayers {
     public static final ModelLayerLocation ALUMINUM_SPEAR_LAYER = new ModelLayerLocation(
@@ -55,5 +62,8 @@ public class DefensiveModelLayers {
 
     public static final ModelLayerLocation ROSE_GOLD_SPEAR_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "rose_gold_spear_layer"), "main");
+
+    public static final ModelLayerLocation OAK_SHIELD_LAYER = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "oak_shield_layer"), "main");
 
 }

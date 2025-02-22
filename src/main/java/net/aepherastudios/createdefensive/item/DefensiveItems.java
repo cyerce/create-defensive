@@ -4,11 +4,14 @@ import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.entity.custom.RedstoneSpear;
 import net.aepherastudios.createdefensive.item.arrow.*;
 import net.aepherastudios.createdefensive.item.custom.*;
+import net.aepherastudios.createdefensive.item.shield.OakShieldItem;
 import net.aepherastudios.createdefensive.item.spear.*;
+import net.minecraft.client.model.ShieldModel;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.entity.projectile.Fireball;
 import net.minecraft.world.entity.projectile.LargeFireball;
 import net.minecraft.world.item.*;
+import net.minecraftforge.event.entity.living.ShieldBlockEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -620,15 +623,15 @@ public class DefensiveItems {
     public static final RegistryObject<Item> WOODEN_STAFF = ITEMS.register("wooden_staff",
             () -> new SwordItem(Tiers.WOOD, 1, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> OAK_SHIELD = ITEMS.register("oak_shield",
-                () -> new ShieldItem(new Item.Properties().durability(150)));
+                () -> new OakShieldItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> BIRCH_SHIELD = ITEMS.register("birch_shield",
-                () -> new ShieldItem(new Item.Properties().durability(150)));
+                () -> new ShieldItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> SPRUCE_SHIELD = ITEMS.register("spruce_shield",
-                () -> new ShieldItem(new Item.Properties().durability(150)));
+                () -> new ShieldItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> JUNGLE_SHIELD = ITEMS.register("jungle_shield",
-                () -> new ShieldItem(new Item.Properties().durability(150)));
+                () -> new ShieldItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> ACACIA_SHIELD = ITEMS.register("acacia_shield",
-                () -> new ShieldItem(new Item.Properties().durability(150)));
+                () -> new ShieldItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> WOODEN_BOW = ITEMS.register("wooden_bow",
             () -> new BowItem(new Item.Properties().durability(91)));
 

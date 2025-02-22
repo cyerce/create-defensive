@@ -1,287 +1,52 @@
 {
-	"credit": "Made with Blockbench",
-	"texture_size": [
-		32,
-		32
-	],
+	"parent": "builtin/entity",
+	"gui_light": "front",
 	"textures": {
-		"0": "createdefensive:item/oak_shield",
-		"particle": "createdefensive:item/oak_shield"
+		"all": "createdefensive:item/oak_shield"
 	},
-	"elements": [
-		{
-			"from": [
-				0,
-				0,
-				0
-			],
-			"to": [
-				12,
-				12,
-				1
-			],
-			"faces": {
-				"north": {
-					"uv": [
-						0,
-						0,
-						6,
-						6
-					],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [
-						6,
-						4,
-						6.5,
-						10
-					],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [
-						0,
-						6,
-						6,
-						12
-					],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [
-						6.5,
-						4,
-						7,
-						10
-					],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [
-						13,
-						4.5,
-						7,
-						4
-					],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [
-						13,
-						4.5,
-						7,
-						5
-					],
-					"texture": "#0"
-				}
-			}
-		},
-		{
-			"from": [
-				5,
-				4,
-				1
-			],
-			"to": [
-				7,
-				8,
-				4
-			],
-			"rotation": {
-				"angle": 0,
-				"axis": "y",
-				"origin": [
-					0,
-					0,
-					1
-				]
-			},
-			"faces": {
-				"north": {
-					"uv": [
-						7,
-						5,
-						8,
-						7
-					],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [
-						6,
-						0,
-						7.5,
-						2
-					],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [
-						7,
-						7,
-						8,
-						9
-					],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [
-						6,
-						2,
-						7.5,
-						4
-					],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [
-						8.5,
-						1.5,
-						7.5,
-						0
-					],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [
-						8.5,
-						1.5,
-						7.5,
-						3
-					],
-					"texture": "#0"
-				}
-			}
-		}
-	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [
-				0,
-				90,
-				0
-			],
-			"translation": [
-				10,
-				6,
-				-4
-			],
-			"scale": [
-				1,
-				1,
-				1
-			]
+			"rotation": [ 0, 90, 0 ],
+			"translation": [ 10, 6, -4 ],
+			"scale": [ 1, 1, 1 ]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [
-				0,
-				90,
-				0
-			],
-			"translation": [
-				10,
-				6,
-				12
-			],
-			"scale": [
-				1,
-				1,
-				1
-			]
+			"rotation": [ 0, 90, 0 ],
+			"translation": [ 10, 6, 12 ],
+			"scale": [ 1, 1, 1 ]
 		},
 		"firstperson_righthand": {
-			"rotation": [
-				0,
-				180,
-				5
-			],
-			"translation": [
-				-10,
-				2,
-				-10
-			],
-			"scale": [
-				1.25,
-				1.25,
-				1.25
-			]
+			"rotation": [ 0, 180, 5 ],
+			"translation": [ -10, 2, -10 ],
+			"scale": [ 1.25, 1.25, 1.25 ]
 		},
 		"firstperson_lefthand": {
-			"rotation": [
-				0,
-				180,
-				5
-			],
-			"translation": [
-				10,
-				0,
-				-10
-			],
-			"scale": [
-				1.25,
-				1.25,
-				1.25
-			]
+			"rotation": [ 0, 180, 5 ],
+			"translation": [ 10, 0, -10 ],
+			"scale": [ 1.25, 1.25, 1.25 ]
 		},
 		"gui": {
-			"rotation": [
-				15,
-				-25,
-				-5
-			],
-			"translation": [
-				2,
-				3,
-				0
-			],
-			"scale": [
-				0.65,
-				0.65,
-				0.65
-			]
+			"rotation": [ 15, -25, -5 ],
+			"translation": [ 2, 3, 0 ],
+			"scale": [ 0.65, 0.65, 0.65 ]
 		},
 		"fixed": {
-			"rotation": [
-				0,
-				180,
-				0
-			],
-			"translation": [
-				-4.5,
-				4.5,
-				-5
-			],
-			"scale": [
-				0.55,
-				0.55,
-				0.55
-			]
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ -4.5, 4.5, -5],
+			"scale":[ 0.55, 0.55, 0.55]
 		},
 		"ground": {
-			"rotation": [
-				0,
-				0,
-				0
-			],
-			"translation": [
-				2,
-				4,
-				2
-			],
-			"scale": [
-				0.25,
-				0.25,
-				0.25
-			]
-		},
-		"overrides": [
-			{
-				"predicate": {
-					"blocking": 1
-				},
-				"model": "createdefensive:item/oak_shield_blocking"
-			}
-		]
-	}
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 2, 4, 2],
+			"scale":[ 0.25, 0.25, 0.25]
+		}
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "createdefensive:item/oak_shield_blocking"
+		}
+	]
 }
