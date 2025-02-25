@@ -1,11 +1,14 @@
 package net.aepherastudios.createdefensive.item.shield;
 
+import net.aepherastudios.createdefensive.entity.client.DefensiveModelBakery;
+import net.minecraft.client.renderer.entity.ItemRenderer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.DispenserBlock;
+import net.minecraftforge.event.entity.living.ShieldBlockEvent;
 
 public class OakShieldItem extends ShieldItem {
     public static final int EFFECTIVE_BLOCK_DELAY = 5;

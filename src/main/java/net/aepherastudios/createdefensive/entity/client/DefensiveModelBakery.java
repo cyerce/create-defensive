@@ -16,6 +16,6 @@ public class DefensiveModelBakery extends ModelBakery {
         super(pBlockColors, pProfilerFiller, pModelResources, pBlockStateResources);
     }
 
-    public static final Material OAK_SHIELD_BASE = new Material(Sheets.SHIELD_SHEET, new ResourceLocation("item/oak_shield_base"));
+    public static final Material OAK_SHIELD_BASE = new Material(Sheets.SHIELD_SHEET, new ResourceLocation("entity/oak_shield_base"));
     public static final Material NO_PATTERN_OAK_SHIELD = new Material(Sheets.SHIELD_SHEET, new ResourceLocation("entity/oak_shield_base_nopattern"));
 }

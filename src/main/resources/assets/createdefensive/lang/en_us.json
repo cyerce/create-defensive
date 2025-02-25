@@ -165,6 +165,7 @@
   "item.createdefensive.aluminum_bow": "Aluminum Compound Bow",
   "item.createdefensive.aluminum_cam": "Aluminum Cam Wheel",
   "item.createdefensive.aluminum_excavator": "Aluminum Excavator",
+  "item.createdefensive.aluminum_poleaxe": "Aluminum Poleaxe",
 
   "item.createdefensive.copper_sword": "Copper Sword",
   "item.createdefensive.copper_pickaxe": "Copper Pickaxe",
@@ -184,6 +185,7 @@
   "item.createdefensive.copper_bow": "Copper Compound Bow",
   "item.createdefensive.copper_cam": "Copper Cam Wheel",
   "item.createdefensive.copper_excavator": "Copper Excavator",
+  "item.createdefensive.copper_poleaxe": "Copper Poleaxe",
 
   "item.createdefensive.zinc_sword": "Zinc Sword",
   "item.createdefensive.zinc_pickaxe": "Zinc Pickaxe",
@@ -203,6 +205,7 @@
   "item.createdefensive.zinc_bow": "Zinc Compound Bow",
   "item.createdefensive.zinc_cam": "Zinc Cam Wheel",
   "item.createdefensive.zinc_excavator": "Zinc Excavator",
+  "item.createdefensive.zinc_poleaxe": "Zinc Poleaxe",
 
   "item.createdefensive.brass_sword": "Brass Sword",
   "item.createdefensive.brass_pickaxe": "Brass Pickaxe",
@@ -222,6 +225,7 @@
   "item.createdefensive.brass_bow": "Brass Compound Bow",
   "item.createdefensive.brass_cam": "Brass Cam Wheel",
   "item.createdefensive.brass_excavator": "Brass Excavator",
+  "item.createdefensive.brass_poleaxe": "Brass Poleaxe",
 
   "item.createdefensive.rose_quartz_sword": "Rose Quartz Sword",
   "item.createdefensive.rose_quartz_pickaxe": "Rose Quartz Pickaxe",
@@ -241,6 +245,7 @@
   "item.createdefensive.rose_quartz_bow": "Rose Quartz Compound Bow",
   "item.createdefensive.rose_quartz_cam": "Rose Quartz Cam Wheel",
   "item.createdefensive.rose_quartz_excavator": "Rose Quartz Excavator",
+  "item.createdefensive.rose_quartz_poleaxe": "Rose Quartz Poleaxe",
 
   "item.createdefensive.steel_sword": "Steel Sword",
   "item.createdefensive.steel_pickaxe": "Steel Pickaxe",
@@ -260,6 +265,7 @@
   "item.createdefensive.steel_bow": "Steel Compound Bow",
   "item.createdefensive.steel_cam": "Steel Cam Wheel",
   "item.createdefensive.steel_excavator": "Steel Excavator",
+  "item.createdefensive.steel_poleaxe": "Steel Poleaxe",
 
   "item.createdefensive.silver_sword": "Silver Sword",
   "item.createdefensive.silver_pickaxe": "Silver Pickaxe",
@@ -278,6 +284,7 @@
   "item.createdefensive.silver_staff": "Silver Staff",
   "item.createdefensive.silver_bow": "Silver Compound Bow",
   "item.createdefensive.silver_excavator": "Silver Excavator",
+  "item.createdefensive.silver_poleaxe": "Silver Poleaxe",
 
   "item.createdefensive.platinum_sword": "Platinum Sword",
   "item.createdefensive.platinum_pickaxe": "Platinum Pickaxe",
@@ -296,6 +303,7 @@
   "item.createdefensive.platinum_staff": "Platinum Staff",
   "item.createdefensive.platinum_bow": "Platinum Compound Bow",
   "item.createdefensive.platinum_excavator": "Platinum Excavator",
+  "item.createdefensive.platinum_poleaxe": "Platinum Poleaxe",
 
   "item.createdefensive.electrum_sword": "Electrum Sword",
   "item.createdefensive.electrum_pickaxe": "Electrum Pickaxe",
@@ -314,6 +322,7 @@
   "item.createdefensive.electrum_staff": "Electrum Staff",
   "item.createdefensive.electrum_bow": "Electrum Compound Bow",
   "item.createdefensive.electrum_excavator": "Electrum Excavator",
+  "item.createdefensive.electrum_poleaxe": "Electrum Poleaxe",
 
   "item.createdefensive.redstone_sword": "Unstable Redstone Sword",
   "item.createdefensive.redstone_pickaxe": "Unstable Redstone Pickaxe",
@@ -332,6 +341,7 @@
   "item.createdefensive.redstone_staff": "Redstone Staff",
   "item.createdefensive.redstone_bow": "Redstone Compound Bow",
   "item.createdefensive.redstone_excavator": "Redstone Excavator",
+  "item.createdefensive.redstone_poleaxe": "Redstone Poleaxe",
 
   "item.createdefensive.rose_gold_sword": "Unstable Rose Gold Sword",
   "item.createdefensive.rose_gold_pickaxe": "Unstable Rose Gold Pickaxe",
@@ -351,6 +361,7 @@
   "item.createdefensive.rose_gold_bow": "Unstable Rose Gold Compound Bow",
   "item.createdefensive.rose_gold_cam": "Unstable Rose Gold Cam Wheel",
   "item.createdefensive.rose_gold_excavator": "Unstable Rose Gold Excavator",
+  "item.createdefensive.rose_gold_poleaxe": "Unstable Rose Gold Poleaxe",
 
   "item.createdefensive.crimsteel_halberd": "Crimsteel Halberd",
   "item.createdefensive.painite": "Painite",
@@ -371,6 +382,7 @@
   "item.createdefensive.wooden_bow": "Wooden Compound Bow",
   "item.createdefensive.wooden_cam": "Wooden Cam Wheel",
   "item.createdefensive.wooden_excavator": "Wooden Excavator",
+  "item.createdefensive.wooden_poleaxe": "Wooden Poleaxe",
 
   "item.createdefensive.stone_halberd": "Stone Halberd",
   "item.createdefensive.stone_scythe": "Stone Scythe",
@@ -385,6 +397,7 @@
   "item.createdefensive.stone_bow": "Stone Compound Bow",
   "item.createdefensive.stone_cam": "Stone Cam Wheel",
   "item.createdefensive.stone_excavator": "Stone Excavator",
+  "item.createdefensive.stone_poleaxe": "Stone Poleaxe",
 
   "item.createdefensive.iron_halberd": "Iron Halberd",
   "item.createdefensive.iron_scythe": "Iron Scythe",
@@ -399,6 +412,7 @@
   "item.createdefensive.iron_bow": "Iron Compound Bow",
   "item.createdefensive.iron_cam": "Iron Cam Wheel",
   "item.createdefensive.iron_excavator": "Iron Excavator",
+  "item.createdefensive.iron_poleaxe": "Iron Poleaxe",
 
   "item.createdefensive.golden_halberd": "Golden Halberd",
   "item.createdefensive.golden_scythe": "Golden Scythe",
@@ -413,6 +427,7 @@
   "item.createdefensive.golden_bow": "Golden Compound Bow",
   "item.createdefensive.golden_cam": "Golden Cam Wheel",
   "item.createdefensive.golden_excavator": "Golden Excavator",
+  "item.createdefensive.golden_poleaxe": "Golden Poleaxe",
 
   "item.createdefensive.diamond_halberd": "Diamond Halberd",
   "item.createdefensive.diamond_scythe": "Diamond Scythe",
@@ -427,6 +442,7 @@
   "item.createdefensive.diamond_bow": "Diamond Compound Bow",
   "item.createdefensive.diamond_cam": "Diamond Cam Wheel",
   "item.createdefensive.diamond_excavator": "Diamond Excavator",
+  "item.createdefensive.diamond_poleaxe": "Diamond Poleaxe",
 
   "item.createdefensive.netherite_halberd": "Netherite Halberd",
   "item.createdefensive.netherite_scythe": "Netherite Scythe",
@@ -440,6 +456,7 @@
   "item.createdefensive.netherite_staff": "Netherite Staff",
   "item.createdefensive.netherite_bow": "Netherite Compound Bow",
   "item.createdefensive.netherite_excavator": "Netherite Excavator",
+  "item.createdefensive.netherite_poleaxe": "Netherite Poleaxe",
 
   "item.createdefensive.aluminum_arrow": "Aluminum Arrow",
   "item.createdefensive.silver_arrow": "Silver Arrow",
