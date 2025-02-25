@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "createdefensive:item/stone_greatsaxe"
+    "layer0": "createdefensive:item/stone_greataxe"
   },
   "display": {
     "thirdperson_righthand": {
