@@ -14,7 +14,7 @@ public class DefensivePotions {
             = DeferredRegister.create(ForgeRegistries.POTIONS, CreateDefensive.MOD_ID);
 
     public static final RegistryObject<Potion> CRIMSON_POTION = POTIONS.register("crimson_potion",
-            () -> new Potion(new MobEffectInstance(DefensiveEffects.CRIMSON.get(), 1200, 0)));
+            () -> new Potion(new MobEffectInstance(DefensiveEffects.LACERATION.get(), 1200, 0)));
 
 
     public static void register(IEventBus eventBus) {
