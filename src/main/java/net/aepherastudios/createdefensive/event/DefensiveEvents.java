@@ -24,7 +24,7 @@ public class DefensiveEvents {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 
     // Done with the help of https://github.com/CoFH/CoFHCore/blob/1.19.x/src/main/java/cofh/core/event/AreaEffectEvents.java
-    // Don't be a jerk License
+    // Don't be a jerk, License
     @SubscribeEvent
     public static void onHammerUsage(BlockEvent.BreakEvent event) {
         Player player = event.getPlayer();
@@ -69,12 +69,13 @@ public class DefensiveEvents {
             }
         }
     }
-    @SubscribeEvent
-    public static void onEntityDeath(LivingDeathEvent event) {
-        if (event.getEntity().hasEffect(DefensiveEffects.LACERATION.get())) {
-            if (event.getEntity().getRandom().nextFloat() < 0.1F) {
-                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.CRIMSON_ESSENCE.get()));
-            }
-        }
-    }
+
+//    @SubscribeEvent
+//    public static void onEntityDeath(LivingDeathEvent event) {
+//        if (event.getEntity().hasEffect(DefensiveEffects.LACERATION.get())) {
+//            if (event.getEntity().getRandom().nextFloat() < 0.1F) {
+//                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.CRIMSON_ESSENCE.get()));
+//            }
+//        }
+//    }
 }
