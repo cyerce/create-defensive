@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/steel"
+    },
+    "$": {
+      "tag": "forge:ingots/steel"
+    },
+    "@": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "###",
+    "$@$"
+  ],
+  "result": {
+    "item": "create:metal_bracket",
+    "count": 16
+  }
+}

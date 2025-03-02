@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/steel"
+    },
+    "$": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#$#",
+    " # "
+  ],
+  "result": {
+    "item": "minecraft:hopper",
+    "count": 4
+  }
+}

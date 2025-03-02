@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/steel"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "#@#",
+    "#$#"
+  ],
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 24
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "$": {
+      "tag": "forge:dusts/redstone"
+    },
+    "@": {
+      "item": "create:cardboard_block"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#@#",
+    "$#$"
+  ],
+  "result": {
+    "item": "create:packager",
+    "count": 4
+  }
+}

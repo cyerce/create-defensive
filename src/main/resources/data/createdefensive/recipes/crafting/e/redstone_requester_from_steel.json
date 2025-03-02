@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:dusts/redstone"
+    },
+    "$": {
+      "item": "create:stock_link"
+    },
+    "@": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    "#",
+    "$",
+    "@"
+  ],
+  "result": {
+    "item": "create:redstone_requester",
+    "count": 4
+  }
+}
