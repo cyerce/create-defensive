@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 4
+    }
+  ]
+}
