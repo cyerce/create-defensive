@@ -28,6 +28,12 @@
   "item.createdefensive.steel_nugget": "Steel Nugget",
   "item.createdefensive.electrum_nugget": "Electrum Nugget",
 
+  "item.createdefensive.copper_nut": "Copper Nut",
+  "item.createdefensive.silver_nut": "Silver Nut",
+  "item.createdefensive.gold_nut": "Gold Nut",
+  "item.createdefensive.electrum_nut": "Electrum Nut",
+  "item.createdefensive.platinum_nut": "Platinum Nut",
+
   "item.createdefensive.aluminum_helmet": "Aluminum Helmet",
   "item.createdefensive.aluminum_chestplate": "Aluminum Chestplate",
   "item.createdefensive.aluminum_leggings": "Aluminum Leggings",

@@ -67,6 +67,12 @@ public class DefensiveItems {
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> COPPER_NUT = ITEMS.register("copper_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_NUT = ITEMS.register("silver_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_NUT = ITEMS.register("gold_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_NUT = ITEMS.register("electrum_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_NUT = ITEMS.register("platinum_nut", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> ROSE_QUARTZ_ROD = ITEMS.register("rose_quartz_rod", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ALUMINUM_HELMET = ITEMS.register("aluminum_helmet",
