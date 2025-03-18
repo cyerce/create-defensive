@@ -58,19 +58,19 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> RAW_PLATINUM_BLOCK = registerBlock("raw_platinum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> POINTED_CRIMSITE = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_CRIMSITE = registerBlock("pointed_crimsite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> POINTED_ASURINE = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_ASURINE = registerBlock("pointed_asurine",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> POINTED_VERIDIUM = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_VERIDIUM = registerBlock("pointed_veridium",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> POINTED_OCHRUM = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_OCHRUM = registerBlock("pointed_ochrum",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> POINTED_SCORIA = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_SCORIA = registerBlock("pointed_scoria",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> POINTED_SCORCHIA = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_SCORCHIA = registerBlock("pointed_scorchia",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> POINTED_CALCITE = registerBlock("ecrusite",
+    public static final RegistryObject<Block> POINTED_CALCITE = registerBlock("pointed_calcite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> ECRUSITE = registerBlock("ecrusite",
@@ -79,7 +79,6 @@ public class DefensiveBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> CORALITE = registerBlock("coralite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
