@@ -43,6 +43,8 @@ public class CreateDefensive {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        //Cyerce was here :)
     }
     private void clientSetup(final FMLClientSetupEvent event) {
         DefensiveItemProperties.addCustomItemProperties();
