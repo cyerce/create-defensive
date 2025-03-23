@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:experience_ingot"
+  },
+  "base": {
+    "item": "createdefensive:steel_poleaxe"
+  },
+  "result": {
+    "item": "createdefensive:experience_poleaxe"
+  },
+  "template": {
+    "item": "create:experience_nugget"
+  }
+}

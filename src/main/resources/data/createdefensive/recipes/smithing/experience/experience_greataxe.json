@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:experience_ingot"
+  },
+  "base": {
+    "item": "createdefensive:steel_greataxe"
+  },
+  "result": {
+    "item": "createdefensive:experience_greataxe"
+  },
+  "template": {
+    "item": "create:experience_nugget"
+  }
+}

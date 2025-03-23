@@ -32,6 +32,11 @@ public class DefensiveEventBusClientEvents {
     }
 
     @SubscribeEvent
+    public static void registerExperienceSpearLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(DefensiveModelLayers.EXPERIENCE_SPEAR_LAYER, SteelSpearModel::createLayer);
+    }
+
+    @SubscribeEvent
     public static void registerCopperSpearLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(DefensiveModelLayers.COPPER_SPEAR_LAYER, CopperSpearModel::createLayer);
     }

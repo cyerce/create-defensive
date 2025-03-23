@@ -94,12 +94,14 @@ public class DefensiveEvents {
         }
     }
 
-//    @SubscribeEvent
-//    public static void onEntityDeath(LivingDeathEvent event) {
-//        if (event.getEntity().hasEffect(DefensiveEffects.LACERATION.get())) {
-//            if (event.getEntity().getRandom().nextFloat() < 0.1F) {
-//                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.CRIMSON_ESSENCE.get()));
-//            }
-//        }
-//    }
+    @SubscribeEvent
+    public static void onEntityDeath(LivingDeathEvent event) {
+        if (event.getEntity().hasEffect(DefensiveEffects.CRYSTALLIZED_EXPERIENCE.get())) {
+            if (event.getEntity().getRandom().nextFloat() < 0.5F) {
+                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get()));
+            }
+            event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL.get()));
+            event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL.get()));
+        }
+    }
 }

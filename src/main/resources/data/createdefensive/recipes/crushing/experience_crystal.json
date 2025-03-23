@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createdefensive:experience_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 250
+}

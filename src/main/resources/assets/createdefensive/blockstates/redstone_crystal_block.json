@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "createdefensive:block/redstone_crystal_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "createdefensive:block/redstone_crystal_block"
+    },
+    "axis=z": {
+      "model": "createdefensive:block/redstone_crystal_block_horizontal",
+      "x": 90
+    }
+  }
+}

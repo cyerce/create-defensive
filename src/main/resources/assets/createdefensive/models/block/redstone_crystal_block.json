@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "createdefensive:block/redstone_crystal_block_top",
+    "side": "createdefensive:block/redstone_crystal_block_side"
+  }
+}

@@ -24,6 +24,9 @@ public class DefensiveModelLayers {
     public static final ModelLayerLocation STEEL_SPEAR_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "steel_spear_layer"), "main");
 
+    public static final ModelLayerLocation EXPERIENCE_SPEAR_LAYER = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "experience_spear_layer"), "main");
+
     public static final ModelLayerLocation COPPER_SPEAR_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "copper_spear_layer"), "main");
 

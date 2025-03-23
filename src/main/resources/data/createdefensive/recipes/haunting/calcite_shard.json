@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:calcite_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ]
+}

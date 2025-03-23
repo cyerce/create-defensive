@@ -13,6 +13,7 @@ public class DefensiveItemProperties {
         makeBow(DefensiveItems.SILVER_BOW.get());
         makeBow(DefensiveItems.PLATINUM_BOW.get());
         makeBow(DefensiveItems.STEEL_BOW.get());
+        makeBow(DefensiveItems.EXPERIENCE_BOW.get());
         makeBow(DefensiveItems.COPPER_BOW.get());
         makeBow(DefensiveItems.ZINC_BOW.get());
         makeBow(DefensiveItems.BRASS_BOW.get());
@@ -33,6 +34,7 @@ public class DefensiveItemProperties {
         makeSpear(DefensiveItems.SILVER_SPEAR.get());
         makeSpear(DefensiveItems.PLATINUM_SPEAR.get());
         makeSpear(DefensiveItems.STEEL_SPEAR.get());
+        makeSpear(DefensiveItems.EXPERIENCE_SPEAR.get());
         makeSpear(DefensiveItems.COPPER_SPEAR.get());
         makeSpear(DefensiveItems.ZINC_SPEAR.get());
         makeSpear(DefensiveItems.BRASS_SPEAR.get());

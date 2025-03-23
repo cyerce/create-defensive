@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:experience_crystal_cluster"
+    }
+  ]
+}

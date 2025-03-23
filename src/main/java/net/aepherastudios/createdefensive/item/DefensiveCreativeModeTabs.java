@@ -59,12 +59,20 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.UNSTABLE_REDSTONE_INGOT.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.ELECTRUM_BLOCK.get());
+                        pOutput.accept(DefensiveBlocks.REDSTONE_CRYSTAL_BLOCK.get());
+                        pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
+                        pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());
+                        pOutput.accept(DefensiveItems.CALCITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_INGOT.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());
 
                         pOutput.accept(DefensiveItems.SILVER_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(DefensiveItems.PLATINUM_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(DefensiveItems.REDSTONE_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_UPGRADE_SMITHING_TEMPLATE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_UPGRADE_SMITHING_TEMPLATE.get());
 
                         pOutput.accept(DefensiveItems.ALUMINUM_ARROW_HEAD.get());
                         pOutput.accept(DefensiveItems.SILVER_ARROW_HEAD.get());
@@ -159,6 +167,11 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_CHESTPLATE.get());
                         pOutput.accept(DefensiveItems.STEEL_LEGGINGS.get());
                         pOutput.accept(DefensiveItems.STEEL_BOOTS.get());
+
+                        pOutput.accept(DefensiveItems.EXPERIENCE_HELMET.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_CHESTPLATE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_LEGGINGS.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_BOOTS.get());
                     })
                     .build());
 
@@ -304,6 +317,25 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_CAM.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_POLEAXE.get());
+
+                        pOutput.accept(DefensiveItems.EXPERIENCE_SWORD.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_PICKAXE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_AXE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_SHOVEL.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_HOE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_HALBERD.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_SCYTHE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_GREATAXE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_SPEAR.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_GREATSWORD.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_HAMMER.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_GLAIVE.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_MORNINGSTAR.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_DAGGER.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_STAFF.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_BOW.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_EXCAVATOR.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_POLEAXE.get());
 
                         pOutput.accept(DefensiveItems.STEEL_SWORD.get());
                         pOutput.accept(DefensiveItems.STEEL_PICKAXE.get());

@@ -16,6 +16,7 @@
     "createdefensive:steel_block",
     "createdefensive:rose_gold_block",
     "createdefensive:violet_gold_block",
-    "createdefensive:electrum_block"
+    "createdefensive:electrum_block",
+    "createdefensive:redstone_crystal_block"
   ]
 }

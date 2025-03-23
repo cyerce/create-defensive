@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createdefensive:redstone_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

@@ -44,6 +44,11 @@ public class DefensiveToolTiers {
                     DefensiveTags.Blocks.NEEDS_ZINC_TOOL, () -> Ingredient.of(AllItems.ZINC_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "zinc"), List.of(Tiers.STONE), List.of());
 
+    public static final Tier EXPERIENCE = TierSortingRegistry.registerTier(
+            new ForgeTier(2, 250, 6f, 2f, 150,
+                    DefensiveTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(DefensiveItems.EXPERIENCE_INGOT.get())),
+            new ResourceLocation(CreateDefensive.MOD_ID, "experience"), List.of(Tiers.STONE), List.of());
+
     public static final Tier BRASS = TierSortingRegistry.registerTier(
             new ForgeTier(2, 1561, 6f, 4f, 14,
                     DefensiveTags.Blocks.NEEDS_BRASS_TOOL, () -> Ingredient.of(AllItems.BRASS_INGOT.get())),

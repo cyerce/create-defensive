@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:experience_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:experience_crystal"
+    }
+  ],
+  "processingTime": 250
+}

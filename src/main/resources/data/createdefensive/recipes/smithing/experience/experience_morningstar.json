@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:experience_ingot"
+  },
+  "base": {
+    "item": "createdefensive:steel_morningstar"
+  },
+  "result": {
+    "item": "createdefensive:experience_morningstar"
+  },
+  "template": {
+    "item": "create:experience_nugget"
+  }
+}

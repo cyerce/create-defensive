@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:gems/diamond"
+  },
+  "base": {
+    "item": "createdefensive:experience_morningstar"
+  },
+  "result": {
+    "item": "createdefensive:diamond_morningstar"
+  },
+  "template": {
+    "item": "createdefensive:experience_upgrade_smithing_template"
+  }
+}

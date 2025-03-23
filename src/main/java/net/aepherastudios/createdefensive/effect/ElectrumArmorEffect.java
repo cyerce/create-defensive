@@ -14,9 +14,9 @@ public class ElectrumArmorEffect extends MobEffect {
     @Override
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.level().isClientSide()) {
-            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 10, 1, false, false, false));
-            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 10, 1, false, false, false));
-            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 10, 1, false, false, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 10, 0, false, false, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 10, 0, false, false, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 10, 0, false, false, false));
         }
         super.applyEffectTick(pLivingEntity, pAmplifier);
     }

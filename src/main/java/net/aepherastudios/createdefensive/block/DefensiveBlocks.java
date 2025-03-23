@@ -1,11 +1,14 @@
 package net.aepherastudios.createdefensive.block;
 
+import com.simibubi.create.AllSpriteShifts;
+import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.levelgen.feature.DripstoneUtils;
@@ -80,6 +83,8 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> CORALITE = registerBlock("coralite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> REDSTONE_CRYSTAL_BLOCK = registerBlock("redstone_crystal_block",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

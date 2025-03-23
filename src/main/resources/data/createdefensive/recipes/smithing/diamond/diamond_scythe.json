@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:gems/diamond"
+  },
+  "base": {
+    "item": "createdefensive:experience_scythe"
+  },
+  "result": {
+    "item": "createdefensive:diamond_scythe"
+  },
+  "template": {
+    "item": "createdefensive:experience_upgrade_smithing_template"
+  }
+}

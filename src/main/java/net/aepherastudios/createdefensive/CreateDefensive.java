@@ -102,6 +102,7 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.ELECTRUM_SPEAR.get(), ElectrumSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.REDSTONE_SPEAR.get(), RedstoneSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.ROSE_GOLD_SPEAR.get(), RoseGoldSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.EXPERIENCE_SPEAR.get(), ExperienceSpearRenderer::new);
         }
     }
 }

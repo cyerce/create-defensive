@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:experience_crystal"
+  },
+  "base": {
+    "item": "createdefensive:steel_ingot"
+  },
+  "result": {
+    "item": "createdefensive:experience_ingot"
+  },
+  "template": {
+    "item": "create:experience_nugget"
+  }
+}

@@ -42,6 +42,9 @@ public class DefensiveEffects {
     public static final RegistryObject<MobEffect> LACERATION = MOB_EFFECTS.register("laceration",
             () -> new LacerationEffect(MobEffectCategory.HARMFUL, 7208960));
 
+    public static final RegistryObject<MobEffect> CRYSTALLIZED_EXPERIENCE = MOB_EFFECTS.register("crystallized_experience",
+            () -> new CrystallizedExperienceEffect(MobEffectCategory.HARMFUL, 10551193));
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

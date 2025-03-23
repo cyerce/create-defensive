@@ -98,6 +98,10 @@ public class DefensiveEntities {
             ENTITY_TYPES.register("steel_spear", () -> EntityType.Builder.<SteelSpear>of(SteelSpear::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("steel_spear"));
 
+    public static final RegistryObject<EntityType<ExperienceSpear>> EXPERIENCE_SPEAR =
+            ENTITY_TYPES.register("experience_spear", () -> EntityType.Builder.<ExperienceSpear>of(ExperienceSpear::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("experience_spear"));
+
     public static final RegistryObject<EntityType<CopperSpear>> COPPER_SPEAR =
             ENTITY_TYPES.register("copper_spear", () -> EntityType.Builder.<CopperSpear>of(CopperSpear::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("copper_spear"));
