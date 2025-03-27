@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_netherite_power_armor_components"
+  },
+  "ingredient": {
+    "item": "createdefensive:netherite_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        },
+        {
+          "tag": "forge:wires/silver"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        },
+        {
+          "tag": "forge:wires/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        },
+        {
+          "item": "createdefensive:advanced_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        },
+        {
+          "item": "createdefensive:netherite_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_netherite_power_armor_components"
+        }
+      ]
+    }
+  ],
+  "loops": 3,
+  "results": [
+    {
+      "item": "createdefensive:netherite_power_armor_components"
+    }
+  ]
+}

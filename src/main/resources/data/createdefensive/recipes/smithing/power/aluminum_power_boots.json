@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:basic_circuit"
+  },
+  "base": {
+    "item": "createdefensive:aluminum_boots"
+  },
+  "result": {
+    "item": "createdefensive:aluminum_power_boots"
+  },
+  "template": {
+    "item": "createdefensive:aluminum_power_armor_components"
+  }
+}

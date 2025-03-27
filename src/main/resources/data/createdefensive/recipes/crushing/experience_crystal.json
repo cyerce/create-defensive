@@ -7,8 +7,11 @@
   ],
   "results": [
     {
+      "item": "create:experience_nugget"
+    },
+    {
       "item": "create:experience_nugget",
-      "chance": 0.1
+      "chance": 0.5
     }
   ],
   "processingTime": 250

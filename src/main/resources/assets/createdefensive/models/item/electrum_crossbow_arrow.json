@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/electrum_crossbow",
+  "textures": {
+    "layer0": "createdefensive:item/electrum_crossbow_arrow"
+  }
+}

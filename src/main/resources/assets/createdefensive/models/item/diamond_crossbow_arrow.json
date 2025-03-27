@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/diamond_crossbow",
+  "textures": {
+    "layer0": "createdefensive:item/diamond_crossbow_arrow"
+  }
+}

@@ -1,16 +1,10 @@
 package net.aepherastudios.createdefensive.item.custom;
 
-import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.effect.MobEffect;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.DiggerItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.block.Block;

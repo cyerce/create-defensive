@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:advanced_circuit"
+  },
+  "base": {
+    "item": "createdefensive:rose_gold_helmet"
+  },
+  "result": {
+    "item": "createdefensive:netherite_power_helmet"
+  },
+  "template": {
+    "item": "createdefensive:netherite_power_armor_components"
+  }
+}

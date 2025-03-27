@@ -1,5 +1,6 @@
 package net.aepherastudios.createdefensive.event;
 
+import com.simibubi.create.AllItems;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
@@ -8,6 +9,8 @@ import net.aepherastudios.createdefensive.item.custom.HammerItem;
 import net.aepherastudios.createdefensive.item.custom.ScytheItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.monster.Blaze;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
@@ -98,10 +101,15 @@ public class DefensiveEvents {
     public static void onEntityDeath(LivingDeathEvent event) {
         if (event.getEntity().hasEffect(DefensiveEffects.CRYSTALLIZED_EXPERIENCE.get())) {
             if (event.getEntity().getRandom().nextFloat() < 0.5F) {
-                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get()));
+                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL.get()));
             }
-            event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL.get()));
-            event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.EXPERIENCE_CRYSTAL.get()));
+            event.getEntity().spawnAtLocation(new ItemStack(AllItems.EXP_NUGGET.get()));
+        } else if (event.getEntity().hasEffect(DefensiveEffects.CRYSTALLIZED_REDSTONE.get())) {
+            if (event.getEntity().getRandom().nextFloat() < 0.5F) {
+                event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get()));
+            }
+            event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.REDSTONE_CRYSTAL.get()));
+            event.getEntity().spawnAtLocation(new ItemStack(DefensiveItems.REDSTONE_CRYSTAL.get()));
         }
     }
 }

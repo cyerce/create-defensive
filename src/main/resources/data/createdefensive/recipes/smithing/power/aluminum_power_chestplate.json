@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:basic_circuit"
+  },
+  "base": {
+    "item": "createdefensive:aluminum_chestplate"
+  },
+  "result": {
+    "item": "createdefensive:aluminum_power_chestplate"
+  },
+  "template": {
+    "item": "createdefensive:basic_power_core"
+  }
+}

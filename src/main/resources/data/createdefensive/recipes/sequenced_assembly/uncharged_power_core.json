@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_power_core"
+  },
+  "ingredient": {
+    "item": "createdefensive:steel_power_armor_components"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_power_core"
+        },
+        {
+          "tag": "forge:wires/silver"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_power_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_power_core"
+        },
+        {
+          "tag": "forge:wires/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_power_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_power_core"
+        },
+        {
+          "item": "createdefensive:redstone_capacitor"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_power_core"
+        }
+      ]
+    }
+  ],
+  "loops": 1,
+  "results": [
+    {
+      "item": "createdefensive:uncharged_power_core"
+    }
+  ]
+}

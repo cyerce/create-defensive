@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createdefensive:uncharged_advanced_power_core"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:advanced_power_core"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    }
+  ]
+}

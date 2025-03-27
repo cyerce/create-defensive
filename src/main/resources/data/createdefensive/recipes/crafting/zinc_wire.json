@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:plates/aluminum"
+    },
+    "$": {
+      "tag": "forge:plates/zinc"
+    }
+  },
+  "pattern": [
+    "#",
+    "$",
+    "#"
+  ],
+  "result": {
+    "item": "createdefensive:zinc_wire"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:redstone_crystal"
+    }
+  ]
+}

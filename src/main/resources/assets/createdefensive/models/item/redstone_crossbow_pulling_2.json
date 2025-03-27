@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/redstone_crossbow",
+  "textures": {
+    "layer0": "createdefensive:item/redstone_crossbow_pulling_2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/rose_gold_crossbow",
+  "textures": {
+    "layer0": "createdefensive:item/rose_gold_crossbow_pulling_1"
+  }
+}

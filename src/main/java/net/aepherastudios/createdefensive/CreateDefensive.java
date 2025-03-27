@@ -4,6 +4,7 @@ import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.aepherastudios.createdefensive.entity.DefensiveEntities;
 import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRenderer;
 import net.aepherastudios.createdefensive.entity.client.PainiteProjectileEntityRenderer;
+import net.aepherastudios.createdefensive.event.DefensiveCommonEvents;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.DefensiveCreativeModeTabs;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
@@ -12,6 +13,12 @@ import net.aepherastudios.createdefensive.item.client.*;
 import net.aepherastudios.createdefensive.potion.DefensivePotions;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackResources;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.server.packs.metadata.MetadataSectionSerializer;
+import net.minecraft.server.packs.resources.IoSupplier;
+import net.minecraft.server.packs.resources.Resource;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -22,7 +29,14 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.resource.ResourcePackLoader;
+import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Set;
 
 @Mod(CreateDefensive.MOD_ID)
 public class CreateDefensive {
@@ -48,6 +62,12 @@ public class CreateDefensive {
     }
     private void clientSetup(final FMLClientSetupEvent event) {
         DefensiveItemProperties.addCustomItemProperties();
+
+
+    }
+
+    public static ResourceLocation asResource(String path) {
+        return new ResourceLocation("createdefensive", path);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

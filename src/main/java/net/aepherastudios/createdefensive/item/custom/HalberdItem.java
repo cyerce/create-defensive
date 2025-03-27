@@ -3,7 +3,6 @@ package net.aepherastudios.createdefensive.item.custom;
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
 

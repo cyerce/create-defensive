@@ -20,6 +20,7 @@ public class DefensiveCreativeModeTabs {
                     .title(Component.translatable("creativetab.createdefensive_items"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(DefensiveItems.ALUMINUM_INGOT.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_SHEET.get());
                         pOutput.accept(DefensiveBlocks.ALUMINUM_ORE.get());
                         pOutput.accept(DefensiveBlocks.DEEPSLATE_ALUMINUM_ORE.get());
                         pOutput.accept(DefensiveItems.RAW_ALUMINUM.get());
@@ -28,6 +29,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.ALUMINUM_BLOCK.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_NUGGET.get());
                         pOutput.accept(DefensiveItems.SILVER_INGOT.get());
+                        pOutput.accept(DefensiveItems.SILVER_SHEET.get());
                         pOutput.accept(DefensiveBlocks.SILVER_ORE.get());
                         pOutput.accept(DefensiveBlocks.DEEPSLATE_SILVER_ORE.get());
                         pOutput.accept(DefensiveItems.RAW_SILVER.get());
@@ -43,7 +45,17 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.RAW_PLATINUM_BLOCK.get());
                         pOutput.accept(DefensiveBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(DefensiveItems.PLATINUM_NUGGET.get());
+                        pOutput.accept(DefensiveItems.ZINC_SHEET.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_SHEET.get());
+                        pOutput.accept(DefensiveItems.COPPER_WIRE.get());
+                        pOutput.accept(DefensiveItems.ZINC_WIRE.get());
+                        pOutput.accept(DefensiveItems.SILVER_WIRE.get());
+                        pOutput.accept(DefensiveItems.GOLD_WIRE.get());
+                        pOutput.accept(DefensiveItems.STEEL_ROD.get());
+                        pOutput.accept(DefensiveItems.BASIC_CIRCUIT.get());
+                        pOutput.accept(DefensiveItems.ADVANCED_CIRCUIT.get());
                         pOutput.accept(DefensiveItems.STEEL_INGOT.get());
+                        pOutput.accept(DefensiveItems.STEEL_SHEET.get());
                         pOutput.accept(DefensiveItems.STEEL_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.STEEL_BLOCK.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_INGOT.get());
@@ -60,13 +72,24 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.ELECTRUM_BLOCK.get());
                         pOutput.accept(DefensiveBlocks.REDSTONE_CRYSTAL_BLOCK.get());
+                        pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());
                         pOutput.accept(DefensiveItems.CALCITE_SHARD.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_INGOT.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());
+                        pOutput.accept(DefensiveItems.BASIC_POWER_CORE.get());
+                        pOutput.accept(DefensiveItems.UNCHARGED_BASIC_POWER_CORE.get());
+                        pOutput.accept(DefensiveItems.POWER_CORE.get());
+                        pOutput.accept(DefensiveItems.UNCHARGED_POWER_CORE.get());
+                        pOutput.accept(DefensiveItems.ADVANCED_POWER_CORE.get());
+                        pOutput.accept(DefensiveItems.UNCHARGED_ADVANCED_POWER_CORE.get());
+                        pOutput.accept(DefensiveItems.REDSTONE_CAPACITOR.get());
 
+                        pOutput.accept(DefensiveItems.ALUMINUM_POWER_ARMOR_COMPONENTS.get());
+                        pOutput.accept(DefensiveItems.STEEL_POWER_ARMOR_COMPONENTS.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_POWER_ARMOR_COMPONENTS.get());
                         pOutput.accept(DefensiveItems.SILVER_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(DefensiveItems.PLATINUM_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_UPGRADE_SMITHING_TEMPLATE.get());
@@ -148,6 +171,21 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.BRASS_LEGGINGS.get());
                         pOutput.accept(DefensiveItems.BRASS_BOOTS.get());
 
+                        pOutput.accept(DefensiveItems.ALUMINUM_POWER_HELMET.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_POWER_CHESTPLATE.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_POWER_LEGGINGS.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_POWER_BOOTS.get());
+
+                        pOutput.accept(DefensiveItems.STEEL_POWER_HELMET.get());
+                        pOutput.accept(DefensiveItems.STEEL_POWER_CHESTPLATE.get());
+                        pOutput.accept(DefensiveItems.STEEL_POWER_LEGGINGS.get());
+                        pOutput.accept(DefensiveItems.STEEL_POWER_BOOTS.get());
+
+                        pOutput.accept(DefensiveItems.NETHERITE_POWER_HELMET.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_POWER_CHESTPLATE.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_POWER_LEGGINGS.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_POWER_BOOTS.get());
+
                         pOutput.accept(DefensiveItems.ELECTRUM_HELMET.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_CHESTPLATE.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_LEGGINGS.get());
@@ -195,6 +233,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ALUMINUM_DAGGER.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_STAFF.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_BOW.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_CAM.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_POLEAXE.get());
@@ -215,6 +254,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.SILVER_DAGGER.get());
                         pOutput.accept(DefensiveItems.SILVER_STAFF.get());
                         pOutput.accept(DefensiveItems.SILVER_BOW.get());
+                        pOutput.accept(DefensiveItems.SILVER_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.SILVER_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.SILVER_POLEAXE.get());
 
@@ -234,6 +274,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.PLATINUM_DAGGER.get());
                         pOutput.accept(DefensiveItems.PLATINUM_STAFF.get());
                         pOutput.accept(DefensiveItems.PLATINUM_BOW.get());
+                        pOutput.accept(DefensiveItems.PLATINUM_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.PLATINUM_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.PLATINUM_POLEAXE.get());
 
@@ -253,6 +294,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.COPPER_DAGGER.get());
                         pOutput.accept(DefensiveItems.COPPER_STAFF.get());
                         pOutput.accept(DefensiveItems.COPPER_BOW.get());
+                        pOutput.accept(DefensiveItems.COPPER_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.COPPER_CAM.get());
                         pOutput.accept(DefensiveItems.COPPER_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.COPPER_POLEAXE.get());
@@ -273,6 +315,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ZINC_DAGGER.get());
                         pOutput.accept(DefensiveItems.ZINC_STAFF.get());
                         pOutput.accept(DefensiveItems.ZINC_BOW.get());
+                        pOutput.accept(DefensiveItems.ZINC_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.ZINC_CAM.get());
                         pOutput.accept(DefensiveItems.ZINC_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ZINC_POLEAXE.get());
@@ -293,6 +336,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.BRASS_DAGGER.get());
                         pOutput.accept(DefensiveItems.BRASS_STAFF.get());
                         pOutput.accept(DefensiveItems.BRASS_BOW.get());
+                        pOutput.accept(DefensiveItems.BRASS_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.BRASS_CAM.get());
                         pOutput.accept(DefensiveItems.BRASS_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.BRASS_POLEAXE.get());
@@ -314,6 +358,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_DAGGER.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_STAFF.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_BOW.get());
+                        pOutput.accept(DefensiveItems.ROSE_QUARTZ_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_CAM.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_POLEAXE.get());
@@ -334,6 +379,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.EXPERIENCE_DAGGER.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_STAFF.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_BOW.get());
+                        pOutput.accept(DefensiveItems.EXPERIENCE_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_POLEAXE.get());
 
@@ -353,6 +399,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_DAGGER.get());
                         pOutput.accept(DefensiveItems.STEEL_STAFF.get());
                         pOutput.accept(DefensiveItems.STEEL_BOW.get());
+                        pOutput.accept(DefensiveItems.STEEL_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.STEEL_CAM.get());
                         pOutput.accept(DefensiveItems.STEEL_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.STEEL_POLEAXE.get());
@@ -373,6 +420,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_DAGGER.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_STAFF.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_BOW.get());
+                        pOutput.accept(DefensiveItems.ELECTRUM_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_POLEAXE.get());
 
@@ -392,6 +440,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.REDSTONE_DAGGER.get());
                         pOutput.accept(DefensiveItems.REDSTONE_STAFF.get());
                         pOutput.accept(DefensiveItems.REDSTONE_BOW.get());
+                        pOutput.accept(DefensiveItems.REDSTONE_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.REDSTONE_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.REDSTONE_POLEAXE.get());
 
@@ -411,6 +460,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ROSE_GOLD_DAGGER.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_STAFF.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_BOW.get());
+                        pOutput.accept(DefensiveItems.ROSE_GOLD_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_POLEAXE.get());
 
@@ -425,6 +475,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.WOODEN_DAGGER.get());
                         pOutput.accept(DefensiveItems.WOODEN_STAFF.get());
                         pOutput.accept(DefensiveItems.WOODEN_BOW.get());
+                        pOutput.accept(DefensiveItems.WOODEN_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.WOODEN_CAM.get());
                         pOutput.accept(DefensiveItems.WOODEN_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.WOODEN_POLEAXE.get());
@@ -440,6 +491,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STONE_DAGGER.get());
                         pOutput.accept(DefensiveItems.STONE_STAFF.get());
                         pOutput.accept(DefensiveItems.STONE_BOW.get());
+                        pOutput.accept(DefensiveItems.STONE_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.STONE_CAM.get());
                         pOutput.accept(DefensiveItems.STONE_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.STONE_POLEAXE.get());
@@ -455,6 +507,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.IRON_DAGGER.get());
                         pOutput.accept(DefensiveItems.IRON_STAFF.get());
                         pOutput.accept(DefensiveItems.IRON_BOW.get());
+                        pOutput.accept(DefensiveItems.IRON_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.IRON_CAM.get());
                         pOutput.accept(DefensiveItems.IRON_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.IRON_POLEAXE.get());
@@ -470,6 +523,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.GOLDEN_DAGGER.get());
                         pOutput.accept(DefensiveItems.GOLDEN_STAFF.get());
                         pOutput.accept(DefensiveItems.GOLDEN_BOW.get());
+                        pOutput.accept(DefensiveItems.GOLDEN_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.GOLDEN_CAM.get());
                         pOutput.accept(DefensiveItems.GOLDEN_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.GOLDEN_POLEAXE.get());
@@ -485,6 +539,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.DIAMOND_DAGGER.get());
                         pOutput.accept(DefensiveItems.DIAMOND_STAFF.get());
                         pOutput.accept(DefensiveItems.DIAMOND_BOW.get());
+                        pOutput.accept(DefensiveItems.DIAMOND_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.DIAMOND_CAM.get());
                         pOutput.accept(DefensiveItems.DIAMOND_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.DIAMOND_POLEAXE.get());
@@ -500,6 +555,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.NETHERITE_DAGGER.get());
                         pOutput.accept(DefensiveItems.NETHERITE_STAFF.get());
                         pOutput.accept(DefensiveItems.NETHERITE_BOW.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.NETHERITE_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.NETHERITE_POLEAXE.get());
 

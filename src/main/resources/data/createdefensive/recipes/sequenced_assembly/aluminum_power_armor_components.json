@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_aluminum_power_armor_components"
+  },
+  "ingredient": {
+    "item": "createdefensive:steel_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        },
+        {
+          "tag": "forge:wires/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        },
+        {
+          "tag": "forge:wires/zinc"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        },
+        {
+          "item": "createdefensive:basic_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        },
+        {
+          "item": "createdefensive:aluminum_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_aluminum_power_armor_components"
+        }
+      ]
+    }
+  ],
+  "loops": 3,
+  "results": [
+    {
+      "item": "createdefensive:aluminum_power_armor_components"
+    }
+  ]
+}

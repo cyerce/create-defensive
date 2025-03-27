@@ -1,0 +1,7 @@
+
+{
+  "parent": "createdefensive:item/brass_crossbow",
+  "textures": {
+    "layer0": "createdefensive:item/brass_crossbow_arrow"
+  }
+}

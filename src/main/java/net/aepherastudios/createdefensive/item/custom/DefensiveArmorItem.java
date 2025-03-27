@@ -32,7 +32,14 @@ public class DefensiveArmorItem extends ArmorItem {
                     .put(DefensiveArmorMaterials.GOLD_CEREMONIAL, new MobEffectInstance(DefensiveEffects.GOLD_ARMOR.get(), 600, 0,
                             false,false, true))
                     .put(DefensiveArmorMaterials.STEEL, new MobEffectInstance(DefensiveEffects.STEEL_ARMOR.get(), 600, 0,
-                            false,false, true)).build();
+                            false,false, true))
+                    .put(DefensiveArmorMaterials.ALUMINUM_POWER, new MobEffectInstance(DefensiveEffects.ALUMINUM_POWER.get(), 600, 0,
+                            false,false, true))
+                    .put(DefensiveArmorMaterials.STEEL_POWER, new MobEffectInstance(DefensiveEffects.STEEL_POWER.get(), 600, 0,
+                            false,false, true))
+                    .put(DefensiveArmorMaterials.NETHERITE_POWER, new MobEffectInstance(DefensiveEffects.NETHERITE_POWER.get(), 600, 0,
+                            false,false, true))
+                    .build();
 
     public DefensiveArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);

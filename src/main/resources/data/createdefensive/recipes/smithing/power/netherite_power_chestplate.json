@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:advanced_circuit"
+  },
+  "base": {
+    "item": "createdefensive:rose_gold_chestplate"
+  },
+  "result": {
+    "item": "createdefensive:netherite_power_chestplate"
+  },
+  "template": {
+    "item": "createdefensive:advanced_power_core"
+  }
+}

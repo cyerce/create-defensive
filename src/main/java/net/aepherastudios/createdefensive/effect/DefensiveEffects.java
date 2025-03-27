@@ -45,6 +45,22 @@ public class DefensiveEffects {
     public static final RegistryObject<MobEffect> CRYSTALLIZED_EXPERIENCE = MOB_EFFECTS.register("crystallized_experience",
             () -> new CrystallizedExperienceEffect(MobEffectCategory.HARMFUL, 10551193));
 
+    public static final RegistryObject<MobEffect> CRYSTALLIZED_REDSTONE = MOB_EFFECTS.register("crystallized_redstone",
+            () -> new CrystallizedRedstoneEffect(MobEffectCategory.HARMFUL, 16711680));
+
+    public static final RegistryObject<MobEffect> VEXED = MOB_EFFECTS.register("vexed",
+            () -> new CrystallizedRedstoneEffect(MobEffectCategory.HARMFUL, 16711680));
+
+    public static final RegistryObject<MobEffect> ALUMINUM_POWER = MOB_EFFECTS.register("aluminum_power",
+            () -> new CrystallizedRedstoneEffect(MobEffectCategory.BENEFICIAL, 16711680));
+
+    public static final RegistryObject<MobEffect> STEEL_POWER = MOB_EFFECTS.register("steel_power",
+            () -> new CrystallizedRedstoneEffect(MobEffectCategory.BENEFICIAL, 16711680));
+
+    public static final RegistryObject<MobEffect> NETHERITE_POWER = MOB_EFFECTS.register("netherite_power",
+            () -> new CrystallizedRedstoneEffect(MobEffectCategory.BENEFICIAL, 16711680));
+
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }
