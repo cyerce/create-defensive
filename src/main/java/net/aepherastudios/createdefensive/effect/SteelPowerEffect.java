@@ -14,9 +14,9 @@ public class SteelPowerEffect extends MobEffect {
     @Override
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.level().isClientSide()) {
-            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 10, 3, true, false, false));
-            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.JUMP, 10, 3, true, false, false));
-            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 3, true, false, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 10, 2, true, false, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.JUMP, 10, 2, true, false, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 2, true, false, false));
         }
         super.applyEffectTick(pLivingEntity, pAmplifier);
     }

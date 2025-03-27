@@ -52,13 +52,13 @@ public class DefensiveEffects {
             () -> new CrystallizedRedstoneEffect(MobEffectCategory.HARMFUL, 16711680));
 
     public static final RegistryObject<MobEffect> ALUMINUM_POWER = MOB_EFFECTS.register("aluminum_power",
-            () -> new CrystallizedRedstoneEffect(MobEffectCategory.BENEFICIAL, 16711680));
+            () -> new AluminumPowerEffect(MobEffectCategory.BENEFICIAL, 16711680));
 
     public static final RegistryObject<MobEffect> STEEL_POWER = MOB_EFFECTS.register("steel_power",
-            () -> new CrystallizedRedstoneEffect(MobEffectCategory.BENEFICIAL, 16711680));
+            () -> new SteelPowerEffect(MobEffectCategory.BENEFICIAL, 16711680));
 
     public static final RegistryObject<MobEffect> NETHERITE_POWER = MOB_EFFECTS.register("netherite_power",
-            () -> new CrystallizedRedstoneEffect(MobEffectCategory.BENEFICIAL, 16711680));
+            () -> new NetheritePowerEffect(MobEffectCategory.BENEFICIAL, 16711680));
 
 
     public static void register(IEventBus eventBus) {
