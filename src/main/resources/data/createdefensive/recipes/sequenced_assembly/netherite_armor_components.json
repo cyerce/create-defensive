@@ -4,7 +4,7 @@
     "item": "createdefensive:incomplete_netherite_power_armor_components"
   },
   "ingredient": {
-    "item": "createdefensive:netherite_ingot"
+    "item": "minecraft:netherite_ingot"
   },
   "sequence": [
     {
