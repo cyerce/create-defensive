@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "item": "createdefensive:experience_crystal"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:experience_crystal_cluster",
+      "count": 9
+    }
+  ]
+}
