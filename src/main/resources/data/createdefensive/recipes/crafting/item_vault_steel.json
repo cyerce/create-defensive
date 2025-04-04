@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:barrel"
+    },
+    "@": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "@",
+    "#",
+    "@"
+  ],
+  "result": {
+    "item": "create:item_vault",
+    "count": 4
+  }
+}

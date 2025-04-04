@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:netherrack"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IAI",
+    " I "
+  ],
+  "result": {
+    "item": "create:empty_blaze_burner",
+    "count": 4
+  }
+}

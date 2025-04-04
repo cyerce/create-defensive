@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:soul_torch"
+    },
+    "@": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "pattern": [
+    "@@@",
+    "@#@",
+    "@@@"
+  ],
+  "result": {
+    "item": "minecraft:soul_lantern",
+    "count": 4
+  }
+}

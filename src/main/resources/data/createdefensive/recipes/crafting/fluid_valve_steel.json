@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "create:fluid_pipe"
+    },
+    "@": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "@#"
+  ],
+  "result": {
+    "item": "create:fluid_valve",
+    "count": 4
+  }
+}

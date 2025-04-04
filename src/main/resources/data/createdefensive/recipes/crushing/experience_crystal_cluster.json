@@ -11,7 +11,7 @@
     },
     {
       "item": "createdefensive:experience_crystal",
-      "chance": 0.1
+      "chance": 0.5
     }
   ],
   "processingTime": 250

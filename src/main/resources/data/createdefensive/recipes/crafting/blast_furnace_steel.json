@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:furnace"
+    },
+    "$": {
+      "item": "minecraft:smooth_stone"
+    },
+    "@": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    "@@@",
+    "@#@",
+    "$$$"
+  ],
+  "result": {
+    "item": "minecraft:blast_furnace",
+    "count": 4
+  }
+}
