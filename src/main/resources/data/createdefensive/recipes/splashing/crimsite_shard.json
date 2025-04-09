@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:crimsite_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crimsite"
+    }
+  ]
+}

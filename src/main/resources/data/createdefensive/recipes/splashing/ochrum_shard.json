@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:ochrum_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:ochrum"
+    }
+  ]
+}

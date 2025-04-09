@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:scorchia_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:scorchia"
+    }
+  ]
+}

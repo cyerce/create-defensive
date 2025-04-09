@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:scoria_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:scoria"
+    }
+  ]
+}

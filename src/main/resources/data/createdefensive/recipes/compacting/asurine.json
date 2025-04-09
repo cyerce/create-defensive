@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:asurine"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:asurine_shard"
+    },
+    {
+      "item": "createdefensive:asurine_shard",
+      "chance": 0.5
+    }
+  ]
+}

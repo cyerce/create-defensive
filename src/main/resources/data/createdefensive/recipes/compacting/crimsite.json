@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:crimsite"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:crimsite_shard"
+    },
+    {
+      "item": "createdefensive:crimsite_shard",
+      "chance": 0.5
+    }
+  ]
+}

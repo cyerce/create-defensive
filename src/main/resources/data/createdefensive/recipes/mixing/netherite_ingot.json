@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ]
+}

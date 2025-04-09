@@ -79,6 +79,13 @@ public class DefensiveItems {
     public static final RegistryObject<Item> INCOMPLETE_ADVANCED_POWER_CORE = ITEMS.register("incomplete_advanced_power_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNCHARGED_ADVANCED_POWER_CORE = ITEMS.register("uncharged_advanced_power_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CALCITE_SHARD = ITEMS.register("calcite_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSITE_SHARD = ITEMS.register("crimsite_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ASURINE_SHARD = ITEMS.register("asurine_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VERIDIUM_SHARD = ITEMS.register("veridium_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OCHRUM_SHARD = ITEMS.register("ochrum_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SCORIA_SHARD = ITEMS.register("scoria_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SCORCHIA_SHARD = ITEMS.register("scorchia_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHED_ANCIENT_DEBRIS = ITEMS.register("crushed_ancient_debris", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_CRYSTAL = ITEMS.register("redstone_crystal", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INERT_REDSTONE_CRYSTAL = ITEMS.register("inert_redstone_crystal", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_CRYSTAL_CLUSTER = ITEMS.register("redstone_crystal_cluster", () -> new Item(new Item.Properties()));
@@ -110,11 +117,11 @@ public class DefensiveItems {
     public static final RegistryObject<Item> KINETIC_MECHANISM = ITEMS.register("kinetic_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRONIC_MECHANISM = ITEMS.register("electronic_mechanism", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> COPPER_NUT = ITEMS.register("copper_nut", () -> new Item(new Item.Properties().stacksTo(100)));
-    public static final RegistryObject<Item> SILVER_NUT = ITEMS.register("silver_nut", () -> new Item(new Item.Properties().stacksTo(100)));
-    public static final RegistryObject<Item> GOLD_NUT = ITEMS.register("gold_nut", () -> new Item(new Item.Properties().stacksTo(100)));
-    public static final RegistryObject<Item> ELECTRUM_NUT = ITEMS.register("electrum_nut", () -> new Item(new Item.Properties().stacksTo(100)));
-    public static final RegistryObject<Item> PLATINUM_NUT = ITEMS.register("platinum_nut", () -> new Item(new Item.Properties().stacksTo(100)));
+    public static final RegistryObject<Item> COPPER_NUT = ITEMS.register("copper_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_NUT = ITEMS.register("silver_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_NUT = ITEMS.register("gold_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_NUT = ITEMS.register("electrum_nut", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_NUT = ITEMS.register("platinum_nut", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ROSE_QUARTZ_ROD = ITEMS.register("rose_quartz_rod", () -> new Item(new Item.Properties()));
 

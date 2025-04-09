@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:ochrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:ochrum_shard"
+    },
+    {
+      "item": "createdefensive:ochrum_shard",
+      "chance": 0.5
+    }
+  ]
+}

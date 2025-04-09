@@ -75,7 +75,14 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());
+                        pOutput.accept(DefensiveItems.CRIMSITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.ASURINE_SHARD.get());
+                        pOutput.accept(DefensiveItems.VERIDIUM_SHARD.get());
+                        pOutput.accept(DefensiveItems.OCHRUM_SHARD.get());
+                        pOutput.accept(DefensiveItems.SCORIA_SHARD.get());
+                        pOutput.accept(DefensiveItems.SCORCHIA_SHARD.get());
                         pOutput.accept(DefensiveItems.CALCITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.CRUSHED_ANCIENT_DEBRIS.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_INGOT.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());

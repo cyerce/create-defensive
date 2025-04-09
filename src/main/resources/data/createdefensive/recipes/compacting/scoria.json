@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:scoria"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:scoria_shard"
+    },
+    {
+      "item": "createdefensive:scoria_shard",
+      "chance": 0.5
+    }
+  ]
+}

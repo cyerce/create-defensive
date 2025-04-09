@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:veridium"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:veridium_shard"
+    },
+    {
+      "item": "createdefensive:veridium_shard",
+      "chance": 0.5
+    }
+  ]
+}

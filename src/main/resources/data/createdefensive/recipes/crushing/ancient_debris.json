@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:crushed_ancient_debris",
+      "count": 2
+    },
+    {
+      "item": "createdefensive:crushed_ancient_debris",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

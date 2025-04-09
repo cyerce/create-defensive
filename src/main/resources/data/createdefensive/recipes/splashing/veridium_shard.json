@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:veridium_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:veridium"
+    }
+  ]
+}
