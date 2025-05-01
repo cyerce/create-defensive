@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    },
+    {
+      "item": "createdefensive:steel_blast_plating"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "createdefensive:orange_blast_plating"
+  }
+}

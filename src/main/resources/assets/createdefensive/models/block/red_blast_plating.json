@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createdefensive:block/red_blast_plating"
+  }
+}

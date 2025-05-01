@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:red_blast_plating",
+    "createdefensive:orange_blast_plating",
+    "createdefensive:yellow_blast_plating",
+    "createdefensive:lime_blast_plating",
+    "createdefensive:green_blast_plating",
+    "createdefensive:cyan_blast_plating",
+    "createdefensive:light_blue_blast_plating",
+    "createdefensive:blue_blast_plating",
+    "createdefensive:purple_blast_plating",
+    "createdefensive:magenta_blast_plating",
+    "createdefensive:pink_blast_plating",
+    "createdefensive:black_blast_plating",
+    "createdefensive:gray_blast_plating",
+    "createdefensive:light_gray_blast_plating",
+    "createdefensive:white_blast_plating",
+    "createdefensive:brown_blast_plating"
+  ]
+}

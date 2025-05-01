@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:industrial_iron_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:industrial_iron_truss",
+      "count": 4
+    }
+  ]
+}

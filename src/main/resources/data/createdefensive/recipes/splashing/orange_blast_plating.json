@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:orange_blast_plating"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:steel_blast_plating"
+    }
+  ]
+}

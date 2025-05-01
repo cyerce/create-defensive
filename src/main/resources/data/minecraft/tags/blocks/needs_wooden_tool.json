@@ -1,6 +1,19 @@
 {
   "replace": false,
   "values": [
-    "createdefensive:redstone_crystal_block"
+    "createdefensive:redstone_crystal_block",
+    "createdefensive:oak_truss",
+    "createdefensive:birch_truss",
+    "createdefensive:spruce_truss",
+    "createdefensive:jungle_truss",
+    "createdefensive:dark_oak_truss",
+    "createdefensive:acacia_truss",
+    "createdefensive:mangrove_truss",
+    "createdefensive:cherry_truss",
+    "createdefensive:andesite_truss",
+    "createdefensive:industrial_iron_truss",
+    "createdefensive:copper_truss",
+    "createdefensive:zinc_truss",
+    "createdefensive:brass_truss"
   ]
 }

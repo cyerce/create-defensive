@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:spruce_truss",
+      "count": 4
+    }
+  ]
+}

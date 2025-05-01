@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createdefensive:block/andesite_truss"
+  },
+  "render_type": "cutout"
+}

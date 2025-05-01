@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:acacia_truss",
+      "count": 4
+    }
+  ]
+}

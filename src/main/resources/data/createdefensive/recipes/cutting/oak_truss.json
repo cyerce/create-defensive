@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_oak_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:oak_truss",
+      "count": 4
+    }
+  ]
+}

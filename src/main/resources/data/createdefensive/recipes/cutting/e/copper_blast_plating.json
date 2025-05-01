@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:copper_blast_plating",
+      "count": 4
+    }
+  ]
+}

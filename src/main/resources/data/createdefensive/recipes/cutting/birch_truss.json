@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_birch_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:birch_truss",
+      "count": 4
+    }
+  ]
+}

@@ -3,13 +3,11 @@ package net.aepherastudios.createdefensive.block;
 import com.simibubi.create.AllSpriteShifts;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import net.aepherastudios.createdefensive.CreateDefensive;
+import net.aepherastudios.createdefensive.block.custom.HighPowerExplosiveBlock;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.RotatedPillarBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.levelgen.feature.DripstoneUtils;
 import net.minecraft.world.level.levelgen.feature.configurations.PointedDripstoneConfiguration;
@@ -82,6 +80,81 @@ public class DefensiveBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> CORALITE = registerBlock("coralite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> OAK_TRUSS = registerBlock("oak_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIRCH_TRUSS = registerBlock("birch_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SPRUCE_TRUSS = registerBlock("spruce_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> JUNGLE_TRUSS = registerBlock("jungle_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> DARK_OAK_TRUSS = registerBlock("dark_oak_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ACACIA_TRUSS = registerBlock("acacia_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MANGROVE_TRUSS = registerBlock("mangrove_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CHERRY_TRUSS = registerBlock("cherry_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ANDESITE_TRUSS = registerBlock("andesite_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ZINC_TRUSS = registerBlock("zinc_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BRASS_TRUSS = registerBlock("brass_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> COPPER_TRUSS = registerBlock("copper_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> INDUSTRIAL_IRON_TRUSS = registerBlock("industrial_iron_truss",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> COPPER_BLAST_PLATING = registerBlock("copper_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(200).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> COMPACT_INDUSTRIAL_IRON_BLOCK = registerBlock("compact_industrial_iron_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> INDUSTRIAL_IRON_BLAST_PLATING = registerBlock("industrial_iron_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(300).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> ZINC_BLAST_PLATING = registerBlock("zinc_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(500).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> BRASS_BLAST_PLATING = registerBlock("brass_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(750).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> STEEL_BLAST_PLATING = registerBlock("steel_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> RED_BLAST_PLATING = registerBlock("red_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> ORANGE_BLAST_PLATING = registerBlock("orange_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> YELLOW_BLAST_PLATING = registerBlock("yellow_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> LIME_BLAST_PLATING = registerBlock("lime_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> GREEN_BLAST_PLATING = registerBlock("green_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> CYAN_BLAST_PLATING = registerBlock("cyan_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> LIGHT_BLUE_BLAST_PLATING = registerBlock("light_blue_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> BLUE_BLAST_PLATING = registerBlock("blue_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> PURPLE_BLAST_PLATING = registerBlock("purple_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> MAGENTA_BLAST_PLATING = registerBlock("magenta_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> PINK_BLAST_PLATING = registerBlock("pink_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> BLACK_BLAST_PLATING = registerBlock("black_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> GRAY_BLAST_PLATING = registerBlock("gray_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> LIGHT_GRAY_BLAST_PLATING = registerBlock("light_gray_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> WHITE_BLAST_PLATING = registerBlock("white_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> BROWN_BLAST_PLATING = registerBlock("brown_blast_plating",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> HIGH_POWER_EXPLOSIVE = registerBlock("high_power_explosive",
+            () -> new HighPowerExplosiveBlock(BlockBehaviour.Properties.copy(Blocks.TNT).strength(0f).sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> REDSTONE_CRYSTAL_BLOCK = registerBlock("redstone_crystal_block",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));

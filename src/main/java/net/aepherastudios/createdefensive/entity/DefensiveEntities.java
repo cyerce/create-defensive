@@ -161,6 +161,8 @@ public class DefensiveEntities {
             ENTITY_TYPES.register("painite_elemental", () -> EntityType.Builder.of(PainiteElementalEntity::new, MobCategory.MONSTER)
                     .sized(1.2f, 3.6f).fireImmune().clientTrackingRange(8).build("painite_elemental"));
 
+    public static final RegistryObject<EntityType<PrimedHighPowerExplosive>> PRIMED_HIGH_EXPLOSIVE =
+            ENTITY_TYPES.register("primed_high_explosive", () -> EntityType.Builder.<PrimedHighPowerExplosive>of(PrimedHighPowerExplosive::new, MobCategory.MISC).fireImmune().sized(0.98F, 0.98F).clientTrackingRange(10).updateInterval(10).build("primed_high_power_explosive"));
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
     }

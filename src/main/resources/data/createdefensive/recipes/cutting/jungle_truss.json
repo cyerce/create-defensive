@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:jungle_truss",
+      "count": 4
+    }
+  ]
+}

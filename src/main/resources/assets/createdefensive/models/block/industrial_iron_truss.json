@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createdefensive:block/industrial_iron_truss"
+  },
+  "render_type": "cutout"
+}

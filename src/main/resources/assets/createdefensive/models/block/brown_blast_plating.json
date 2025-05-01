@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createdefensive:block/brown_blast_plating"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:brass_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:brass_blast_plating",
+      "count": 4
+    }
+  ]
+}
