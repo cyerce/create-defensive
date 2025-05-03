@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:aluminum_leggings",
+    "createdefensive:silver_leggings",
+    "createdefensive:platinum_leggings",
+    "createdefensive:steel_leggings",
+    "createdefensive:copper_leggings",
+    "createdefensive:zinc_leggings",
+    "createdefensive:brass_leggings",
+    "createdefensive:rose_quartz_leggings",
+    "createdefensive:experience_leggings",
+    "createdefensive:gold_ceremonial_leggings",
+    "createdefensive:violet_gold_ceremonial_leggings",
+    "createdefensive:rose_gold_ceremonial_leggings",
+    "createdefensive:electrum_leggings",
+    "createdefensive:redstone_leggings",
+    "createdefensive:rose_gold_leggings",
+    "createdefensive:aluminum_power_leggings",
+    "createdefensive:steel_power_leggings",
+    "createdefensive:netherite_power_leggings"
+  ]
+}

@@ -9,8 +9,10 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.levelgen.feature.DripstoneUtils;
 import net.minecraft.world.level.levelgen.feature.configurations.PointedDripstoneConfiguration;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -152,6 +154,15 @@ public class DefensiveBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> BROWN_BLAST_PLATING = registerBlock("brown_blast_plating",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> SMOKE_CATALYST = registerBlock("smoke_catalyst",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BLAST_CATALYST = registerBlock("blast_catalyst",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SPLASH_CATALYST = registerBlock("splash_catalyst",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> HAUNT_CATALYST = registerBlock("haunt_catalyst",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> HIGH_POWER_EXPLOSIVE = registerBlock("high_power_explosive",
             () -> new HighPowerExplosiveBlock(BlockBehaviour.Properties.copy(Blocks.TNT).strength(0f).sound(SoundType.GRASS)));

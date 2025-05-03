@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:scorchia_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:coal",
+      "chance": 0.75
+    }
+  ]
+}

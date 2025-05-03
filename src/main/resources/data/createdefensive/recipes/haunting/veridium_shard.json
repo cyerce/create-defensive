@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:veridium_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:clay",
+      "chance": 0.5
+    }
+  ]
+}

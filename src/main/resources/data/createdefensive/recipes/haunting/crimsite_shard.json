@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:crimsite_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:asurine_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder",
+      "chance": 0.75
+    }
+  ]
+}

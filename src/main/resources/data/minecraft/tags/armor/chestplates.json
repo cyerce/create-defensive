@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:aluminum_chestplate",
+    "createdefensive:silver_chestplate",
+    "createdefensive:platinum_chestplate",
+    "createdefensive:steel_chestplate",
+    "createdefensive:copper_chestplate",
+    "createdefensive:zinc_chestplate",
+    "createdefensive:brass_chestplate",
+    "createdefensive:rose_quartz_chestplate",
+    "createdefensive:experience_chestplate",
+    "createdefensive:gold_ceremonial_chestplate",
+    "createdefensive:violet_gold_ceremonial_chestplate",
+    "createdefensive:rose_gold_ceremonial_chestplate",
+    "createdefensive:electrum_chestplate",
+    "createdefensive:redstone_chestplate",
+    "createdefensive:rose_gold_chestplate",
+    "createdefensive:aluminum_power_chestplate",
+    "createdefensive:steel_power_chestplate",
+    "createdefensive:netherite_power_chestplate"
+  ]
+}

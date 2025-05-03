@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:ochrum_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.5
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:smoke_catalyst",
+    "createdefensive:blast_catalyst",
+    "createdefensive:splash_catalyst",
+    "createdefensive:haunt_catalyst"
+  ]
+}

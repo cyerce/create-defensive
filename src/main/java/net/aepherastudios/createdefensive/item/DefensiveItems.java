@@ -87,6 +87,7 @@ public class DefensiveItems {
     public static final RegistryObject<Item> OCHRUM_SHARD = ITEMS.register("ochrum_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCORIA_SHARD = ITEMS.register("scoria_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCORCHIA_SHARD = ITEMS.register("scorchia_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRUSHED_ANCIENT_DEBRIS = ITEMS.register("crushed_ancient_debris", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_CRYSTAL = ITEMS.register("redstone_crystal", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INERT_REDSTONE_CRYSTAL = ITEMS.register("inert_redstone_crystal", () -> new Item(new Item.Properties()));

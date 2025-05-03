@@ -50,8 +50,6 @@ public class CreateDefensive {
     }
     private void clientSetup(final FMLClientSetupEvent event) {
         DefensiveItemProperties.addCustomItemProperties();
-
-
     }
 
     public static ResourceLocation asResource(String path) {

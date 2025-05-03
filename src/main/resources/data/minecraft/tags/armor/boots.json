@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:aluminum_boots",
+    "createdefensive:silver_boots",
+    "createdefensive:platinum_boots",
+    "createdefensive:steel_boots",
+    "createdefensive:copper_boots",
+    "createdefensive:zinc_boots",
+    "createdefensive:brass_boots",
+    "createdefensive:rose_quartz_boots",
+    "createdefensive:experience_boots",
+    "createdefensive:gold_ceremonial_boots",
+    "createdefensive:violet_gold_ceremonial_boots",
+    "createdefensive:rose_gold_ceremonial_boots",
+    "createdefensive:electrum_boots",
+    "createdefensive:redstone_boots",
+    "createdefensive:rose_gold_boots",
+    "createdefensive:aluminum_power_boots",
+    "createdefensive:steel_power_boots",
+    "createdefensive:netherite_power_boots"
+  ]
+}

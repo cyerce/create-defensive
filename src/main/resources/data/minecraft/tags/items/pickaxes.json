@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:aluminum_pickaxe",
+    "createdefensive:silver_pickaxe",
+    "createdefensive:platinum_pickaxe",
+    "createdefensive:steel_pickaxe",
+    "createdefensive:copper_pickaxe",
+    "createdefensive:zinc_pickaxe",
+    "createdefensive:brass_pickaxe",
+    "createdefensive:rose_quartz_pickaxe",
+    "createdefensive:experience_pickaxe",
+    "createdefensive:electrum_pickaxe",
+    "createdefensive:redstone_pickaxe",
+    "createdefensive:rose_gold_pickaxe"
+  ]
+}
