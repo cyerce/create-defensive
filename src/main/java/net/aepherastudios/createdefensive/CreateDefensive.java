@@ -1,5 +1,6 @@
 package net.aepherastudios.createdefensive;
 
+import net.aepherastudios.createdefensive.block.entity.DefensiveBlockEntities;
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.aepherastudios.createdefensive.entity.DefensiveEntities;
 import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRenderer;
@@ -11,7 +12,10 @@ import net.aepherastudios.createdefensive.block.DefensiveBlocks;
 import com.mojang.logging.LogUtils;
 import net.aepherastudios.createdefensive.item.client.*;
 import net.aepherastudios.createdefensive.potion.DefensivePotions;
+import net.aepherastudios.createdefensive.screen.CokingOvenScreen;
+import net.aepherastudios.createdefensive.screen.DefensiveMenuTypes;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -42,6 +46,8 @@ public class CreateDefensive {
         DefensiveEffects.register(modEventBus);
         DefensivePotions.register(modEventBus);
         DefensiveEntities.register(modEventBus);
+        DefensiveBlockEntities.register(modEventBus);
+        DefensiveMenuTypes.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -111,6 +117,8 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.EXPERIENCE_SPEAR.get(), ExperienceSpearRenderer::new);
 
             EntityRenderers.register(DefensiveEntities.PRIMED_HIGH_EXPLOSIVE.get(), PrimedHighExplosiveRenderer::new);
+
+            MenuScreens.register(DefensiveMenuTypes.COKING_OVEN_MENU.get(), CokingOvenScreen::new);
         }
     }
 }

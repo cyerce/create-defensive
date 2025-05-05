@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.aepherastudios.createdefensive.item.DefensiveArmorMaterials;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
@@ -15,23 +16,23 @@ import java.util.Map;
 public class DefensiveArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(DefensiveArmorMaterials.SILVER, new MobEffectInstance(DefensiveEffects.SILVER_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.SILVER, new MobEffectInstance(MobEffects.REGENERATION, 600, 0,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.PLATINUM, new MobEffectInstance(DefensiveEffects.PLATINUM_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.PLATINUM, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.ELECTRUM, new MobEffectInstance(DefensiveEffects.ELECTRUM_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.ELECTRUM, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.REDSTONE, new MobEffectInstance(DefensiveEffects.REDSTONE_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.REDSTONE, new MobEffectInstance(MobEffects.REGENERATION, 600, 1,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.ROSE_GOLD, new MobEffectInstance(DefensiveEffects.UNSTABLE_ROSE_GOLD_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.ROSE_GOLD, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 2,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.ROSE_GOLD_CEREMONIAL, new MobEffectInstance(DefensiveEffects.ROSE_GOLD_ARMOR.get(), 600, 1,
+                    .put(DefensiveArmorMaterials.ROSE_GOLD_CEREMONIAL, new MobEffectInstance(MobEffects.DIG_SPEED, 600, 1,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.VIOLET_GOLD_CEREMONIAL, new MobEffectInstance(DefensiveEffects.VIOLET_GOLD_ARMOR.get(), 600, 1,
+                    .put(DefensiveArmorMaterials.VIOLET_GOLD_CEREMONIAL, new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 1,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.GOLD_CEREMONIAL, new MobEffectInstance(DefensiveEffects.GOLD_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.GOLD_CEREMONIAL, new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 600, 0,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.STEEL, new MobEffectInstance(DefensiveEffects.STEEL_ARMOR.get(), 600, 0,
+                    .put(DefensiveArmorMaterials.STEEL, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 1,
                             false,false, true))
                     .put(DefensiveArmorMaterials.ALUMINUM_POWER, new MobEffectInstance(DefensiveEffects.ALUMINUM_POWER.get(), 600, 0,
                             false,false, true))

@@ -33,6 +33,12 @@
   "item.createdefensive.rose_petal": "Rose Petal",
   "item.createdefensive.rose_essence": "Rose Essence",
   "item.createdefensive.crimson_essence": "Crimson Essence",
+  "item.createdefensive.coke": "Coal Coke",
+  "item.createdefensive.powdered_iron": "Powdered Iron",
+  "item.createdefensive.powdered_steel": "Powdered Steel",
+  "item.createdefensive.slag": "Slag",
+  "block.createdefensive.slag_block": "Block of Slag",
+  "block.createdefensive.coking_oven": "Coking Oven",
   "item.createdefensive.crimsite_shard": "Crimsite Shard",
   "item.createdefensive.asurine_shard": "Asurine Shard",
   "item.createdefensive.veridium_shard": "Veridium Shard",
@@ -682,9 +688,16 @@
   "entity.createdefensive.redstone_spear": "Unstable Redstone Spear",
   "entity.createdefensive.rose_gold_spear": "Unstable Rose Gold Spear",
 
+  "item.createdefensive.iron_grit_sandpaper": "Iron Grit Sandpaper",
+  "item.createdefensive.steel_grit_sandpaper": "Steel Grit Sandpaper",
+
 
 
   "creativetab.createdefensive_items": "Create: Defensive Items",
   "creativetab.createdefensive_toolsweapons": "Create: Defensive Tools & Weapons",
-  "creativetab.createdefensive_armor": "Create: Defensive Armor"
+  "creativetab.createdefensive_armor": "Create: Defensive Armor",
+
+
+
+  "block.createdefensive.coking_oven.tooltip.summary": "Heebie jeebies"
 }

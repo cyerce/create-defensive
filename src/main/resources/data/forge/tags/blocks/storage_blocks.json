@@ -9,6 +9,7 @@
     "createdefensive:electrum_block",
     "createdefensive:raw_aluminum_block",
     "createdefensive:raw_silver_block",
-    "createdefensive:raw_platinum_block"
+    "createdefensive:raw_platinum_block",
+    "createdefensive:slag_block"
   ]
 }

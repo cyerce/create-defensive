@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_mangrove_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:mangrove_truss",
+      "count": 4
+    }
+  ]
+}

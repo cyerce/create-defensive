@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_cherry_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:cherry_truss",
+      "count": 4
+    }
+  ]
+}

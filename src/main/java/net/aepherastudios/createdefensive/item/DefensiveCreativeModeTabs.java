@@ -75,6 +75,14 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());
+                        pOutput.accept(DefensiveItems.IRON_GRIT_SANDPAPER.get());
+                        pOutput.accept(DefensiveItems.STEEL_GRIT_SANDPAPER.get());
+                        pOutput.accept(DefensiveBlocks.COKING_OVEN.get());
+                        pOutput.accept(DefensiveItems.COKE.get());
+                        pOutput.accept(DefensiveItems.POWDERED_IRON.get());
+                        pOutput.accept(DefensiveItems.POWDERED_STEEL.get());
+                        pOutput.accept(DefensiveItems.SLAG.get());
+                        pOutput.accept(DefensiveBlocks.SLAG_BLOCK.get());
                         pOutput.accept(DefensiveItems.CRIMSITE_SHARD.get());
                         pOutput.accept(DefensiveItems.ASURINE_SHARD.get());
                         pOutput.accept(DefensiveItems.VERIDIUM_SHARD.get());
@@ -82,6 +90,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.SCORIA_SHARD.get());
                         pOutput.accept(DefensiveItems.SCORCHIA_SHARD.get());
                         pOutput.accept(DefensiveItems.CALCITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.DIAMOND_SHARD.get());
                         pOutput.accept(DefensiveItems.CRUSHED_ANCIENT_DEBRIS.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_INGOT.get());

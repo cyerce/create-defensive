@@ -35,6 +35,7 @@
     "createdefensive:gray_blast_plating",
     "createdefensive:light_gray_blast_plating",
     "createdefensive:white_blast_plating",
-    "createdefensive:brown_blast_plating"
+    "createdefensive:brown_blast_plating",
+    "createdefensive:slag_block"
   ]
 }

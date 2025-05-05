@@ -3,15 +3,22 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "tag": "forge:ingots/iron"
+      "item": "createdefensive:powdered_iron"
     },
     {
-      "item": "minecraft:charcoal"
+      "item": "createdefensive:coke"
     }
   ],
   "results": [
     {
       "item": "createdefensive:steel_ingot"
+    },
+    {
+      "item": "createdefensive:slag"
+    },
+    {
+      "item": "createdefensive:slag",
+      "chance": 0.5
     }
   ]
 }

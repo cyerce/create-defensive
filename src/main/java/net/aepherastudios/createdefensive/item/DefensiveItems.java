@@ -1,5 +1,6 @@
 package net.aepherastudios.createdefensive.item;
 
+import com.simibubi.create.content.equipment.sandPaper.SandPaperItem;
 import com.simibubi.create.content.materials.ExperienceNuggetItem;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.item.arrow.*;
@@ -80,6 +81,10 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ADVANCED_POWER_CORE = ITEMS.register("advanced_power_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_ADVANCED_POWER_CORE = ITEMS.register("incomplete_advanced_power_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNCHARGED_ADVANCED_POWER_CORE = ITEMS.register("uncharged_advanced_power_core", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COKE = ITEMS.register("coke", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SLAG = ITEMS.register("slag", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POWDERED_IRON = ITEMS.register("powdered_iron", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POWDERED_STEEL = ITEMS.register("powdered_steel", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CALCITE_SHARD = ITEMS.register("calcite_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRIMSITE_SHARD = ITEMS.register("crimsite_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASURINE_SHARD = ITEMS.register("asurine_shard", () -> new Item(new Item.Properties()));
@@ -127,6 +132,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> PLATINUM_NUT = ITEMS.register("platinum_nut", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ROSE_QUARTZ_ROD = ITEMS.register("rose_quartz_rod", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_GRIT_SANDPAPER = ITEMS.register("iron_grit_sandpaper", () -> new SandPaperItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> STEEL_GRIT_SANDPAPER = ITEMS.register("steel_grit_sandpaper", () -> new SandPaperItem(new Item.Properties().durability(128)));
 
     public static final RegistryObject<Item> ALUMINUM_HELMET = ITEMS.register("aluminum_helmet",
             () -> new ArmorItem(DefensiveArmorMaterials.ALUMINUM, ArmorItem.Type.HELMET, new Item.Properties()));
