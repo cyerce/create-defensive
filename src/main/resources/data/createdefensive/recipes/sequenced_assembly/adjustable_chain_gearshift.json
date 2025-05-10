@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:encased_chain_drive"
+  },
+  "transitionalItem": {
+    "item": "create:encased_chain_drive"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:encased_chain_drive"
+        },
+        {
+          "item": "createdefensive:redstone_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:encased_chain_drive"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:encased_chain_drive"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:encased_chain_drive"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:encased_chain_drive"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:encased_chain_drive"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:adjustable_chain_gearshift",
+      "count": 4
+    }
+  ]
+}

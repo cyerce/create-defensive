@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_casing"
+  },
+  "transitionalItem": {
+    "item": "create:andesite_casing"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "createdefensive:logistic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "tag": "forge:wires/mv"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "create:transmitter"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_casing"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:redstone_link",
+      "count": 4
+    }
+  ]
+}

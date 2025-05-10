@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:polished_rose_quartz"
+  },
+  "transitionalItem": {
+    "item": "create:polished_rose_quartz"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:polished_rose_quartz"
+        },
+        {
+          "item": "createdefensive:redstone_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:polished_rose_quartz"
+        },
+        {
+          "tag": "forge:ingots/zinc"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:rose_quartz_lamp",
+      "count": 4
+    }
+  ]
+}

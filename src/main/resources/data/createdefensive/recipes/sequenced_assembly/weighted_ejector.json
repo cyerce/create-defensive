@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:depot"
+  },
+  "transitionalItem": {
+    "item": "create:depot"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:depot"
+        },
+        {
+          "item": "createdefensive:kinetic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:depot"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:depot"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:deploying"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:depot"
+        },
+        {
+          "tag": "forge:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:depot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:weighted_ejector",
+      "count": 4
+    }
+  ]
+}

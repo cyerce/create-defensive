@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:plates/gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:steam_whistle"
+    }
+  ]
+}

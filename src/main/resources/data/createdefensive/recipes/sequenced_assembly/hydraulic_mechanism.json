@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/copper"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_hydraulic_mechanism"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_hydraulic_mechanism"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_hydraulic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_hydraulic_mechanism"
+        },
+        {
+          "tag": "forge:nuggets/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_hydraulic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_hydraulic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_hydraulic_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:hydraulic_mechanism"
+    }
+  ]
+}

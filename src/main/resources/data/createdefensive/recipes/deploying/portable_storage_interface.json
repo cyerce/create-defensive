@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "create:chute"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:portable_storage_interface"
+    }
+  ]
+}

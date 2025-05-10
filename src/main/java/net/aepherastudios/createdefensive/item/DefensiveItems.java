@@ -123,7 +123,13 @@ public class DefensiveItems {
     public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> KINETIC_MECHANISM = ITEMS.register("kinetic_mechanism", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ELECTRONIC_MECHANISM = ITEMS.register("electronic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_MECHANISM = ITEMS.register("redstone_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HYDRAULIC_MECHANISM = ITEMS.register("hydraulic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LOGISTIC_MECHANISM = ITEMS.register("logistic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_KINETIC_MECHANISM = ITEMS.register("incomplete_kinetic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_REDSTONE_MECHANISM = ITEMS.register("incomplete_redstone_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_HYDRAULIC_MECHANISM = ITEMS.register("incomplete_hydraulic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_LOGISTIC_MECHANISM = ITEMS.register("incomplete_logistic_mechanism", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> COPPER_NUT = ITEMS.register("copper_nut", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_NUT = ITEMS.register("silver_nut", () -> new Item(new Item.Properties()));

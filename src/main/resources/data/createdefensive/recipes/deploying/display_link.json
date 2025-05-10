@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "create:transmitter"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:display_link"
+    }
+  ]
+}

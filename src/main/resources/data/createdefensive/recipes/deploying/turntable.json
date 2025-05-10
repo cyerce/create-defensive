@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:shaft"
+    },
+    {
+      "tag": "minecraft:wooden_slabs"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:turntable"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_casing"
+  },
+  "transitionalItem": {
+    "item": "create:andesite_casing"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "createdefensive:kinetic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "create:whisk"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_casing"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:mechanical_mixer",
+      "count": 4
+    }
+  ]
+}

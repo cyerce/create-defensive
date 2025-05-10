@@ -52,6 +52,10 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.SILVER_WIRE.get());
                         pOutput.accept(DefensiveItems.GOLD_WIRE.get());
                         pOutput.accept(DefensiveItems.STEEL_ROD.get());
+                        pOutput.accept(DefensiveItems.KINETIC_MECHANISM.get());
+                        pOutput.accept(DefensiveItems.REDSTONE_MECHANISM.get());
+                        pOutput.accept(DefensiveItems.HYDRAULIC_MECHANISM.get());
+                        pOutput.accept(DefensiveItems.LOGISTIC_MECHANISM.get());
                         pOutput.accept(DefensiveItems.BASIC_CIRCUIT.get());
                         pOutput.accept(DefensiveItems.ADVANCED_CIRCUIT.get());
                         pOutput.accept(DefensiveItems.STEEL_INGOT.get());

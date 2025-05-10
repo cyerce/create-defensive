@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:stock_link"
+  },
+  "transitionalItem": {
+    "item": "create:stock_link"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:stock_link"
+        },
+        {
+          "item": "createdefensive:logistic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:stock_link"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:stock_link"
+        },
+        {
+          "tag": "forge:ingots/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:stock_link"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:stock_link"
+        },
+        {
+          "item": "createdefensive:redstone_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:stock_link"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:redstone_requester",
+      "count": 4
+    }
+  ]
+}

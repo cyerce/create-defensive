@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:steel_sheet"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:steel_sheet"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:steel_sheet"
+        },
+        {
+          "item": "createdefensive:redstone_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:steel_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:steel_sheet"
+        },
+        {
+          "tag": "forge:wires/mv"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:steel_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:steel_sheet"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:steel_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:electron_tube",
+      "count": 8
+    }
+  ]
+}

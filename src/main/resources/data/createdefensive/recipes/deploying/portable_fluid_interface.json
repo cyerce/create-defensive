@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:copper_casing"
+    },
+    {
+      "item": "create:chute"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:portable_fluid_interface"
+    }
+  ]
+}

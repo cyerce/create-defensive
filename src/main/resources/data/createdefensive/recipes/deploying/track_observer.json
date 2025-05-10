@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:railway_casing"
+    },
+    {
+      "tag": "minecraft:wooden_pressure_plates"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:track_observer",
+      "count": 2
+    }
+  ]
+}

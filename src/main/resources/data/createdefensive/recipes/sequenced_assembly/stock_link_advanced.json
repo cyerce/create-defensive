@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:item_vault"
+  },
+  "transitionalItem": {
+    "item": "create:item_vault"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:item_vault"
+        },
+        {
+          "item": "createdefensive:logistic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:item_vault"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:item_vault"
+        },
+        {
+          "tag": "forge:wires/mv"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:item_vault"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:item_vault"
+        },
+        {
+          "item": "create:transmitter"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:item_vault"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:stock_link",
+      "count": 4
+    }
+  ]
+}

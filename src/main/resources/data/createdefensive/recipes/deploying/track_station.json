@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:railway_casing"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:track_station",
+      "count": 2
+    }
+  ]
+}

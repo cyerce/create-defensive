@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:speedometer"
+    }
+  ]
+}

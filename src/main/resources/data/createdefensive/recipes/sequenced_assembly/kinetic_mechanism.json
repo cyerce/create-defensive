@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/zinc"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_kinetic_mechanism"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_kinetic_mechanism"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_kinetic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_kinetic_mechanism"
+        },
+        {
+          "tag": "forge:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_kinetic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_kinetic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_kinetic_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:kinetic_mechanism"
+    }
+  ]
+}
