@@ -76,6 +76,7 @@ public class CreateDefensive {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(DefensiveEntities.BULLET.get(), BulletRenderer::new);
             EntityRenderers.register(DefensiveEntities.ALUMINUM_ARROW.get(), AluminumArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.SILVER_ARROW.get(), SilverArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.PLATINUM_ARROW.get(), PlatinumArrowRenderer::new);

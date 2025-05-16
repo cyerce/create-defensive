@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:powdered_raw_copper",
+      "count": 1
+    },
+    {
+      "item": "createdefensive:powdered_raw_copper",
+      "chance": 0.5
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 250
+}

@@ -2,6 +2,7 @@
   "values": [
     "createdefensive:aluminum_ore",
     "createdefensive:silver_ore",
-    "createdefensive:platinum_ore"
+    "createdefensive:platinum_ore",
+    "createdefensive:lead_ore"
   ]
 }

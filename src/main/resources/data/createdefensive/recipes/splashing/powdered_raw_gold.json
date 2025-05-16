@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 12
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createdefensive:item/large_bullet_tip_die"
+  }
+}

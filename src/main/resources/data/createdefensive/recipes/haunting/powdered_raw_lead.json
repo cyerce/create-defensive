@@ -1,0 +1,23 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:lead_nugget",
+      "count": 9
+    },
+    {
+      "item": "createdefensive:silver_nugget",
+      "count": 3
+    },
+    {
+      "item": "minecraft:coal",
+      "count": 2,
+      "chance": 0.5
+    }
+  ]
+}

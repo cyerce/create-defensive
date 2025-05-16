@@ -14,6 +14,10 @@ public class DefensiveEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, CreateDefensive.MOD_ID);
 
+    public static final RegistryObject<EntityType<BulletEntity>> BULLET =
+            ENTITY_TYPES.register("bullet", () -> EntityType.Builder.<BulletEntity>of(BulletEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("aluminum_arrow"));
+
     public static final RegistryObject<EntityType<AluminumArrowEntity>> ALUMINUM_ARROW =
             ENTITY_TYPES.register("aluminum_arrow", () -> EntityType.Builder.<AluminumArrowEntity>of(AluminumArrowEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("aluminum_arrow"));

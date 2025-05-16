@@ -19,6 +19,8 @@ public class DefensivePotions {
     public static final RegistryObject<Potion> EXPERIENCE_POTION = POTIONS.register("experience_potion",
             () -> new Potion(new MobEffectInstance(DefensiveEffects.CRYSTALLIZED_EXPERIENCE.get(), 1200, 0)));
 
+    public static final RegistryObject<Potion> LEAD_POISONING_POTION = POTIONS.register("lead_poisoning_potion",
+            () -> new Potion(new MobEffectInstance(DefensiveEffects.LEAD_POISONING.get(), 1200, 0)));
 
     public static void register(IEventBus eventBus) {
         POTIONS.register(eventBus);

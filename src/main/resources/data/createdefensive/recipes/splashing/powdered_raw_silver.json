@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:silver_nugget",
+      "count": 12
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 2,
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ]
+}

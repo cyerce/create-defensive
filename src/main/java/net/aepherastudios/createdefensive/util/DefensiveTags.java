@@ -1,5 +1,6 @@
 package net.aepherastudios.createdefensive.util;
 
+import com.simibubi.create.AllTags;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
@@ -27,14 +28,10 @@ public class DefensiveTags {
 
         public static final TagKey<Block> DYED_BLAST_PLATING = tag("dyed_blast_plating");
 
-        public static final TagKey<Block> STARDUST = tag("stardust");
-
-
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(CreateDefensive.MOD_ID, name));
         }
     }
-
     public static class Items {
 
         private static TagKey<Item> tag(String name) {

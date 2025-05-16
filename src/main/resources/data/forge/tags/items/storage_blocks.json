@@ -3,6 +3,7 @@
     "createdefensive:aluminum_block",
     "createdefensive:silver_block",
     "createdefensive:platinum_block",
+    "createdefensive:lead_block",
     "createdefensive:rose_gold_block",
     "createdefensive:violet_gold_block",
     "createdefensive:steel_block",
@@ -10,6 +11,7 @@
     "createdefensive:raw_aluminum_block",
     "createdefensive:raw_silver_block",
     "createdefensive:raw_platinum_block",
+    "createdefensive:raw_lead_block",
     "createdefensive:slag_block"
   ]
 }

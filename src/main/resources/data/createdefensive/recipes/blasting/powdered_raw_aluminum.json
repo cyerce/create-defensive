@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.4,
+  "ingredient": {
+    "item": "createdefensive:powdered_raw_aluminum"
+  },
+  "result": {
+    "item": "createdefensive:aluminum_ingot"
+  }
+}

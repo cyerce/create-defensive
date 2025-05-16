@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.4,
+  "ingredient": {
+    "item": "createdefensive:powdered_raw_copper"
+  },
+  "result": {
+    "item": "minecraft:copper_ingot"
+  }
+}
