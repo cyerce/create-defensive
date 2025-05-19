@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "createdefensive:block/landmine_top",
+		"side": "create:block/industrial_iron_block"
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:industrial_iron_block"
+  },
+  "transitionalItem": {
+    "item": "create:industrial_iron_block"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:industrial_iron_block"
+        },
+        {
+          "item": "createdefensive:radar_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:industrial_iron_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:industrial_iron_block"
+        },
+        {
+          "item": "minecraft:tnt"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:industrial_iron_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:industrial_iron_block"
+        },
+        {
+          "tag": "forge:wires/mv"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:industrial_iron_block"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:proximity_mine",
+      "count": 4
+    }
+  ]
+}

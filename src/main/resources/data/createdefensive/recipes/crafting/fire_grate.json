@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "create:industrial_iron_block"
+    },
+    "$": {
+      "item": "minecraft:iron_bars"
+    },
+    "@": {
+      "item": "create:blaze_burner"
+    },
+    "%": {
+      "item": "createdefensive:basic_circuit"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "%@%",
+    "###"
+  ],
+  "result": {
+    "item": "createdefensive:fire_grate"
+  }
+}

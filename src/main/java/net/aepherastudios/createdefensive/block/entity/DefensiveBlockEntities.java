@@ -19,6 +19,19 @@ public class DefensiveBlockEntities {
                     BlockEntityType.Builder.of(CokingOvenBlockEntity::new,
                             DefensiveBlocks.COKING_OVEN.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<ProximityMineBlockEntity>> PROXIMITY_MINE =
+            BLOCK_ENTITIES.register("proximity_mine", () ->
+                    BlockEntityType.Builder.of(ProximityMineBlockEntity::new, DefensiveBlocks.PROXIMITY_MINE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FireGrateBlockEntity>> FIRE_GRATE_BLOCK_ENTITY =
+            BLOCK_ENTITIES.register("fire_grate_block_entity", () ->
+                    BlockEntityType.Builder.of(FireGrateBlockEntity::new, DefensiveBlocks.FIRE_GRATE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<LightningTrapBlockEntity>> LIGHTNING_TRAP_BLOCK_ENTITY =
+            BLOCK_ENTITIES.register("lightning_trap_block_entity", () ->
+                    BlockEntityType.Builder.of(LightningTrapBlockEntity::new, DefensiveBlocks.LIGHTNING_TRAP.get()).build(null));
+
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

@@ -15,10 +15,4 @@ public class SmallBulletItem extends ArrowItem {
         super(pProperties);
         this.damage = damage;
     }
-
-    public AbstractArrow createArrow(Level pLevel, ItemStack pStack, LivingEntity pShooter) {
-        BulletEntity arrow = new BulletEntity(pShooter, pLevel);
-        arrow.setBaseDamage(this.damage);
-        return arrow;
-    }
 }

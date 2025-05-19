@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "create:block/industrial_iron_block",
+    "east": "create:block/industrial_iron_block",
+    "north": "create:block/industrial_iron_block",
+    "particle": "create:block/industrial_iron_block",
+    "south": "create:block/industrial_iron_block",
+    "up": "createdefensive:block/lightning_trap_top",
+    "west": "create:block/industrial_iron_block"
+  }
+}

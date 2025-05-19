@@ -34,6 +34,7 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ROSE_GOLD_INGOT = ITEMS.register("rose_gold_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VIOLET_GOLD_INGOT = ITEMS.register("violet_gold_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_SHEET = ITEMS.register("electrum_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ENERGIZED_ELECTRUM_INGOT = ITEMS.register("energized_electrum_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet", () -> new Item(new Item.Properties()));
@@ -44,8 +45,11 @@ public class DefensiveItems {
     public static final RegistryObject<Item> WEAPON_HANDLE = ITEMS.register("weapon_handle", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BASIC_CIRCUIT = ITEMS.register("basic_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADVANCED_CIRCUIT = ITEMS.register("advanced_circuit", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RADIO_TRANSMITTER = ITEMS.register("radio_transmitter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_BASIC_CIRCUIT = ITEMS.register("incomplete_basic_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_ADVANCED_CIRCUIT = ITEMS.register("incomplete_advanced_circuit", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_ROD = ITEMS.register("copper_rod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_ROD = ITEMS.register("zinc_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_CAM = ITEMS.register("aluminum_cam", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ZINC_SHEET = ITEMS.register("zinc_sheet", () -> new Item(new Item.Properties()));
@@ -82,6 +86,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ADVANCED_POWER_CORE = ITEMS.register("advanced_power_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_ADVANCED_POWER_CORE = ITEMS.register("incomplete_advanced_power_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNCHARGED_ADVANCED_POWER_CORE = ITEMS.register("uncharged_advanced_power_core", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIGHTNING_CORE = ITEMS.register("lightning_core", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_LIGHTNING_CORE = ITEMS.register("incomplete_lightning_core", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UNCHARGED_LIGHTNING_CORE = ITEMS.register("uncharged_lightning_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COKE = ITEMS.register("coke", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SLAG = ITEMS.register("slag", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_IRON = ITEMS.register("powdered_iron", () -> new Item(new Item.Properties()));
@@ -194,16 +201,22 @@ public class DefensiveItems {
     public static final RegistryObject<Item> REDSTONE_MECHANISM = ITEMS.register("redstone_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HYDRAULIC_MECHANISM = ITEMS.register("hydraulic_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LOGISTIC_MECHANISM = ITEMS.register("logistic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COMPUTATION_MECHANISM = ITEMS.register("computation_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RADAR_MECHANISM = ITEMS.register("radar_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_KINETIC_MECHANISM = ITEMS.register("incomplete_kinetic_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_REDSTONE_MECHANISM = ITEMS.register("incomplete_redstone_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_HYDRAULIC_MECHANISM = ITEMS.register("incomplete_hydraulic_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_LOGISTIC_MECHANISM = ITEMS.register("incomplete_logistic_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_COMPUTATION_MECHANISM = ITEMS.register("incomplete_computation_mechanism", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_RADAR_MECHANISM = ITEMS.register("incomplete_radar_mechanism", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> COPPER_NUT = ITEMS.register("copper_nut", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SILVER_NUT = ITEMS.register("silver_nut", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> GOLD_NUT = ITEMS.register("gold_nut", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> ELECTRUM_NUT = ITEMS.register("electrum_nut", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> PLATINUM_NUT = ITEMS.register("platinum_nut", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+
+    public static final RegistryObject<Item> POLISHED_AMETHYST = ITEMS.register("polished_amethyst", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ROSE_QUARTZ_ROD = ITEMS.register("rose_quartz_rod", () -> new Item(new Item.Properties()));
 

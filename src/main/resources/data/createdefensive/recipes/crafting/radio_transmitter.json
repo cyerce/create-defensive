@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "create:transmitter"
+    },
+    "$": {
+      "item": "createdefensive:polished_amethyst"
+    },
+    "%": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "$",
+    "%",
+    "#"
+  ],
+  "result": {
+    "item": "createdefensive:radio_transmitter"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createdefensive:uncharged_lightning_core"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    },
+    {
+      "item": "createdefensive:redstone_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:lightning_core"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    },
+    {
+      "item": "createdefensive:inert_redstone_crystal"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ package net.aepherastudios.createdefensive.entity.client;// Made with Blockbench
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import net.aepherastudios.createdefensive.entity.custom.BulletEntity;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -13,31 +14,34 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 
-public class BulletModel<T extends Entity> extends EntityModel<T> {
-	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("createdefensive", "bullet"), "main");
-	private final ModelPart bb_main;
+public class BulletModel<T extends BulletEntity> extends EntityModel<T> {
+
+	private final ModelPart root;
 
 	public BulletModel(ModelPart root) {
-		this.bb_main = root.getChild("bb_main");
+		this.root = root;
 	}
 
-	public static LayerDefinition createBodyLayer() {
-		MeshDefinition meshdefinition = new MeshDefinition();
-		PartDefinition partdefinition = meshdefinition.getRoot();
+	public static LayerDefinition createLayer() {
+		MeshDefinition mesh = new MeshDefinition();
+		PartDefinition part = mesh.getRoot();
 
-		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main", CubeListBuilder.create().texOffs(0, 0).addBox(-1.0F, -1.0F, -0.5F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));
+		part.addOrReplaceChild("bullet", CubeListBuilder.create()
+				.texOffs(0, 0)
+				.addBox(-1F, -1F, -3F, 2F, 2F, 6F), PartPose.ZERO);
 
-		return LayerDefinition.create(meshdefinition, 16, 16);
-	}
-
-	@Override
-	public void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-
+		return LayerDefinition.create(mesh, 32, 32); // Texture size
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
-		bb_main.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks,
+						  float netHeadYaw, float headPitch) {
+		// No animation needed
+	}
+
+	@Override
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight,
+							   int packedOverlay, float red, float green, float blue, float alpha) {
+		root.render(poseStack, buffer, packedLight, packedOverlay);
 	}
 }

@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:computation_mechanism"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_computation_mechanism"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_radar_mechanism"
+        },
+        {
+          "item": "createdefensive:basic_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_radar_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_radar_mechanism"
+        },
+        {
+          "item": "createdefensive:radio_transmitter"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_radar_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_radar_mechanism"
+        },
+        {
+          "item": "create:transmitter"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_radar_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:radar_mechanism"
+    }
+  ]
+}

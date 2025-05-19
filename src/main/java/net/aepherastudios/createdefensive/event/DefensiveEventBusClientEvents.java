@@ -104,4 +104,9 @@ public class DefensiveEventBusClientEvents {
     public static void registerOakShieldLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(DefensiveModelLayers.OAK_SHIELD_LAYER, OakShieldModel::createLayer);
     }
+
+    @SubscribeEvent
+    public static void registerBulletLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(DefensiveModelLayers.BULLET_LAYER, BulletModel::createLayer);
+    }
 }

@@ -1,19 +1,12 @@
 package net.aepherastudios.createdefensive.block;
 
-import com.simibubi.create.AllSpriteShifts;
-import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import net.aepherastudios.createdefensive.CreateDefensive;
-import net.aepherastudios.createdefensive.block.custom.CokingOvenBlock;
-import net.aepherastudios.createdefensive.block.custom.HighPowerExplosiveBlock;
+import net.aepherastudios.createdefensive.block.custom.*;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.levelgen.feature.DripstoneUtils;
-import net.minecraft.world.level.levelgen.feature.configurations.PointedDripstoneConfiguration;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -86,6 +79,20 @@ public class DefensiveBlocks {
 
     public static final RegistryObject<Block> SLAG_BLOCK = registerBlock("slag_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> LANDMINE = registerBlock("landmine",
+            () -> new LandmineBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> PROXIMITY_MINE = registerBlock("proximity_mine",
+            () -> new ProximityMineBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> FIRE_GRATE = registerBlock("fire_grate",
+            () -> new FireGrateBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> LIGHTNING_TRAP = registerBlock("lightning_trap",
+            () -> new LightningTrapBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> AMETHYST_TILES = registerBlock("amethyst_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SMALL_AMETHYST_TILES = registerBlock("small_amethyst_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> OAK_TRUSS = registerBlock("oak_truss",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.WOOD)));

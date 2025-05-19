@@ -16,6 +16,7 @@ public class LeadPoisoningEffect extends MobEffect {
         if (!pLivingEntity.level().isClientSide()) {
             pLivingEntity.hurt(pLivingEntity.damageSources().wither(), 0.5f);
             pLivingEntity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 10, 0, true, false));
+            pLivingEntity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 10, 0, true, false));
         }
         super.applyEffectTick(pLivingEntity, pAmplifier);
     }

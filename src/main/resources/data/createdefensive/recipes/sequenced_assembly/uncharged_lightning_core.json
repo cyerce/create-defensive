@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:uncharged_power_core"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_lightning_core"
+  },
+  "loops": 5,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        },
+        {
+          "item": "createdefensive:advanced_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        },
+        {
+          "tag": "forge:plates/electrum"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        },
+        {
+          "tag": "forge:wires/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        },
+        {
+          "tag": "forge:wires/zinc"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_lightning_core"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:uncharged_lightning_core",
+      "chance": 120.0
+    },
+    {
+      "item": "createdefensive:uncharged_power_core",
+      "chance": 15.0
+    },
+    {
+      "item": "createdefensive:electrum_sheet",
+      "chance": 10.0
+    },
+    {
+      "item": "createdefensive:copper_wire",
+      "chance": 2.5
+    },
+    {
+      "item": "createdefensive:zinc_wire",
+      "chance": 2.5
+    }
+  ]
+}

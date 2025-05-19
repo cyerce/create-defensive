@@ -69,4 +69,8 @@ public class DefensiveModelLayers {
     public static final ModelLayerLocation OAK_SHIELD_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "oak_shield_layer"), "main");
 
+    public static final ModelLayerLocation BULLET_LAYER = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "bullet_layer"), "main");
+
+
 }
