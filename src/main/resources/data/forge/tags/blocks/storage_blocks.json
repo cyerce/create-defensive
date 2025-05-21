@@ -11,7 +11,17 @@
     "createdefensive:raw_aluminum_block",
     "createdefensive:raw_silver_block",
     "createdefensive:raw_platinum_block",
-    "createdefensive:raw_lead_block",
+    "createdefensive:lead_block",
+    "createdefensive:tin_block",
+    "createdefensive:raw_tin_block",
+    "createdefensive:nickel_block",
+    "createdefensive:raw_nickel_block",
+    "createdefensive:uranium_block",
+    "createdefensive:raw_uranium_block",
+    "createdefensive:bronze_block",
+    "createdefensive:gunsteel_block",
+    "createdefensive:invar_block",
+    "createdefensive:staballoy_block",
     "createdefensive:slag_block"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "createdefensive:block/air_vent_side",
+    "east": "createdefensive:block/air_vent_side",
+    "north": "createdefensive:block/air_vent_side",
+    "particle": "createdefensive:block/air_vent_side",
+    "south": "createdefensive:block/air_vent_side",
+    "up": "createdefensive:block/fire_grate_top",
+    "west": "createdefensive:block/air_vent_side"
+  }
+}

@@ -40,6 +40,13 @@
     "createdefensive:light_gray_blast_plating",
     "createdefensive:white_blast_plating",
     "createdefensive:brown_blast_plating",
-    "createdefensive:slag_block"
+    "createdefensive:slag_block",
+    "createdefensive:nickel_block",
+    "createdefensive:raw_nickel_block",
+    "createdefensive:nickel_ore",
+    "createdefensive:deepslate_nickel_ore",
+    "createdefensive:bronze_block",
+    "createdefensive:gunsteel_block",
+    "createdefensive:invar_block"
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_tin"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:tin_nugget",
+      "count": 9
+    },
+    {
+      "item": "create:copper_nugget",
+      "count": 3
+    },
+    {
+      "item": "minecraft:gravel",
+      "count": 2,
+      "chance": 0.75
+    }
+  ]
+}

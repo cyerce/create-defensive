@@ -1,0 +1,7 @@
+{
+  "slot": "hands",
+  "size": 1,
+  "icon": "minecraft:item/iron_sword",
+  "priority": 1,
+  "enabled": true
+}

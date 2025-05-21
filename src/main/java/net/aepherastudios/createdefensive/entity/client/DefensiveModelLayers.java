@@ -1,5 +1,6 @@
 package net.aepherastudios.createdefensive.entity.client;
 
+import com.simibubi.create.Create;
 import com.simibubi.create.content.fluids.drain.ItemDrainRenderer;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -72,5 +73,10 @@ public class DefensiveModelLayers {
     public static final ModelLayerLocation BULLET_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "bullet_layer"), "main");
 
+    public static final ModelLayerLocation GLOVES = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "gloves"), "main");
+
+    public static final ModelLayerLocation GLOVES_FP = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "gloves"), "main");
 
 }

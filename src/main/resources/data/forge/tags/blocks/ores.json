@@ -7,6 +7,12 @@
     "createdefensive:platinum_ore",
     "createdefensive:deepslate_platinum_ore",
     "createdefensive:lead_ore",
-    "createdefensive:deepslate_lead_ore"
+    "createdefensive:deepslate_lead_ore",
+    "createdefensive:tin_ore",
+    "createdefensive:deepslate_tin_ore",
+    "createdefensive:nickel_ore",
+    "createdefensive:deepslate_nickel_ore",
+    "createdefensive:uranium_ore",
+    "createdefensive:deepslate_uranium_ore"
   ]
 }

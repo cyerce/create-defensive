@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_tin"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:tin_nugget",
+      "count": 12
+    },
+    {
+      "item": "minecraft:gravel",
+      "count": 2,
+      "chance": 0.75
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ]
+}

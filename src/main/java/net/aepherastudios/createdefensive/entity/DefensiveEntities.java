@@ -167,6 +167,11 @@ public class DefensiveEntities {
 
     public static final RegistryObject<EntityType<PrimedHighPowerExplosive>> PRIMED_HIGH_EXPLOSIVE =
             ENTITY_TYPES.register("primed_high_explosive", () -> EntityType.Builder.<PrimedHighPowerExplosive>of(PrimedHighPowerExplosive::new, MobCategory.MISC).fireImmune().sized(0.98F, 0.98F).clientTrackingRange(10).updateInterval(10).build("primed_high_power_explosive"));
+
+    public static final RegistryObject<EntityType<SuperheatedBlazeEntity>> SUPERHEATED_BLAZE =
+            ENTITY_TYPES.register("superheated_blaze", () -> EntityType.Builder.of(SuperheatedBlazeEntity::new, MobCategory.MONSTER)
+                    .sized(0.6f, 1.8f).fireImmune().clientTrackingRange(8).build("superheated_blaze"));
+
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
     }

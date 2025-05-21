@@ -59,6 +59,33 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.LEAD_BLOCK.get());
                         pOutput.accept(DefensiveItems.LEAD_NUGGET.get());
                         pOutput.accept(DefensiveItems.POWDERED_LEAD.get());
+                        pOutput.accept(DefensiveItems.TIN_INGOT.get());
+                        pOutput.accept(DefensiveBlocks.TIN_ORE.get());
+                        pOutput.accept(DefensiveBlocks.DEEPSLATE_TIN_ORE.get());
+                        pOutput.accept(DefensiveItems.RAW_TIN.get());
+                        pOutput.accept(AllItems.CRUSHED_TIN.get());
+                        pOutput.accept(DefensiveItems.POWDERED_RAW_TIN.get());
+                        pOutput.accept(DefensiveBlocks.RAW_TIN_BLOCK.get());
+                        pOutput.accept(DefensiveBlocks.TIN_BLOCK.get());
+                        pOutput.accept(DefensiveItems.TIN_NUGGET.get());
+                        pOutput.accept(DefensiveItems.NICKEL_INGOT.get());
+                        pOutput.accept(DefensiveBlocks.NICKEL_ORE.get());
+                        pOutput.accept(DefensiveBlocks.DEEPSLATE_NICKEL_ORE.get());
+                        pOutput.accept(DefensiveItems.RAW_NICKEL.get());
+                        pOutput.accept(AllItems.CRUSHED_NICKEL.get());
+                        pOutput.accept(DefensiveItems.POWDERED_RAW_NICKEL.get());
+                        pOutput.accept(DefensiveBlocks.RAW_NICKEL_BLOCK.get());
+                        pOutput.accept(DefensiveBlocks.NICKEL_BLOCK.get());
+                        pOutput.accept(DefensiveItems.NICKEL_NUGGET.get());
+                        pOutput.accept(DefensiveItems.URANIUM_INGOT.get());
+                        pOutput.accept(DefensiveBlocks.URANIUM_ORE.get());
+                        pOutput.accept(DefensiveBlocks.DEEPSLATE_URANIUM_ORE.get());
+                        pOutput.accept(DefensiveItems.RAW_URANIUM.get());
+                        pOutput.accept(AllItems.CRUSHED_URANIUM.get());
+                        pOutput.accept(DefensiveItems.POWDERED_RAW_URANIUM.get());
+                        pOutput.accept(DefensiveBlocks.RAW_URANIUM_BLOCK.get());
+                        pOutput.accept(DefensiveBlocks.URANIUM_BLOCK.get());
+                        pOutput.accept(DefensiveItems.URANIUM_NUGGET.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_ZINC.get());
                         pOutput.accept(DefensiveItems.ZINC_SHEET.get());
                         pOutput.accept(DefensiveItems.ZINC_WIRE.get());
@@ -91,6 +118,18 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.UNSTABLE_REDSTONE_INGOT.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.ELECTRUM_BLOCK.get());
+                        pOutput.accept(DefensiveItems.BRONZE_INGOT.get());
+                        pOutput.accept(DefensiveItems.BRONZE_NUGGET.get());
+                        pOutput.accept(DefensiveBlocks.BRONZE_BLOCK.get());
+                        pOutput.accept(DefensiveItems.GUNSTEEL_INGOT.get());
+                        pOutput.accept(DefensiveItems.GUNSTEEL_NUGGET.get());
+                        pOutput.accept(DefensiveBlocks.GUNSTEEL_BLOCK.get());
+                        pOutput.accept(DefensiveItems.INVAR_INGOT.get());
+                        pOutput.accept(DefensiveItems.INVAR_NUGGET.get());
+                        pOutput.accept(DefensiveBlocks.INVAR_BLOCK.get());
+                        pOutput.accept(DefensiveItems.STABALLOY_INGOT.get());
+                        pOutput.accept(DefensiveItems.STABALLOY_NUGGET.get());
+                        pOutput.accept(DefensiveBlocks.STABALLOY_BLOCK.get());
                         pOutput.accept(DefensiveBlocks.REDSTONE_CRYSTAL_BLOCK.get());
                         pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
@@ -126,6 +165,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.PROXIMITY_MINE.get());
                         pOutput.accept(DefensiveBlocks.FIRE_GRATE.get());
                         pOutput.accept(DefensiveBlocks.LIGHTNING_TRAP.get());
+                        pOutput.accept(DefensiveBlocks.AIR_TRAP.get());
+                        pOutput.accept(DefensiveBlocks.GAS_TRAP.get());
                         pOutput.accept(DefensiveItems.POLISHED_AMETHYST.get());
                         pOutput.accept(DefensiveBlocks.AMETHYST_TILES.get());
                         pOutput.accept(DefensiveBlocks.SMALL_AMETHYST_TILES.get());
@@ -203,6 +244,10 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_ARROW_HEAD.get());
                         pOutput.accept(DefensiveItems.REDSTONE_ARROW_HEAD.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_ARROW_HEAD.get());
+
+                        pOutput.accept(DefensiveItems.SUPERHEATED_BLAZE_ROD.get());
+                        pOutput.accept(DefensiveItems.SUPERHEATED_BLAZE_SPAWN_EGG.get());
+
                     })
                     .build());
 
@@ -259,6 +304,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.BRASS_CHESTPLATE.get());
                         pOutput.accept(DefensiveItems.BRASS_LEGGINGS.get());
                         pOutput.accept(DefensiveItems.BRASS_BOOTS.get());
+
+                        pOutput.accept(DefensiveItems.POWER_ARMOR_TERMINAL.get());
 
                         pOutput.accept(DefensiveItems.ALUMINUM_POWER_HELMET.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_POWER_CHESTPLATE.get());

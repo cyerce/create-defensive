@@ -38,6 +38,12 @@
     "createdefensive:smoke_catalyst",
     "createdefensive:blast_catalyst",
     "createdefensive:splash_catalyst",
-    "createdefensive:haunt_catalyst"
+    "createdefensive:haunt_catalyst",
+    "createdefensive:landmine",
+    "createdefensive:proximity_mine",
+    "createdefensive:fire_grate",
+    "createdefensive:lightning_trap",
+    "createdefensive:air_trap",
+    "createdefensive:gas_trap"
   ]
 }

@@ -6,12 +6,14 @@ import net.aepherastudios.createdefensive.entity.DefensiveEntities;
 import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRenderer;
 import net.aepherastudios.createdefensive.entity.client.PainiteProjectileEntityRenderer;
 import net.aepherastudios.createdefensive.entity.client.PrimedHighExplosiveRenderer;
+import net.aepherastudios.createdefensive.entity.client.SuperheatedBlazeEntityRenderer;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.DefensiveCreativeModeTabs;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
 import com.mojang.logging.LogUtils;
 import net.aepherastudios.createdefensive.item.client.*;
 import net.aepherastudios.createdefensive.potion.DefensivePotions;
+import net.aepherastudios.createdefensive.screen.AugmentScreen;
 import net.aepherastudios.createdefensive.screen.CokingOvenScreen;
 import net.aepherastudios.createdefensive.screen.DefensiveMenuTypes;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
@@ -29,6 +31,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import static net.aepherastudios.createdefensive.entity.DefensiveEntities.SUPERHEATED_BLAZE;
 
 @Mod(CreateDefensive.MOD_ID)
 public class CreateDefensive {
@@ -120,6 +124,10 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.PRIMED_HIGH_EXPLOSIVE.get(), PrimedHighExplosiveRenderer::new);
 
             MenuScreens.register(DefensiveMenuTypes.COKING_OVEN_MENU.get(), CokingOvenScreen::new);
+            MenuScreens.register(DefensiveMenuTypes.AUGMENT_MENU.get(), AugmentScreen::new);
+
+            EntityRenderers.register(SUPERHEATED_BLAZE.get(), SuperheatedBlazeEntityRenderer::new);
+
         }
     }
 }

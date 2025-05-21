@@ -3,6 +3,9 @@
     "createdefensive:aluminum_ore",
     "createdefensive:silver_ore",
     "createdefensive:platinum_ore",
-    "createdefensive:lead_ore"
+    "createdefensive:lead_ore",
+    "createdefensive:tin_ore",
+    "createdefensive:nickel_ore",
+    "createdefensive:uranium_ore"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:uranium_block",
+    "createdefensive:raw_uranium_block",
+    "createdefensive:uranium_ore",
+    "createdefensive:deepslate_uranium_ore",
+    "createdefensive:staballoy_block"
+  ]
+}

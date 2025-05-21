@@ -15,6 +15,14 @@
     "createdefensive:copper_truss",
     "createdefensive:zinc_truss",
     "createdefensive:brass_truss",
-    "createdefensive:coking_oven"
+    "createdefensive:coking_oven",
+    "createdefensive:fire_grate",
+    "createdefensive:lightning_trap",
+    "createdefensive:air_trap",
+    "createdefensive:gas_trap",
+    "createdefensive:landmine",
+    "createdefensive:proximity_mine",
+    "createdefensive:amethyst_tiles",
+    "createdefensive:small_amethyst_tiles"
   ]
 }

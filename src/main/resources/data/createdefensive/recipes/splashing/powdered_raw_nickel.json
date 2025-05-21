@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_nickel"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:nickel_nugget",
+      "count": 12
+    },
+    {
+      "item": "minecraft:basalt",
+      "count": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ]
+}

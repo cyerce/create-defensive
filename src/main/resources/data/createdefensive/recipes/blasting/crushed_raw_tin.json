@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.4,
+  "ingredient": {
+    "item": "create:crushed_raw_tin"
+  },
+  "result": {
+    "item": "createdefensive:tin_ingot"
+  }
+}

@@ -4,10 +4,10 @@
     "item": "createdefensive:basic_circuit"
   },
   "base": {
-    "item": "createdefensive:steel_helmet"
+    "item": "createdefensive:steel_chestplate"
   },
   "result": {
-    "item": "createdefensive:steel_power_helmet"
+    "item": "createdefensive:steel_power_chestplate"
   },
   "template": {
     "item": "createdefensive:power_core"

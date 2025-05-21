@@ -1,0 +1,23 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_raw_uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:uranium_nugget",
+      "count": 9
+    },
+    {
+      "item": "createdefensive:lead_nugget",
+      "count": 3
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "count": 2,
+      "chance": 0.75
+    }
+  ]
+}

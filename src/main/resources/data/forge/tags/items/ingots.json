@@ -7,6 +7,13 @@
     "createdefensive:rose_gold_ingot",
     "createdefensive:violet_gold_ingot",
     "createdefensive:steel_ingot",
+    "createdefensive:tin_ingot",
+    "createdefensive:nickel_ingot",
+    "createdefensive:uranium_ingot",
+    "createdefensive:bronze_ingot",
+    "createdefensive:gunsteel_ingot",
+    "createdefensive:invar_ingot",
+    "createdefensive:staballoy_ingot",
     "createdefensive:electrum_ingot"
   ]
 }

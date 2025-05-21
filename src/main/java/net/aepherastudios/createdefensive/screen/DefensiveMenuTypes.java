@@ -1,6 +1,8 @@
 package net.aepherastudios.createdefensive.screen;
 
 import net.aepherastudios.createdefensive.CreateDefensive;
+import net.minecraft.world.flag.FeatureFlagSet;
+import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.common.extensions.IForgeMenuType;
@@ -16,6 +18,10 @@ public class DefensiveMenuTypes {
 
     public static final RegistryObject<MenuType<CokingOvenMenu>> COKING_OVEN_MENU =
             registerMenuType(CokingOvenMenu::new, "coking_oven_menu");
+
+    public static final RegistryObject<MenuType<AugmentMenu>> AUGMENT_MENU =
+            MENUS.register("augment_menu", () ->
+                    new MenuType<>(AugmentMenu::new, FeatureFlagSet.of(FeatureFlags.VANILLA)));
 
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(IContainerFactory<T> factory, String name){
         return MENUS.register(name, () -> IForgeMenuType.create(factory));

@@ -3,15 +3,17 @@ package net.aepherastudios.createdefensive.item;
 import com.simibubi.create.content.equipment.sandPaper.SandPaperItem;
 import com.simibubi.create.content.materials.ExperienceNuggetItem;
 import net.aepherastudios.createdefensive.CreateDefensive;
+import net.aepherastudios.createdefensive.entity.DefensiveEntities;
 import net.aepherastudios.createdefensive.item.arrow.*;
+import net.aepherastudios.createdefensive.item.augments.SpeedBoostAugmentItem;
 import net.aepherastudios.createdefensive.item.custom.*;
 import net.aepherastudios.createdefensive.item.experience.*;
+import net.aepherastudios.createdefensive.item.gloves.IronGloveItem;
 import net.aepherastudios.createdefensive.item.shield.OakShieldItem;
 import net.aepherastudios.createdefensive.item.spear.*;
-import net.minecraft.client.Minecraft;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,8 +30,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_SHEET = ITEMS.register("aluminum_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_SHEET = ITEMS.register("silver_sheet", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROSE_GOLD_INGOT = ITEMS.register("rose_gold_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VIOLET_GOLD_INGOT = ITEMS.register("violet_gold_ingot", () -> new Item(new Item.Properties()));
@@ -38,6 +40,13 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ENERGIZED_ELECTRUM_INGOT = ITEMS.register("energized_electrum_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GUNSTEEL_INGOT = ITEMS.register("gunsteel_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INVAR_INGOT = ITEMS.register("invar_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STABALLOY_INGOT = ITEMS.register("staballoy_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ENERGIZED_ROSE_QUARTZ = ITEMS.register("energized_rose_quartz", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNSTABLE_REDSTONE_INGOT = ITEMS.register("unstable_redstone_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_REDSTONE_INGOT = ITEMS.register("incomplete_redstone_ingot", () -> new Item(new Item.Properties()));
@@ -121,6 +130,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> SPIKES_MODULE = ITEMS.register("spikes_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BATTERY_EFFICIENCY_MODULE = ITEMS.register("battery_efficiency_module", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> IRON_GLOVE = ITEMS.register("iron_glove", () -> new IronGloveItem(new Item.Properties().stacksTo(1), 2.0f, 1.0f, 0.1f, 3.0f));
+
     public static final RegistryObject<Item> RESPIRATOR_MODULE = ITEMS.register("respirator_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NIGHT_VISION_MODULE = ITEMS.register("night_vision_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCUBA_MODULE = ITEMS.register("respiration_module", () -> new Item(new Item.Properties()));
@@ -140,7 +151,7 @@ public class DefensiveItems {
     public static final RegistryObject<Item> JETPACK_MODULE = ITEMS.register("jetpack_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JET_MODULE = ITEMS.register("jet_module", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> SWIFTNESS_MODULE = ITEMS.register("swiftness_module", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SWIFTNESS_MODULE = ITEMS.register("swiftness_module", () -> new SpeedBoostAugmentItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SILENT_FITTINGS_MODULE = ITEMS.register("silent_fittings_module", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> PADDED_BOOTS_MODULE = ITEMS.register("padded_boots_module", () -> new Item(new Item.Properties()));
@@ -174,6 +185,13 @@ public class DefensiveItems {
     public static final RegistryObject<Item> VIOLET_GOLD_NUGGET = ITEMS.register("violet_gold_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> URANIUM_NUGGET = ITEMS.register("uranium_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GUNSTEEL_NUGGET = ITEMS.register("gunsteel_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INVAR_NUGGET = ITEMS.register("invar_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STABALLOY_NUGGET = ITEMS.register("staballoy_nugget", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SILVER_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("silver_upgrade_smithing_template", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("platinum_upgrade_smithing_template", () -> new Item(new Item.Properties()));
@@ -187,6 +205,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_NICKEL = ITEMS.register("raw_nickel", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> POWDERED_RAW_IRON = ITEMS.register("powdered_raw_iron", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_RAW_GOLD = ITEMS.register("powdered_raw_gold", () -> new Item(new Item.Properties()));
@@ -196,6 +217,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> POWDERED_RAW_SILVER = ITEMS.register("powdered_raw_silver", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_RAW_PLATINUM = ITEMS.register("powdered_raw_platinum", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_RAW_LEAD = ITEMS.register("powdered_raw_lead", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POWDERED_RAW_TIN = ITEMS.register("powdered_raw_tin", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POWDERED_RAW_NICKEL = ITEMS.register("powdered_raw_nickel", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POWDERED_RAW_URANIUM = ITEMS.register("powdered_raw_uranium", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> KINETIC_MECHANISM = ITEMS.register("kinetic_mechanism", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_MECHANISM = ITEMS.register("redstone_mechanism", () -> new Item(new Item.Properties()));
@@ -358,14 +382,17 @@ public class DefensiveItems {
     public static final RegistryObject<Item> EXPERIENCE_BOOTS = ITEMS.register("experience_boots",
             () -> new DefensiveArmorItem(DefensiveArmorMaterials.EXPERIENCE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> DEV_CHARGER = ITEMS.register("dev_charger", () -> new DevChargerItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> POWER_ARMOR_TERMINAL = ITEMS.register("power_armor_terminal", () -> new ArmorOpenerItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
+
     public static final RegistryObject<Item> ALUMINUM_POWER_HELMET = ITEMS.register("aluminum_power_helmet",
-            () -> new DefensiveArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.UNCOMMON)));
+            () -> new AluminumPowerArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> ALUMINUM_POWER_CHESTPLATE = ITEMS.register("aluminum_power_chestplate",
-            () -> new DefensiveArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.UNCOMMON)));
+            () -> new AluminumPowerArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> ALUMINUM_POWER_LEGGINGS = ITEMS.register("aluminum_power_leggings",
-            () -> new DefensiveArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.UNCOMMON)));
+            () -> new AluminumPowerArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> ALUMINUM_POWER_BOOTS = ITEMS.register("aluminum_power_boots",
-            () -> new DefensiveArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.UNCOMMON)));
+            () -> new AluminumPowerArmorItem(DefensiveArmorMaterials.ALUMINUM_POWER, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.UNCOMMON)));
 
     public static final RegistryObject<Item> STEEL_POWER_HELMET = ITEMS.register("steel_power_helmet",
             () -> new DefensiveArmorItem(DefensiveArmorMaterials.STEEL_POWER, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.UNCOMMON)));
@@ -1141,6 +1168,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ELECTRUM_BARBED_ARROW_HEAD = ITEMS.register("electrum_barbed_arrow_head", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_BARBED_ARROW_HEAD = ITEMS.register("redstone_barbed_arrow_head", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROSE_GOLD_BARBED_ARROW_HEAD = ITEMS.register("rose_gold_barbed_arrow_head", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SUPERHEATED_BLAZE_SPAWN_EGG = ITEMS.register("superheated_blaze_spawn_egg", () -> new ForgeSpawnEggItem(DefensiveEntities.SUPERHEATED_BLAZE, 4567512, 4567512, new Item.Properties()));
+    public static final RegistryObject<Item> SUPERHEATED_BLAZE_ROD = ITEMS.register("superheated_blaze_rod", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
