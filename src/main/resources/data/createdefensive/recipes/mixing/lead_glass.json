@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:lead_glass"
+    }
+  ]
+}

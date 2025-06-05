@@ -28,3 +28,4 @@ public class AugmentInventoryProvider implements ICapabilityProvider {
         return LazyOptional.empty();
     }
 }
+

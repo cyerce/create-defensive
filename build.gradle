@@ -115,6 +115,12 @@ repositories {
         name = "Illusive Soulworks maven"
         url = "https://maven.theillusivec4.top/"
     }
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 
     maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
     maven { url = "https://maven.tterrag.com" } // Registrate
@@ -147,6 +153,9 @@ dependencies {
     compileOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api"))
     // Use the full Curios API jar at runtime
     runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}"))
+
+
+    implementation fg.deobf("curse.maven:epic-fight-mod-405076:4785528")
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar

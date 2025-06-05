@@ -7,16 +7,16 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
-public class SpeedBoostAugmentItem extends Item implements IAugmentation {
-    public SpeedBoostAugmentItem(Properties properties) {
+public class StrengthAugmentItem extends Item implements IAugmentation {
+    public StrengthAugmentItem(Properties properties) {
         super(properties);
     }
 
     @Override
     public void onTick(Player player, ItemStack armorStack) {
-        MobEffectInstance current = player.getEffect(MobEffects.MOVEMENT_SPEED);
+        MobEffectInstance current = player.getEffect(MobEffects.DAMAGE_BOOST);
         if (current == null || current.getAmplifier() < 1 || current.getDuration() < 5) {
-            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 10, 1, true, false));
+            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 1, true, false));
         }
     }
 }

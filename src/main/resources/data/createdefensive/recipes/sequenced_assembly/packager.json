@@ -15,7 +15,7 @@
           "item": "create:cardboard_block"
         },
         {
-          "item": "create:logistic_mechanism"
+          "item": "createdefensive:logistic_mechanism"
         }
       ],
       "results": [

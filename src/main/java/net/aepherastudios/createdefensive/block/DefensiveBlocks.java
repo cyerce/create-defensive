@@ -1,5 +1,6 @@
 package net.aepherastudios.createdefensive.block;
 
+import com.simibubi.create.content.decoration.palettes.GlassPaneBlock;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.block.custom.*;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
@@ -72,9 +73,13 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> STABALLOY_BLOCK = registerBlock("staballoy_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> LEAD_GLASS = registerBlock("lead_glass",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2.5f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2.5f).noOcclusion().explosionResistance(100).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
     public static final RegistryObject<Block> BULLETPROOF_GLASS = registerBlock("bulletproof_glass",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).noOcclusion().requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).noOcclusion().explosionResistance(500).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+    public static final RegistryObject<Block> LEAD_GLASS_PANE = registerBlock("lead_glass_pane",
+            () -> new GlassPaneBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2.5f).noOcclusion().explosionResistance(50).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+    public static final RegistryObject<Block> BULLETPROOF_GLASS_PANE = registerBlock("bulletproof_glass_pane",
+            () -> new GlassPaneBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).noOcclusion().explosionResistance(300).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
     public static final RegistryObject<Block> ROSE_GOLD_BLOCK = registerBlock("rose_gold_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> VIOLET_GOLD_BLOCK = registerBlock("violet_gold_block",
@@ -108,6 +113,8 @@ public class DefensiveBlocks {
 
     public static final RegistryObject<Block> COKING_OVEN = registerBlock("coking_oven",
             () -> new CokingOvenBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> INDUSTRIAL_HEATER = registerBlock("industrial_heater",
+            () -> new IndustrialHeaterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> SLAG_BLOCK = registerBlock("slag_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
@@ -216,6 +223,7 @@ public class DefensiveBlocks {
 
     public static final RegistryObject<Block> REDSTONE_CRYSTAL_BLOCK = registerBlock("redstone_crystal_block",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

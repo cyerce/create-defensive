@@ -5,7 +5,7 @@ import com.simibubi.create.content.materials.ExperienceNuggetItem;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.entity.DefensiveEntities;
 import net.aepherastudios.createdefensive.item.arrow.*;
-import net.aepherastudios.createdefensive.item.augments.SpeedBoostAugmentItem;
+import net.aepherastudios.createdefensive.item.augments.*;
 import net.aepherastudios.createdefensive.item.custom.*;
 import net.aepherastudios.createdefensive.item.experience.*;
 import net.aepherastudios.createdefensive.item.gloves.IronGloveItem;
@@ -123,18 +123,25 @@ public class DefensiveItems {
     public static final RegistryObject<Item> VAULT_MODULE = ITEMS.register("vault_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TANK_MODULE = ITEMS.register("tank_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BATTERY_MODULE = ITEMS.register("battery_module", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ARMOR_PLATING_MODULE = ITEMS.register("armor_plating_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> THERMAL_PLATING_MODULE = ITEMS.register("thermal_plating_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PIERCE_PLATING_MODULE = ITEMS.register("pierce_plating_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BLAST_PLATING_MODULE = ITEMS.register("blast_plating_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SPIKES_MODULE = ITEMS.register("spikes_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BATTERY_EFFICIENCY_MODULE = ITEMS.register("battery_efficiency_module", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> IRON_GLOVE = ITEMS.register("iron_glove", () -> new IronGloveItem(new Item.Properties().stacksTo(1), 2.0f, 1.0f, 0.1f, 3.0f));
+    public static final RegistryObject<Item> SPEED_MODULE = ITEMS.register("speed_module", () -> new SpeedBoostAugmentItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> FIRE_RESISTANCE_MODULE = ITEMS.register("fire_resistance_module", () -> new FireResistanceAugmentItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> JUMP_BOOST_MODULE = ITEMS.register("jump_boost_module", () -> new JumpAugmentItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> NIGHT_VISION_MODULE = ITEMS.register("night_vision_module", () -> new NightVisionAugmentItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> ARMOR_PLATING_MODULE = ITEMS.register("armor_plating_module", () -> new ResistanceAugmentItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> RESPIRATION_MODULE = ITEMS.register("respiration_module", () -> new RespirationAugmentItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> STRENGTH_MODULE = ITEMS.register("strength_module", () -> new StrengthAugmentItem(new Item.Properties().stacksTo(1)));
+
+
+
+
 
     public static final RegistryObject<Item> RESPIRATOR_MODULE = ITEMS.register("respirator_module", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> NIGHT_VISION_MODULE = ITEMS.register("night_vision_module", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SCUBA_MODULE = ITEMS.register("respiration_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> XRAY_MODULE = ITEMS.register("xray_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADVANCED_XRAY_MODULE = ITEMS.register("advanced_xray_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AUTOFEED_MODULE = ITEMS.register("autofeed_module", () -> new Item(new Item.Properties()));
@@ -151,7 +158,6 @@ public class DefensiveItems {
     public static final RegistryObject<Item> JETPACK_MODULE = ITEMS.register("jetpack_module", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JET_MODULE = ITEMS.register("jet_module", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> SWIFTNESS_MODULE = ITEMS.register("swiftness_module", () -> new SpeedBoostAugmentItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SILENT_FITTINGS_MODULE = ITEMS.register("silent_fittings_module", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> PADDED_BOOTS_MODULE = ITEMS.register("padded_boots_module", () -> new Item(new Item.Properties()));

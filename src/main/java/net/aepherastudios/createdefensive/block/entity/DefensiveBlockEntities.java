@@ -39,6 +39,10 @@ public class DefensiveBlockEntities {
             BLOCK_ENTITIES.register("gas_trap_block_entity", () ->
                     BlockEntityType.Builder.of(GasTrapBlockEntity::new, DefensiveBlocks.GAS_TRAP.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<IndustrialHeaterBlockEntity>> INDUSTRIAL_HEATER =
+            BLOCK_ENTITIES.register("industrial_heater",
+                    () -> BlockEntityType.Builder.of(IndustrialHeaterBlockEntity::new, DefensiveBlocks.INDUSTRIAL_HEATER.get()).build(null));
+
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);

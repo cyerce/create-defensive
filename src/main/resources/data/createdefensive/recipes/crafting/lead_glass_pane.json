@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "forge:ingots/steel"
+      "item": "createdefensive:lead_glass"
     }
   },
   "pattern": [
-    "# #",
-    "# #",
+    "###",
     "###"
   ],
   "result": {
-    "item": "minecraft:cauldron",
-    "count": 4
+    "item": "createdefensive:lead_glass_pane",
+    "count": 16
   }
 }

@@ -64,6 +64,7 @@
   "item.createdefensive.slag": "Slag",
   "block.createdefensive.slag_block": "Block of Slag",
   "block.createdefensive.coking_oven": "Coking Oven",
+  "block.createdefensive.industrial_heater": "Industrial Heater",
   "item.createdefensive.crimsite_shard": "Crimsite Shard",
   "item.createdefensive.asurine_shard": "Asurine Shard",
   "item.createdefensive.veridium_shard": "Veridium Shard",
@@ -147,6 +148,8 @@
 
   "block.createdefensive.lead_glass": "Lead Glass",
   "block.createdefensive.bulletproof_glass": "Bulletproof Glass",
+  "block.createdefensive.lead_glass_pane": "Lead Glass Pane",
+  "block.createdefensive.bulletproof_glass_pane": "Bulletproof Glass Pane",
 
   "block.createdefensive.high_power_explosive": "High Power Explosive",
 
@@ -268,6 +271,14 @@
   "item.createdefensive.netherite_power_chestplate": "Netherite Power Chestplate",
   "item.createdefensive.netherite_power_leggings": "Netherite Power Leggings",
   "item.createdefensive.netherite_power_boots": "Netherite Power Boots",
+
+  "item.createdefensive.fire_resistance_module": "Fire Resistance Module",
+  "item.createdefensive.jump_boost_module": "Jump Boost Module",
+  "item.createdefensive.night_vision_module": "Night Vision Module",
+  "item.createdefensive.armor_plating_module": "Armor Plating Module",
+  "item.createdefensive.respiration_module": "Respiration Module",
+  "item.createdefensive.speed_module": "Speed Module",
+  "item.createdefensive.strength_module": "Strength Module",
 
   "item.createdefensive.incomplete_aluminum_power_armor_components": "Incomplete Aluminum Power Armor Components",
   "item.createdefensive.incomplete_steel_power_armor_components": "Incomplete Steel Power Armor Components",

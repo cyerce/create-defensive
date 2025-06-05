@@ -16,6 +16,7 @@ import net.aepherastudios.createdefensive.potion.DefensivePotions;
 import net.aepherastudios.createdefensive.screen.AugmentScreen;
 import net.aepherastudios.createdefensive.screen.CokingOvenScreen;
 import net.aepherastudios.createdefensive.screen.DefensiveMenuTypes;
+import net.aepherastudios.createdefensive.screen.IndustrialHeaterScreen;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -125,6 +126,7 @@ public class CreateDefensive {
 
             MenuScreens.register(DefensiveMenuTypes.COKING_OVEN_MENU.get(), CokingOvenScreen::new);
             MenuScreens.register(DefensiveMenuTypes.AUGMENT_MENU.get(), AugmentScreen::new);
+            MenuScreens.register(DefensiveMenuTypes.INDUSTRIAL_HEATER.get(), IndustrialHeaterScreen::new);
 
             EntityRenderers.register(SUPERHEATED_BLAZE.get(), SuperheatedBlazeEntityRenderer::new);
 

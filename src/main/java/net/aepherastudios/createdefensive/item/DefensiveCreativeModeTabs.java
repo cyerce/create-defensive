@@ -1,6 +1,7 @@
 package net.aepherastudios.createdefensive.item;
 
 import com.simibubi.create.AllItems;
+import com.simibubi.create.content.equipment.sandPaper.SandPaperItem;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
 import net.minecraft.core.registries.Registries;
@@ -146,6 +147,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.IRON_GRIT_SANDPAPER.get());
                         pOutput.accept(DefensiveItems.STEEL_GRIT_SANDPAPER.get());
                         pOutput.accept(DefensiveBlocks.COKING_OVEN.get());
+                        pOutput.accept(DefensiveBlocks.INDUSTRIAL_HEATER.get());
                         pOutput.accept(DefensiveItems.COKE.get());
                         pOutput.accept(DefensiveItems.SLAG.get());
                         pOutput.accept(DefensiveBlocks.SLAG_BLOCK.get());
@@ -161,6 +163,10 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_INGOT.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());
+                        pOutput.accept(DefensiveBlocks.LEAD_GLASS.get());
+                        pOutput.accept(DefensiveBlocks.LEAD_GLASS_PANE.get());
+                        pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS.get());
+                        pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS_PANE.get());
                         pOutput.accept(DefensiveBlocks.LANDMINE.get());
                         pOutput.accept(DefensiveBlocks.PROXIMITY_MINE.get());
                         pOutput.accept(DefensiveBlocks.FIRE_GRATE.get());
@@ -306,6 +312,13 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.BRASS_BOOTS.get());
 
                         pOutput.accept(DefensiveItems.POWER_ARMOR_TERMINAL.get());
+                        pOutput.accept(DefensiveItems.FIRE_RESISTANCE_MODULE.get());
+                        pOutput.accept(DefensiveItems.JUMP_BOOST_MODULE.get());
+                        pOutput.accept(DefensiveItems.NIGHT_VISION_MODULE.get());
+                        pOutput.accept(DefensiveItems.ARMOR_PLATING_MODULE.get());
+                        pOutput.accept(DefensiveItems.RESPIRATION_MODULE.get());
+                        pOutput.accept(DefensiveItems.SPEED_MODULE.get());
+                        pOutput.accept(DefensiveItems.STRENGTH_MODULE.get());
 
                         pOutput.accept(DefensiveItems.ALUMINUM_POWER_HELMET.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_POWER_CHESTPLATE.get());

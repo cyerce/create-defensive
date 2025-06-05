@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:lead_glass_pane"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:lead_glass_pane"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "item": "createdefensive:bulletproof_glass"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:lead_glass_pane"
+        },
+        {
+          "item": "create:super_glue"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:lead_glass_pane"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:lead_glass_pane"
+        },
+        {
+          "item": "createdefensive:lead_glass_pane"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:lead_glass_pane"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:lead_glass_pane"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:lead_glass_pane"
+        }
+      ]
+    }
+  ]
+}
