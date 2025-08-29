@@ -1,0 +1,9 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:rose_quartz_pane"
+  },
+  "transitionalItem": {
+
+  }
+}

@@ -1,7 +1,9 @@
 {
+  "replace": false,
   "values": [
     "createdefensive:copper_rod",
     "createdefensive:zinc_rod",
+    "createdefensive:iron_rod",
     "createdefensive:steel_rod"
   ]
 }

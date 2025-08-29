@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:electron_tube_casing"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_electron_tube_bulb"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createdefensive:electron_tube_bulb",
+      "count": 2
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube_bulb"
+        },
+        {
+          "tag": "forge:rods/anode"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube_bulb"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube_bulb"
+        },
+        {
+          "tag": "forge:rods/cathode"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube_bulb"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube_bulb"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube_bulb"
+        }
+      ]
+    }
+  ]
+}

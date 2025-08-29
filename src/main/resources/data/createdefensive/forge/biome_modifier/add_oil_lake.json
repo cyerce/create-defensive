@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:taiga",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga"
+  ],
+  "features": [
+    "createdefensive:oil_lake_placed"
+  ],
+  "step": "local_modifications"
+}

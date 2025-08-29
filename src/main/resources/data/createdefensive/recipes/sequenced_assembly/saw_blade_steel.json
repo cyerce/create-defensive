@@ -1,0 +1,60 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/steel"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_saw_blade"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createdefensive:saw_blade",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_saw_blade"
+        },
+        {
+          "tag": "forge:plates/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_saw_blade"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_saw_blade"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_saw_blade"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_saw_blade"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_saw_blade"
+        }
+      ]
+    }
+  ]
+}

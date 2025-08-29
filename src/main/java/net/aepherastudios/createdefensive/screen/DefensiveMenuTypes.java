@@ -25,9 +25,8 @@ public class DefensiveMenuTypes {
                     new MenuType<>(AugmentMenu::new, FeatureFlagSet.of(FeatureFlags.VANILLA)));
 
     public static final RegistryObject<MenuType<IndustrialHeaterMenu>> INDUSTRIAL_HEATER = MENUS.register("industrial_heater",
-            () -> IForgeMenuType.create((windowId, inv, data) -> {
-                return new IndustrialHeaterMenu(windowId, inv, (IndustrialHeaterBlockEntity) inv.player.level().getBlockEntity(data.readBlockPos()));
-            }));
+            () -> IForgeMenuType.create((windowId, inv, buf) -> new IndustrialHeaterMenu(windowId, inv, buf))
+    );
 
 
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(IContainerFactory<T> factory, String name){

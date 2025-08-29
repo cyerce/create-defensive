@@ -1,11 +1,10 @@
 package net.aepherastudios.createdefensive.screen;
 
 import net.aepherastudios.createdefensive.block.entity.IndustrialHeaterBlockEntity;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
@@ -17,27 +16,43 @@ public class IndustrialHeaterMenu extends AbstractContainerMenu {
 
     private final IndustrialHeaterBlockEntity blockEntity;
     private final ContainerLevelAccess access;
+    private final ContainerData data;
 
-    public IndustrialHeaterMenu(int windowId, Inventory playerInventory, IndustrialHeaterBlockEntity blockEntity) {
+    public IndustrialHeaterMenu(int windowId, Inventory playerInventory, IndustrialHeaterBlockEntity blockEntity, ContainerData data) {
         super(DefensiveMenuTypes.INDUSTRIAL_HEATER.get(), windowId);
         this.blockEntity = blockEntity;
         this.access = ContainerLevelAccess.create(blockEntity.getLevel(), blockEntity.getBlockPos());
+        this.data = data;
+
+        this.addDataSlots(data); // This line syncs the data with the client
 
         blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(handler -> {
             this.addSlot(new SlotItemHandler(handler, 0, 80, 49));
         });
+
         layoutPlayerInventorySlots(playerInventory, 8, 84);
     }
 
+    public IndustrialHeaterMenu(int windowId, Inventory playerInventory, FriendlyByteBuf buffer) {
+        this(windowId, playerInventory,
+                (IndustrialHeaterBlockEntity) playerInventory.player.level().getBlockEntity(buffer.readBlockPos()),
+                new SimpleContainerData(2)
+        );
+    }
+
+
+
     public boolean isBurning() {
-        return blockEntity.isBurning();
+        return this.data.get(0) > 0;
     }
 
     public int getBurnLeftScaled(int pixels) {
-        if (blockEntity.totalBurnTime == 0) {
-            blockEntity.totalBurnTime = 200; // or some default, avoid division by zero
+        int burnTime = this.data.get(0);
+        int totalBurnTime = this.data.get(1);
+        if (totalBurnTime == 0) {
+            totalBurnTime = 200; // prevent divide by zero
         }
-        return blockEntity.burnTime * pixels / blockEntity.totalBurnTime;
+        return burnTime * pixels / totalBurnTime;
     }
 
     private void layoutPlayerInventorySlots(Inventory playerInventory, int leftCol, int topRow) {

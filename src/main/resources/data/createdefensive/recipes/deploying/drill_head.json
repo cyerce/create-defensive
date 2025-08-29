@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:plates/iron"
+    },
+    {
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:drill_head",
+      "count": 2
+    }
+  ]
+}

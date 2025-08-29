@@ -63,6 +63,10 @@ public class DefensiveEffects {
     public static final RegistryObject<MobEffect> LEAD_POISONING = MOB_EFFECTS.register("lead_poisoning",
             () -> new LeadPoisoningEffect(MobEffectCategory.HARMFUL, 17637124));
 
+    public static final RegistryObject<MobEffect> TARRED = MOB_EFFECTS.register("tarred",
+            () -> new TarredEffect(MobEffectCategory.HARMFUL, 1710618));
+
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

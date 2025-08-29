@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_spool"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_spool"
+        },
+        {
+          "tag": "forge:rods/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_spool"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_spool"
+        },
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_spool"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_spool"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_spool"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:spool",
+      "count": 4
+    }
+  ]
+}

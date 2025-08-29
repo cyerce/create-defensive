@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:shaft"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_propeller"
+  },
+  "loops": 2,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_whisk"
+        },
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_propeller"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_propeller"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_propeller"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:propeller"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -66,20 +67,20 @@ public class IndustrialHeaterBlockEntity extends BlockEntity implements MenuProv
         }
     }
 
-    private void setLitState(boolean lit) {
-        if (level != null && level.getBlockState(worldPosition).getValue(IndustrialHeaterBlock.LIT) != lit) {
-            level.setBlock(worldPosition, level.getBlockState(worldPosition).setValue(IndustrialHeaterBlock.LIT, lit), 3);
-        }
+    @Override
+    public AbstractContainerMenu createMenu(int windowId, Inventory playerInventory, Player player) {
+        return new IndustrialHeaterMenu(windowId, playerInventory, this, this.data);
     }
 
     @Override
     public Component getDisplayName() {
-        return Component.literal("Industrial Heater");
+        return Component.translatable("block.createdefensive.industrial_heater");
     }
 
-    @Override
-    public AbstractContainerMenu createMenu(int windowId, Inventory playerInventory, Player player) {
-        return new IndustrialHeaterMenu(windowId, playerInventory, this);
+    private void setLitState(boolean lit) {
+        if (level != null && level.getBlockState(worldPosition).getValue(IndustrialHeaterBlock.LIT) != lit) {
+            level.setBlock(worldPosition, level.getBlockState(worldPosition).setValue(IndustrialHeaterBlock.LIT, lit), 3);
+        }
     }
 
     private final ItemStackHandler itemHandler = new ItemStackHandler(1) {
@@ -102,4 +103,30 @@ public class IndustrialHeaterBlockEntity extends BlockEntity implements MenuProv
         super.invalidateCaps();
         lazyItemHandler.invalidate();
     }
+
+
+
+    private final ContainerData data = new ContainerData() {
+        @Override
+        public int get(int index) {
+            return switch (index) {
+                case 0 -> burnTime;
+                case 1 -> totalBurnTime;
+                default -> 0;
+            };
+        }
+
+        @Override
+        public void set(int index, int value) {
+            switch (index) {
+                case 0 -> burnTime = value;
+                case 1 -> totalBurnTime = value;
+            }
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
+    };
 }

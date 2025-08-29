@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:taiga",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp"
+  ],
+  "features": [
+    "createdefensive:natural_gas_lake_placed"
+  ],
+  "step": "local_modifications"
+}

@@ -7,6 +7,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
+import org.w3c.dom.Text;
 
 public class IndustrialHeaterScreen extends AbstractContainerScreen<IndustrialHeaterMenu> {
 
@@ -30,13 +31,18 @@ public class IndustrialHeaterScreen extends AbstractContainerScreen<IndustrialHe
         guiGraphics.blit(TEXTURE, x, y, 0, 0, this.imageWidth, this.imageHeight);
 
         if (menu.isBurning()) {
-            int fireIconX = x + 81;  // adjust these to your slot position
-            int fireIconY = y + 30;
-            int iconWidth = 14;
-            int iconHeight = 14;
+            int burnProgress = menu.getBurnLeftScaled(14);  // 0 to 14
 
-            // Draw fire icon from (176, 0) in the texture
-            guiGraphics.blit(TEXTURE, fireIconX, fireIconY, 176, 0, iconWidth, iconHeight);
+            int iconWidth = 14;
+            int iconHeight = burnProgress;
+
+            int srcU = 176;
+            int srcV = 14 - burnProgress;  // move down in texture to clip top
+
+            int renderX = x + 81;
+            int renderY = y + 30 + (14 - burnProgress);  // move up on screen to align bottom
+
+            guiGraphics.blit(TEXTURE, renderX, renderY, srcU, srcV, iconWidth, iconHeight);
         }
     }
     @Override

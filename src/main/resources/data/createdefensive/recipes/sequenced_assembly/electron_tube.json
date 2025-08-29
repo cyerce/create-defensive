@@ -4,7 +4,7 @@
     "item": "create:iron_sheet"
   },
   "transitionalItem": {
-    "item": "create:iron_sheet"
+    "item": "createdefensive:incomplete_electron_tube"
   },
   "loops": 1,
   "sequence": [

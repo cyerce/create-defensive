@@ -21,6 +21,7 @@ public class DefensiveCreativeModeTabs {
                     .title(Component.translatable("creativetab.createdefensive_items"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(DefensiveItems.ALUMINUM_INGOT.get());
+                        pOutput.accept(DefensiveItems.FORGED_ALUMINUM_INGOT.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_SHEET.get());
                         pOutput.accept(DefensiveBlocks.ALUMINUM_ORE.get());
                         pOutput.accept(DefensiveBlocks.DEEPSLATE_ALUMINUM_ORE.get());
@@ -87,6 +88,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.RAW_URANIUM_BLOCK.get());
                         pOutput.accept(DefensiveBlocks.URANIUM_BLOCK.get());
                         pOutput.accept(DefensiveItems.URANIUM_NUGGET.get());
+                        pOutput.accept(DefensiveItems.ANDESITE_SHEET.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_ZINC.get());
                         pOutput.accept(DefensiveItems.ZINC_SHEET.get());
                         pOutput.accept(DefensiveItems.ZINC_WIRE.get());
@@ -97,6 +99,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.NETHERITE_SHEET.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_GOLD.get());
                         pOutput.accept(DefensiveItems.GOLD_WIRE.get());
+                        pOutput.accept(DefensiveItems.IRON_ROD.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_IRON.get());
                         pOutput.accept(DefensiveItems.POWDERED_IRON.get());
                         pOutput.accept(DefensiveItems.NETHERITE_SHEET.get());
@@ -104,6 +107,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_SHEET.get());
                         pOutput.accept(DefensiveItems.STEEL_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(DefensiveItems.STEEL_ROD.get());
                         pOutput.accept(DefensiveItems.POWDERED_STEEL.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_INGOT.get());
                         pOutput.accept(DefensiveItems.UNSTABLE_ROSE_GOLD_INGOT.get());
@@ -116,8 +120,10 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_SHEET.get());
                         pOutput.accept(DefensiveItems.ENERGIZED_ELECTRUM_INGOT.get());
                         pOutput.accept(DefensiveItems.ENERGIZED_ROSE_QUARTZ.get());
+                        pOutput.accept(DefensiveItems.ROSE_QUARTZ_PANE.get());
                         pOutput.accept(DefensiveItems.UNSTABLE_REDSTONE_INGOT.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_NUGGET.get());
+                        pOutput.accept(DefensiveItems.ELECTRUM_WIRE.get());
                         pOutput.accept(DefensiveBlocks.ELECTRUM_BLOCK.get());
                         pOutput.accept(DefensiveItems.BRONZE_INGOT.get());
                         pOutput.accept(DefensiveItems.BRONZE_NUGGET.get());
@@ -135,6 +141,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());
+                        pOutput.accept(DefensiveItems.POLISHED_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.KINETIC_MECHANISM.get());
                         pOutput.accept(DefensiveItems.REDSTONE_MECHANISM.get());
                         pOutput.accept(DefensiveItems.HYDRAULIC_MECHANISM.get());
@@ -143,7 +150,15 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.RADAR_MECHANISM.get());
                         pOutput.accept(DefensiveItems.BASIC_CIRCUIT.get());
                         pOutput.accept(DefensiveItems.ADVANCED_CIRCUIT.get());
+                        pOutput.accept(DefensiveItems.ELECTRON_TUBE_BASE.get());
+                        pOutput.accept(DefensiveItems.ELECTRON_TUBE_PINS.get());
+                        pOutput.accept(DefensiveItems.ELECTRON_TUBE_CASING.get());
+                        pOutput.accept(DefensiveItems.ELECTRON_TUBE_BULB.get());
                         pOutput.accept(DefensiveItems.RADIO_TRANSMITTER.get());
+                        pOutput.accept(DefensiveItems.SPOOL.get());
+                        pOutput.accept(DefensiveItems.DRILL.get());
+                        pOutput.accept(DefensiveItems.DRILL_HEAD.get());
+                        pOutput.accept(DefensiveItems.SAW_BLADE.get());
                         pOutput.accept(DefensiveItems.IRON_GRIT_SANDPAPER.get());
                         pOutput.accept(DefensiveItems.STEEL_GRIT_SANDPAPER.get());
                         pOutput.accept(DefensiveBlocks.COKING_OVEN.get());
@@ -161,7 +176,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.DIAMOND_SHARD.get());
                         pOutput.accept(DefensiveItems.CRUSHED_ANCIENT_DEBRIS.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
-                        pOutput.accept(DefensiveItems.EXPERIENCE_INGOT.get());
+                        pOutput.accept(DefensiveItems.MITHRIL_INGOT.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());
                         pOutput.accept(DefensiveBlocks.LEAD_GLASS.get());
                         pOutput.accept(DefensiveBlocks.LEAD_GLASS_PANE.get());
@@ -254,6 +269,11 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.SUPERHEATED_BLAZE_ROD.get());
                         pOutput.accept(DefensiveItems.SUPERHEATED_BLAZE_SPAWN_EGG.get());
 
+                        pOutput.accept(DefensiveItems.CRUDE_OIL_BUCKET.get());
+                        pOutput.accept(DefensiveItems.DIRTY_RAW_CRUDE_OIL_BUCKET.get());
+                        pOutput.accept(DefensiveItems.RAW_CRUDE_OIL_BUCKET.get());
+                        pOutput.accept(DefensiveItems.NATURAL_GAS_BUCKET.get());
+                        pOutput.accept(DefensiveItems.RAW_NATURAL_GAS_BUCKET.get());
                     })
                     .build());
 

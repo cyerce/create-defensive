@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:rods/iron"
+    },
+    "@": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "@",
+    "#",
+    "@"
+  ],
+  "result": {
+    "item": "createdefensive:spool",
+    "count": 2
+  }
+}

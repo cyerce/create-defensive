@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "createdefensive:saw_blade"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:mechanical_saw"
+    }
+  ]
+}

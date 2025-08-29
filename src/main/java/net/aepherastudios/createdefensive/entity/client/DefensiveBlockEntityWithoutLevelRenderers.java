@@ -6,7 +6,7 @@ import com.mojang.datafixers.util.Pair;
 import java.util.List;
 
 import net.aepherastudios.createdefensive.item.DefensiveItems;
-import net.aepherastudios.createdefensive.item.shield.OakShieldModel;
+import net.aepherastudios.createdefensive.item.custom.shield.OakShieldModel;
 import net.minecraft.client.model.geom.EntityModelSet;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.blockentity.BannerRenderer;

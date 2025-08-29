@@ -1,19 +1,36 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "tag": "forge:plates/aluminum"
-    },
-    "$": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "tag": "forge:plates/zinc"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
     }
-  },
-  "pattern": [
-    "#",
-    "$",
-    "#"
   ],
   "result": {
-    "item": "createdefensive:zinc_wire"
+    "item": "createdefensive:zinc_wire",
+    "count": 8
   }
 }

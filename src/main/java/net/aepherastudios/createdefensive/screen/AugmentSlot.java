@@ -1,6 +1,6 @@
 package net.aepherastudios.createdefensive.screen;
 
-import net.aepherastudios.createdefensive.item.IAugmentation;
+import net.aepherastudios.createdefensive.item.augments.data.IAugmentation;
 import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;

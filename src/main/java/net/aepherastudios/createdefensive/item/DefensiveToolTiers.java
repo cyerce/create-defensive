@@ -46,7 +46,7 @@ public class DefensiveToolTiers {
 
     public static final Tier EXPERIENCE = TierSortingRegistry.registerTier(
             new ForgeTier(2, 250, 6f, 2f, 150,
-                    DefensiveTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(DefensiveItems.EXPERIENCE_INGOT.get())),
+                    DefensiveTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(DefensiveItems.MITHRIL_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "experience"), List.of(Tiers.STONE), List.of());
 
     public static final Tier BRASS = TierSortingRegistry.registerTier(

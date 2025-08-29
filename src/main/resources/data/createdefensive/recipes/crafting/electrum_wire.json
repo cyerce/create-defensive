@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:plates/electrum"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    },
+    {
+      "item": "createdefensive:spool"
+    }
+  ],
+  "result": {
+    "item": "createdefensive:electrum_wire",
+    "count": 8
+  }
+}

@@ -2,7 +2,7 @@ package net.aepherastudios.createdefensive.event;
 
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.entity.client.*;
-import net.aepherastudios.createdefensive.item.shield.OakShieldModel;
+import net.aepherastudios.createdefensive.item.custom.shield.OakShieldModel;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

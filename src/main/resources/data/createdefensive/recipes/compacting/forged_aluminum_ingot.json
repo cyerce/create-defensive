@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:forged_aluminum_ingot"
+    }
+  ]
+}

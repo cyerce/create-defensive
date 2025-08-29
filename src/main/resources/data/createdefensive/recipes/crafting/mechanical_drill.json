@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "create:andesite_casing"
+    },
+    "$": {
+      "item": "createdefensive:drill"
+    }
+  },
+  "pattern": [
+    "$",
+    "#"
+  ],
+  "result": {
+    "item": "create:mechanical_drill"
+  }
+}

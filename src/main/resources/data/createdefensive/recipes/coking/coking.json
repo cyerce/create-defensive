@@ -1,0 +1,20 @@
+{
+  "type": "createdefensive:coking",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:coke"
+    },
+    {
+      "item": "createdefensive:tar"
+    },
+    {
+      "fluid": "createdefensive:creosote_oil",
+      "amount": 250
+    }
+  ]
+}

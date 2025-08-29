@@ -7,6 +7,8 @@ import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRe
 import net.aepherastudios.createdefensive.entity.client.PainiteProjectileEntityRenderer;
 import net.aepherastudios.createdefensive.entity.client.PrimedHighExplosiveRenderer;
 import net.aepherastudios.createdefensive.entity.client.SuperheatedBlazeEntityRenderer;
+import net.aepherastudios.createdefensive.fluid.DefensiveFluids;
+import net.aepherastudios.createdefensive.fluid.fluid_types.*;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.DefensiveCreativeModeTabs;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
@@ -18,7 +20,10 @@ import net.aepherastudios.createdefensive.screen.CokingOvenScreen;
 import net.aepherastudios.createdefensive.screen.DefensiveMenuTypes;
 import net.aepherastudios.createdefensive.screen.IndustrialHeaterScreen;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
+import net.aepherastudios.createdefensive.worldgen.DefensiveFeatures;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -53,6 +58,15 @@ public class CreateDefensive {
         DefensiveEntities.register(modEventBus);
         DefensiveBlockEntities.register(modEventBus);
         DefensiveMenuTypes.register(modEventBus);
+        DefensiveFluids.register(modEventBus);
+
+        CrudeOilFluidType.register(modEventBus);
+        DirtyRawCrudeOilFluidType.register(modEventBus);
+        RawCrudeOilFluidType.register(modEventBus);
+        NaturalGasFluidType.register(modEventBus);
+        RawNaturalGasFluidType.register(modEventBus);
+
+        DefensiveFeatures.FEATURES.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -130,6 +144,10 @@ public class CreateDefensive {
 
             EntityRenderers.register(SUPERHEATED_BLAZE.get(), SuperheatedBlazeEntityRenderer::new);
 
+            ItemBlockRenderTypes.setRenderLayer(DefensiveFluids.SOURCE_NATURAL_GAS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(DefensiveFluids.FLOWING_NATURAL_GAS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(DefensiveFluids.SOURCE_RAW_NATURAL_GAS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(DefensiveFluids.FLOWING_RAW_NATURAL_GAS.get(), RenderType.translucent());
         }
     }
 }

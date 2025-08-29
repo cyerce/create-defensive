@@ -4,13 +4,13 @@ import com.simibubi.create.content.equipment.sandPaper.SandPaperItem;
 import com.simibubi.create.content.materials.ExperienceNuggetItem;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.entity.DefensiveEntities;
-import net.aepherastudios.createdefensive.item.arrow.*;
+import net.aepherastudios.createdefensive.fluid.DefensiveFluids;
 import net.aepherastudios.createdefensive.item.augments.*;
 import net.aepherastudios.createdefensive.item.custom.*;
-import net.aepherastudios.createdefensive.item.experience.*;
-import net.aepherastudios.createdefensive.item.gloves.IronGloveItem;
-import net.aepherastudios.createdefensive.item.shield.OakShieldItem;
-import net.aepherastudios.createdefensive.item.spear.*;
+import net.aepherastudios.createdefensive.item.custom.arrow.*;
+import net.aepherastudios.createdefensive.item.custom.experience.*;
+import net.aepherastudios.createdefensive.item.custom.spear.*;
+import net.aepherastudios.createdefensive.item.custom.shield.OakShieldItem;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -23,11 +23,15 @@ public class DefensiveItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CreateDefensive.MOD_ID);
 
+    public static final RegistryObject<Item> INCOMPLETE_SPOOL = ITEMS.register("incomplete_spool", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SPOOL = ITEMS.register("spool", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_WIRE = ITEMS.register("copper_wire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ZINC_WIRE = ITEMS.register("zinc_wire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_WIRE = ITEMS.register("silver_wire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GOLD_WIRE = ITEMS.register("gold_wire", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_WIRE = ITEMS.register("electrum_wire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FORGED_ALUMINUM_INGOT = ITEMS.register("forged_aluminum_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_SHEET = ITEMS.register("aluminum_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_SHEET = ITEMS.register("silver_sheet", () -> new Item(new Item.Properties()));
@@ -40,6 +44,7 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ENERGIZED_ELECTRUM_INGOT = ITEMS.register("energized_electrum_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_SHEET = ITEMS.register("andesite_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot", () -> new Item(new Item.Properties()));
@@ -48,17 +53,35 @@ public class DefensiveItems {
     public static final RegistryObject<Item> INVAR_INGOT = ITEMS.register("invar_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STABALLOY_INGOT = ITEMS.register("staballoy_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ENERGIZED_ROSE_QUARTZ = ITEMS.register("energized_rose_quartz", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_PANE = ITEMS.register("rose_quartz_pane", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNSTABLE_REDSTONE_INGOT = ITEMS.register("unstable_redstone_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_REDSTONE_INGOT = ITEMS.register("incomplete_redstone_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNSTABLE_ROSE_GOLD_INGOT = ITEMS.register("unstable_rose_gold_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WEAPON_HANDLE = ITEMS.register("weapon_handle", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BASIC_CIRCUIT = ITEMS.register("basic_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADVANCED_CIRCUIT = ITEMS.register("advanced_circuit", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRON_TUBE_BASE = ITEMS.register("electron_tube_base", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRON_TUBE_PINS = ITEMS.register("electron_tube_pins", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_ELECTRON_TUBE_CASING = ITEMS.register("incomplete_electron_tube_casing", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRON_TUBE_CASING = ITEMS.register("electron_tube_casing", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_ELECTRON_TUBE_BULB = ITEMS.register("incomplete_electron_tube_bulb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRON_TUBE_BULB = ITEMS.register("electron_tube_bulb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_ELECTRON_TUBE = ITEMS.register("incomplete_electron_tube", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_RADIO_TRANSMITTER = ITEMS.register("incomplete_radio_transmitter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RADIO_TRANSMITTER = ITEMS.register("radio_transmitter", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_SAW_BLADE = ITEMS.register("incomplete_saw_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SAW_BLADE = ITEMS.register("saw_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_DRILL = ITEMS.register("incomplete_drill", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRILL_HEAD = ITEMS.register("drill_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRILL = ITEMS.register("drill", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_BRASS_HAND = ITEMS.register("incomplete_brass_hand", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_PROPELLER = ITEMS.register("incomplete_propeller", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_WHISK = ITEMS.register("incomplete_whisk", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_BASIC_CIRCUIT = ITEMS.register("incomplete_basic_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_ADVANCED_CIRCUIT = ITEMS.register("incomplete_advanced_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_ROD = ITEMS.register("copper_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ZINC_ROD = ITEMS.register("zinc_rod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_CAM = ITEMS.register("aluminum_cam", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ZINC_SHEET = ITEMS.register("zinc_sheet", () -> new Item(new Item.Properties()));
@@ -115,9 +138,10 @@ public class DefensiveItems {
     public static final RegistryObject<Item> REDSTONE_CRYSTAL = ITEMS.register("redstone_crystal", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INERT_REDSTONE_CRYSTAL = ITEMS.register("inert_redstone_crystal", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_CRYSTAL_CLUSTER = ITEMS.register("redstone_crystal_cluster", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POLISHED_REDSTONE_CRYSTAL = ITEMS.register("polished_redstone_crystal", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_CAPACITOR = ITEMS.register("redstone_capacitor", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EXPERIENCE_CRYSTAL = ITEMS.register("experience_crystal", () -> new ExperienceNuggetItem(new Item.Properties()));
-    public static final RegistryObject<Item> EXPERIENCE_INGOT = ITEMS.register("experience_ingot", () -> new ExperienceNuggetItem(new Item.Properties()));
+    public static final RegistryObject<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EXPERIENCE_CRYSTAL_CLUSTER = ITEMS.register("experience_crystal_cluster", () -> new ExperienceNuggetItem(new Item.Properties()));
 
     public static final RegistryObject<Item> VAULT_MODULE = ITEMS.register("vault_module", () -> new Item(new Item.Properties()));
@@ -1177,6 +1201,15 @@ public class DefensiveItems {
 
     public static final RegistryObject<Item> SUPERHEATED_BLAZE_SPAWN_EGG = ITEMS.register("superheated_blaze_spawn_egg", () -> new ForgeSpawnEggItem(DefensiveEntities.SUPERHEATED_BLAZE, 4567512, 4567512, new Item.Properties()));
     public static final RegistryObject<Item> SUPERHEATED_BLAZE_ROD = ITEMS.register("superheated_blaze_rod", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> OIL_SCANNER = ITEMS.register("oil_scanner", () -> new OilScannerItem(new Item.Properties().durability(50)));
+    public static final RegistryObject<Item> NATURAL_GAS_SCANNER = ITEMS.register("natural_gas_scanner", () -> new NaturalGasScannerItem(new Item.Properties().durability(50)));
+
+    public static final RegistryObject<Item> CRUDE_OIL_BUCKET = ITEMS.register("crude_oil_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_CRUDE_OIL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> DIRTY_RAW_CRUDE_OIL_BUCKET = ITEMS.register("dirty_raw_crude_oil_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_DIRTY_RAW_CRUDE_OIL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> RAW_CRUDE_OIL_BUCKET = ITEMS.register("raw_crude_oil_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_RAW_CRUDE_OIL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> NATURAL_GAS_BUCKET = ITEMS.register("natural_gas_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_NATURAL_GAS, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> RAW_NATURAL_GAS_BUCKET = ITEMS.register("raw_natural_gas_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_RAW_NATURAL_GAS, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -2,7 +2,6 @@ package net.aepherastudios.createdefensive.item.custom;
 
 import com.google.common.collect.ImmutableMap;
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
-import net.aepherastudios.createdefensive.item.DefensiveArmorMaterials;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;

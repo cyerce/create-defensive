@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/andesite_alloy"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_drill"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_drill"
+        },
+        {
+          "tag": "forge:rods/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_drill"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_drill"
+        },
+        {
+          "item": "createdefensive:drill_head"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_drill"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_drill"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_drill"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:drill"
+    }
+  ]
+}

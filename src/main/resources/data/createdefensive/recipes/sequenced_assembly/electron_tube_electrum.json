@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_electron_tube"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "create:electron_tube",
+      "count": 12
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        },
+        {
+          "item": "createdefensive:redstone_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        },
+        {
+          "tag": "forge:wires/hv"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        },
+        {
+          "item": "createdefensive:basic_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_electron_tube"
+        }
+      ]
+    }
+  ]
+}

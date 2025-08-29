@@ -1,8 +1,10 @@
 {
+  "replace": false,
   "values": [
     "createdefensive:copper_wire",
     "createdefensive:zinc_wire",
     "createdefensive:silver_wire",
-    "createdefensive:gold_wire"
+    "createdefensive:gold_wire",
+    "createdefensive:electrum_wire"
   ]
 }

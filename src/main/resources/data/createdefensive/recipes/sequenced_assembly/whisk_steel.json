@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_whisk"
+  },
+  "loops": 3,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_whisk"
+        },
+        {
+          "tag": "forge:plates/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_whisk"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_whisk"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_whisk"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:whisk",
+      "count": 4
+    }
+  ]
+}

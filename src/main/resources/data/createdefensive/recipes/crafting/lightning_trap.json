@@ -14,10 +14,10 @@
       "item": "createdefensive:advanced_circuit"
     },
     "^": {
-      "tag": "forge:rods/copper"
+      "tag": "forge:rods/cathode"
     },
     "&": {
-      "tag": "forge:rods/zinc"
+      "tag": "forge:rods/anode"
     }
   },
   "pattern": [

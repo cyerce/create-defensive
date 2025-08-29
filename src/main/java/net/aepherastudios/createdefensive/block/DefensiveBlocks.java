@@ -3,6 +3,7 @@ package net.aepherastudios.createdefensive.block;
 import com.simibubi.create.content.decoration.palettes.GlassPaneBlock;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.block.custom.*;
+import net.aepherastudios.createdefensive.fluid.DefensiveFluids;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -114,7 +115,7 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> COKING_OVEN = registerBlock("coking_oven",
             () -> new CokingOvenBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> INDUSTRIAL_HEATER = registerBlock("industrial_heater",
-            () -> new IndustrialHeaterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new IndustrialHeaterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> state.getValue(IndustrialHeaterBlock.LIT) ? 14 : 0)));
 
     public static final RegistryObject<Block> SLAG_BLOCK = registerBlock("slag_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
@@ -223,6 +224,18 @@ public class DefensiveBlocks {
 
     public static final RegistryObject<Block> REDSTONE_CRYSTAL_BLOCK = registerBlock("redstone_crystal_block",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<LiquidBlock> CRUDE_OIL = BLOCKS.register("crude_oil",
+            () -> new OilBlock(DefensiveFluids.SOURCE_CRUDE_OIL, BlockBehaviour.Properties.copy(Blocks.WATER)));
+    public static final RegistryObject<LiquidBlock> DIRTY_RAW_CRUDE_OIL = BLOCKS.register("dirty_raw_crude_oil",
+            () -> new OilBlock(DefensiveFluids.SOURCE_DIRTY_RAW_CRUDE_OIL, BlockBehaviour.Properties.copy(Blocks.WATER)));
+    public static final RegistryObject<LiquidBlock> RAW_CRUDE_OIL = BLOCKS.register("raw_crude_oil",
+            () -> new OilBlock(DefensiveFluids.SOURCE_RAW_CRUDE_OIL, BlockBehaviour.Properties.copy(Blocks.WATER)));
+    public static final RegistryObject<LiquidBlock> NATURAL_GAS = BLOCKS.register("natural_gas",
+            () -> new LiquidBlock(DefensiveFluids.SOURCE_NATURAL_GAS, BlockBehaviour.Properties.copy(Blocks.WATER)));
+    public static final RegistryObject<LiquidBlock> RAW_NATURAL_GAS = BLOCKS.register("raw_natural_gas",
+            () -> new LiquidBlock(DefensiveFluids.SOURCE_RAW_NATURAL_GAS, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

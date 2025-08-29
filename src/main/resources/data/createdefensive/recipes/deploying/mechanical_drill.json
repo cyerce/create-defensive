@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "createdefensive:drill"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:mechanical_drill"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "item": "createdefensive:steel_sheet"
   },
   "transitionalItem": {
-    "item": "createdefensive:steel_sheet"
+    "item": "createdefensive:incomplete_electron_tube"
   },
   "loops": 1,
   "sequence": [
@@ -12,7 +12,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "createdefensive:steel_sheet"
+          "item": "createdefensive:incomplete_electron_tube"
         },
         {
           "item": "createdefensive:redstone_mechanism"
@@ -20,7 +20,7 @@
       ],
       "results": [
         {
-          "item": "createdefensive:steel_sheet"
+          "item": "createdefensive:incomplete_electron_tube"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "createdefensive:steel_sheet"
+          "item": "createdefensive:incomplete_electron_tube"
         },
         {
           "tag": "forge:wires/mv"
@@ -36,7 +36,7 @@
       ],
       "results": [
         {
-          "item": "createdefensive:steel_sheet"
+          "item": "createdefensive:incomplete_electron_tube"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "createdefensive:steel_sheet"
+          "item": "createdefensive:incomplete_electron_tube"
         },
         {
           "item": "create:polished_rose_quartz"
@@ -52,7 +52,7 @@
       ],
       "results": [
         {
-          "item": "createdefensive:steel_sheet"
+          "item": "createdefensive:incomplete_electron_tube"
         }
       ]
     }

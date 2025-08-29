@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:powdered_raw_aluminum",
+    "createdefensive:powdered_raw_silver",
+    "createdefensive:powdered_raw_platinum",
+    "createdefensive:powdered_raw_lead",
+    "createdefensive:powdered_raw_tin",
+    "createdefensive:powdered_raw_nickel",
+    "createdefensive:powdered_raw_uranium",
+    "createdefensive:powdered_raw_zinc",
+    "createdefensive:powdered_raw_copper",
+    "createdefensive:powdered_raw_iron",
+    "createdefensive:powdered_raw_gold",
+    "createdefensive:powdered_lead",
+    "createdefensive:powdered_iron",
+    "createdefensive:powdered_raw_steel"
+  ]
+}

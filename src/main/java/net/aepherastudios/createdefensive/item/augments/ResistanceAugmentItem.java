@@ -1,6 +1,6 @@
 package net.aepherastudios.createdefensive.item.augments;
 
-import net.aepherastudios.createdefensive.item.IAugmentation;
+import net.aepherastudios.createdefensive.item.augments.data.IAugmentation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;

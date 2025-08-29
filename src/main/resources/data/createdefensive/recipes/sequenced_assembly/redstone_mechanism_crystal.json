@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdefensive:kinetic_mechanism"
+  },
+  "transitionalItem": {
+    "item": "createdefensive:incomplete_redstone_mechanism"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_redstone_mechanism"
+        },
+        {
+          "item": "createdefensive:redstone_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_redstone_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_redstone_mechanism"
+        },
+        {
+          "tag": "forge:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_redstone_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdefensive:incomplete_redstone_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdefensive:incomplete_redstone_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:redstone_mechanism",
+      "count": 2
+    }
+  ]
+}

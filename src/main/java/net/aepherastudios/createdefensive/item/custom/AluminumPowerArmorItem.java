@@ -2,13 +2,12 @@ package net.aepherastudios.createdefensive.item.custom;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-import net.aepherastudios.createdefensive.item.IAugmentCapability;
-import net.aepherastudios.createdefensive.item.IAugmentation;
+import net.aepherastudios.createdefensive.item.augments.data.IAugmentCapability;
+import net.aepherastudios.createdefensive.item.augments.data.IAugmentation;
 import net.aepherastudios.createdefensive.screen.AugmentInventoryProvider;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
-import net.minecraft.nbt.Tag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -113,8 +112,11 @@ public class AluminumPowerArmorItem extends ArmorItem {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(Component.literal("Battery: " + getBattery(stack) + " / " + MAX_BATTERY)
-                .withStyle(ChatFormatting.AQUA));
+//        tooltip.add(Component.literal("Battery: " + getBattery(stack) + " / " + MAX_BATTERY)
+//                .withStyle(ChatFormatting.AQUA));
+        tooltip.add(Component.literal("WORK IN PROGRESS - CAN CRASH YOU")
+                .withStyle(ChatFormatting.RED));
+
     }
 
     public Multimap<Attribute, AttributeModifier> getAttributeModifiers(ItemStack stack, EquipmentSlot slot, LivingEntity entity) {

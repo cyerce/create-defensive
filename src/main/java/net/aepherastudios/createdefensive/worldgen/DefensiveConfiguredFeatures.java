@@ -1,0 +1,83 @@
+package net.aepherastudios.createdefensive.worldgen;
+
+import net.aepherastudios.createdefensive.CreateDefensive;
+import net.aepherastudios.createdefensive.block.DefensiveBlocks;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
+
+import java.util.List;
+
+public class DefensiveConfiguredFeatures {
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_ALUMINUM_ORE_KEY = registerKey("aluminum_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SILVER_ORE_KEY = registerKey("silver_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_PLATINUM_ORE_KEY = registerKey("platinum_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_LEAD_ORE_KEY = registerKey("lead_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TIN_ORE_KEY = registerKey("tin_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_NICKEL_ORE_KEY = registerKey("nickel_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_URANIUM_ORE_KEY = registerKey("uranium_ore");
+
+    public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
+        RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest netherrackReplacables = new BlockMatchTest(Blocks.NETHERRACK);
+        RuleTest endReplaceables = new BlockMatchTest(Blocks.END_STONE);
+
+        List<OreConfiguration.TargetBlockState> overworldAluminumOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.ALUMINUM_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_ALUMINUM_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldSilverOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.SILVER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_SILVER_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldPlatinumOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.PLATINUM_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_PLATINUM_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldLeadOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.LEAD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_LEAD_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldTinOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.TIN_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_TIN_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldNickelOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.NICKEL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_NICKEL_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldUraniumOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        DefensiveBlocks.URANIUM_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, DefensiveBlocks.DEEPSLATE_URANIUM_ORE.get().defaultBlockState()));
+
+        register(context, OVERWORLD_ALUMINUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAluminumOres, 9));
+        register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOres, 6));
+        register(context, OVERWORLD_PLATINUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldPlatinumOres, 4));
+        register(context, OVERWORLD_LEAD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldLeadOres, 4));
+        register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTinOres, 5));
+        register(context, OVERWORLD_NICKEL_ORE_KEY, Feature.ORE, new OreConfiguration(overworldNickelOres, 4));
+        register(context, OVERWORLD_URANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldUraniumOres, 1));
+
+    }
+
+
+    public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
+        return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(CreateDefensive.MOD_ID, name));
+    }
+
+    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstapContext<ConfiguredFeature<?, ?>> context,
+                                                                                          ResourceKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
+        context.register(key, new ConfiguredFeature<>(feature, configuration));
+    }
+}
