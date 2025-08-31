@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "createdefensive:redstone_crystal_cluster"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:polished_redstone_crystal"
+    }
+  ]
+}

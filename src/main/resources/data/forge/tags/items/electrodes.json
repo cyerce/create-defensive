@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:copper_electrode",
+    "createdefensive:zinc_electrode",
+    "createdefensive:graphite_electrode"
+  ]
+}

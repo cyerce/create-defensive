@@ -67,6 +67,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> INCOMPLETE_ELECTRON_TUBE_BULB = ITEMS.register("incomplete_electron_tube_bulb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRON_TUBE_BULB = ITEMS.register("electron_tube_bulb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_ELECTRON_TUBE = ITEMS.register("incomplete_electron_tube", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TRIODE_ELECTRON_TUBE = ITEMS.register("triode_electron_tube", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_TRIODE_ELECTRON_TUBE = ITEMS.register("incomplete_triode_electron_tube", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_RADIO_TRANSMITTER = ITEMS.register("incomplete_radio_transmitter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RADIO_TRANSMITTER = ITEMS.register("radio_transmitter", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_SAW_BLADE = ITEMS.register("incomplete_saw_blade", () -> new Item(new Item.Properties()));
@@ -83,6 +85,10 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ZINC_ROD = ITEMS.register("zinc_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAPHITE_ROD = ITEMS.register("graphite_rod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_ELECTRODE = ITEMS.register("copper_electrode", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_ELECTRODE = ITEMS.register("zinc_electrode", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAPHITE_ELECTRODE = ITEMS.register("graphite_electrode", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_CAM = ITEMS.register("aluminum_cam", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ZINC_SHEET = ITEMS.register("zinc_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_SHEET = ITEMS.register("netherite_sheet", () -> new Item(new Item.Properties()));
@@ -121,7 +127,9 @@ public class DefensiveItems {
     public static final RegistryObject<Item> LIGHTNING_CORE = ITEMS.register("lightning_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_LIGHTNING_CORE = ITEMS.register("incomplete_lightning_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNCHARGED_LIGHTNING_CORE = ITEMS.register("uncharged_lightning_core", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAPHITE = ITEMS.register("graphite", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COKE = ITEMS.register("coke", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POWDERED_CARBON = ITEMS.register("powdered_carbon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SLAG = ITEMS.register("slag", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_IRON = ITEMS.register("powdered_iron", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_STEEL = ITEMS.register("powdered_steel", () -> new Item(new Item.Properties()));

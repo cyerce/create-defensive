@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "createdefensive:copper_rod"
+  },
+  "result": "createdefensive:copper_electrode"
+}

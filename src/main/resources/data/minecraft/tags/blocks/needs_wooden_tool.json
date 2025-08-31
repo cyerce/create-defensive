@@ -23,6 +23,16 @@
     "createdefensive:landmine",
     "createdefensive:proximity_mine",
     "createdefensive:amethyst_tiles",
-    "createdefensive:small_amethyst_tiles"
+    "createdefensive:small_amethyst_tiles",
+    "createdefensive:redstone_tiles",
+    "createdefensive:small_redstone_tiles",
+    "createdefensive:emerald_tiles",
+    "createdefensive:small_emerald_tiles",
+    "createdefensive:quartz_tiles",
+    "createdefensive:small_quartz_tiles",
+    "createdefensive:lapis_tiles",
+    "createdefensive:small_lapis_tiles",
+    "createdefensive:diamond_tiles",
+    "createdefensive:small_diamond_tiles"
   ]
 }

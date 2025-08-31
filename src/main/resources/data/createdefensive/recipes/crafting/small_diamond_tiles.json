@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createdefensive:diamond_tiles"
+    }
+  ],
+  "result": {
+    "item": "createdefensive:small_diamond_tiles"
+  }
+}

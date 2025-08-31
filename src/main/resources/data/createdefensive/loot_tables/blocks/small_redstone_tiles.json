@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createdefensive:small_redstone_tiles"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createdefensive:blocks/small_redstone_tiles"
+}

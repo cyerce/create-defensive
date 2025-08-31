@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createdefensive:redstone_tiles"
+    }
+  ],
+  "result": {
+    "item": "createdefensive:small_redstone_tiles"
+  }
+}

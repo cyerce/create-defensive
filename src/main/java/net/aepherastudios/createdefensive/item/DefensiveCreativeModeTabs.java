@@ -1,7 +1,6 @@
 package net.aepherastudios.createdefensive.item;
 
 import com.simibubi.create.AllItems;
-import com.simibubi.create.content.equipment.sandPaper.SandPaperItem;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
 import net.minecraft.core.registries.Registries;
@@ -93,9 +92,11 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ZINC_SHEET.get());
                         pOutput.accept(DefensiveItems.ZINC_WIRE.get());
                         pOutput.accept(DefensiveItems.ZINC_ROD.get());
+                        pOutput.accept(DefensiveItems.ZINC_ELECTRODE.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_COPPER.get());
                         pOutput.accept(DefensiveItems.COPPER_WIRE.get());
                         pOutput.accept(DefensiveItems.COPPER_ROD.get());
+                        pOutput.accept(DefensiveItems.COPPER_ELECTRODE.get());
                         pOutput.accept(DefensiveItems.NETHERITE_SHEET.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_GOLD.get());
                         pOutput.accept(DefensiveItems.GOLD_WIRE.get());
@@ -137,7 +138,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STABALLOY_INGOT.get());
                         pOutput.accept(DefensiveItems.STABALLOY_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.STABALLOY_BLOCK.get());
-                        pOutput.accept(DefensiveBlocks.REDSTONE_CRYSTAL_BLOCK.get());
                         pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());
@@ -163,7 +163,11 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_GRIT_SANDPAPER.get());
                         pOutput.accept(DefensiveBlocks.COKING_OVEN.get());
                         pOutput.accept(DefensiveBlocks.INDUSTRIAL_HEATER.get());
+                        pOutput.accept(DefensiveItems.GRAPHITE.get());
+                        pOutput.accept(DefensiveItems.GRAPHITE_ROD.get());
+                        pOutput.accept(DefensiveItems.GRAPHITE_ELECTRODE.get());
                         pOutput.accept(DefensiveItems.COKE.get());
+                        pOutput.accept(DefensiveItems.POWDERED_CARBON.get());
                         pOutput.accept(DefensiveItems.SLAG.get());
                         pOutput.accept(DefensiveBlocks.SLAG_BLOCK.get());
                         pOutput.accept(DefensiveItems.CRIMSITE_SHARD.get());
@@ -178,10 +182,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.MITHRIL_INGOT.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());
-                        pOutput.accept(DefensiveBlocks.LEAD_GLASS.get());
-                        pOutput.accept(DefensiveBlocks.LEAD_GLASS_PANE.get());
-                        pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS.get());
-                        pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS_PANE.get());
                         pOutput.accept(DefensiveBlocks.LANDMINE.get());
                         pOutput.accept(DefensiveBlocks.PROXIMITY_MINE.get());
                         pOutput.accept(DefensiveBlocks.FIRE_GRATE.get());
@@ -189,8 +189,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.AIR_TRAP.get());
                         pOutput.accept(DefensiveBlocks.GAS_TRAP.get());
                         pOutput.accept(DefensiveItems.POLISHED_AMETHYST.get());
-                        pOutput.accept(DefensiveBlocks.AMETHYST_TILES.get());
-                        pOutput.accept(DefensiveBlocks.SMALL_AMETHYST_TILES.get());
                         pOutput.accept(DefensiveItems.BASIC_POWER_CORE.get());
                         pOutput.accept(DefensiveItems.UNCHARGED_BASIC_POWER_CORE.get());
                         pOutput.accept(DefensiveItems.POWER_CORE.get());
@@ -200,41 +198,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.LIGHTNING_CORE.get());
                         pOutput.accept(DefensiveItems.UNCHARGED_LIGHTNING_CORE.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CAPACITOR.get());
-                        pOutput.accept(DefensiveBlocks.OAK_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.BIRCH_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.SPRUCE_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.JUNGLE_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.DARK_OAK_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.ACACIA_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.MANGROVE_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.CHERRY_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.ANDESITE_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.INDUSTRIAL_IRON_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.COPPER_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.ZINC_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.BRASS_TRUSS.get());
-                        pOutput.accept(DefensiveBlocks.COPPER_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.ZINC_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.BRASS_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.INDUSTRIAL_IRON_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.COMPACT_INDUSTRIAL_IRON_BLOCK.get());
-                        pOutput.accept(DefensiveBlocks.STEEL_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.RED_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.ORANGE_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.YELLOW_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.LIME_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.GREEN_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.CYAN_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.BLUE_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.LIGHT_BLUE_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.PURPLE_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.MAGENTA_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.PINK_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.BROWN_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.BLACK_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.GRAY_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.LIGHT_GRAY_BLAST_PLATING.get());
-                        pOutput.accept(DefensiveBlocks.WHITE_BLAST_PLATING.get());
 
                         pOutput.accept(DefensiveBlocks.HIGH_POWER_EXPLOSIVE.get());
 
@@ -277,7 +240,66 @@ public class DefensiveCreativeModeTabs {
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_ARMOR = CREATIVE_MODE_TABS.register("createdefensive_armor",
+    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_DECO = CREATIVE_MODE_TABS.register("createdefensive_deco",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveBlocks.STEEL_BLAST_PLATING.get()))
+                    .title(Component.translatable("creativetab.createdefensive_deco"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(DefensiveBlocks.REDSTONE_CRYSTAL_BLOCK.get());
+                        pOutput.accept(DefensiveBlocks.REDSTONE_TILES.get());
+                        pOutput.accept(DefensiveBlocks.SMALL_REDSTONE_TILES.get());
+                        pOutput.accept(DefensiveBlocks.EMERALD_TILES.get());
+                        pOutput.accept(DefensiveBlocks.SMALL_EMERALD_TILES.get());
+                        pOutput.accept(DefensiveBlocks.QUARTZ_TILES.get());
+                        pOutput.accept(DefensiveBlocks.SMALL_QUARTZ_TILES.get());
+                        pOutput.accept(DefensiveBlocks.AMETHYST_TILES.get());
+                        pOutput.accept(DefensiveBlocks.SMALL_AMETHYST_TILES.get());
+                        pOutput.accept(DefensiveBlocks.LAPIS_TILES.get());
+                        pOutput.accept(DefensiveBlocks.SMALL_LAPIS_TILES.get());
+                        pOutput.accept(DefensiveBlocks.DIAMOND_TILES.get());
+                        pOutput.accept(DefensiveBlocks.SMALL_DIAMOND_TILES.get());
+                        pOutput.accept(DefensiveBlocks.OAK_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.BIRCH_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.SPRUCE_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.JUNGLE_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.DARK_OAK_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.ACACIA_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.MANGROVE_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.CHERRY_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.ANDESITE_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.INDUSTRIAL_IRON_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.COPPER_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.ZINC_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.BRASS_TRUSS.get());
+                        pOutput.accept(DefensiveBlocks.COMPACT_INDUSTRIAL_IRON_BLOCK.get());
+                        pOutput.accept(DefensiveBlocks.COPPER_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.ZINC_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.BRASS_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.INDUSTRIAL_IRON_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.STEEL_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.RED_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.ORANGE_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.YELLOW_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.LIME_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.GREEN_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.CYAN_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.BLUE_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.LIGHT_BLUE_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.PURPLE_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.MAGENTA_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.PINK_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.BROWN_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.BLACK_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.GRAY_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.LIGHT_GRAY_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.WHITE_BLAST_PLATING.get());
+                        pOutput.accept(DefensiveBlocks.LEAD_GLASS.get());
+                        pOutput.accept(DefensiveBlocks.LEAD_GLASS_PANE.get());
+                        pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS.get());
+                        pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS_PANE.get());
+                    })
+                    .build());
+
+                        public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_ARMOR = CREATIVE_MODE_TABS.register("createdefensive_armor",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.ALUMINUM_HELMET.get()))
                     .title(Component.translatable("creativetab.createdefensive_armor"))
                     .displayItems((pParameters, pOutput) -> {

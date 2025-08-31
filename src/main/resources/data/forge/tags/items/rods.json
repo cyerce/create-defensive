@@ -4,6 +4,7 @@
     "createdefensive:copper_rod",
     "createdefensive:zinc_rod",
     "createdefensive:iron_rod",
-    "createdefensive:steel_rod"
+    "createdefensive:steel_rod",
+    "createdefensive:graphite_rod"
   ]
 }

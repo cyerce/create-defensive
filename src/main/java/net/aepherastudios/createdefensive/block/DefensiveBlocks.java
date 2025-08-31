@@ -1,6 +1,8 @@
 package net.aepherastudios.createdefensive.block;
 
+import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.content.decoration.palettes.GlassPaneBlock;
+import com.simibubi.create.foundation.block.connected.ConnectedTextureBehaviour;
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.block.custom.*;
 import net.aepherastudios.createdefensive.fluid.DefensiveFluids;
@@ -105,6 +107,11 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> RAW_URANIUM_BLOCK = registerBlock("raw_uranium_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> TREATED_OAK_PLANKS = registerBlock("treated_oak_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+
+    // 2f1d00, 0.6a
+
     public static final RegistryObject<Block> ECRUSITE = registerBlock("ecrusite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> DUNUM = registerBlock("dunum",
@@ -136,6 +143,26 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> AMETHYST_TILES = registerBlock("amethyst_tiles",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> SMALL_AMETHYST_TILES = registerBlock("small_amethyst_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> REDSTONE_TILES = registerBlock("redstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SMALL_REDSTONE_TILES = registerBlock("small_redstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> EMERALD_TILES = registerBlock("emerald_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SMALL_EMERALD_TILES = registerBlock("small_emerald_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> QUARTZ_TILES = registerBlock("quartz_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SMALL_QUARTZ_TILES = registerBlock("small_quartz_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> LAPIS_TILES = registerBlock("lapis_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SMALL_LAPIS_TILES = registerBlock("small_lapis_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> DIAMOND_TILES = registerBlock("diamond_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SMALL_DIAMOND_TILES = registerBlock("small_diamond_tiles",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> OAK_TRUSS = registerBlock("oak_truss",
@@ -235,6 +262,7 @@ public class DefensiveBlocks {
             () -> new LiquidBlock(DefensiveFluids.SOURCE_NATURAL_GAS, BlockBehaviour.Properties.copy(Blocks.WATER)));
     public static final RegistryObject<LiquidBlock> RAW_NATURAL_GAS = BLOCKS.register("raw_natural_gas",
             () -> new LiquidBlock(DefensiveFluids.SOURCE_RAW_NATURAL_GAS, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -21,7 +21,7 @@
           "item": "createdefensive:incomplete_electron_tube_bulb"
         },
         {
-          "tag": "forge:rods/anode"
+          "tag": "forge:electrodes/anode"
         }
       ],
       "results": [
@@ -37,7 +37,7 @@
           "item": "createdefensive:incomplete_electron_tube_bulb"
         },
         {
-          "tag": "forge:rods/cathode"
+          "tag": "forge:electrodes/cathode"
         }
       ],
       "results": [

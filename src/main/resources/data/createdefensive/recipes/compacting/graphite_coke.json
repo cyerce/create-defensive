@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createdefensive:powdered_carbon"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:graphite"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createdefensive:small_emerald_tiles"
+    }
+  ],
+  "result": {
+    "item": "createdefensive:emerald_tiles"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createdefensive:coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:powdered_carbon",
+      "count": 1
+    },
+    {
+      "item": "createdefensive:powdered_carbon",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

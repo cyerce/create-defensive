@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "createdefensive:zinc_rod"
+  },
+  "result": "createdefensive:zinc_electrode"
+}

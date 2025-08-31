@@ -58,8 +58,8 @@ public class DefensivePlacedFeatures {
                 BiomeFilter.biome()
         };
 
-        context.register(OIL_LAKE_PLACED_KEY, new PlacedFeature(oilConfiguredFeature, List.of(modifiers)));
-        context.register(NATURAL_GAS_LAKE_PLACED_KEY, new PlacedFeature(lmgConfiguredFeature, List.of(modifiers)));
+//        context.register(OIL_LAKE_PLACED_KEY, new PlacedFeature(oilConfiguredFeature, List.of(modifiers)));
+//        context.register(NATURAL_GAS_LAKE_PLACED_KEY, new PlacedFeature(lmgConfiguredFeature, List.of(modifiers)));
 
     }
 
