@@ -23,6 +23,11 @@ public class DefensiveBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CreateDefensive.MOD_ID);
 
+    public static final RegistryObject<Block> MERCURIAN_REGOLITH = registerBlock("mercurian_regolith",
+            () -> new SandBlock(7733246, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.SAND)));
+    public static final RegistryObject<Block> MERCURIAN_BASALT = registerBlock("mercurian_basalt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",

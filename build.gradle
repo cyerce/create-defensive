@@ -155,7 +155,10 @@ dependencies {
     runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}"))
 
 
-    implementation fg.deobf("curse.maven:epic-fight-mod-405076:4785528")
+    // Compile against only the API (or main jar) if you need it for references
+    compileOnly(fg.deobf("curse.maven:epic-fight-mod-405076:4785528"))
+    // Provide the full jar at runtime if present
+    runtimeOnly(fg.deobf("curse.maven:epic-fight-mod-405076:4785528"))
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
