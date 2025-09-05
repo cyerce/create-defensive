@@ -135,6 +135,11 @@ public class DefensiveItems {
     public static final RegistryObject<Item> POWDERED_STEEL = ITEMS.register("powdered_steel", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POWDERED_LEAD = ITEMS.register("powdered_lead", () -> new Item(new Item.Properties().food(DefensiveFoods.POWDERED_LEAD)));
     public static final RegistryObject<Item> CALCITE_SHARD = ITEMS.register("calcite_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_SHARD = ITEMS.register("andesite_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRANITE_SHARD = ITEMS.register("granite_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIORITE_SHARD = ITEMS.register("diorite_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_SHARD = ITEMS.register("tuff_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIMESTONE_SHARD = ITEMS.register("limestone_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRIMSITE_SHARD = ITEMS.register("crimsite_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASURINE_SHARD = ITEMS.register("asurine_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VERIDIUM_SHARD = ITEMS.register("veridium_shard", () -> new Item(new Item.Properties()));

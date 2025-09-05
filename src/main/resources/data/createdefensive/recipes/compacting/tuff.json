@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:tuff_shard"
+    },
+    {
+      "item": "createdefensive:tuff_shard",
+      "chance": 0.5
+    }
+  ]
+}

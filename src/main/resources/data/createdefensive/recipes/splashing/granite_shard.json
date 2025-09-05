@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:granite_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:granite"
+    }
+  ]
+}

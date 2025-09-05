@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:infested_stone",
+    "minecraft:cobblestone",
+    "minecraft:infested_cobblestone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:blackstone",
+    "minecraft:end_stone",
+    "minecraft:tuff",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:netherrack",
+    "create:crimsite",
+    "create:veridium",
+    "create:asurine",
+    "create:scoria",
+    "create:scorchia"
+  ]
+}

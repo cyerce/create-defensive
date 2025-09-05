@@ -3,10 +3,10 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "createdefensive:powdered_iron"
+      "tag": "forge:ingots/iron"
     },
     {
-      "item": "createdefensive:powdered_carbon"
+      "tag": "forge:dusts/carbon"
     }
   ],
   "results": [

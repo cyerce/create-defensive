@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:andesite_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:andesite"
+    }
+  ]
+}

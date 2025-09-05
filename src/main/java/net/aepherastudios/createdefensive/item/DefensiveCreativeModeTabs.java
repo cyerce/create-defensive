@@ -170,6 +170,11 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.POWDERED_CARBON.get());
                         pOutput.accept(DefensiveItems.SLAG.get());
                         pOutput.accept(DefensiveBlocks.SLAG_BLOCK.get());
+                        pOutput.accept(DefensiveItems.ANDESITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.GRANITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.DIORITE_SHARD.get());
+                        pOutput.accept(DefensiveItems.LIMESTONE_SHARD.get());
+                        pOutput.accept(DefensiveItems.TUFF_SHARD.get());
                         pOutput.accept(DefensiveItems.CRIMSITE_SHARD.get());
                         pOutput.accept(DefensiveItems.ASURINE_SHARD.get());
                         pOutput.accept(DefensiveItems.VERIDIUM_SHARD.get());

@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:diorite_shard"
+    },
+    {
+      "item": "createdefensive:diorite_shard",
+      "chance": 0.5
+    }
+  ]
+}

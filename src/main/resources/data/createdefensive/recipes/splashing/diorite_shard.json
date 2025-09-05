@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createdefensive:diorite_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diorite"
+    }
+  ]
+}
