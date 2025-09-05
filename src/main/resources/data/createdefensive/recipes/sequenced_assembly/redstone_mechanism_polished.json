@@ -31,7 +31,7 @@
           "item": "createdefensive:incomplete_redstone_mechanism"
         },
         {
-          "tag": "forge:nuggets/iron"
+          "tag": "forge:nuggets/steel"
         }
       ],
       "results": [
@@ -56,7 +56,8 @@
   ],
   "results": [
     {
-      "item": "createdefensive:redstone_mechanism"
+      "item": "createdefensive:redstone_mechanism",
+      "count": 4
     }
   ]
 }

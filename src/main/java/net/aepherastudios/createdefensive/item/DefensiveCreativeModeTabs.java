@@ -20,7 +20,7 @@ public class DefensiveCreativeModeTabs {
                     .title(Component.translatable("creativetab.createdefensive_items"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(DefensiveItems.ALUMINUM_INGOT.get());
-                        pOutput.accept(DefensiveItems.FORGED_ALUMINUM_INGOT.get());
+                        pOutput.accept(DefensiveItems.MITHRIL_INGOT.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_SHEET.get());
                         pOutput.accept(DefensiveBlocks.ALUMINUM_ORE.get());
                         pOutput.accept(DefensiveBlocks.DEEPSLATE_ALUMINUM_ORE.get());
@@ -127,6 +127,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_WIRE.get());
                         pOutput.accept(DefensiveBlocks.ELECTRUM_BLOCK.get());
                         pOutput.accept(DefensiveItems.BRONZE_INGOT.get());
+                        pOutput.accept(DefensiveItems.BRONZE_SHEET.get());
                         pOutput.accept(DefensiveItems.BRONZE_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.BRONZE_BLOCK.get());
                         pOutput.accept(DefensiveItems.GUNSTEEL_INGOT.get());
@@ -185,7 +186,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.DIAMOND_SHARD.get());
                         pOutput.accept(DefensiveItems.CRUSHED_ANCIENT_DEBRIS.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL.get());
-                        pOutput.accept(DefensiveItems.MITHRIL_INGOT.get());
                         pOutput.accept(DefensiveItems.EXPERIENCE_CRYSTAL_CLUSTER.get());
                         pOutput.accept(DefensiveBlocks.LANDMINE.get());
                         pOutput.accept(DefensiveBlocks.PROXIMITY_MINE.get());

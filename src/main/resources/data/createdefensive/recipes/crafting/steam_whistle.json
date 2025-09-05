@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/bronze"
+    },
+    "@": {
+      "tag": "forge:plates/gold"
+    }
+  },
+  "pattern": [
+    "@",
+    "#"
+  ],
+  "result": {
+    "item": "create:steam_whistle",
+    "count": 4
+  }
+}
