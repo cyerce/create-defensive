@@ -32,21 +32,27 @@ public class DefensivePlacedFeatures {
         register(context, ALUMINUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_ALUMINUM_ORE_KEY),
                 DefensiveOrePlacement.commonOrePlacement(8,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))));
+
         register(context, SILVER_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_SILVER_ORE_KEY),
                 DefensiveOrePlacement.commonOrePlacement(6,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(40))));
+
         register(context, PLATINUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_PLATINUM_ORE_KEY),
                 DefensiveOrePlacement.rareOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(16))));
+
         register(context, LEAD_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_LEAD_ORE_KEY),
                 DefensiveOrePlacement.rareOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(16))));
+
         register(context, TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_TIN_ORE_KEY),
-                DefensiveOrePlacement.rareOrePlacement(4,
+                DefensiveOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(16))));
+
         register(context, NICKEL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_NICKEL_ORE_KEY),
-                DefensiveOrePlacement.rareOrePlacement(4,
+                DefensiveOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(16))));
+
         register(context, URANIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(DefensiveConfiguredFeatures.OVERWORLD_URANIUM_ORE_KEY),
                 DefensiveOrePlacement.rareOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(16))));

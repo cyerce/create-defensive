@@ -27,6 +27,10 @@ public class DefensiveBlocks {
             () -> new SandBlock(7733246, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.SAND)));
     public static final RegistryObject<Block> MERCURIAN_BASALT = registerBlock("mercurian_basalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> MERCURIAN_NICKEL_ORE = registerBlock("mercurian_nickel_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> MERCURIAN_IRON_ORE = registerBlock("mercurian_iron_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
@@ -35,6 +39,8 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> PLATINUM_ORE = registerBlock("platinum_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> LEAD_ORE = registerBlock("lead_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BORAX_ORE = registerBlock("borax_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
@@ -50,6 +56,8 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> DEEPSLATE_BORAX_ORE = registerBlock("deepslate_borax_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));

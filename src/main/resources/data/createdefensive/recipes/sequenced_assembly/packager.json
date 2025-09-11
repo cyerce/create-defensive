@@ -41,15 +41,18 @@
       ]
     },
     {
-      "type": "create:pressing",
+      "type": "create:deploying",
       "ingredients": [
         {
           "item": "create:cardboard_block"
+        },
+        {
+          "tag": "forge:ingots/iron"
         }
       ],
       "results": [
         {
-          "tag": "forge:ingots/iron"
+          "item": "create:cardboard_block"
         }
       ]
     },
@@ -62,7 +65,7 @@
       ],
       "results": [
         {
-          "item": "createdefensive:cardboard_block"
+          "item": "create:cardboard_block"
         }
       ]
     }

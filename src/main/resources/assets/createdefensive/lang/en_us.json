@@ -1,4 +1,9 @@
 {
+  "block.createdefensive.mercurian_regolith": "Mercurian Regolith",
+  "block.createdefensive.mercurian_basalt": "Mercurian Basalt",
+  "block.createdefensive.mercurian_iron_ore": "Mercurian Iron Ore",
+  "block.createdefensive.mercurian_nickel_ore": "Mercurian Nickel Ore",
+
   "item.createdefensive.aluminum_ingot": "Aluminum Ingot",
   "item.createdefensive.aluminum_sheet": "Aluminum Sheet",
   "item.createdefensive.forged_aluminum_ingot": "Forged Aluminum Ingot",
@@ -78,13 +83,9 @@
   "item.createdefensive.energized_rose_quartz": "Energized Rose Quartz",
   "item.createdefensive.rose_quartz_pane": "Rose Quartz Pane",
   "item.createdefensive.rose_quartz_rod": "Rose Quartz Rod",
-  "item.createdefensive.weapon_handle": "Weapon Handle",
   "item.createdefensive.yellow_stardust": "Stardust",
   "item.createdefensive.blue_stardust": "Stardust",
   "item.createdefensive.stardust_ingot": "Stardust Ingot",
-  "item.createdefensive.rose_petal": "Rose Petal",
-  "item.createdefensive.rose_essence": "Rose Essence",
-  "item.createdefensive.crimson_essence": "Crimson Essence",
   "item.createdefensive.coke": "Coal Coke",
   "item.createdefensive.powdered_carbon": "Powdered Carbon",
   "item.createdefensive.graphite": "Graphite",
@@ -150,11 +151,6 @@
   "item.createdefensive.shotgun_shell": "Shotgun Shell",
   "item.createdefensive.buckshot": "Buckshot",
   "item.createdefensive.bullet_casing": "Bullet Casing",
-  "item.createdefensive.small_bullet_tip_die": "Small Bullet Tip Die",
-  "item.createdefensive.large_bullet_tip_die": "Large Bullet Tip Die",
-  "item.createdefensive.bullet_casing_die": "Bullet Casing Die",
-  "item.createdefensive.heated_lead_ingot": "Heated Lead Ingot",
-  "item.createdefensive.heated_brass_ingot": "Heated Brass Ingot",
 
   "block.createdefensive.oak_truss": "Oak Truss",
   "block.createdefensive.birch_truss": "Birch Truss",
@@ -169,6 +165,7 @@
   "block.createdefensive.copper_truss": "Copper Truss",
   "block.createdefensive.zinc_truss": "Zinc Truss",
   "block.createdefensive.brass_truss": "Brass Truss",
+  "block.createdefensive.test": "Test",
 
   "block.createdefensive.copper_blast_plating": "Copper Blast Plating",
   "block.createdefensive.zinc_blast_plating": "Zinc Blast Plating",
