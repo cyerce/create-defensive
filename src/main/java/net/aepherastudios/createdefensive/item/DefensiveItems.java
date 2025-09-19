@@ -23,6 +23,15 @@ public class DefensiveItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CreateDefensive.MOD_ID);
 
+    public static final RegistryObject<Item> MERCURY = ITEMS.register("mercury", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ENGINE_PISTON = ITEMS.register("engine_piston", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_ENGINE_PISTON = ITEMS.register("incomplete_engine_piston", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REINFORCED_PROPELLER = ITEMS.register("reinforced_propeller", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INLINE_ENGINE = ITEMS.register("inline_engine", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> V12_ENGINE = ITEMS.register("v12_engine", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HEAVY_TURBINE_ENGINE = ITEMS.register("heavy_turbine_engine", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> INCOMPLETE_SPOOL = ITEMS.register("incomplete_spool", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SPOOL = ITEMS.register("spool", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_WIRE = ITEMS.register("copper_wire", () -> new Item(new Item.Properties()));
@@ -57,7 +66,6 @@ public class DefensiveItems {
     public static final RegistryObject<Item> UNSTABLE_REDSTONE_INGOT = ITEMS.register("unstable_redstone_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_REDSTONE_INGOT = ITEMS.register("incomplete_redstone_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNSTABLE_ROSE_GOLD_INGOT = ITEMS.register("unstable_rose_gold_ingot", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> WEAPON_HANDLE = ITEMS.register("weapon_handle", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BASIC_CIRCUIT = ITEMS.register("basic_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADVANCED_CIRCUIT = ITEMS.register("advanced_circuit", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRON_TUBE_BASE = ITEMS.register("electron_tube_base", () -> new Item(new Item.Properties()));
@@ -1223,6 +1231,14 @@ public class DefensiveItems {
     public static final RegistryObject<Item> RAW_CRUDE_OIL_BUCKET = ITEMS.register("raw_crude_oil_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_RAW_CRUDE_OIL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
     public static final RegistryObject<Item> NATURAL_GAS_BUCKET = ITEMS.register("natural_gas_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_NATURAL_GAS, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
     public static final RegistryObject<Item> RAW_NATURAL_GAS_BUCKET = ITEMS.register("raw_natural_gas_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_RAW_NATURAL_GAS, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> GASOLINE_BUCKET = ITEMS.register("gasoline_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_GASOLINE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> KEROSENE_BUCKET = ITEMS.register("kerosene_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_KEROSENE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> DIESEL_BUCKET = ITEMS.register("diesel_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_DIESEL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> BITUMEN_BUCKET = ITEMS.register("bitumen_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_BITUMEN, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> BUTANE_BUCKET = ITEMS.register("butane_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_BUTANE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> PROPANE_BUCKET = ITEMS.register("propane_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_PROPANE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> ETHANE_BUCKET = ITEMS.register("ethane_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_ETHANE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> METHANE_BUCKET = ITEMS.register("methane_bucket", () -> new BucketItem(DefensiveFluids.SOURCE_METHANE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

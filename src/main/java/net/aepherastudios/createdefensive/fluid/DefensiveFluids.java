@@ -42,6 +42,48 @@ public class DefensiveFluids {
     public static final RegistryObject<FlowingFluid> FLOWING_RAW_NATURAL_GAS = FLUIDS.register("flowing_raw_natural_gas",
             () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.RAW_NATURAL_GAS_PROPERTIES));
 
+    public static final RegistryObject<FlowingFluid> SOURCE_GASOLINE = FLUIDS.register("gasoline",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.GASOLINE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_GASOLINE = FLUIDS.register("flowing_gasoline",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.GASOLINE_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_KEROSENE = FLUIDS.register("kerosene",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.KEROSENE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_KEROSENE = FLUIDS.register("flowing_kerosene",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.KEROSENE_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_DIESEL = FLUIDS.register("diesel",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.DIESEL_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_DIESEL = FLUIDS.register("flowing_diesel",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.DIESEL_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_BITUMEN = FLUIDS.register("bitumen",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.BITUMEN_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_BITUMEN = FLUIDS.register("flowing_bitumen",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.BITUMEN_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_BUTANE = FLUIDS.register("butane",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.BUTANE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_BUTANE = FLUIDS.register("flowing_butane",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.BUTANE_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_PROPANE = FLUIDS.register("propane",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.PROPANE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_PROPANE = FLUIDS.register("flowing_propane",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.PROPANE_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_ETHANE = FLUIDS.register("ethane",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.ETHANE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_ETHANE = FLUIDS.register("flowing_ethane",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.ETHANE_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> SOURCE_METHANE = FLUIDS.register("methane",
+            () -> new ForgeFlowingFluid.Source(DefensiveFluids.METHANE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_METHANE = FLUIDS.register("flowing_methane",
+            () -> new ForgeFlowingFluid.Flowing(DefensiveFluids.METHANE_PROPERTIES));
+
+
+
 
 
     public static final ForgeFlowingFluid.Properties CRUDE_OIL_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -63,6 +105,38 @@ public class DefensiveFluids {
     public static final ForgeFlowingFluid.Properties RAW_NATURAL_GAS_PROPERTIES = new ForgeFlowingFluid.Properties(
             RawNaturalGasFluidType.RAW_NATURAL_GAS, SOURCE_RAW_NATURAL_GAS, FLOWING_RAW_NATURAL_GAS)
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.RAW_NATURAL_GAS).bucket(DefensiveItems.RAW_NATURAL_GAS_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties GASOLINE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            GasolineFluidType.GASOLINE, SOURCE_GASOLINE, FLOWING_GASOLINE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.GASOLINE).bucket(DefensiveItems.GASOLINE_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties KEROSENE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            KeroseneFluidType.KEROSENE, SOURCE_KEROSENE, FLOWING_KEROSENE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.KEROSENE).bucket(DefensiveItems.KEROSENE_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties DIESEL_PROPERTIES = new ForgeFlowingFluid.Properties(
+            DieselFluidType.DIESEL, SOURCE_DIESEL, FLOWING_DIESEL)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.DIESEL).bucket(DefensiveItems.DIESEL_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties BITUMEN_PROPERTIES = new ForgeFlowingFluid.Properties(
+            BitumenFluidType.BITUMEN, SOURCE_BITUMEN, FLOWING_BITUMEN)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.BITUMEN).bucket(DefensiveItems.BITUMEN_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties BUTANE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ButaneFluidType.BUTANE, SOURCE_BUTANE, FLOWING_BUTANE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.BUTANE).bucket(DefensiveItems.BUTANE_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties PROPANE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            PropaneFluidType.PROPANE, SOURCE_PROPANE, FLOWING_PROPANE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.PROPANE).bucket(DefensiveItems.PROPANE_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties ETHANE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            EthaneFluidType.ETHANE, SOURCE_ETHANE, FLOWING_ETHANE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.ETHANE).bucket(DefensiveItems.ETHANE_BUCKET).tickRate(30);
+
+    public static final ForgeFlowingFluid.Properties METHANE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            MethaneFluidType.METHANE, SOURCE_METHANE, FLOWING_METHANE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DefensiveBlocks.METHANE).bucket(DefensiveItems.METHANE_BUCKET).tickRate(30);
 
 
     public static void register(IEventBus eventBus) {

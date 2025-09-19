@@ -830,7 +830,7 @@
 
   "entity.createdefensive.painite_elemental": "Painite Elemental",
 
-  "entity.createdefensive.primed_high_power_explosive": "Primed High Power Explosive",
+  "entity.createdefensive.primed_high_power_explosive": "Explosivo de Alta Potencia Preparado",
 
   "entity.createdefensive.aluminum_spear": "Lanza de Aluminio",
   "entity.createdefensive.silver_spear": "Lanza de Plato",
@@ -859,27 +859,45 @@
 
 
 
-  "creativetab.createdefensive_items": "Create: Defensive Items",
-  "creativetab.createdefensive_toolsweapons": "Create: Defensive Tools & Weapons",
-  "creativetab.createdefensive_armor": "Create: Defensive Armor",
-  "creativetab.createdefensive_deco": "Create: Defensive Building Blocks",
+  "creativetab.createdefensive_items": "Create: Defensive Elementos",
+  "creativetab.createdefensive_toolsweapons": "Create: Defensive Herramientas y Armas",
+  "creativetab.createdefensive_armor": "Create: Defensive Armadura",
+  "creativetab.createdefensive_deco": "Create: Defensive Bloques de Construcción",
+  "creativetab.createdefensive_space": "Create: Defensive Espacio",
+  "creativetab.createdefensive_weaponry": "Create: Defensive Armas",
+
 
 
 
   "block.createdefensive.coking_oven.tooltip.summary": "Heebie jeebies",
 
 
-  "fluid_type.createdefensive.crude_oil": "Crude Oil",
-  "fluid_type.createdefensive.dirty_raw_crude_oil": "Dirty Raw Crude Oil",
-  "fluid_type.createdefensive.raw_crude_oil": "Raw Crude Oil",
-  "fluid_type.createdefensive.natural_gas": "Natural Gas",
-  "fluid_type.createdefensive.raw_natural_gas": "Raw Natural Gas",
+  "fluid_type.createdefensive.crude_oil": "Petróleo Crudo",
+  "fluid_type.createdefensive.dirty_raw_crude_oil": "Petróleo Crudo Bruto Sucio",
+  "fluid_type.createdefensive.raw_crude_oil": "Petróleo Crudo Bruto",
+  "fluid_type.createdefensive.natural_gas": "Gas Natural",
+  "fluid_type.createdefensive.raw_natural_gas": "Gas Natural Bruto",
+  "fluid_type.createdefensive.gasoline": "Gasolina",
+  "fluid_type.createdefensive.kerosene": "Queroseno",
+  "fluid_type.createdefensive.diesel": "Diesel",
+  "fluid_type.createdefensive.bitumen": "Betún",
+  "fluid_type.createdefensive.butane": "Butano",
+  "fluid_type.createdefensive.propane": "Propano",
+  "fluid_type.createdefensive.ethane": "Etano",
+  "fluid_type.createdefensive.methane": "Metano",
 
-  "item.createdefensive.crude_oil_bucket": "Crude Oil Bucket",
-  "item.createdefensive.dirty_raw_crude_oil_bucket": "Dirty Raw Crude Oil Bucket",
-  "item.createdefensive.raw_crude_oil_bucket": "Raw Crude Oil Bucket",
-  "item.createdefensive.natural_gas_bucket": "Natural Gas Bucket",
-  "item.createdefensive.raw_natural_gas_bucket": "Raw Natural Gas Bucket",
-  "effect.createdefensive.vexed": "Vexed",
-  "block.createdefensive.test": "Test"
+
+  "item.createdefensive.crude_oil_bucket": "Balde de Petróleo Crudo",
+  "item.createdefensive.dirty_raw_crude_oil_bucket": "Balde de Petróleo Crudo Bruto Sucio",
+  "item.createdefensive.raw_crude_oil_bucket": "Balde de Petróleo Crudo Bruto",
+  "item.createdefensive.natural_gas_bucket": "Balde de Gas Natural",
+  "item.createdefensive.raw_natural_gas_bucket": "Balde de Gas Natural Bruto",
+  "item.createdefensive.gasoline_bucket": "Balde de Gasolina",
+  "item.createdefensive.kerosene_bucket": "Balde de Queroseno",
+  "item.createdefensive.diesel_bucket": "Balde de Diesel",
+  "item.createdefensive.bitumen_bucket": "Balde de Betún",
+  "item.createdefensive.butane_bucket": "Balde de Butano",
+  "item.createdefensive.propane_bucket": "Balde de Propano",
+  "item.createdefensive.ethane_bucket": "Balde de Etano",
+  "item.createdefensive.methane_bucket": "Balde de Metano"
 }

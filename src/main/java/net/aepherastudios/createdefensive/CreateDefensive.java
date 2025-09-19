@@ -21,6 +21,8 @@ import net.aepherastudios.createdefensive.screen.DefensiveMenuTypes;
 import net.aepherastudios.createdefensive.screen.IndustrialHeaterScreen;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
 import net.aepherastudios.createdefensive.worldgen.DefensiveFeatures;
+import net.aepherastudios.createdefensive.worldgen.biome.surface.DefensiveSurfaceRules;
+import net.aepherastudios.createdefensive.worldgen.dimension.DefensiveSpecialEffectsManager;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -65,6 +67,15 @@ public class CreateDefensive {
         RawCrudeOilFluidType.register(modEventBus);
         NaturalGasFluidType.register(modEventBus);
         RawNaturalGasFluidType.register(modEventBus);
+        GasolineFluidType.register(modEventBus);
+        KeroseneFluidType.register(modEventBus);
+        DieselFluidType.register(modEventBus);
+        BitumenFluidType.register(modEventBus);
+        ButaneFluidType.register(modEventBus);
+        PropaneFluidType.register(modEventBus);
+        EthaneFluidType.register(modEventBus);
+        MethaneFluidType.register(modEventBus);
+
 
         DefensiveFeatures.FEATURES.register(modEventBus);
 
@@ -82,6 +93,7 @@ public class CreateDefensive {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        DefensiveSpecialEffectsManager.init();
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

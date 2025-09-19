@@ -244,6 +244,14 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.RAW_CRUDE_OIL_BUCKET.get());
                         pOutput.accept(DefensiveItems.NATURAL_GAS_BUCKET.get());
                         pOutput.accept(DefensiveItems.RAW_NATURAL_GAS_BUCKET.get());
+                        pOutput.accept(DefensiveItems.GASOLINE_BUCKET.get());
+                        pOutput.accept(DefensiveItems.KEROSENE_BUCKET.get());
+                        pOutput.accept(DefensiveItems.DIESEL_BUCKET.get());
+                        pOutput.accept(DefensiveItems.BITUMEN_BUCKET.get());
+                        pOutput.accept(DefensiveItems.BUTANE_BUCKET.get());
+                        pOutput.accept(DefensiveItems.PROPANE_BUCKET.get());
+                        pOutput.accept(DefensiveItems.ETHANE_BUCKET.get());
+                        pOutput.accept(DefensiveItems.METHANE_BUCKET.get());
                     })
                     .build());
 
@@ -252,6 +260,7 @@ public class DefensiveCreativeModeTabs {
                     .title(Component.translatable("creativetab.createdefensive_deco"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(DefensiveBlocks.REDSTONE_CRYSTAL_BLOCK.get());
+
                         pOutput.accept(DefensiveBlocks.REDSTONE_TILES.get());
                         pOutput.accept(DefensiveBlocks.SMALL_REDSTONE_TILES.get());
                         pOutput.accept(DefensiveBlocks.EMERALD_TILES.get());
@@ -264,6 +273,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.SMALL_LAPIS_TILES.get());
                         pOutput.accept(DefensiveBlocks.DIAMOND_TILES.get());
                         pOutput.accept(DefensiveBlocks.SMALL_DIAMOND_TILES.get());
+
                         pOutput.accept(DefensiveBlocks.OAK_TRUSS.get());
                         pOutput.accept(DefensiveBlocks.BIRCH_TRUSS.get());
                         pOutput.accept(DefensiveBlocks.SPRUCE_TRUSS.get());
@@ -277,6 +287,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.COPPER_TRUSS.get());
                         pOutput.accept(DefensiveBlocks.ZINC_TRUSS.get());
                         pOutput.accept(DefensiveBlocks.BRASS_TRUSS.get());
+
                         pOutput.accept(DefensiveBlocks.COMPACT_INDUSTRIAL_IRON_BLOCK.get());
                         pOutput.accept(DefensiveBlocks.COPPER_BLAST_PLATING.get());
                         pOutput.accept(DefensiveBlocks.ZINC_BLAST_PLATING.get());
@@ -299,6 +310,24 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveBlocks.GRAY_BLAST_PLATING.get());
                         pOutput.accept(DefensiveBlocks.LIGHT_GRAY_BLAST_PLATING.get());
                         pOutput.accept(DefensiveBlocks.WHITE_BLAST_PLATING.get());
+
+                        pOutput.accept(DefensiveBlocks.RED_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.ORANGE_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.YELLOW_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.LIME_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.GREEN_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.CYAN_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.LIGHT_BLUE_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.BLUE_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.PURPLE_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.MAGENTA_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.PINK_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.WHITE_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.LIGHT_GRAY_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.GRAY_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.BLACK_ASPHALT.get());
+                        pOutput.accept(DefensiveBlocks.BROWN_ASPHALT.get());
+
                         pOutput.accept(DefensiveBlocks.LEAD_GLASS.get());
                         pOutput.accept(DefensiveBlocks.LEAD_GLASS_PANE.get());
                         pOutput.accept(DefensiveBlocks.BULLETPROOF_GLASS.get());
@@ -749,6 +778,25 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_ARROW.get());
                         pOutput.accept(DefensiveItems.REDSTONE_ARROW.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_ARROW.get());
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_SPACE = CREATIVE_MODE_TABS.register("createdefensive_space",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.MERCURY.get()))
+                    .title(Component.translatable("creativetab.createdefensive_space"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(DefensiveBlocks.MERCURIAN_REGOLITH.get());
+                        pOutput.accept(DefensiveBlocks.MERCURIAN_IRON_ORE.get());
+                        pOutput.accept(DefensiveBlocks.MERCURIAN_NICKEL_ORE.get());
+                        pOutput.accept(DefensiveBlocks.MERCURIAN_BASALT.get());
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_WEAPONRY = CREATIVE_MODE_TABS.register("createdefensive_weaponry",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.SMALL_BULLET.get()))
+                    .title(Component.translatable("creativetab.createdefensive_weaponry"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(DefensiveBlocks.HIGH_POWER_EXPLOSIVE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

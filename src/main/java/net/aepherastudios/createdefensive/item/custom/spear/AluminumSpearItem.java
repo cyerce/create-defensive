@@ -62,14 +62,14 @@ public class AluminumSpearItem extends TridentItem implements Vanishable {
                             p_43388_.broadcastBreakEvent(pEntityLiving.getUsedItemHand());
                         });
                         if ($$6 == 0) {
-                        AluminumSpear $$7 = new AluminumSpear(pLevel, $$4, pStack);
-                            $$7.shootFromRotation($$4, $$4.getXRot(), $$4.getYRot(), 0.0F, 2.5F + (float)$$6 * 0.5F, 1.0F);
+                        AluminumSpear spear = new AluminumSpear(pLevel, $$4, pStack);
+                            spear.shootFromRotation($$4, $$4.getXRot(), $$4.getYRot(), 0.0F, 2.5F + (float)$$6 * 0.5F, 1.0F);
                             if ($$4.getAbilities().instabuild) {
-                                $$7.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
+                                spear.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
                             }
 
-                            pLevel.addFreshEntity($$7);
-                            pLevel.playSound((Player)null, $$7, SoundEvents.TRIDENT_THROW, SoundSource.PLAYERS, 1.0F, 1.0F);
+                            pLevel.addFreshEntity(spear);
+                            pLevel.playSound((Player)null, spear, SoundEvents.TRIDENT_THROW, SoundSource.PLAYERS, 1.0F, 1.0F);
                             if (!$$4.getAbilities().instabuild) {
                                 $$4.getInventory().removeItem(pStack);
                             }
