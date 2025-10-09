@@ -189,6 +189,23 @@
   "block.createdefensive.gray_blast_plating": "Placa Gris a Prueba de Explosiones",
   "block.createdefensive.black_blast_plating": "Placa Negro a Prueba de Explosiones",
 
+  "block.createdefensive.red_asphalt": "Red Asphalt",
+  "block.createdefensive.orange_asphalt": "Orange Asphalt",
+  "block.createdefensive.yellow_asphalt": "Yellow Asphalt",
+  "block.createdefensive.lime_asphalt": "Lime Asphalt",
+  "block.createdefensive.green_asphalt": "Green Asphalt",
+  "block.createdefensive.cyan_asphalt": "Cyan Asphalt",
+  "block.createdefensive.light_blue_asphalt": "Light Blue Asphalt",
+  "block.createdefensive.blue_asphalt": "Blue Asphalt",
+  "block.createdefensive.purple_asphalt": "Purple Asphalt",
+  "block.createdefensive.magenta_asphalt": "Magenta Asphalt",
+  "block.createdefensive.pink_asphalt": "Pink Asphalt",
+  "block.createdefensive.white_asphalt": "White Asphalt",
+  "block.createdefensive.light_gray_asphalt": "Light Gray Asphalt",
+  "block.createdefensive.gray_asphalt": "Gray Asphalt",
+  "block.createdefensive.black_asphalt": "Black Asphalt",
+  "block.createdefensive.brown_asphalt": "Brown Asphalt",
+
   "block.createdefensive.lead_glass": "Vaso Plomo",
   "block.createdefensive.bulletproof_glass": "Vidrio a Prueba de Balas",
   "block.createdefensive.lead_glass_pane": "Panel de Vaso Plomo",
@@ -282,11 +299,6 @@
   "item.createdefensive.rose_gold_chestplate": "Peto de Oro Rosa Inestable",
   "item.createdefensive.rose_gold_leggings": "Grebas de Oro Rosa Inestable",
   "item.createdefensive.rose_gold_boots": "Botas de Oro Rosa Inestable",
-
-  "item.createdefensive.stardust_helmet": "Casco de Polvo Estrellas",
-  "item.createdefensive.stardust_chestplate": "Peto de Polvo Estrellas",
-  "item.createdefensive.stardust_leggings": "Grebas de Polvo Estrellas",
-  "item.createdefensive.stardust_boots": "Botas de Polvo Estrellas",
 
   "item.createdefensive.steel_helmet": "Casco de Acero",
   "item.createdefensive.steel_chestplate": "Peto de Acero",
@@ -689,12 +701,6 @@
   "item.createdefensive.rose_gold_excavator": "Unstable Rose Gold Excavator",
   "item.createdefensive.rose_gold_poleaxe": "Unstable Rose Gold Poleaxe",
 
-  "item.createdefensive.crimsteel_halberd": "Crimsteel Halberd",
-  "item.createdefensive.painite": "Painite",
-  "item.createdefensive.cut_painite": "Cut Painite",
-
-  "item.createdefensive.stardust_hammer": "Stardust Hammer",
-
   "item.createdefensive.wooden_halberd": "Wooden Halberd",
   "item.createdefensive.wooden_scythe": "Wooden Scythe",
   "item.createdefensive.wooden_greataxe": "Wooden Great Axe",
@@ -828,7 +834,18 @@
 
 
 
-  "entity.createdefensive.painite_elemental": "Painite Elemental",
+  "block.createdefensive.catalyst_crystal": "Catalyst Crystal",
+  "block.createdefensive.smoke_catalyst": "Smoking Catalyst",
+  "block.createdefensive.haunt_catalyst": "Haunting Catalyst",
+  "block.createdefensive.splash_catalyst": "Splashing Catalyst",
+  "block.createdefensive.blast_catalyst": "Blasting Catalyst",
+
+  "block.createdefensive.bleeding_obsidian": "Bleeding Obsidian",
+  "block.createdefensive.stardust_obsidian_blue": "Stardust Obsidian",
+  "block.createdefensive.stardust_obsidian_yellow": "Stardust Obsidian",
+  "block.createdefensive.pyraen_ore": "Pyraen Ore",
+
+
 
   "entity.createdefensive.primed_high_power_explosive": "Explosivo de Alta Potencia Preparado",
 
@@ -885,7 +902,6 @@
   "fluid_type.createdefensive.propane": "Propano",
   "fluid_type.createdefensive.ethane": "Etano",
   "fluid_type.createdefensive.methane": "Metano",
-
 
   "item.createdefensive.crude_oil_bucket": "Balde de Petróleo Crudo",
   "item.createdefensive.dirty_raw_crude_oil_bucket": "Balde de Petróleo Crudo Bruto Sucio",

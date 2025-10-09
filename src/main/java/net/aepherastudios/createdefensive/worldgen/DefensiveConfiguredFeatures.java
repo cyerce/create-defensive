@@ -2,6 +2,8 @@ package net.aepherastudios.createdefensive.worldgen;
 
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
+import net.aepherastudios.createdefensive.worldgen.config.MeteoriteConfig;
+import net.aepherastudios.createdefensive.worldgen.features.MeteoriteFeature;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
@@ -15,8 +17,11 @@ import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguratio
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
+
+import static net.aepherastudios.createdefensive.worldgen.DefensiveFeatures.FEATURES;
 
 public class DefensiveConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_ALUMINUM_ORE_KEY = registerKey("aluminum_ore");
@@ -26,6 +31,8 @@ public class DefensiveConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TIN_ORE_KEY = registerKey("tin_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_NICKEL_ORE_KEY = registerKey("nickel_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_URANIUM_ORE_KEY = registerKey("uranium_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> METEORITE_KEY = ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(CreateDefensive.MOD_ID, "meteorite"));
+
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -68,9 +75,10 @@ public class DefensiveConfiguredFeatures {
         register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTinOres, 5));
         register(context, OVERWORLD_NICKEL_ORE_KEY, Feature.ORE, new OreConfiguration(overworldNickelOres, 4));
         register(context, OVERWORLD_URANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldUraniumOres, 4));
-
     }
 
+    public static final RegistryObject<Feature<MeteoriteConfig>> METEORITE =
+            FEATURES.register("meteorite", () -> new MeteoriteFeature(MeteoriteConfig.CODEC));
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(CreateDefensive.MOD_ID, name));

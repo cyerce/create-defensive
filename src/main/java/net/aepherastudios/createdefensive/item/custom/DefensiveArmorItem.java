@@ -21,9 +21,9 @@ public class DefensiveArmorItem extends ArmorItem {
                             false,false, true))
                     .put(DefensiveArmorMaterials.ELECTRUM, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.REDSTONE, new MobEffectInstance(MobEffects.REGENERATION, 600, 1,
+                    .put(DefensiveArmorMaterials.STARDUST, new MobEffectInstance(MobEffects.REGENERATION, 600, 1,
                             false,false, true))
-                    .put(DefensiveArmorMaterials.ROSE_GOLD, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 2,
+                    .put(DefensiveArmorMaterials.PYRAEN, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 2,
                             false,false, true))
                     .put(DefensiveArmorMaterials.ROSE_GOLD_CEREMONIAL, new MobEffectInstance(MobEffects.DIG_SPEED, 600, 1,
                             false,false, true))

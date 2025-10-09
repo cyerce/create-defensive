@@ -47,6 +47,7 @@
     "createdefensive:deepslate_nickel_ore",
     "createdefensive:bronze_block",
     "createdefensive:gunsteel_block",
-    "createdefensive:invar_block"
+    "createdefensive:invar_block",
+    "createdefensive:compact_industrial_iron_block"
   ]
 }

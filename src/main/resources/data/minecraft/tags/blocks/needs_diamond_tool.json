@@ -5,6 +5,9 @@
     "createdefensive:raw_uranium_block",
     "createdefensive:uranium_ore",
     "createdefensive:deepslate_uranium_ore",
-    "createdefensive:staballoy_block"
+    "createdefensive:staballoy_block",
+    "createdefensive:bleeding_obsidian",
+    "createdefensive:stardust_obsidian_blue",
+    "createdefensive:stardust_obsidian_yellow"
   ]
 }

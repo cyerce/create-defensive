@@ -4,7 +4,6 @@ import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.entity.custom.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -78,13 +77,13 @@ public class DefensiveEntities {
             ENTITY_TYPES.register("electrum_arrow", () -> EntityType.Builder.<ElectrumArrowEntity>of(ElectrumArrowEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("electrum_arrow"));
 
-    public static final RegistryObject<EntityType<RedstoneArrowEntity>> REDSTONE_ARROW =
-            ENTITY_TYPES.register("redstone_arrow", () -> EntityType.Builder.<RedstoneArrowEntity>of(RedstoneArrowEntity::new, MobCategory.MISC)
-                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("redstone_arrow"));
+    public static final RegistryObject<EntityType<StardustArrowEntity>> STARDUST_ARROW =
+            ENTITY_TYPES.register("stardust_arrow", () -> EntityType.Builder.<StardustArrowEntity>of(StardustArrowEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("stardust_arrow"));
 
-    public static final RegistryObject<EntityType<RoseGoldArrowEntity>> ROSE_GOLD_ARROW =
-            ENTITY_TYPES.register("rose_gold_arrow", () -> EntityType.Builder.<RoseGoldArrowEntity>of(RoseGoldArrowEntity::new, MobCategory.MISC)
-                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("rose_gold_arrow"));
+    public static final RegistryObject<EntityType<PyraenArrowEntity>> PYRAEN_ARROW =
+            ENTITY_TYPES.register("pyraen_arrow", () -> EntityType.Builder.<PyraenArrowEntity>of(PyraenArrowEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("pyraen_arrow"));
 
     public static final RegistryObject<EntityType<AluminumSpear>> ALUMINUM_SPEAR =
             ENTITY_TYPES.register("aluminum_spear", () -> EntityType.Builder.<AluminumSpear>of(AluminumSpear::new, MobCategory.MISC)
@@ -101,10 +100,6 @@ public class DefensiveEntities {
     public static final RegistryObject<EntityType<SteelSpear>> STEEL_SPEAR =
             ENTITY_TYPES.register("steel_spear", () -> EntityType.Builder.<SteelSpear>of(SteelSpear::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("steel_spear"));
-
-    public static final RegistryObject<EntityType<ExperienceSpear>> EXPERIENCE_SPEAR =
-            ENTITY_TYPES.register("experience_spear", () -> EntityType.Builder.<ExperienceSpear>of(ExperienceSpear::new, MobCategory.MISC)
-                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("experience_spear"));
 
     public static final RegistryObject<EntityType<CopperSpear>> COPPER_SPEAR =
             ENTITY_TYPES.register("copper_spear", () -> EntityType.Builder.<CopperSpear>of(CopperSpear::new, MobCategory.MISC)
@@ -150,12 +145,13 @@ public class DefensiveEntities {
             ENTITY_TYPES.register("electrum_spear", () -> EntityType.Builder.<ElectrumSpear>of(ElectrumSpear::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("electrum_spear"));
 
-    public static final RegistryObject<EntityType<RedstoneSpear>> REDSTONE_SPEAR =
-            ENTITY_TYPES.register("redstone_spear", () -> EntityType.Builder.<RedstoneSpear>of(RedstoneSpear::new, MobCategory.MISC)
-                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("redstone_spear"));
-    public static final RegistryObject<EntityType<RoseGoldSpear>> ROSE_GOLD_SPEAR =
-            ENTITY_TYPES.register("rose_gold_spear", () -> EntityType.Builder.<RoseGoldSpear>of(RoseGoldSpear::new, MobCategory.MISC)
-                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("rose_gold_spear"));
+    public static final RegistryObject<EntityType<StardustSpear>> STARDUST_SPEAR =
+            ENTITY_TYPES.register("stardust_spear", () -> EntityType.Builder.<StardustSpear>of(StardustSpear::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("stardust_spear"));
+    
+    public static final RegistryObject<EntityType<PyraenSpear>> PYRAEN_SPEAR =
+            ENTITY_TYPES.register("pyraen_spear", () -> EntityType.Builder.<PyraenSpear>of(PyraenSpear::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("pyraen_spear"));
 
     public static final RegistryObject<EntityType<PainiteProjectileEntity>> PAINITE_PROJECTILE =
             ENTITY_TYPES.register("painite_projectile", () -> EntityType.Builder.<PainiteProjectileEntity>of(PainiteProjectileEntity::new, MobCategory.MISC)

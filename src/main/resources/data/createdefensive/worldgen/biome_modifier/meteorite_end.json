@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": [
+    "createdefensive:meteorite_placed"
+  ]
+}

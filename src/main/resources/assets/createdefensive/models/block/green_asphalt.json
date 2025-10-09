@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "createdefensive:block/green_asphalt_asphalt"
+    "all": "createdefensive:block/green_asphalt"
   }
 }

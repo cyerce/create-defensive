@@ -44,11 +44,6 @@ public class DefensiveToolTiers {
                     DefensiveTags.Blocks.NEEDS_ZINC_TOOL, () -> Ingredient.of(AllItems.ZINC_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "zinc"), List.of(Tiers.STONE), List.of());
 
-    public static final Tier EXPERIENCE = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 250, 6f, 2f, 150,
-                    DefensiveTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(DefensiveItems.MITHRIL_INGOT.get())),
-            new ResourceLocation(CreateDefensive.MOD_ID, "experience"), List.of(Tiers.STONE), List.of());
-
     public static final Tier BRASS = TierSortingRegistry.registerTier(
             new ForgeTier(2, 1561, 6f, 4f, 14,
                     DefensiveTags.Blocks.NEEDS_BRASS_TOOL, () -> Ingredient.of(AllItems.BRASS_INGOT.get())),
@@ -64,24 +59,13 @@ public class DefensiveToolTiers {
                     DefensiveTags.Blocks.NEEDS_ELECTRUM_TOOL, () -> Ingredient.of(DefensiveItems.ENERGIZED_ELECTRUM_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "electrum"), List.of(Tiers.NETHERITE), List.of());
 
-    public static final Tier REDSTONE = TierSortingRegistry.registerTier(
+    public static final Tier STARDUST = TierSortingRegistry.registerTier(
             new ForgeTier(6, 6092, 11f, 4f, 30,
-                    DefensiveTags.Blocks.NEEDS_REDSTONE_TOOL, () -> Ingredient.of(DefensiveItems.UNSTABLE_REDSTONE_INGOT.get())),
+                    DefensiveTags.Blocks.NEEDS_STARDUST_TOOL, () -> Ingredient.of(DefensiveItems.STARDUST_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "redstone"), List.of(Tiers.NETHERITE), List.of());
 
-    public static final Tier ROSE_GOLD = TierSortingRegistry.registerTier(
+    public static final Tier PYRAEN = TierSortingRegistry.registerTier(
             new ForgeTier(7, 7310, 12f, 4f, 35,
-                    DefensiveTags.Blocks.NEEDS_ROSE_GOLD_TOOL, () -> Ingredient.of(DefensiveItems.UNSTABLE_ROSE_GOLD_INGOT.get())),
+                    DefensiveTags.Blocks.NEEDS_PYRAEN_TOOL, () -> Ingredient.of(DefensiveItems.PYRAEN_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "rose_gold"), List.of(Tiers.NETHERITE), List.of());
-
-    public static final Tier STARDUST = TierSortingRegistry.registerTier(
-            new ForgeTier(8, 10000, 13f, 4f, 40,
-                    DefensiveTags.Blocks.NEEDS_STARDUST_TOOL, () -> Ingredient.of(DefensiveItems.STARDUST_INGOT.get())),
-            new ResourceLocation(CreateDefensive.MOD_ID, "stardust"), List.of(Tiers.NETHERITE), List.of());
-
-    public static final Tier CRIMSTEEL = TierSortingRegistry.registerTier(
-            new ForgeTier(8, 12500, 14f, 5f, 45,
-                    DefensiveTags.Blocks.NEEDS_CRIMSTEEL_TOOL, () -> Ingredient.of(DefensiveItems.CRIMSTEEL_INGOT.get())),
-            new ResourceLocation(CreateDefensive.MOD_ID, "crimsteel"), List.of(Tiers.NETHERITE), List.of());
-
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/pyraen_bow",
+  "textures": {
+    "layer0": "createdefensive:item/pyraen_bow_pulling_1"
+  }
+}

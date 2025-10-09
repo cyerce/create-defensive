@@ -1,71 +1,73 @@
-package net.aepherastudios.createdefensive.worldgen.dimension;
-
-import com.mojang.datafixers.util.Pair;
-import net.aepherastudios.createdefensive.CreateDefensive;
-import net.aepherastudios.createdefensive.worldgen.biome.DefensiveBiomes;
-import net.minecraft.core.HolderGetter;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.data.worldgen.BootstapContext;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.util.valueproviders.ConstantInt;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.biome.*;
-import net.minecraft.world.level.dimension.DimensionType;
-import net.minecraft.world.level.dimension.LevelStem;
-import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
-import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
-
-import java.util.List;
-import java.util.OptionalLong;
-
-public class DefensiveDimensions {
-    public static final ResourceKey<LevelStem> MERCURY_KEY = ResourceKey.create(Registries.LEVEL_STEM,
-            new ResourceLocation(CreateDefensive.MOD_ID, "mercury"));
-    public static final ResourceKey<Level> MERCURY_LEVEL_KEY = ResourceKey.create(Registries.DIMENSION,
-            new ResourceLocation(CreateDefensive.MOD_ID, "mercury"));
-    public static final ResourceKey<DimensionType> MERCURY_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
-            new ResourceLocation(CreateDefensive.MOD_ID, "mercury_type"));
-    public static final ResourceLocation MERCURY_EFFECTS = new ResourceLocation("mercury");
-
-    public static void bootstrapType(BootstapContext<DimensionType> context) {
-        context.register(MERCURY_TYPE, new DimensionType(
-                OptionalLong.of(12000),
-                false,
-                false,
-                false,
-                false,
-                1.0,
-                false,
-                false,
-                0,
-                256,
-                256,
-                BlockTags.INFINIBURN_OVERWORLD,
-                DefensiveDimensions.MERCURY_EFFECTS,
-                1.0f,
-                new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 0)));
-    }
-
-    public static void bootstrapStem(BootstapContext<LevelStem> context) {
-        HolderGetter<Biome> biomeRegistry = context.lookup(Registries.BIOME);
-        HolderGetter<DimensionType> dimTypes = context.lookup(Registries.DIMENSION_TYPE);
-        HolderGetter<NoiseGeneratorSettings> noiseGenSettings = context.lookup(Registries.NOISE_SETTINGS);
-
-        NoiseBasedChunkGenerator wrappedChunkGenerator = new NoiseBasedChunkGenerator(
-                new FixedBiomeSource(biomeRegistry.getOrThrow(Biomes.MUSHROOM_FIELDS)),
-                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.AMPLIFIED));
-
-        NoiseBasedChunkGenerator noiseBasedChunkGenerator = new NoiseBasedChunkGenerator(
-                MultiNoiseBiomeSource.createFromList(
-                        new Climate.ParameterList<>(List.of(Pair.of(
-                                        Climate.parameters(0F, 0F, 0F, 0F, 0F, 0F, 0F), biomeRegistry.getOrThrow(DefensiveBiomes.MERCURIAN_PLAINS))
-                        ))),
-                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.LARGE_BIOMES));
-
-        LevelStem stem = new LevelStem(dimTypes.getOrThrow(DefensiveDimensions.MERCURY_TYPE), noiseBasedChunkGenerator);
-
-        context.register(MERCURY_KEY, stem);
-    }
-}
+//package net.aepherastudios.createdefensive.worldgen.dimension;
+//
+//import com.mojang.datafixers.util.Pair;
+//import net.aepherastudios.createdefensive.CreateDefensive;
+//import net.aepherastudios.createdefensive.worldgen.biome.DefensiveBiomes;
+//import net.minecraft.client.renderer.DimensionSpecialEffects;
+//import net.minecraft.core.HolderGetter;
+//import net.minecraft.core.registries.Registries;
+//import net.minecraft.data.worldgen.BootstapContext;
+//import net.minecraft.resources.ResourceKey;
+//import net.minecraft.resources.ResourceLocation;
+//import net.minecraft.tags.BlockTags;
+//import net.minecraft.util.valueproviders.ConstantInt;
+//import net.minecraft.world.level.Level;
+//import net.minecraft.world.level.biome.*;
+//import net.minecraft.world.level.dimension.BuiltinDimensionTypes;
+//import net.minecraft.world.level.dimension.DimensionType;
+//import net.minecraft.world.level.dimension.LevelStem;
+//import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
+//import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
+//
+//import java.util.List;
+//import java.util.OptionalLong;
+//
+//public class DefensiveDimensions {
+//    public static final ResourceKey<LevelStem> MERCURY_KEY = ResourceKey.create(Registries.LEVEL_STEM,
+//            new ResourceLocation(CreateDefensive.MOD_ID, "mercury"));
+//    public static final ResourceKey<Level> MERCURY_LEVEL_KEY = ResourceKey.create(Registries.DIMENSION,
+//            new ResourceLocation(CreateDefensive.MOD_ID, "mercury"));
+//    public static final ResourceKey<DimensionType> MERCURY_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
+//            new ResourceLocation(CreateDefensive.MOD_ID, "mercury_type"));
+//    public static final ResourceLocation MERCURY_EFFECTS = new ResourceLocation("mercury");
+//
+//    public static void bootstrapType(BootstapContext<DimensionType> context) {
+//        context.register(MERCURY_TYPE, new DimensionType(
+//                OptionalLong.of(12000),
+//                false,
+//                false,
+//                false,
+//                false,
+//                1.0,
+//                false,
+//                false,
+//                0,
+//                256,
+//                256,
+//                BlockTags.INFINIBURN_OVERWORLD,
+//                BuiltinDimensionTypes.OVERWORLD_EFFECTS,
+//                1.0f,
+//                new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 0)));
+//    }
+//
+//    public static void bootstrapStem(BootstapContext<LevelStem> context) {
+//        HolderGetter<Biome> biomeRegistry = context.lookup(Registries.BIOME);
+//        HolderGetter<DimensionType> dimTypes = context.lookup(Registries.DIMENSION_TYPE);
+//        HolderGetter<NoiseGeneratorSettings> noiseGenSettings = context.lookup(Registries.NOISE_SETTINGS);
+//
+//        NoiseBasedChunkGenerator wrappedChunkGenerator = new NoiseBasedChunkGenerator(
+//                new FixedBiomeSource(biomeRegistry.getOrThrow(Biomes.MUSHROOM_FIELDS)),
+//                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.AMPLIFIED));
+//
+//        NoiseBasedChunkGenerator noiseBasedChunkGenerator = new NoiseBasedChunkGenerator(
+//                MultiNoiseBiomeSource.createFromList(
+//                        new Climate.ParameterList<>(List.of(Pair.of(
+//                                        Climate.parameters(0F, 0F, 0F, 0F, 0F, 0F, 0F), biomeRegistry.getOrThrow(DefensiveBiomes.MERCURIAN_PLAINS))
+//                        ))),
+//                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.LARGE_BIOMES));
+//
+//        LevelStem stem = new LevelStem(dimTypes.getOrThrow(DefensiveDimensions.MERCURY_TYPE), noiseBasedChunkGenerator);
+//
+//        context.register(MERCURY_KEY, stem);
+//    }
+//}

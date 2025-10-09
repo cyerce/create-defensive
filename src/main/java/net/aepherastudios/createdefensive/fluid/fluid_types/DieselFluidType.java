@@ -18,12 +18,12 @@ public class DieselFluidType {
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateDefensive.MOD_ID);
 
-    public static final RegistryObject<FluidType> DIESEL = register("gasoline",
+    public static final RegistryObject<FluidType> DIESEL = register("diesel",
             FluidType.Properties.create().canConvertToSource(false).density(15).viscosity(5));
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties) {
         return FLUID_TYPES.register(name, () ->
-                new BaseFluidType(GASOLINE_STILL_RL, GASOLINE_FLOWING_RL, GASOLINE_OVERLAY_RL, 0xA11A1A1A, new Vector3f(26f / 255f, 26f / 255f, 26f / 255f), properties));
+                new BaseFluidType(GASOLINE_STILL_RL, GASOLINE_FLOWING_RL, GASOLINE_OVERLAY_RL, 0xA1966537, new Vector3f(26f / 255f, 26f / 255f, 26f / 255f), properties));
     }
 
 

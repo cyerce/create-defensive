@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "createdefensive:red_asphalt",
+    "createdefensive:orange_asphalt",
+    "createdefensive:yellow_asphalt",
+    "createdefensive:lime_asphalt",
+    "createdefensive:green_asphalt",
+    "createdefensive:cyan_asphalt",
+    "createdefensive:light_blue_asphalt",
+    "createdefensive:blue_asphalt",
+    "createdefensive:purple_asphalt",
+    "createdefensive:magenta_asphalt",
+    "createdefensive:pink_asphalt",
+    "createdefensive:white_asphalt",
+    "createdefensive:light_gray_asphalt",
+    "createdefensive:gray_asphalt",
+    "createdefensive:black_asphalt",
+    "createdefensive:brown_asphalt"
+  ]
+}

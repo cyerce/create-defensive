@@ -61,22 +61,15 @@ public class DefensiveModelLayers {
     public static final ModelLayerLocation ELECTRUM_SPEAR_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "electrum_spear_layer"), "main");
 
-    public static final ModelLayerLocation REDSTONE_SPEAR_LAYER = new ModelLayerLocation(
-            new ResourceLocation(CreateDefensive.MOD_ID, "redstone_spear_layer"), "main");
+    public static final ModelLayerLocation STARDUST_SPEAR_LAYER = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "stardust_spear_layer"), "main");
 
-    public static final ModelLayerLocation ROSE_GOLD_SPEAR_LAYER = new ModelLayerLocation(
-            new ResourceLocation(CreateDefensive.MOD_ID, "rose_gold_spear_layer"), "main");
+    public static final ModelLayerLocation PYRAEN_SPEAR_LAYER = new ModelLayerLocation(
+            new ResourceLocation(CreateDefensive.MOD_ID, "pyraen_spear_layer"), "main");
 
     public static final ModelLayerLocation OAK_SHIELD_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "oak_shield_layer"), "main");
 
     public static final ModelLayerLocation BULLET_LAYER = new ModelLayerLocation(
             new ResourceLocation(CreateDefensive.MOD_ID, "bullet_layer"), "main");
-
-    public static final ModelLayerLocation GLOVES = new ModelLayerLocation(
-            new ResourceLocation(CreateDefensive.MOD_ID, "gloves"), "main");
-
-    public static final ModelLayerLocation GLOVES_FP = new ModelLayerLocation(
-            new ResourceLocation(CreateDefensive.MOD_ID, "gloves"), "main");
-
 }

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "createdefensive:black_asphalt"
+    },
+    {
+      "item": "minecraft:brown_asphalt_dye"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "createdefensive:brown_asphalt_asphalt"
+  }
+}

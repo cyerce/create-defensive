@@ -1,0 +1,6 @@
+{
+  "parent": "createdefensive:item/pyraen_crossbow",
+  "textures": {
+    "layer0": "createdefensive:item/pyraen_crossbow_pulling_1"
+  }
+}

@@ -13,7 +13,6 @@ public class DefensiveItemProperties {
         makeBow(DefensiveItems.SILVER_BOW.get());
         makeBow(DefensiveItems.PLATINUM_BOW.get());
         makeBow(DefensiveItems.STEEL_BOW.get());
-        makeBow(DefensiveItems.EXPERIENCE_BOW.get());
         makeBow(DefensiveItems.COPPER_BOW.get());
         makeBow(DefensiveItems.ZINC_BOW.get());
         makeBow(DefensiveItems.BRASS_BOW.get());
@@ -25,8 +24,8 @@ public class DefensiveItemProperties {
         makeBow(DefensiveItems.DIAMOND_BOW.get());
         makeBow(DefensiveItems.NETHERITE_BOW.get());
         makeBow(DefensiveItems.ELECTRUM_BOW.get());
-        makeBow(DefensiveItems.REDSTONE_BOW.get());
-        makeBow(DefensiveItems.ROSE_GOLD_BOW.get());
+        makeBow(DefensiveItems.STARDUST_BOW.get());
+        makeBow(DefensiveItems.PYRAEN_BOW.get());
 
         makeShield(DefensiveItems.OAK_SHIELD.get());
 
@@ -34,7 +33,6 @@ public class DefensiveItemProperties {
         makeSpear(DefensiveItems.SILVER_SPEAR.get());
         makeSpear(DefensiveItems.PLATINUM_SPEAR.get());
         makeSpear(DefensiveItems.STEEL_SPEAR.get());
-        makeSpear(DefensiveItems.EXPERIENCE_SPEAR.get());
         makeSpear(DefensiveItems.COPPER_SPEAR.get());
         makeSpear(DefensiveItems.ZINC_SPEAR.get());
         makeSpear(DefensiveItems.BRASS_SPEAR.get());
@@ -46,8 +44,8 @@ public class DefensiveItemProperties {
         makeSpear(DefensiveItems.DIAMOND_SPEAR.get());
         makeSpear(DefensiveItems.NETHERITE_SPEAR.get());
         makeSpear(DefensiveItems.ELECTRUM_SPEAR.get());
-        makeSpear(DefensiveItems.REDSTONE_SPEAR.get());
-        makeSpear(DefensiveItems.ROSE_GOLD_SPEAR.get());
+        makeSpear(DefensiveItems.STARDUST_SPEAR.get());
+        makeSpear(DefensiveItems.PYRAEN_SPEAR.get());
 
         makeCrossbow(DefensiveItems.ALUMINUM_CROSSBOW.get());
         makeCrossbow(DefensiveItems.SILVER_CROSSBOW.get());
@@ -57,7 +55,6 @@ public class DefensiveItemProperties {
         makeCrossbow(DefensiveItems.ZINC_CROSSBOW.get());
         makeCrossbow(DefensiveItems.BRASS_CROSSBOW.get());
         makeCrossbow(DefensiveItems.ROSE_QUARTZ_CROSSBOW.get());
-        makeCrossbow(DefensiveItems.EXPERIENCE_CROSSBOW.get());
         makeCrossbow(DefensiveItems.WOODEN_CROSSBOW.get());
         makeCrossbow(DefensiveItems.STONE_CROSSBOW.get());
         makeCrossbow(DefensiveItems.IRON_CROSSBOW.get());
@@ -65,8 +62,8 @@ public class DefensiveItemProperties {
         makeCrossbow(DefensiveItems.DIAMOND_CROSSBOW.get());
         makeCrossbow(DefensiveItems.NETHERITE_CROSSBOW.get());
         makeCrossbow(DefensiveItems.ELECTRUM_CROSSBOW.get());
-        makeCrossbow(DefensiveItems.REDSTONE_CROSSBOW.get());
-        makeCrossbow(DefensiveItems.ROSE_GOLD_CROSSBOW.get());
+        makeCrossbow(DefensiveItems.STARDUST_CROSSBOW.get());
+        makeCrossbow(DefensiveItems.PYRAEN_CROSSBOW.get());
     }
 
     private static void makeBow(Item item) {

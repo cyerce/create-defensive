@@ -1,0 +1,16 @@
+{
+  "type": "createdefensive:meteorite",
+  "config": {
+    "radius": 5,
+    "inner_thickness": 1,
+    "shell_crack_chance": 0.5,
+    "core_block": "createdefensive:pyraen_ore",
+    "middle_block": "createdefensive:stardust_obsidian_blue",
+    "shell_block": "minecraft:obsidian",
+    "cracked_shell_block": "createdefensive:bleeding_obsidian",
+    "middle_replacement_chance": 0.5,
+    "middle_replacement_block": "createdefensive:stardust_obsidian_yellow",
+    "min_distance": 1024,
+    "max_distance": 2048
+  }
+}

@@ -23,6 +23,15 @@ public class DefensiveBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CreateDefensive.MOD_ID);
 
+    public static final RegistryObject<Block> PYRAEN_ORE = registerBlock("pyraen_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(100f, 1200f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> BLEEDING_OBSIDIAN = registerBlock("bleeding_obsidian",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(100f, 1200f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> STARDUST_OBSIDIAN_YELLOW = registerBlock("stardust_obsidian_yellow",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(100f, 1200f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> STARDUST_OBSIDIAN_BLUE = registerBlock("stardust_obsidian_blue",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(100f, 1200f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     public static final RegistryObject<Block> MERCURIAN_REGOLITH = registerBlock("mercurian_regolith",
             () -> new SandBlock(7733246, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.SAND)));
     public static final RegistryObject<Block> MERCURIAN_BASALT = registerBlock("mercurian_basalt",
@@ -126,37 +135,37 @@ public class DefensiveBlocks {
     // 2f1d00, 0.6a
 
     public static final RegistryObject<Block> RED_ASPHALT = registerBlock("red_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> ORANGE_ASPHALT = registerBlock("orange_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> YELLOW_ASPHALT = registerBlock("yellow_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> LIME_ASPHALT = registerBlock("lime_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> GREEN_ASPHALT = registerBlock("green_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> CYAN_ASPHALT = registerBlock("cyan_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> LIGHT_BLUE_ASPHALT = registerBlock("light_blue_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> BLUE_ASPHALT = registerBlock("blue_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> PURPLE_ASPHALT = registerBlock("purple_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> MAGENTA_ASPHALT = registerBlock("magenta_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> PINK_ASPHALT = registerBlock("pink_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> WHITE_ASPHALT = registerBlock("white_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> LIGHT_GRAY_ASPHALT = registerBlock("light_gray_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> GRAY_ASPHALT = registerBlock("gray_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> BLACK_ASPHALT = registerBlock("black_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> BROWN_ASPHALT = registerBlock("brown_asphalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new AsphaltBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> COKING_OVEN = registerBlock("coking_oven",
             () -> new CokingOvenBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
@@ -276,6 +285,8 @@ public class DefensiveBlocks {
     public static final RegistryObject<Block> BROWN_BLAST_PLATING = registerBlock("brown_blast_plating",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).explosionResistance(1000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> CATALYST_CRYSTAL = registerBlock("catalyst_crystal",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> SMOKE_CATALYST = registerBlock("smoke_catalyst",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> BLAST_CATALYST = registerBlock("blast_catalyst",
@@ -308,9 +319,9 @@ public class DefensiveBlocks {
     public static final RegistryObject<LiquidBlock> DIESEL = BLOCKS.register("diesel",
             () -> new OilBlock(DefensiveFluids.SOURCE_DIESEL, BlockBehaviour.Properties.copy(Blocks.WATER)));
     public static final RegistryObject<LiquidBlock> BITUMEN = BLOCKS.register("bitumen",
-            () -> new OilBlock(DefensiveFluids.SOURCE_BUTANE, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new OilBlock(DefensiveFluids.SOURCE_BITUMEN, BlockBehaviour.Properties.copy(Blocks.WATER)));
     public static final RegistryObject<LiquidBlock> BUTANE = BLOCKS.register("butane",
-            () -> new OilBlock(DefensiveFluids.SOURCE_PROPANE, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new OilBlock(DefensiveFluids.SOURCE_BUTANE, BlockBehaviour.Properties.copy(Blocks.WATER)));
     public static final RegistryObject<LiquidBlock> PROPANE = BLOCKS.register("propane",
             () -> new OilBlock(DefensiveFluids.SOURCE_PROPANE, BlockBehaviour.Properties.copy(Blocks.WATER)));
     public static final RegistryObject<LiquidBlock> ETHANE = BLOCKS.register("ethane",

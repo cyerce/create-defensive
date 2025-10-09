@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "createdefensive:asphalt"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:black_asphalt"
+    }
+  ]
+}

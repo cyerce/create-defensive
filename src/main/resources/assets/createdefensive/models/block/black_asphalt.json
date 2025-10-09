@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "createdefensive:block/black_asphalt_asphalt"
+    "all": "createdefensive:block/black_asphalt"
   }
 }

@@ -91,13 +91,13 @@ public class DefensiveEventBusClientEvents {
     }
 
     @SubscribeEvent
-    public static void registerRedstoneSpearLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
-        event.registerLayerDefinition(DefensiveModelLayers.REDSTONE_SPEAR_LAYER, RedstoneSpearModel::createLayer);
+    public static void registerStardustSpearLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(DefensiveModelLayers.STARDUST_SPEAR_LAYER, StardustSpearModel::createLayer);
     }
 
     @SubscribeEvent
-    public static void registerRoseGoldSpearLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
-        event.registerLayerDefinition(DefensiveModelLayers.ROSE_GOLD_SPEAR_LAYER, RoseGoldSpearModel::createLayer);
+    public static void registerPyraenSpearLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(DefensiveModelLayers.PYRAEN_SPEAR_LAYER, PyraenSpearModel::createLayer);
     }
 
     @SubscribeEvent

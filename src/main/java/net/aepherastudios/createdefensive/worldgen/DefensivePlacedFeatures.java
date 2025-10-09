@@ -23,6 +23,8 @@ public class DefensivePlacedFeatures {
     public static final ResourceKey<PlacedFeature> URANIUM_ORE_PLACED_KEY = registerKey("uranium_ore_placed");
     public static final ResourceKey<PlacedFeature> OIL_LAKE_PLACED_KEY = ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(CreateDefensive.MOD_ID, "oil_lake_placed"));
     public static final ResourceKey<PlacedFeature> NATURAL_GAS_LAKE_PLACED_KEY = ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(CreateDefensive.MOD_ID, "natural_gas_lake_placed"));
+    public static final ResourceKey<PlacedFeature> METEORITE_PLACED_KEY = registerKey("meteorite_placed");
+
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -63,6 +65,18 @@ public class DefensivePlacedFeatures {
                 HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-50), VerticalAnchor.aboveBottom(40)),
                 BiomeFilter.biome()
         };
+
+        Holder<ConfiguredFeature<?, ?>> meteoriteConfigured = configuredFeatures.getOrThrow(DefensiveFeatures.METEORITE_KEY);
+
+        PlacementModifier[] meteoriteModifiers = new PlacementModifier[] {
+                CountPlacement.of(1),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(50), VerticalAnchor.absolute(150)),
+                BiomeFilter.biome()
+        };
+
+        register(context, METEORITE_PLACED_KEY, meteoriteConfigured, List.of(meteoriteModifiers));
+
 
 //        context.register(OIL_LAKE_PLACED_KEY, new PlacedFeature(oilConfiguredFeature, List.of(modifiers)));
 //        context.register(NATURAL_GAS_LAKE_PLACED_KEY, new PlacedFeature(lmgConfiguredFeature, List.of(modifiers)));

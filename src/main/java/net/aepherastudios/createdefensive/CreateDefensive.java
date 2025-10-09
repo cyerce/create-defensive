@@ -7,6 +7,7 @@ import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRe
 import net.aepherastudios.createdefensive.entity.client.PainiteProjectileEntityRenderer;
 import net.aepherastudios.createdefensive.entity.client.PrimedHighExplosiveRenderer;
 import net.aepherastudios.createdefensive.entity.client.SuperheatedBlazeEntityRenderer;
+import net.aepherastudios.createdefensive.entity.custom.PyraenArrowEntity;
 import net.aepherastudios.createdefensive.fluid.DefensiveFluids;
 import net.aepherastudios.createdefensive.fluid.fluid_types.*;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
@@ -21,8 +22,6 @@ import net.aepherastudios.createdefensive.screen.DefensiveMenuTypes;
 import net.aepherastudios.createdefensive.screen.IndustrialHeaterScreen;
 import net.aepherastudios.createdefensive.util.DefensiveItemProperties;
 import net.aepherastudios.createdefensive.worldgen.DefensiveFeatures;
-import net.aepherastudios.createdefensive.worldgen.biome.surface.DefensiveSurfaceRules;
-import net.aepherastudios.createdefensive.worldgen.dimension.DefensiveSpecialEffectsManager;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -93,7 +92,7 @@ public class CreateDefensive {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        DefensiveSpecialEffectsManager.init();
+//        DefensiveSpecialEffectsManager.init();
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -123,8 +122,8 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.DIAMOND_ARROW.get(), DiamondArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.NETHERITE_ARROW.get(), NetheriteArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.ELECTRUM_ARROW.get(), ElectrumArrowRenderer::new);
-            EntityRenderers.register(DefensiveEntities.REDSTONE_ARROW.get(), RedstoneArrowRenderer::new);
-            EntityRenderers.register(DefensiveEntities.ROSE_GOLD_ARROW.get(), RoseGoldArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STARDUST_ARROW.get(), StardustArrowRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PYRAEN_ARROW.get(), PyraenArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.PAINITE_PROJECTILE.get(), PainiteProjectileEntityRenderer::new);
 
             EntityRenderers.register(DefensiveEntities.PAINITE_ELEMENTAL.get(), PainiteElementalEntityRenderer::new);
@@ -144,9 +143,8 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.DIAMOND_SPEAR.get(), DiamondSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.NETHERITE_SPEAR.get(), NetheriteSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.ELECTRUM_SPEAR.get(), ElectrumSpearRenderer::new);
-            EntityRenderers.register(DefensiveEntities.REDSTONE_SPEAR.get(), RedstoneSpearRenderer::new);
-            EntityRenderers.register(DefensiveEntities.ROSE_GOLD_SPEAR.get(), RoseGoldSpearRenderer::new);
-            EntityRenderers.register(DefensiveEntities.EXPERIENCE_SPEAR.get(), ExperienceSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STARDUST_SPEAR.get(), StardustSpearRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PYRAEN_SPEAR.get(), PyraenSpearRenderer::new);
 
             EntityRenderers.register(DefensiveEntities.PRIMED_HIGH_EXPLOSIVE.get(), PrimedHighExplosiveRenderer::new);
 

@@ -21,18 +21,17 @@ public class DefensiveTags {
         public static final TagKey<Block> NEEDS_BRASS_TOOL = tag("needs_brass_tool");
         public static final TagKey<Block> NEEDS_ROSE_QUARTZ_TOOL = tag("needs_rose_quartz_tool");
         public static final TagKey<Block> NEEDS_ELECTRUM_TOOL = tag("needs_electrum_tool");
-        public static final TagKey<Block> NEEDS_REDSTONE_TOOL = tag("needs_redstone_tool");
-        public static final TagKey<Block> NEEDS_ROSE_GOLD_TOOL = tag("needs_rose_gold_tool");
         public static final TagKey<Block> NEEDS_STARDUST_TOOL = tag("needs_stardust_tool");
-        public static final TagKey<Block> NEEDS_CRIMSTEEL_TOOL = tag("needs_crimsteel_tool");
-
-        public static final TagKey<Block> DYED_BLAST_PLATING = tag("dyed_blast_plating");
+        public static final TagKey<Block> NEEDS_PYRAEN_TOOL = tag("needs_pyraen_tool");
+        public static final TagKey<Block> ASPHALT = tag("asphalt");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(CreateDefensive.MOD_ID, name));
         }
     }
     public static class Items {
+
+        public static final TagKey<Item> ASPHALT = tag("asphalt");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(CreateDefensive.MOD_ID, name));
