@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:stardust_blend"
+  },
+  "base": {
+    "item": "createdefensive:electrum_morningstar"
+  },
+  "result": {
+    "item": "createdefensive:stardust_morningstar"
+  },
+  "template": {
+    "item": "createdefensive:stardust_upgrade_smithing_template"
+  }
+}

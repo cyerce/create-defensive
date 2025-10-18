@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createdefensive:blue_stardust"
+    },
+    {
+      "item": "createdefensive:yellow_stardust"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:unstable_stardust_blend",
+      "count": 2
+    }
+  ]
+}

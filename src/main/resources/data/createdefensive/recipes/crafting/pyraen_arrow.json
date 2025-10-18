@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "createdefensive:pyraen_arrow_head"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "#",
+    "$",
+    "@"
+  ],
+  "result": {
+    "item": "createdefensive:pyraen_arrow",
+    "count": 8
+  }
+}

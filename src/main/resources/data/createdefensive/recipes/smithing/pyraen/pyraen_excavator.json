@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:pyraen_ingot"
+  },
+  "base": {
+    "item": "createdefensive:stardust_excavator"
+  },
+  "result": {
+    "item": "createdefensive:pyraen_excavator"
+  },
+  "template": {
+    "item": "createdefensive:pyraen_upgrade_smithing_template"
+  }
+}

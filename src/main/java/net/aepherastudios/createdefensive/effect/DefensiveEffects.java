@@ -48,9 +48,6 @@ public class DefensiveEffects {
     public static final RegistryObject<MobEffect> CRYSTALLIZED_REDSTONE = MOB_EFFECTS.register("crystallized_redstone",
             () -> new CrystallizedRedstoneEffect(MobEffectCategory.HARMFUL, 16711680));
 
-    public static final RegistryObject<MobEffect> VEXED = MOB_EFFECTS.register("vexed",
-            () -> new CrystallizedRedstoneEffect(MobEffectCategory.HARMFUL, 16711680));
-
     public static final RegistryObject<MobEffect> ALUMINUM_POWER = MOB_EFFECTS.register("aluminum_power",
             () -> new AluminumPowerEffect(MobEffectCategory.BENEFICIAL, 16711680));
 
@@ -65,6 +62,13 @@ public class DefensiveEffects {
 
     public static final RegistryObject<MobEffect> TARRED = MOB_EFFECTS.register("tarred",
             () -> new TarredEffect(MobEffectCategory.HARMFUL, 1710618));
+
+    public static final RegistryObject<MobEffect> EXECUTION = MOB_EFFECTS.register("execution",
+            () -> new BlankEffect(MobEffectCategory.HARMFUL, 10551193));
+
+    public static final RegistryObject<MobEffect> HALBERDSFURY = MOB_EFFECTS.register("halberdsfury",
+            () -> new BlankEffect(MobEffectCategory.BENEFICIAL, 10551193));
+
 
 
     public static void register(IEventBus eventBus) {

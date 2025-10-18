@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:bleeding_obsidian"
+    }
+  ]
+}

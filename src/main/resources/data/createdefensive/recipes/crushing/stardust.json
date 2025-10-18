@@ -7,17 +7,21 @@
   ],
   "results": [
     {
-      "item": "createdefensive:yellow_stardust"
+      "item": "createdefensive:yellow_stardust",
+      "count": 2
     },
     {
       "item": "createdefensive:yellow_stardust",
+      "count": 2,
       "chance": 0.25
     },
     {
-      "item": "createdefensive:blue_stardust"
+      "item": "createdefensive:blue_stardust",
+      "count": 2
     },
     {
       "item": "createdefensive:blue_stardust",
+      "count": 2,
       "chance": 0.25
     }
   ],

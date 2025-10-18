@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:stardust_blend"
+  },
+  "base": {
+    "item": "createdefensive:electrum_excavator"
+  },
+  "result": {
+    "item": "createdefensive:stardust_excavator"
+  },
+  "template": {
+    "item": "createdefensive:stardust_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createdefensive:stardust_blend"
+    },
+    {
+      "item": "createdefensive:stardust_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:chromatic_compound"
+    }
+  ]
+}

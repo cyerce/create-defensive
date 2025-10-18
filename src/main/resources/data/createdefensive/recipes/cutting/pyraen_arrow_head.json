@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createdefensive:pyraen_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:pyraen_arrow_head",
+      "count": 16
+    }
+  ]
+}

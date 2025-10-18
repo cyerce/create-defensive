@@ -1,10 +1,18 @@
 package net.aepherastudios.createdefensive.event;
 
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
+import net.aepherastudios.createdefensive.item.custom.GreataxeItem;
+import net.aepherastudios.createdefensive.item.custom.GreatswordItem;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageSources;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -18,8 +26,37 @@ public class DefensiveCommonEvents {
 
         @SubscribeEvent
         public static void onLivingHurt(LivingHurtEvent event) {
-            LivingEntity entity = event.getEntity();
-            if (entity.hasEffect(DefensiveEffects.TARRED.get())) {
+            LivingEntity victim = event.getEntity();
+            Entity aggressor = event.getSource().getEntity();
+            if (aggressor!= null){
+                double dx = victim.getX() - aggressor.getX();
+                double dz = victim.getZ() - aggressor.getZ();
+                double distance = Math.sqrt(dx * dx + dz * dz);
+                if (distance < 0.001) distance = 0.001;
+
+                if (!(aggressor instanceof LivingEntity attacker)) return;
+
+                if (aggressor instanceof LivingEntity) {
+                    ItemStack weapon = attacker.getItemInHand(InteractionHand.MAIN_HAND);
+
+                    if (weapon.getItem() instanceof GreatswordItem) {
+                        double strength = 2;
+                        victim.push(dx / distance * strength, 0.1, dz / distance * strength);
+                        victim.hurtMarked = true;
+                    }
+                    if (weapon.getItem() instanceof GreataxeItem) {
+                        if (victim.hasEffect(DefensiveEffects.EXECUTION.get())) {
+                            float enemyHealth = victim.getHealth();
+                            float enemyTotalHealth = victim.getMaxHealth();
+                            if (enemyHealth < (enemyTotalHealth / 4)) {
+                                float original = event.getAmount();
+                                event.setAmount(original * 2.0f);
+                            }
+                        }
+                    }
+                }
+            }
+            if (victim.hasEffect(DefensiveEffects.TARRED.get())) {
                 String damageType = event.getSource().getMsgId();
                 if (isFireDamage(damageType)) {
                     float original = event.getAmount();

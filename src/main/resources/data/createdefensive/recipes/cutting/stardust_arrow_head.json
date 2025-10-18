@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createdefensive:stardust_blend"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:stardust_arrow_head",
+      "count": 16
+    }
+  ]
+}

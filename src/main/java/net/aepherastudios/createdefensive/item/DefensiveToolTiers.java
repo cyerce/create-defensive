@@ -35,7 +35,7 @@ public class DefensiveToolTiers {
             new ResourceLocation(CreateDefensive.MOD_ID, "steel"), List.of(Tiers.IRON), List.of());
 
     public static final Tier COPPER = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 131, 6f, 2f, 14,
+            new ForgeTier(2, 131, 6f, 2f, 40,
                     DefensiveTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
             new ResourceLocation(CreateDefensive.MOD_ID, "copper"), List.of(Tiers.STONE), List.of());
 
@@ -45,27 +45,27 @@ public class DefensiveToolTiers {
             new ResourceLocation(CreateDefensive.MOD_ID, "zinc"), List.of(Tiers.STONE), List.of());
 
     public static final Tier BRASS = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 1561, 6f, 4f, 14,
+            new ForgeTier(2, 1561, 6f, 3f, 14,
                     DefensiveTags.Blocks.NEEDS_BRASS_TOOL, () -> Ingredient.of(AllItems.BRASS_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "brass"), List.of(Tiers.STONE), List.of());
 
     public static final Tier ROSE_QUARTZ = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 1561, 6f, 4f, 25,
+            new ForgeTier(2, 1561, 6f, 3f, 25,
                     DefensiveTags.Blocks.NEEDS_ROSE_QUARTZ_TOOL, () -> Ingredient.of(AllItems.POLISHED_ROSE_QUARTZ.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "rose_quartz"), List.of(Tiers.STONE), List.of());
 
     public static final Tier ELECTRUM = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 4062, 10f, 4f, 15,
+            new ForgeTier(5, 4062, 10f, 5f, 15,
                     DefensiveTags.Blocks.NEEDS_ELECTRUM_TOOL, () -> Ingredient.of(DefensiveItems.ENERGIZED_ELECTRUM_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "electrum"), List.of(Tiers.NETHERITE), List.of());
 
     public static final Tier STARDUST = TierSortingRegistry.registerTier(
-            new ForgeTier(6, 6092, 11f, 4f, 30,
+            new ForgeTier(6, 6092, 11f, 7f, 30,
                     DefensiveTags.Blocks.NEEDS_STARDUST_TOOL, () -> Ingredient.of(DefensiveItems.STARDUST_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "redstone"), List.of(Tiers.NETHERITE), List.of());
 
     public static final Tier PYRAEN = TierSortingRegistry.registerTier(
-            new ForgeTier(7, 7310, 12f, 4f, 35,
+            new ForgeTier(7, 7310, 12f, 9f, 35,
                     DefensiveTags.Blocks.NEEDS_PYRAEN_TOOL, () -> Ingredient.of(DefensiveItems.PYRAEN_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "rose_gold"), List.of(Tiers.NETHERITE), List.of());
 }

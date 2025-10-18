@@ -4,7 +4,11 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.DiggerItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.block.Block;
@@ -55,5 +59,11 @@ public class ScytheItem extends DiggerItem {
         }
 
         return positions;
+    }
+
+    @Override
+    public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
+        pAttacker.heal(1.0f);
+        return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }

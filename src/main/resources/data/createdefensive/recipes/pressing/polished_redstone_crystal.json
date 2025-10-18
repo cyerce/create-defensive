@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createdefensive:polished_redstone_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdefensive:pyraen_upgrade_smithing_template"
+    }
+  ]
+}

@@ -102,8 +102,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.GOLD_WIRE.get());
                         pOutput.accept(DefensiveItems.IRON_ROD.get());
                         pOutput.accept(DefensiveItems.POWDERED_RAW_IRON.get());
-                        pOutput.accept(DefensiveBlocks.BORAX_ORE.get());
-                        pOutput.accept(DefensiveBlocks.DEEPSLATE_BORAX_ORE.get());
                         pOutput.accept(DefensiveItems.POWDERED_IRON.get());
                         pOutput.accept(DefensiveItems.NETHERITE_SHEET.get());
                         pOutput.accept(DefensiveItems.STEEL_INGOT.get());
@@ -113,7 +111,6 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_ROD.get());
                         pOutput.accept(DefensiveItems.POWDERED_STEEL.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_INGOT.get());
-                        pOutput.accept(DefensiveItems.PYRAEN_INGOT.get());
                         pOutput.accept(DefensiveItems.ROSE_GOLD_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.ROSE_GOLD_BLOCK.get());
                         pOutput.accept(DefensiveItems.VIOLET_GOLD_INGOT.get());
@@ -138,13 +135,17 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STABALLOY_INGOT.get());
                         pOutput.accept(DefensiveItems.STABALLOY_NUGGET.get());
                         pOutput.accept(DefensiveBlocks.STABALLOY_BLOCK.get());
-                        pOutput.accept(DefensiveItems.ENERGIZED_ROSE_QUARTZ.get());
+                        pOutput.accept(DefensiveItems.PYRAEN_INGOT.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_PANE.get());
                         pOutput.accept(DefensiveItems.BLUE_STARDUST.get());
                         pOutput.accept(DefensiveItems.YELLOW_STARDUST.get());
                         pOutput.accept(DefensiveItems.UNSTABLE_STARDUST_BLEND.get());
                         pOutput.accept(DefensiveItems.STARDUST_BLEND.get());
                         pOutput.accept(DefensiveItems.STARDUST_INGOT.get());
+                        pOutput.accept(DefensiveItems.CRIMSON_ESSENCE.get());
+                        pOutput.accept(AllItems.CHROMATIC_COMPOUND.get());
+                        pOutput.accept(AllItems.REFINED_RADIANCE.get());
+                        pOutput.accept(AllItems.SHADOW_STEEL.get());
                         pOutput.accept(DefensiveItems.INERT_REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL.get());
                         pOutput.accept(DefensiveItems.REDSTONE_CRYSTAL_CLUSTER.get());

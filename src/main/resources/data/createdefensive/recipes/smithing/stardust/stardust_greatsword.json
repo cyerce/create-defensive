@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:stardust_blend"
+  },
+  "base": {
+    "item": "createdefensive:electrum_greatsword"
+  },
+  "result": {
+    "item": "createdefensive:stardust_greatsword"
+  },
+  "template": {
+    "item": "createdefensive:stardust_upgrade_smithing_template"
+  }
+}

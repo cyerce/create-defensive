@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createdefensive:bleeding_obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "createdefensive:crimson_essence",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 250
+}

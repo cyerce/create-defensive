@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "createdefensive:pyraen_ingot"
+  },
+  "base": {
+    "item": "createdefensive:stardust_hammer"
+  },
+  "result": {
+    "item": "createdefensive:pyraen_hammer"
+  },
+  "template": {
+    "item": "createdefensive:pyraen_upgrade_smithing_template"
+  }
+}
