@@ -2,7 +2,7 @@ package net.aepherastudios.createdefensive.item.custom.spear;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-import net.aepherastudios.createdefensive.entity.custom.AluminumSpear;
+import net.aepherastudios.createdefensive.entity.custom.spear.AluminumSpear;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -25,7 +25,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 
-public class AluminumSpearItem extends TridentItem implements Vanishable {
+public class AluminumSpearItem extends SpearItem implements Vanishable {
     public static final int THROW_THRESHOLD_TIME = 10;
     public static final float BASE_DAMAGE = 4.0F;
     public static final float SHOOT_POWER = 2.5F;

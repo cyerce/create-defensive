@@ -20,17 +20,17 @@ public class DefensiveToolTiers {
             new ResourceLocation(CreateDefensive.MOD_ID, "aluminum"), List.of(Tiers.STONE), List.of());
 
     public static final Tier SILVER = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 250, 6.5f, 2f, 14,
+            new ForgeTier(2, 250, 6.5f, 2.5f, 14,
                     DefensiveTags.Blocks.NEEDS_SILVER_TOOL, () -> Ingredient.of(DefensiveItems.SILVER_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "silver"), List.of(Tiers.STONE), List.of());
 
     public static final Tier PLATINUM = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 1800, 9f, 3f, 10,
+            new ForgeTier(3, 1800, 9f, 3.5f, 10,
                     DefensiveTags.Blocks.NEEDS_PLATINUM_TOOL, () -> Ingredient.of(DefensiveItems.PLATINUM_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "platinum"), List.of(Tiers.IRON), List.of());
 
     public static final Tier STEEL = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 1800, 5f, 2f, 15,
+            new ForgeTier(3, 1800, 5f, 3f, 15,
                     DefensiveTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(DefensiveItems.STEEL_INGOT.get())),
             new ResourceLocation(CreateDefensive.MOD_ID, "steel"), List.of(Tiers.IRON), List.of());
 

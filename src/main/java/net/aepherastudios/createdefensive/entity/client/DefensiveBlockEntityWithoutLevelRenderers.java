@@ -5,6 +5,8 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.datafixers.util.Pair;
 import java.util.List;
 
+import net.aepherastudios.createdefensive.entity.model.DefensiveModelBakery;
+import net.aepherastudios.createdefensive.entity.model.DefensiveModelLayers;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.custom.shield.OakShieldModel;
 import net.minecraft.client.model.geom.EntityModelSet;

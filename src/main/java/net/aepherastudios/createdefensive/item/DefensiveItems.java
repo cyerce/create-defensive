@@ -10,6 +10,7 @@ import net.aepherastudios.createdefensive.item.custom.*;
 import net.aepherastudios.createdefensive.item.custom.arrow.*;
 import net.aepherastudios.createdefensive.item.custom.spear.*;
 import net.aepherastudios.createdefensive.item.custom.shield.OakShieldItem;
+import net.aepherastudios.createdefensive.item.custom.throwingstar.*;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -469,18 +470,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.ALUMINUM, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_GREATSWORD = ITEMS.register("aluminum_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.ALUMINUM, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> ALUMINUM_ZWEIHANDER = ITEMS.register("aluminum_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.ALUMINUM, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_HAMMER = ITEMS.register("aluminum_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.ALUMINUM, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> ALUMINUM_EXCAVATOR = ITEMS.register("aluminum_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.ALUMINUM, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> ALUMINUM_SPEAR = ITEMS.register("aluminum_spear",
             () -> new AluminumSpearItem(new Item.Properties().durability(250)));
+    public static final RegistryObject<Item> ALUMINUM_THROWING_STAR = ITEMS.register("aluminum_throwing_star",
+            () -> new AluminumThrowingStarItem(new Item.Properties().durability(250)));
     public static final RegistryObject<Item> ALUMINUM_GLAIVE = ITEMS.register("aluminum_glaive",
             () -> new SwordItem(DefensiveToolTiers.ALUMINUM, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_DAGGER = ITEMS.register("aluminum_dagger",
-            () -> new SwordItem(DefensiveToolTiers.ALUMINUM, 2, -2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.ALUMINUM, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_STAFF = ITEMS.register("aluminum_staff",
-            () -> new SwordItem(DefensiveToolTiers.ALUMINUM, 2, -2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.ALUMINUM, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_BOW = ITEMS.register("aluminum_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ALUMINUM_CROSSBOW = ITEMS.register("aluminum_crossbow",
@@ -508,18 +513,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.SILVER, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_GREATSWORD = ITEMS.register("silver_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.SILVER, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_ZWEIHANDER = ITEMS.register("silver_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.SILVER, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_HAMMER = ITEMS.register("silver_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.SILVER, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> SILVER_EXCAVATOR = ITEMS.register("silver_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.SILVER, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> SILVER_SPEAR = ITEMS.register("silver_spear",
             () -> new SilverSpearItem(new Item.Properties().durability(250)));
+    public static final RegistryObject<Item> SILVER_THROWING_STAR = ITEMS.register("silver_throwing_star",
+            () -> new SilverThrowingStarItem(new Item.Properties().durability(250)));
     public static final RegistryObject<Item> SILVER_GLAIVE = ITEMS.register("silver_glaive",
             () -> new SwordItem(DefensiveToolTiers.SILVER, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_DAGGER = ITEMS.register("silver_dagger",
-            () -> new SwordItem(DefensiveToolTiers.SILVER, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.SILVER, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_STAFF = ITEMS.register("silver_staff",
-            () -> new SwordItem(DefensiveToolTiers.SILVER, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.SILVER, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_BOW = ITEMS.register("silver_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(384)));
     public static final RegistryObject<Item> SILVER_CROSSBOW = ITEMS.register("silver_crossbow",
@@ -547,18 +556,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.PLATINUM, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_GREATSWORD = ITEMS.register("platinum_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.PLATINUM, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_ZWEIHANDER = ITEMS.register("platinum_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.PLATINUM, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_HAMMER = ITEMS.register("platinum_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.PLATINUM, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(7200)));
     public static final RegistryObject<Item> PLATINUM_EXCAVATOR = ITEMS.register("platinum_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.PLATINUM, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(7200)));
     public static final RegistryObject<Item> PLATINUM_SPEAR = ITEMS.register("platinum_spear",
-            () -> new PlatinumSpearItem(new Item.Properties().durability(250)));
+            () -> new PlatinumSpearItem(new Item.Properties().durability(1800)));
+    public static final RegistryObject<Item> PLATINUM_THROWING_STAR = ITEMS.register("platinum_throwing_star",
+            () -> new PlatinumThrowingStarItem(new Item.Properties().durability(1800)));
     public static final RegistryObject<Item> PLATINUM_GLAIVE = ITEMS.register("platinum_glaive",
             () -> new SwordItem(DefensiveToolTiers.PLATINUM, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_DAGGER = ITEMS.register("platinum_dagger",
-            () -> new SwordItem(DefensiveToolTiers.PLATINUM, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.PLATINUM, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_STAFF = ITEMS.register("platinum_staff",
-            () -> new SwordItem(DefensiveToolTiers.PLATINUM, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.PLATINUM, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_BOW = ITEMS.register("platinum_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(1800)));
     public static final RegistryObject<Item> PLATINUM_CROSSBOW = ITEMS.register("platinum_crossbow",
@@ -586,18 +599,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.STEEL, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_GREATSWORD = ITEMS.register("steel_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.STEEL, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_ZWEIHANDER = ITEMS.register("steel_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.STEEL, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_HAMMER = ITEMS.register("steel_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.STEEL, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(7200)));
     public static final RegistryObject<Item> STEEL_EXCAVATOR = ITEMS.register("steel_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.STEEL, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(7200)));
     public static final RegistryObject<Item> STEEL_SPEAR = ITEMS.register("steel_spear",
             () -> new SteelSpearItem(new Item.Properties().durability(1800)));
+    public static final RegistryObject<Item> STEEL_THROWING_STAR = ITEMS.register("steel_throwing_star",
+            () -> new SteelThrowingStarItem(new Item.Properties().durability(1800)));
     public static final RegistryObject<Item> STEEL_GLAIVE = ITEMS.register("steel_glaive",
             () -> new SwordItem(DefensiveToolTiers.STEEL, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger",
-            () -> new SwordItem(DefensiveToolTiers.STEEL, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.STEEL, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_STAFF = ITEMS.register("steel_staff",
-            () -> new SwordItem(DefensiveToolTiers.STEEL, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.STEEL, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_BOW = ITEMS.register("steel_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(2765)));
     public static final RegistryObject<Item> STEEL_CROSSBOW = ITEMS.register("steel_crossbow",
@@ -625,18 +642,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.COPPER, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_GREATSWORD = ITEMS.register("copper_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.COPPER, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_ZWEIHANDER = ITEMS.register("copper_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.COPPER, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_HAMMER = ITEMS.register("copper_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.COPPER, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(524)));
     public static final RegistryObject<Item> COPPER_EXCAVATOR = ITEMS.register("copper_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.COPPER, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(524)));
     public static final RegistryObject<Item> COPPER_SPEAR = ITEMS.register("copper_spear",
             () -> new CopperSpearItem(new Item.Properties().durability(131)));
+    public static final RegistryObject<Item> COPPER_THROWING_STAR = ITEMS.register("copper_throwing_star",
+            () -> new CopperThrowingStarItem(new Item.Properties().durability(131)));
     public static final RegistryObject<Item> COPPER_GLAIVE = ITEMS.register("copper_glaive",
             () -> new SwordItem(DefensiveToolTiers.COPPER, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_DAGGER = ITEMS.register("copper_dagger",
-            () -> new SwordItem(DefensiveToolTiers.COPPER, 2, -2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.COPPER, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_STAFF = ITEMS.register("copper_staff",
-            () -> new SwordItem(DefensiveToolTiers.COPPER, 2, -2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.COPPER, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_BOW = ITEMS.register("copper_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(201)));
     public static final RegistryObject<Item> COPPER_CROSSBOW = ITEMS.register("copper_crossbow",
@@ -657,25 +678,29 @@ public class DefensiveItems {
     public static final RegistryObject<Item> ZINC_POLEAXE = ITEMS.register("zinc_poleaxe",
             () -> new HalberdItem(DefensiveToolTiers.ZINC, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_SCYTHE = ITEMS.register("zinc_scythe",
-            () -> new ScytheItem(4, -2.7f,  DefensiveToolTiers.ALUMINUM, BlockTags.MINEABLE_WITH_HOE, new Item.Properties().durability(1000)));
+            () -> new ScytheItem(4, -2.7f,  DefensiveToolTiers.ZINC, BlockTags.MINEABLE_WITH_HOE, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> ZINC_MORNINGSTAR = ITEMS.register("zinc_morningstar",
             () -> new MorningstarItem(DefensiveToolTiers.ZINC, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_GREATAXE = ITEMS.register("zinc_greataxe",
             () -> new GreataxeItem(DefensiveToolTiers.ZINC, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_GREATSWORD = ITEMS.register("zinc_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.ZINC, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_ZWEIHANDER = ITEMS.register("zinc_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.ZINC, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_HAMMER = ITEMS.register("zinc_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.ZINC, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> ZINC_EXCAVATOR = ITEMS.register("zinc_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.ZINC, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> ZINC_SPEAR = ITEMS.register("zinc_spear",
             () -> new ZincSpearItem(new Item.Properties().durability(250)));
+    public static final RegistryObject<Item> ZINC_THROWING_STAR = ITEMS.register("zinc_throwing_star",
+            () -> new ZincThrowingStarItem(new Item.Properties().durability(250)));
     public static final RegistryObject<Item> ZINC_GLAIVE = ITEMS.register("zinc_glaive",
             () -> new SwordItem(DefensiveToolTiers.ZINC, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_DAGGER = ITEMS.register("zinc_dagger",
-            () -> new SwordItem(DefensiveToolTiers.ZINC, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.ZINC, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_STAFF = ITEMS.register("zinc_staff",
-            () -> new SwordItem(DefensiveToolTiers.ZINC, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.ZINC, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_BOW = ITEMS.register("zinc_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ZINC_CROSSBOW = ITEMS.register("zinc_crossbow",
@@ -703,18 +728,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.BRASS, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_GREATSWORD = ITEMS.register("brass_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.BRASS, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_ZWEIHANDER = ITEMS.register("brass_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.BRASS, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_HAMMER = ITEMS.register("brass_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.BRASS, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(6364)));
     public static final RegistryObject<Item> BRASS_EXCAVATOR = ITEMS.register("brass_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.BRASS, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(6364)));
     public static final RegistryObject<Item> BRASS_SPEAR = ITEMS.register("brass_spear",
             () -> new BrassSpearItem(new Item.Properties().durability(1561)));
+    public static final RegistryObject<Item> BRASS_THROWING_STAR = ITEMS.register("brass_throwing_star",
+            () -> new BrassThrowingStarItem(new Item.Properties().durability(1561)));
     public static final RegistryObject<Item> BRASS_GLAIVE = ITEMS.register("brass_glaive",
             () -> new SwordItem(DefensiveToolTiers.BRASS, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_DAGGER = ITEMS.register("brass_dagger",
-            () -> new SwordItem(DefensiveToolTiers.BRASS, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.BRASS, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_STAFF = ITEMS.register("brass_staff",
-            () -> new SwordItem(DefensiveToolTiers.BRASS, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.BRASS, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_BOW = ITEMS.register("brass_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(2398)));
     public static final RegistryObject<Item> BRASS_CROSSBOW = ITEMS.register("brass_crossbow",
@@ -742,18 +771,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.ROSE_QUARTZ, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_GREATSWORD = ITEMS.register("rose_quartz_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.ROSE_QUARTZ, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_ZWEIHANDER = ITEMS.register("rose_quartz_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.ROSE_QUARTZ, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_HAMMER = ITEMS.register("rose_quartz_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.ROSE_QUARTZ, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(6364)));
     public static final RegistryObject<Item> ROSE_QUARTZ_EXCAVATOR = ITEMS.register("rose_quartz_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.ROSE_QUARTZ, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(6364)));
     public static final RegistryObject<Item> ROSE_QUARTZ_SPEAR = ITEMS.register("rose_quartz_spear",
             () -> new RoseQuartzSpearItem(new Item.Properties().durability(1561)));
+    public static final RegistryObject<Item> ROSE_QUARTZ_THROWING_STAR = ITEMS.register("rose_quartz_throwing_star",
+            () -> new RoseQuartzThrowingStarItem(new Item.Properties().durability(1561)));
     public static final RegistryObject<Item> ROSE_QUARTZ_GLAIVE = ITEMS.register("rose_quartz_glaive",
             () -> new SwordItem(DefensiveToolTiers.ROSE_QUARTZ, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_DAGGER = ITEMS.register("rose_quartz_dagger",
-            () -> new SwordItem(DefensiveToolTiers.ROSE_QUARTZ, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(DefensiveToolTiers.ROSE_QUARTZ, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_STAFF = ITEMS.register("rose_quartz_staff",
-            () -> new SwordItem(DefensiveToolTiers.ROSE_QUARTZ, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(DefensiveToolTiers.ROSE_QUARTZ, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_BOW = ITEMS.register("rose_quartz_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(2398)));
     public static final RegistryObject<Item> ROSE_QUARTZ_CROSSBOW = ITEMS.register("rose_quartz_crossbow",
@@ -781,18 +814,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.ELECTRUM, 7, -3.6f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_GREATSWORD = ITEMS.register("electrum_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.ELECTRUM, 7, -3.6f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_ZWEIHANDER = ITEMS.register("electrum_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.ELECTRUM, 6, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_HAMMER = ITEMS.register("electrum_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.ELECTRUM, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().fireResistant().durability(16248)));
     public static final RegistryObject<Item> ELECTRUM_EXCAVATOR = ITEMS.register("electrum_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.ELECTRUM, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().fireResistant().durability(16248)));
     public static final RegistryObject<Item> ELECTRUM_SPEAR = ITEMS.register("electrum_spear",
             () -> new ElectrumSpearItem(new Item.Properties().durability(4062).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_THROWING_STAR = ITEMS.register("electrum_throwing_star",
+            () -> new ElectrumThrowingStarItem(new Item.Properties().durability(4062).fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_GLAIVE = ITEMS.register("electrum_glaive",
             () -> new SwordItem(DefensiveToolTiers.ELECTRUM, 2, -2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_DAGGER = ITEMS.register("electrum_dagger",
-            () -> new SwordItem(DefensiveToolTiers.ELECTRUM, 2, -1.2f, new Item.Properties().fireResistant()));
+            () -> new DaggerItem(DefensiveToolTiers.ELECTRUM, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_STAFF = ITEMS.register("electrum_staff",
-            () -> new SwordItem(DefensiveToolTiers.ELECTRUM, 2, -1.2f, new Item.Properties().fireResistant()));
+            () -> new StaffItem(DefensiveToolTiers.ELECTRUM, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_BOW = ITEMS.register("electrum_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(6239)));
     public static final RegistryObject<Item> ELECTRUM_CROSSBOW = ITEMS.register("electrum_crossbow",
@@ -820,18 +857,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.STARDUST, 7, -3.6f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_GREATSWORD = ITEMS.register("stardust_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.STARDUST, 7, -3.6f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STARDUST_ZWEIHANDER = ITEMS.register("stardust_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.STARDUST, 6, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_HAMMER = ITEMS.register("stardust_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.STARDUST, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().fireResistant().durability(24368)));
     public static final RegistryObject<Item> STARDUST_EXCAVATOR = ITEMS.register("stardust_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.SILVER, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().fireResistant().durability(24368)));
     public static final RegistryObject<Item> STARDUST_SPEAR = ITEMS.register("stardust_spear",
             () -> new StardustSpearItem(new Item.Properties().durability(6092).fireResistant()));
+    public static final RegistryObject<Item> STARDUST_THROWING_STAR = ITEMS.register("stardust_throwing_star",
+            () -> new StardustThrowingStarItem(new Item.Properties().durability(6092).fireResistant()));
     public static final RegistryObject<Item> STARDUST_GLAIVE = ITEMS.register("stardust_glaive",
             () -> new SwordItem(DefensiveToolTiers.STARDUST, 2, -2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_DAGGER = ITEMS.register("stardust_dagger",
-            () -> new SwordItem(DefensiveToolTiers.STARDUST, 2, -1.2f, new Item.Properties().fireResistant()));
+            () -> new DaggerItem(DefensiveToolTiers.STARDUST, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_STAFF = ITEMS.register("stardust_staff",
-            () -> new SwordItem(DefensiveToolTiers.STARDUST, 2, -1.2f, new Item.Properties().fireResistant()));
+            () -> new StaffItem(DefensiveToolTiers.STARDUST, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_BOW = ITEMS.register("stardust_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(9357)));
     public static final RegistryObject<Item> STARDUST_CROSSBOW = ITEMS.register("stardust_crossbow",
@@ -859,18 +900,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(DefensiveToolTiers.PYRAEN, 7, -3.6f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_GREATSWORD = ITEMS.register("pyraen_greatsword",
             () -> new GreatswordItem(DefensiveToolTiers.PYRAEN, 7, -3.6f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> PYRAEN_ZWEIHANDER = ITEMS.register("pyraen_zweihander",
+            () -> new ZweihanderItem(DefensiveToolTiers.PYRAEN, 6, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_HAMMER = ITEMS.register("pyraen_hammer",
             () -> new HammerItem(12, -3.7f, DefensiveToolTiers.PYRAEN, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().fireResistant().durability(29240)));
     public static final RegistryObject<Item> PYRAEN_EXCAVATOR = ITEMS.register("pyraen_excavator",
             () -> new ExcavatorItem(1.5f, -3f, DefensiveToolTiers.PYRAEN, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().fireResistant().durability(29240)));
     public static final RegistryObject<Item> PYRAEN_SPEAR = ITEMS.register("pyraen_spear",
             () -> new PyraenSpearItem(new Item.Properties().durability(7310).fireResistant()));
+    public static final RegistryObject<Item> PYRAEN_THROWING_STAR = ITEMS.register("pyraen_throwing_star",
+            () -> new PyraenThrowingStarItem(new Item.Properties().durability(7310).fireResistant()));
     public static final RegistryObject<Item> PYRAEN_GLAIVE = ITEMS.register("pyraen_glaive",
             () -> new SwordItem(DefensiveToolTiers.PYRAEN, 2, -2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_DAGGER = ITEMS.register("pyraen_dagger",
-            () -> new SwordItem(DefensiveToolTiers.PYRAEN, 2, -1.2f, new Item.Properties().fireResistant()));
+            () -> new DaggerItem(DefensiveToolTiers.PYRAEN, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_STAFF = ITEMS.register("pyraen_staff",
-            () -> new SwordItem(DefensiveToolTiers.PYRAEN, 2, -1.2f, new Item.Properties().fireResistant()));
+            () -> new StaffItem(DefensiveToolTiers.PYRAEN, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_BOW = ITEMS.register("pyraen_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(11288)));
     public static final RegistryObject<Item> PYRAEN_CROSSBOW = ITEMS.register("pyraen_crossbow",
@@ -888,18 +933,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(Tiers.WOOD, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_GREATSWORD = ITEMS.register("wooden_greatsword",
             () -> new GreatswordItem(Tiers.WOOD, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_ZWEIHANDER = ITEMS.register("wooden_zweihander",
+            () -> new ZweihanderItem(Tiers.WOOD, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_HAMMER = ITEMS.register("wooden_hammer",
             () -> new HammerItem(12, -3.7f, Tiers.WOOD, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(236)));
     public static final RegistryObject<Item> WOODEN_EXCAVATOR = ITEMS.register("wooden_excavator",
             () -> new ExcavatorItem(1.5f, -3f, Tiers.WOOD, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(236)));
     public static final RegistryObject<Item> WOODEN_SPEAR = ITEMS.register("wooden_spear",
             () -> new WoodenSpearItem(new Item.Properties().durability(59)));
+    public static final RegistryObject<Item> WOODEN_THROWING_STAR = ITEMS.register("wooden_throwing_star",
+            () -> new WoodenThrowingStarItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> WOODEN_GLAIVE = ITEMS.register("wooden_glaive",
             () -> new SwordItem(Tiers.WOOD, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_DAGGER = ITEMS.register("wooden_dagger",
-            () -> new SwordItem(Tiers.WOOD, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(Tiers.WOOD, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_STAFF = ITEMS.register("wooden_staff",
-            () -> new SwordItem(Tiers.WOOD, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(Tiers.WOOD, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> OAK_SHIELD = ITEMS.register("oak_shield",
                 () -> new OakShieldItem(new Item.Properties().durability(59)));
     public static final RegistryObject<Item> BIRCH_SHIELD = ITEMS.register("birch_shield",
@@ -927,18 +976,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(Tiers.STONE, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_GREATSWORD = ITEMS.register("stone_greatsword",
             () -> new GreatswordItem(Tiers.STONE, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> STONE_ZWEIHANDER = ITEMS.register("stone_zweihander",
+            () -> new ZweihanderItem(Tiers.STONE, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_EXCAVATOR = ITEMS.register("stone_excavator",
             () -> new ExcavatorItem(1.5f, -3f, Tiers.STONE, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(452)));
     public static final RegistryObject<Item> STONE_HAMMER = ITEMS.register("stone_hammer",
             () -> new HammerItem(12, -3.7f, Tiers.STONE, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(452)));
     public static final RegistryObject<Item> STONE_SPEAR = ITEMS.register("stone_spear",
             () -> new StoneSpearItem(new Item.Properties().durability(131)));
+    public static final RegistryObject<Item> STONE_THROWING_STAR = ITEMS.register("stone_throwing_star",
+            () -> new StoneThrowingStarItem(new Item.Properties().durability(131)));
     public static final RegistryObject<Item> STONE_GLAIVE = ITEMS.register("stone_glaive",
             () -> new SwordItem(Tiers.STONE, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_DAGGER = ITEMS.register("stone_dagger",
-            () -> new SwordItem(Tiers.STONE, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(Tiers.STONE, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_STAFF = ITEMS.register("stone_staff",
-            () -> new SwordItem(Tiers.STONE, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(Tiers.STONE, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_BOW = ITEMS.register("stone_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(201)));
     public static final RegistryObject<Item> STONE_CROSSBOW = ITEMS.register("stone_crossbow",
@@ -956,18 +1009,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(Tiers.IRON, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_GREATSWORD = ITEMS.register("iron_greatsword",
             () -> new GreatswordItem(Tiers.IRON, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_ZWEIHANDER = ITEMS.register("iron_zweihander",
+            () -> new ZweihanderItem(Tiers.IRON, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
             () -> new HammerItem(12, -3.7f, Tiers.IRON, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(542)));
     public static final RegistryObject<Item> IRON_EXCAVATOR = ITEMS.register("iron_excavator",
             () -> new ExcavatorItem(1.5f, -3f, Tiers.IRON, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(542)));
     public static final RegistryObject<Item> IRON_SPEAR = ITEMS.register("iron_spear",
             () -> new IronSpearItem(new Item.Properties().durability(250)));
+    public static final RegistryObject<Item> IRON_THROWING_STAR = ITEMS.register("iron_throwing_star",
+            () -> new IronThrowingStarItem(new Item.Properties().durability(250)));
     public static final RegistryObject<Item> IRON_GLAIVE = ITEMS.register("iron_glaive",
             () -> new SwordItem(Tiers.IRON, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger",
-            () -> new SwordItem(Tiers.IRON, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(Tiers.IRON, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_STAFF = ITEMS.register("iron_staff",
-            () -> new SwordItem(Tiers.IRON, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(Tiers.IRON, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_BOW = ITEMS.register("iron_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(384)));
     public static final RegistryObject<Item> IRON_CROSSBOW = ITEMS.register("iron_crossbow",
@@ -985,18 +1042,22 @@ public class DefensiveItems {
             () -> new GreataxeItem(Tiers.GOLD, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_GREATSWORD = ITEMS.register("golden_greatsword",
             () -> new GreatswordItem(Tiers.GOLD, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_ZWEIHANDER = ITEMS.register("golden_zweihander",
+            () -> new ZweihanderItem(Tiers.GOLD, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_HAMMER = ITEMS.register("golden_hammer",
             () -> new HammerItem(12, -3.7f, Tiers.GOLD, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(128)));
     public static final RegistryObject<Item> GOLDEN_EXCAVATOR = ITEMS.register("golden_excavator",
             () -> new ExcavatorItem(1.5f, -3f, Tiers.GOLD, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(128)));
     public static final RegistryObject<Item> GOLDEN_SPEAR = ITEMS.register("golden_spear",
             () -> new GoldenSpearItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> GOLDEN_THROWING_STAR = ITEMS.register("golden_throwing_star",
+            () -> new GoldenThrowingStarItem(new Item.Properties().durability(32)));
     public static final RegistryObject<Item> GOLDEN_GLAIVE = ITEMS.register("golden_glaive",
             () -> new SwordItem(Tiers.GOLD, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_DAGGER = ITEMS.register("golden_dagger",
-            () -> new SwordItem(Tiers.GOLD, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(Tiers.GOLD, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_STAFF = ITEMS.register("golden_staff",
-            () -> new SwordItem(Tiers.GOLD, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(Tiers.GOLD, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_BOW = ITEMS.register("golden_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(49)));
     public static final RegistryObject<Item> GOLDEN_CROSSBOW = ITEMS.register("golden_crossbow",
@@ -1014,51 +1075,59 @@ public class DefensiveItems {
             () -> new GreataxeItem(Tiers.DIAMOND, 7, -3.6f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_GREATSWORD = ITEMS.register("diamond_greatsword",
             () -> new GreatswordItem(Tiers.DIAMOND, 7, -3.6f, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_ZWEIHANDER = ITEMS.register("diamond_zweihander",
+            () -> new ZweihanderItem(Tiers.DIAMOND, 6, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_EXCAVATOR = ITEMS.register("diamond_excavator",
             () -> new ExcavatorItem(1.5f, -3f, Tiers.DIAMOND, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(6244)));
     public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
             () -> new HammerItem(12, -3.7f, Tiers.DIAMOND, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(6244)));
     public static final RegistryObject<Item> DIAMOND_SPEAR = ITEMS.register("diamond_spear",
             () -> new DiamondSpearItem(new Item.Properties().durability(1561)));
+    public static final RegistryObject<Item> DIAMOND_THROWING_STAR = ITEMS.register("diamond_throwing_star",
+            () -> new DiamondThrowingStarItem(new Item.Properties().durability(1561)));
     public static final RegistryObject<Item> DIAMOND_GLAIVE = ITEMS.register("diamond_glaive",
             () -> new SwordItem(Tiers.DIAMOND, 2, -2f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger",
-            () -> new SwordItem(Tiers.DIAMOND, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(Tiers.DIAMOND, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_STAFF = ITEMS.register("diamond_staff",
-            () -> new SwordItem(Tiers.DIAMOND, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(Tiers.DIAMOND, 2, -1.2f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_BOW = ITEMS.register("diamond_bow",
             () -> new CompoundBowItem(new Item.Properties().durability(2398)));
     public static final RegistryObject<Item> DIAMOND_CROSSBOW = ITEMS.register("diamond_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(2398)));
 
     public static final RegistryObject<Item> NETHERITE_HALBERD = ITEMS.register("netherite_halberd",
-            () -> new HalberdItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties()));
+            () -> new HalberdItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_POLEAXE = ITEMS.register("netherite_poleaxe",
-            () -> new HalberdItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties()));
+            () -> new HalberdItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
-            () -> new ScytheItem(4, -2.7f, Tiers.WOOD, BlockTags.MINEABLE_WITH_HOE, new Item.Properties().durability(8124)));
+            () -> new ScytheItem(4, -2.7f, Tiers.WOOD, BlockTags.MINEABLE_WITH_HOE, new Item.Properties().fireResistant().durability(8124)));
     public static final RegistryObject<Item> NETHERITE_MORNINGSTAR = ITEMS.register("netherite_morningstar",
-            () -> new MorningstarItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties()));
+            () -> new MorningstarItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_GREATAXE = ITEMS.register("netherite_greataxe",
-            () -> new GreataxeItem(Tiers.NETHERITE, 7, -3.6f, new Item.Properties()));
+            () -> new GreataxeItem(Tiers.NETHERITE, 7, -3.6f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_GREATSWORD = ITEMS.register("netherite_greatsword",
-            () -> new GreatswordItem(Tiers.NETHERITE, 7, -3.6f, new Item.Properties()));
+            () -> new GreatswordItem(Tiers.NETHERITE, 7, -3.6f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_ZWEIHANDER = ITEMS.register("netherite_zweihander",
+            () -> new ZweihanderItem(Tiers.NETHERITE, 6, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_EXCAVATOR = ITEMS.register("netherite_excavator",
-            () -> new ExcavatorItem(1.5f, -3f, Tiers.NETHERITE, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().durability(8124)));
+            () -> new ExcavatorItem(1.5f, -3f, Tiers.NETHERITE, BlockTags.MINEABLE_WITH_SHOVEL, new Item.Properties().fireResistant().durability(8124)));
     public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer",
-            () -> new HammerItem(12, -3.7f, Tiers.NETHERITE, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().durability(8124)));
+            () -> new HammerItem(12, -3.7f, Tiers.NETHERITE, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().fireResistant().durability(8124)));
     public static final RegistryObject<Item> NETHERITE_SPEAR = ITEMS.register("netherite_spear",
-            () -> new NetheriteSpearItem(new Item.Properties().durability(2031)));
+            () -> new NetheriteSpearItem(new Item.Properties().fireResistant().durability(2031)));
+    public static final RegistryObject<Item> NETHERITE_THROWING_STAR = ITEMS.register("netherite_throwing_star",
+            () -> new NetheriteThrowingStarItem(new Item.Properties().durability(2031).fireResistant()));
     public static final RegistryObject<Item> NETHERITE_GLAIVE = ITEMS.register("netherite_glaive",
-            () -> new SwordItem(Tiers.NETHERITE, 2, -2f, new Item.Properties()));
+            () -> new SwordItem(Tiers.NETHERITE, 2, -2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
-            () -> new SwordItem(Tiers.NETHERITE, 2, -1.2f, new Item.Properties()));
+            () -> new DaggerItem(Tiers.NETHERITE, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_STAFF = ITEMS.register("netherite_staff",
-            () -> new SwordItem(Tiers.NETHERITE, 2, -1.2f, new Item.Properties()));
+            () -> new StaffItem(Tiers.NETHERITE, 2, -1.2f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_BOW = ITEMS.register("netherite_bow",
-            () -> new CompoundBowItem(new Item.Properties().durability(3120)));
+            () -> new CompoundBowItem(new Item.Properties().fireResistant().durability(3120)));
     public static final RegistryObject<Item> NETHERITE_CROSSBOW = ITEMS.register("netherite_crossbow",
-            () -> new CompoundCrossbowItem(new Item.Properties().durability(3120)));
+            () -> new CompoundCrossbowItem(new Item.Properties().fireResistant().durability(3120)));
 
     public static final RegistryObject<Item> ALUMINUM_ARROW = ITEMS.register("aluminum_arrow", () -> new AluminumArrowItem(2f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_ARROW = ITEMS.register("silver_arrow", () -> new SilverArrowItem(2.2f, new Item.Properties()));

@@ -31,7 +31,7 @@ public enum DefensiveArmorMaterials implements ArmorMaterial {
             SoundEvents.ARMOR_EQUIP_IRON, 5f, 0.3f, () -> Ingredient.of(DefensiveItems.ENERGIZED_ELECTRUM_INGOT.get())),
     STARDUST("stardust", 60, new int[]{ 6, 14, 12, 8 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 5f, 0.3f, () -> Ingredient.of(DefensiveItems.STARDUST_INGOT.get())),
-    PYRAEN("pyraen", 65, new int[]{ 7, 16, 14, 9 }, 25,
+    PYRAEN("pyraen", 75, new int[]{ 8, 18, 15, 10 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 5f, 0.3f, () -> Ingredient.of(DefensiveItems.PYRAEN_INGOT.get())),
     STEEL("steel", 45, new int[]{ 4, 10, 8, 5 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(DefensiveItems.STEEL_INGOT.get())),

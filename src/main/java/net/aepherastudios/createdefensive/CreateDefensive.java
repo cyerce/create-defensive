@@ -3,18 +3,17 @@ package net.aepherastudios.createdefensive;
 import net.aepherastudios.createdefensive.block.entity.DefensiveBlockEntities;
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
 import net.aepherastudios.createdefensive.entity.DefensiveEntities;
-import net.aepherastudios.createdefensive.entity.client.PainiteElementalEntityRenderer;
-import net.aepherastudios.createdefensive.entity.client.PainiteProjectileEntityRenderer;
-import net.aepherastudios.createdefensive.entity.client.PrimedHighExplosiveRenderer;
-import net.aepherastudios.createdefensive.entity.client.SuperheatedBlazeEntityRenderer;
-import net.aepherastudios.createdefensive.entity.custom.PyraenArrowEntity;
+import net.aepherastudios.createdefensive.entity.client.*;
+import net.aepherastudios.createdefensive.entity.client.arrow.*;
+import net.aepherastudios.createdefensive.entity.client.spear.*;
+import net.aepherastudios.createdefensive.entity.client.throwingstar.*;
+import net.aepherastudios.createdefensive.entity.custom.throwingstar.PlatinumThrowingStar;
 import net.aepherastudios.createdefensive.fluid.DefensiveFluids;
 import net.aepherastudios.createdefensive.fluid.fluid_types.*;
 import net.aepherastudios.createdefensive.item.DefensiveItems;
 import net.aepherastudios.createdefensive.item.DefensiveCreativeModeTabs;
 import net.aepherastudios.createdefensive.block.DefensiveBlocks;
 import com.mojang.logging.LogUtils;
-import net.aepherastudios.createdefensive.item.client.*;
 import net.aepherastudios.createdefensive.potion.DefensivePotions;
 import net.aepherastudios.createdefensive.screen.AugmentScreen;
 import net.aepherastudios.createdefensive.screen.CokingOvenScreen;
@@ -107,6 +106,7 @@ public class CreateDefensive {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(DefensiveEntities.BULLET.get(), BulletRenderer::new);
+
             EntityRenderers.register(DefensiveEntities.ALUMINUM_ARROW.get(), AluminumArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.SILVER_ARROW.get(), SilverArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.PLATINUM_ARROW.get(), PlatinumArrowRenderer::new);
@@ -126,8 +126,6 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.PYRAEN_ARROW.get(), PyraenArrowRenderer::new);
             EntityRenderers.register(DefensiveEntities.PAINITE_PROJECTILE.get(), PainiteProjectileEntityRenderer::new);
 
-            EntityRenderers.register(DefensiveEntities.PAINITE_ELEMENTAL.get(), PainiteElementalEntityRenderer::new);
-
             EntityRenderers.register(DefensiveEntities.ALUMINUM_SPEAR.get(), AluminumSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.SILVER_SPEAR.get(), SilverSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.PLATINUM_SPEAR.get(), PlatinumSpearRenderer::new);
@@ -146,7 +144,27 @@ public class CreateDefensive {
             EntityRenderers.register(DefensiveEntities.STARDUST_SPEAR.get(), StardustSpearRenderer::new);
             EntityRenderers.register(DefensiveEntities.PYRAEN_SPEAR.get(), PyraenSpearRenderer::new);
 
+            EntityRenderers.register(DefensiveEntities.ALUMINUM_THROWING_STAR.get(), AluminumThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.SILVER_THROWING_STAR.get(), SilverThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PLATINUM_THROWING_STAR.get(), PlatinumThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STEEL_THROWING_STAR.get(), SteelThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.COPPER_THROWING_STAR.get(), CopperThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ZINC_THROWING_STAR.get(), ZincThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.BRASS_THROWING_STAR.get(), BrassThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ROSE_QUARTZ_THROWING_STAR.get(), RoseQuartzThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.WOODEN_THROWING_STAR.get(), WoodenThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STONE_THROWING_STAR.get(), StoneThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.IRON_THROWING_STAR.get(), IronThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.GOLDEN_THROWING_STAR.get(), GoldenThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.DIAMOND_THROWING_STAR.get(), DiamondThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.NETHERITE_THROWING_STAR.get(), NetheriteThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.ELECTRUM_THROWING_STAR.get(), ElectrumThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.STARDUST_THROWING_STAR.get(), StardustThrowingStarRenderer::new);
+            EntityRenderers.register(DefensiveEntities.PYRAEN_THROWING_STAR.get(), PyraenThrowingStarRenderer::new);
+
             EntityRenderers.register(DefensiveEntities.PRIMED_HIGH_EXPLOSIVE.get(), PrimedHighExplosiveRenderer::new);
+
+            EntityRenderers.register(DefensiveEntities.PAINITE_ELEMENTAL.get(), PainiteElementalEntityRenderer::new);
 
             MenuScreens.register(DefensiveMenuTypes.COKING_OVEN_MENU.get(), CokingOvenScreen::new);
             MenuScreens.register(DefensiveMenuTypes.AUGMENT_MENU.get(), AugmentScreen::new);

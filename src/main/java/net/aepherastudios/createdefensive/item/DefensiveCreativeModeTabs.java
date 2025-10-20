@@ -469,6 +469,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ALUMINUM_CAM.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.SILVER_SWORD.get());
                         pOutput.accept(DefensiveItems.SILVER_PICKAXE.get());
@@ -489,6 +491,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.SILVER_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.SILVER_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.SILVER_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.SILVER_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.SILVER_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.PLATINUM_SWORD.get());
                         pOutput.accept(DefensiveItems.PLATINUM_PICKAXE.get());
@@ -509,6 +513,31 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.PLATINUM_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.PLATINUM_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.PLATINUM_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.PLATINUM_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.PLATINUM_THROWING_STAR.get());
+
+                        pOutput.accept(DefensiveItems.STEEL_SWORD.get());
+                        pOutput.accept(DefensiveItems.STEEL_PICKAXE.get());
+                        pOutput.accept(DefensiveItems.STEEL_AXE.get());
+                        pOutput.accept(DefensiveItems.STEEL_SHOVEL.get());
+                        pOutput.accept(DefensiveItems.STEEL_HOE.get());
+                        pOutput.accept(DefensiveItems.STEEL_HALBERD.get());
+                        pOutput.accept(DefensiveItems.STEEL_SCYTHE.get());
+                        pOutput.accept(DefensiveItems.STEEL_GREATAXE.get());
+                        pOutput.accept(DefensiveItems.STEEL_SPEAR.get());
+                        pOutput.accept(DefensiveItems.STEEL_GREATSWORD.get());
+                        pOutput.accept(DefensiveItems.STEEL_HAMMER.get());
+                        pOutput.accept(DefensiveItems.STEEL_GLAIVE.get());
+                        pOutput.accept(DefensiveItems.STEEL_MORNINGSTAR.get());
+                        pOutput.accept(DefensiveItems.STEEL_DAGGER.get());
+                        pOutput.accept(DefensiveItems.STEEL_STAFF.get());
+                        pOutput.accept(DefensiveItems.STEEL_BOW.get());
+                        pOutput.accept(DefensiveItems.STEEL_CROSSBOW.get());
+                        pOutput.accept(DefensiveItems.STEEL_CAM.get());
+                        pOutput.accept(DefensiveItems.STEEL_EXCAVATOR.get());
+                        pOutput.accept(DefensiveItems.STEEL_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.STEEL_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.STEEL_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.COPPER_SWORD.get());
                         pOutput.accept(DefensiveItems.COPPER_PICKAXE.get());
@@ -530,6 +559,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.COPPER_CAM.get());
                         pOutput.accept(DefensiveItems.COPPER_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.COPPER_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.COPPER_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.COPPER_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.ZINC_SWORD.get());
                         pOutput.accept(DefensiveItems.ZINC_PICKAXE.get());
@@ -551,6 +582,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ZINC_CAM.get());
                         pOutput.accept(DefensiveItems.ZINC_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ZINC_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.ZINC_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.ZINC_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.BRASS_SWORD.get());
                         pOutput.accept(DefensiveItems.BRASS_PICKAXE.get());
@@ -572,6 +605,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.BRASS_CAM.get());
                         pOutput.accept(DefensiveItems.BRASS_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.BRASS_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.BRASS_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.BRASS_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_SWORD.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_PICKAXE.get());
@@ -594,27 +629,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_CAM.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_POLEAXE.get());
-
-                        pOutput.accept(DefensiveItems.STEEL_SWORD.get());
-                        pOutput.accept(DefensiveItems.STEEL_PICKAXE.get());
-                        pOutput.accept(DefensiveItems.STEEL_AXE.get());
-                        pOutput.accept(DefensiveItems.STEEL_SHOVEL.get());
-                        pOutput.accept(DefensiveItems.STEEL_HOE.get());
-                        pOutput.accept(DefensiveItems.STEEL_HALBERD.get());
-                        pOutput.accept(DefensiveItems.STEEL_SCYTHE.get());
-                        pOutput.accept(DefensiveItems.STEEL_GREATAXE.get());
-                        pOutput.accept(DefensiveItems.STEEL_SPEAR.get());
-                        pOutput.accept(DefensiveItems.STEEL_GREATSWORD.get());
-                        pOutput.accept(DefensiveItems.STEEL_HAMMER.get());
-                        pOutput.accept(DefensiveItems.STEEL_GLAIVE.get());
-                        pOutput.accept(DefensiveItems.STEEL_MORNINGSTAR.get());
-                        pOutput.accept(DefensiveItems.STEEL_DAGGER.get());
-                        pOutput.accept(DefensiveItems.STEEL_STAFF.get());
-                        pOutput.accept(DefensiveItems.STEEL_BOW.get());
-                        pOutput.accept(DefensiveItems.STEEL_CROSSBOW.get());
-                        pOutput.accept(DefensiveItems.STEEL_CAM.get());
-                        pOutput.accept(DefensiveItems.STEEL_EXCAVATOR.get());
-                        pOutput.accept(DefensiveItems.STEEL_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.ROSE_QUARTZ_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.ROSE_QUARTZ_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.ELECTRUM_SWORD.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_PICKAXE.get());
@@ -635,6 +651,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.ELECTRUM_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.ELECTRUM_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.STARDUST_SWORD.get());
                         pOutput.accept(DefensiveItems.STARDUST_PICKAXE.get());
@@ -655,6 +673,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STARDUST_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.STARDUST_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.STARDUST_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.STARDUST_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.STARDUST_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.PYRAEN_SWORD.get());
                         pOutput.accept(DefensiveItems.PYRAEN_PICKAXE.get());
@@ -675,6 +695,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.PYRAEN_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.PYRAEN_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.PYRAEN_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.PYRAEN_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.PYRAEN_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.WOODEN_HALBERD.get());
                         pOutput.accept(DefensiveItems.WOODEN_SCYTHE.get());
@@ -691,6 +713,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.WOODEN_CAM.get());
                         pOutput.accept(DefensiveItems.WOODEN_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.WOODEN_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.WOODEN_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.WOODEN_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.STONE_HALBERD.get());
                         pOutput.accept(DefensiveItems.STONE_SCYTHE.get());
@@ -707,6 +731,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STONE_CAM.get());
                         pOutput.accept(DefensiveItems.STONE_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.STONE_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.STONE_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.STONE_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.IRON_HALBERD.get());
                         pOutput.accept(DefensiveItems.IRON_SCYTHE.get());
@@ -723,6 +749,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.IRON_CAM.get());
                         pOutput.accept(DefensiveItems.IRON_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.IRON_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.IRON_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.IRON_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.GOLDEN_HALBERD.get());
                         pOutput.accept(DefensiveItems.GOLDEN_SCYTHE.get());
@@ -739,6 +767,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.GOLDEN_CAM.get());
                         pOutput.accept(DefensiveItems.GOLDEN_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.GOLDEN_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.GOLDEN_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.GOLDEN_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.DIAMOND_HALBERD.get());
                         pOutput.accept(DefensiveItems.DIAMOND_SCYTHE.get());
@@ -755,6 +785,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.DIAMOND_CAM.get());
                         pOutput.accept(DefensiveItems.DIAMOND_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.DIAMOND_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.DIAMOND_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.DIAMOND_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.NETHERITE_HALBERD.get());
                         pOutput.accept(DefensiveItems.NETHERITE_SCYTHE.get());
@@ -770,6 +802,8 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.NETHERITE_CROSSBOW.get());
                         pOutput.accept(DefensiveItems.NETHERITE_EXCAVATOR.get());
                         pOutput.accept(DefensiveItems.NETHERITE_POLEAXE.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_ZWEIHANDER.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_THROWING_STAR.get());
 
                         pOutput.accept(DefensiveItems.ALUMINUM_ARROW.get());
                         pOutput.accept(DefensiveItems.SILVER_ARROW.get());
@@ -788,27 +822,28 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_ARROW.get());
                         pOutput.accept(DefensiveItems.STARDUST_ARROW.get());
                         pOutput.accept(DefensiveItems.PYRAEN_ARROW.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_ZWEIHANDER.get());
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_SPACE = CREATIVE_MODE_TABS.register("createdefensive_space",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.MERCURY.get()))
-                    .title(Component.translatable("creativetab.createdefensive_space"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(DefensiveBlocks.MERCURIAN_REGOLITH.get());
-                        pOutput.accept(DefensiveBlocks.MERCURIAN_IRON_ORE.get());
-                        pOutput.accept(DefensiveBlocks.MERCURIAN_NICKEL_ORE.get());
-                        pOutput.accept(DefensiveBlocks.MERCURIAN_BASALT.get());
-                    })
-                    .build());
-
-    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_WEAPONRY = CREATIVE_MODE_TABS.register("createdefensive_weaponry",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.SMALL_BULLET.get()))
-                    .title(Component.translatable("creativetab.createdefensive_weaponry"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(DefensiveBlocks.HIGH_POWER_EXPLOSIVE.get());
-                    })
-                    .build());
+//    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_SPACE = CREATIVE_MODE_TABS.register("createdefensive_space",
+//            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.MERCURY.get()))
+//                    .title(Component.translatable("creativetab.createdefensive_space"))
+//                    .displayItems((pParameters, pOutput) -> {
+//                        pOutput.accept(DefensiveBlocks.MERCURIAN_REGOLITH.get());
+//                        pOutput.accept(DefensiveBlocks.MERCURIAN_IRON_ORE.get());
+//                        pOutput.accept(DefensiveBlocks.MERCURIAN_NICKEL_ORE.get());
+//                        pOutput.accept(DefensiveBlocks.MERCURIAN_BASALT.get());
+//                    })
+//                    .build());
+//
+//    public static final RegistryObject<CreativeModeTab> CREATEDEFENSIVE_WEAPONRY = CREATIVE_MODE_TABS.register("createdefensive_weaponry",
+//            () -> CreativeModeTab.builder().icon(() -> new ItemStack(DefensiveItems.SMALL_BULLET.get()))
+//                    .title(Component.translatable("creativetab.createdefensive_weaponry"))
+//                    .displayItems((pParameters, pOutput) -> {
+//                        pOutput.accept(DefensiveBlocks.HIGH_POWER_EXPLOSIVE.get());
+//                    })
+//                    .build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }

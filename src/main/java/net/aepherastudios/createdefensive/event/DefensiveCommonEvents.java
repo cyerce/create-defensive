@@ -1,22 +1,17 @@
 package net.aepherastudios.createdefensive.event;
 
 import net.aepherastudios.createdefensive.effect.DefensiveEffects;
-import net.aepherastudios.createdefensive.item.custom.GreataxeItem;
-import net.aepherastudios.createdefensive.item.custom.GreatswordItem;
-import net.minecraft.resources.ResourceLocation;
+import net.aepherastudios.createdefensive.item.custom.*;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.damagesource.DamageSources;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.event.entity.living.LivingAttackEvent;
-import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.ForgeRegistries;
+import yesman.epicfight.world.item.DaggerItem;
 
 @Mod.EventBusSubscriber
 public class DefensiveCommonEvents {
@@ -28,6 +23,7 @@ public class DefensiveCommonEvents {
         public static void onLivingHurt(LivingHurtEvent event) {
             LivingEntity victim = event.getEntity();
             Entity aggressor = event.getSource().getEntity();
+            float adjustedDamage = event.getAmount();
             if (aggressor!= null){
                 double dx = victim.getX() - aggressor.getX();
                 double dz = victim.getZ() - aggressor.getZ();
@@ -39,20 +35,23 @@ public class DefensiveCommonEvents {
                 if (aggressor instanceof LivingEntity) {
                     ItemStack weapon = attacker.getItemInHand(InteractionHand.MAIN_HAND);
 
-                    if (weapon.getItem() instanceof GreatswordItem) {
+                    if (weapon.getItem() instanceof GreatswordItem || weapon.getItem() instanceof HammerItem) {
                         double strength = 2;
                         victim.push(dx / distance * strength, 0.1, dz / distance * strength);
                         victim.hurtMarked = true;
                     }
-                    if (weapon.getItem() instanceof GreataxeItem) {
-                        if (victim.hasEffect(DefensiveEffects.EXECUTION.get())) {
-                            float enemyHealth = victim.getHealth();
-                            float enemyTotalHealth = victim.getMaxHealth();
-                            if (enemyHealth < (enemyTotalHealth / 4)) {
-                                float original = event.getAmount();
-                                event.setAmount(original * 2.0f);
-                            }
-                        }
+                    if (weapon.getItem() instanceof StaffItem) {
+                        attacker.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), attacker);
+                        attacker.addEffect(new MobEffectInstance(MobEffects.JUMP, 200, 1), attacker);
+                    }
+                    if (weapon.getItem() instanceof ZweihanderItem) {
+                        float originalDamage = event.getAmount();
+
+                        int armorValue = victim.getArmorValue();
+                        float armorReduction = armorValue * 0.04f;
+                        float ignored = armorReduction * 0.5f;
+
+                        adjustedDamage = originalDamage / (1 - (armorReduction - ignored));
                     }
                 }
             }
@@ -63,6 +62,9 @@ public class DefensiveCommonEvents {
                     event.setAmount(original * 2.0f);
                 }
             }
+
+            event.setAmount(adjustedDamage);
+
         }
     }
 

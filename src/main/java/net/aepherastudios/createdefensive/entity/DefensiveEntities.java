@@ -2,6 +2,9 @@ package net.aepherastudios.createdefensive.entity;
 
 import net.aepherastudios.createdefensive.CreateDefensive;
 import net.aepherastudios.createdefensive.entity.custom.*;
+import net.aepherastudios.createdefensive.entity.custom.arrow.*;
+import net.aepherastudios.createdefensive.entity.custom.spear.*;
+import net.aepherastudios.createdefensive.entity.custom.throwingstar.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -85,6 +88,7 @@ public class DefensiveEntities {
             ENTITY_TYPES.register("pyraen_arrow", () -> EntityType.Builder.<PyraenArrowEntity>of(PyraenArrowEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("pyraen_arrow"));
 
+
     public static final RegistryObject<EntityType<AluminumSpear>> ALUMINUM_SPEAR =
             ENTITY_TYPES.register("aluminum_spear", () -> EntityType.Builder.<AluminumSpear>of(AluminumSpear::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("aluminum_spear"));
@@ -152,6 +156,79 @@ public class DefensiveEntities {
     public static final RegistryObject<EntityType<PyraenSpear>> PYRAEN_SPEAR =
             ENTITY_TYPES.register("pyraen_spear", () -> EntityType.Builder.<PyraenSpear>of(PyraenSpear::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("pyraen_spear"));
+
+
+    public static final RegistryObject<EntityType<AluminumThrowingStar>> ALUMINUM_THROWING_STAR =
+            ENTITY_TYPES.register("aluminum_throwing_star", () -> EntityType.Builder.<AluminumThrowingStar>of(AluminumThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("aluminum_throwing_star"));
+
+    public static final RegistryObject<EntityType<SilverThrowingStar>> SILVER_THROWING_STAR =
+            ENTITY_TYPES.register("silver_throwing_star", () -> EntityType.Builder.<SilverThrowingStar>of(SilverThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("silver_throwing_star"));
+
+    public static final RegistryObject<EntityType<PlatinumThrowingStar>> PLATINUM_THROWING_STAR =
+            ENTITY_TYPES.register("platinum_throwing_star", () -> EntityType.Builder.<PlatinumThrowingStar>of(PlatinumThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("platinum_throwing_star"));
+
+    public static final RegistryObject<EntityType<SteelThrowingStar>> STEEL_THROWING_STAR =
+            ENTITY_TYPES.register("steel_throwing_star", () -> EntityType.Builder.<SteelThrowingStar>of(SteelThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("steel_throwing_star"));
+
+    public static final RegistryObject<EntityType<CopperThrowingStar>> COPPER_THROWING_STAR =
+            ENTITY_TYPES.register("copper_throwing_star", () -> EntityType.Builder.<CopperThrowingStar>of(CopperThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("copper_throwing_star"));
+
+    public static final RegistryObject<EntityType<ZincThrowingStar>> ZINC_THROWING_STAR =
+            ENTITY_TYPES.register("zinc_throwing_star", () -> EntityType.Builder.<ZincThrowingStar>of(ZincThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("zinc_throwing_star"));
+
+    public static final RegistryObject<EntityType<BrassThrowingStar>> BRASS_THROWING_STAR =
+            ENTITY_TYPES.register("brass_throwing_star", () -> EntityType.Builder.<BrassThrowingStar>of(BrassThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("brass_throwing_star"));
+
+    public static final RegistryObject<EntityType<RoseQuartzThrowingStar>> ROSE_QUARTZ_THROWING_STAR =
+            ENTITY_TYPES.register("rose_quartz_throwing_star", () -> EntityType.Builder.<RoseQuartzThrowingStar>of(RoseQuartzThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("rose_quartz_throwing_star"));
+
+    public static final RegistryObject<EntityType<WoodenThrowingStar>> WOODEN_THROWING_STAR =
+            ENTITY_TYPES.register("wooden_throwing_star", () -> EntityType.Builder.<WoodenThrowingStar>of(WoodenThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("wooden_throwing_star"));
+
+    public static final RegistryObject<EntityType<StoneThrowingStar>> STONE_THROWING_STAR =
+            ENTITY_TYPES.register("stone_throwing_star", () -> EntityType.Builder.<StoneThrowingStar>of(StoneThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("stone_throwing_star"));
+
+    public static final RegistryObject<EntityType<IronThrowingStar>> IRON_THROWING_STAR =
+            ENTITY_TYPES.register("iron_throwing_star", () -> EntityType.Builder.<IronThrowingStar>of(IronThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("iron_throwing_star"));
+
+    public static final RegistryObject<EntityType<GoldenThrowingStar>> GOLDEN_THROWING_STAR =
+            ENTITY_TYPES.register("golden_throwing_star", () -> EntityType.Builder.<GoldenThrowingStar>of(GoldenThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("golden_throwing_star"));
+
+    public static final RegistryObject<EntityType<DiamondThrowingStar>> DIAMOND_THROWING_STAR =
+            ENTITY_TYPES.register("diamond_throwing_star", () -> EntityType.Builder.<DiamondThrowingStar>of(DiamondThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("diamond_throwing_star"));
+
+    public static final RegistryObject<EntityType<NetheriteThrowingStar>> NETHERITE_THROWING_STAR =
+            ENTITY_TYPES.register("netherite_throwing_star", () -> EntityType.Builder.<NetheriteThrowingStar>of(NetheriteThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("netherite_throwing_star"));
+
+    public static final RegistryObject<EntityType<ElectrumThrowingStar>> ELECTRUM_THROWING_STAR =
+            ENTITY_TYPES.register("electrum_throwing_star", () -> EntityType.Builder.<ElectrumThrowingStar>of(ElectrumThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("electrum_throwing_star"));
+
+    public static final RegistryObject<EntityType<StardustThrowingStar>> STARDUST_THROWING_STAR =
+            ENTITY_TYPES.register("stardust_throwing_star", () -> EntityType.Builder.<StardustThrowingStar>of(StardustThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("stardust_throwing_star"));
+
+    public static final RegistryObject<EntityType<PyraenThrowingStar>> PYRAEN_THROWING_STAR =
+            ENTITY_TYPES.register("pyraen_throwing_star", () -> EntityType.Builder.<PyraenThrowingStar>of(PyraenThrowingStar::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build("pyraen_throwing_star"));
+
+
+
+
 
     public static final RegistryObject<EntityType<PainiteProjectileEntity>> PAINITE_PROJECTILE =
             ENTITY_TYPES.register("painite_projectile", () -> EntityType.Builder.<PainiteProjectileEntity>of(PainiteProjectileEntity::new, MobCategory.MISC)

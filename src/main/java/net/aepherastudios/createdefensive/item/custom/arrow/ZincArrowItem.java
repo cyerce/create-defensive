@@ -1,6 +1,6 @@
 package net.aepherastudios.createdefensive.item.custom.arrow;
 
-import net.aepherastudios.createdefensive.entity.custom.ZincArrowEntity;
+import net.aepherastudios.createdefensive.entity.custom.arrow.ZincArrowEntity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.item.ArrowItem;

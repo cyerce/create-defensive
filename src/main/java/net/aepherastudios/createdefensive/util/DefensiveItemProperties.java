@@ -47,6 +47,24 @@ public class DefensiveItemProperties {
         makeSpear(DefensiveItems.STARDUST_SPEAR.get());
         makeSpear(DefensiveItems.PYRAEN_SPEAR.get());
 
+        makeSpear(DefensiveItems.ALUMINUM_THROWING_STAR.get());
+        makeSpear(DefensiveItems.SILVER_THROWING_STAR.get());
+        makeSpear(DefensiveItems.PLATINUM_THROWING_STAR.get());
+        makeSpear(DefensiveItems.STEEL_THROWING_STAR.get());
+        makeSpear(DefensiveItems.COPPER_THROWING_STAR.get());
+        makeSpear(DefensiveItems.ZINC_THROWING_STAR.get());
+        makeSpear(DefensiveItems.BRASS_THROWING_STAR.get());
+        makeSpear(DefensiveItems.ROSE_QUARTZ_THROWING_STAR.get());
+        makeSpear(DefensiveItems.WOODEN_THROWING_STAR.get());
+        makeSpear(DefensiveItems.STONE_THROWING_STAR.get());
+        makeSpear(DefensiveItems.IRON_THROWING_STAR.get());
+        makeSpear(DefensiveItems.GOLDEN_THROWING_STAR.get());
+        makeSpear(DefensiveItems.DIAMOND_THROWING_STAR.get());
+        makeSpear(DefensiveItems.NETHERITE_THROWING_STAR.get());
+        makeSpear(DefensiveItems.ELECTRUM_THROWING_STAR.get());
+        makeSpear(DefensiveItems.STARDUST_THROWING_STAR.get());
+        makeSpear(DefensiveItems.PYRAEN_THROWING_STAR.get());
+
         makeCrossbow(DefensiveItems.ALUMINUM_CROSSBOW.get());
         makeCrossbow(DefensiveItems.SILVER_CROSSBOW.get());
         makeCrossbow(DefensiveItems.PLATINUM_CROSSBOW.get());
