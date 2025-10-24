@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "createdefensive:diamond_shard",
+    "count": 9
+  }
+}

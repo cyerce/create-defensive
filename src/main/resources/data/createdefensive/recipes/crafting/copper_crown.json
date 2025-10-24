@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/copper"
+    },
+    "$": {
+      "tag": "forge:nuggets/copper"
+    }
+  },
+  "pattern": [
+    "$$$",
+    "###"
+  ],
+  "result": {
+    "item": "createdefensive:copper_crown"
+  }
+}

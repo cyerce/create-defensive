@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "$": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "pattern": [
+    "$$$",
+    " #$",
+    "$  "
+  ],
+  "result": {
+    "item": "createdefensive:diamond_paxel"
+  }
+}

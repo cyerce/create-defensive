@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "$": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "pattern": [
+    "$$$",
+    "###"
+  ],
+  "result": {
+    "item": "createdefensive:golden_crown"
+  }
+}

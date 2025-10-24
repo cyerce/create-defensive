@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "$": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "$$$",
+    " #$",
+    "$  "
+  ],
+  "result": {
+    "item": "createdefensive:iron_paxel"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "$": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "$$$",
+    " #$",
+    "$  "
+  ],
+  "result": {
+    "item": "createdefensive:wooden_paxel"
+  }
+}

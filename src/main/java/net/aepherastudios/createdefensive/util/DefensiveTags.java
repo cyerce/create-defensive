@@ -23,6 +23,7 @@ public class DefensiveTags {
         public static final TagKey<Block> NEEDS_ELECTRUM_TOOL = tag("needs_electrum_tool");
         public static final TagKey<Block> NEEDS_STARDUST_TOOL = tag("needs_stardust_tool");
         public static final TagKey<Block> NEEDS_PYRAEN_TOOL = tag("needs_pyraen_tool");
+        public static final TagKey<Block> MINEABLE_WITH_PAXEL = tag("mineable_with_paxel");
         public static final TagKey<Block> ASPHALT = tag("asphalt");
 
         private static TagKey<Block> tag(String name) {

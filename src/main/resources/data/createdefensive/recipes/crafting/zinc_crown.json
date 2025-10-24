@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/zinc"
+    },
+    "$": {
+      "tag": "forge:nuggets/zinc"
+    }
+  },
+  "pattern": [
+    "$$$",
+    "###"
+  ],
+  "result": {
+    "item": "createdefensive:zinc_crown"
+  }
+}

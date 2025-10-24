@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/platinum"
+  },
+  "base": {
+    "item": "createdefensive:silver_crown"
+  },
+  "result": {
+    "item": "createdefensive:platinum_crown"
+  },
+  "template": {
+    "item": "createdefensive:platinum_upgrade_smithing_template"
+  }
+}

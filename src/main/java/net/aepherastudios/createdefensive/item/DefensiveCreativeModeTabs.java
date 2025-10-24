@@ -442,6 +442,24 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_CHESTPLATE.get());
                         pOutput.accept(DefensiveItems.STEEL_LEGGINGS.get());
                         pOutput.accept(DefensiveItems.STEEL_BOOTS.get());
+
+                        pOutput.accept(DefensiveItems.ALUMINUM_CROWN.get());
+                        pOutput.accept(DefensiveItems.SILVER_CROWN.get());
+                        pOutput.accept(DefensiveItems.PLATINUM_CROWN.get());
+                        pOutput.accept(DefensiveItems.STEEL_CROWN.get());
+                        pOutput.accept(DefensiveItems.COPPER_CROWN.get());
+                        pOutput.accept(DefensiveItems.ZINC_CROWN.get());
+                        pOutput.accept(DefensiveItems.BRASS_CROWN.get());
+                        pOutput.accept(DefensiveItems.WOODEN_CROWN.get());
+                        pOutput.accept(DefensiveItems.STONE_CROWN.get());
+                        pOutput.accept(DefensiveItems.IRON_CROWN.get());
+                        pOutput.accept(DefensiveItems.GOLDEN_CROWN.get());
+                        pOutput.accept(DefensiveItems.NETHERITE_CROWN.get());
+                        pOutput.accept(DefensiveItems.ELECTRUM_CROWN.get());
+                        pOutput.accept(DefensiveItems.STARDUST_CROWN.get());
+                        pOutput.accept(DefensiveItems.PYRAEN_CROWN.get());
+                        pOutput.accept(DefensiveItems.ROSE_GOLD_CROWN.get());
+                        pOutput.accept(DefensiveItems.VIOLET_GOLD_CROWN.get());
                     })
                     .build());
 
@@ -454,6 +472,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ALUMINUM_AXE.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_SHOVEL.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_HOE.get());
+                        pOutput.accept(DefensiveItems.ALUMINUM_PAXEL.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_HALBERD.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_SCYTHE.get());
                         pOutput.accept(DefensiveItems.ALUMINUM_GREATAXE.get());
@@ -477,6 +496,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.SILVER_AXE.get());
                         pOutput.accept(DefensiveItems.SILVER_SHOVEL.get());
                         pOutput.accept(DefensiveItems.SILVER_HOE.get());
+                        pOutput.accept(DefensiveItems.SILVER_PAXEL.get());
                         pOutput.accept(DefensiveItems.SILVER_HALBERD.get());
                         pOutput.accept(DefensiveItems.SILVER_SCYTHE.get());
                         pOutput.accept(DefensiveItems.SILVER_GREATAXE.get());
@@ -499,6 +519,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.PLATINUM_AXE.get());
                         pOutput.accept(DefensiveItems.PLATINUM_SHOVEL.get());
                         pOutput.accept(DefensiveItems.PLATINUM_HOE.get());
+                        pOutput.accept(DefensiveItems.PLATINUM_PAXEL.get());
                         pOutput.accept(DefensiveItems.PLATINUM_HALBERD.get());
                         pOutput.accept(DefensiveItems.PLATINUM_SCYTHE.get());
                         pOutput.accept(DefensiveItems.PLATINUM_GREATAXE.get());
@@ -521,6 +542,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STEEL_AXE.get());
                         pOutput.accept(DefensiveItems.STEEL_SHOVEL.get());
                         pOutput.accept(DefensiveItems.STEEL_HOE.get());
+                        pOutput.accept(DefensiveItems.STEEL_PAXEL.get());
                         pOutput.accept(DefensiveItems.STEEL_HALBERD.get());
                         pOutput.accept(DefensiveItems.STEEL_SCYTHE.get());
                         pOutput.accept(DefensiveItems.STEEL_GREATAXE.get());
@@ -544,6 +566,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.COPPER_AXE.get());
                         pOutput.accept(DefensiveItems.COPPER_SHOVEL.get());
                         pOutput.accept(DefensiveItems.COPPER_HOE.get());
+                        pOutput.accept(DefensiveItems.COPPER_PAXEL.get());
                         pOutput.accept(DefensiveItems.COPPER_HALBERD.get());
                         pOutput.accept(DefensiveItems.COPPER_SCYTHE.get());
                         pOutput.accept(DefensiveItems.COPPER_GREATAXE.get());
@@ -567,6 +590,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ZINC_AXE.get());
                         pOutput.accept(DefensiveItems.ZINC_SHOVEL.get());
                         pOutput.accept(DefensiveItems.ZINC_HOE.get());
+                        pOutput.accept(DefensiveItems.ZINC_PAXEL.get());
                         pOutput.accept(DefensiveItems.ZINC_HALBERD.get());
                         pOutput.accept(DefensiveItems.ZINC_SCYTHE.get());
                         pOutput.accept(DefensiveItems.ZINC_GREATAXE.get());
@@ -590,6 +614,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.BRASS_AXE.get());
                         pOutput.accept(DefensiveItems.BRASS_SHOVEL.get());
                         pOutput.accept(DefensiveItems.BRASS_HOE.get());
+                        pOutput.accept(DefensiveItems.BRASS_PAXEL.get());
                         pOutput.accept(DefensiveItems.BRASS_HALBERD.get());
                         pOutput.accept(DefensiveItems.BRASS_SCYTHE.get());
                         pOutput.accept(DefensiveItems.BRASS_GREATAXE.get());
@@ -613,6 +638,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_AXE.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_SHOVEL.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_HOE.get());
+                        pOutput.accept(DefensiveItems.ROSE_QUARTZ_PAXEL.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_HALBERD.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_SCYTHE.get());
                         pOutput.accept(DefensiveItems.ROSE_QUARTZ_GREATAXE.get());
@@ -637,6 +663,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.ELECTRUM_AXE.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_SHOVEL.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_HOE.get());
+                        pOutput.accept(DefensiveItems.ELECTRUM_PAXEL.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_HALBERD.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_SCYTHE.get());
                         pOutput.accept(DefensiveItems.ELECTRUM_GREATAXE.get());
@@ -659,6 +686,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STARDUST_AXE.get());
                         pOutput.accept(DefensiveItems.STARDUST_SHOVEL.get());
                         pOutput.accept(DefensiveItems.STARDUST_HOE.get());
+                        pOutput.accept(DefensiveItems.STARDUST_PAXEL.get());
                         pOutput.accept(DefensiveItems.STARDUST_HALBERD.get());
                         pOutput.accept(DefensiveItems.STARDUST_SCYTHE.get());
                         pOutput.accept(DefensiveItems.STARDUST_GREATAXE.get());
@@ -681,6 +709,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.PYRAEN_AXE.get());
                         pOutput.accept(DefensiveItems.PYRAEN_SHOVEL.get());
                         pOutput.accept(DefensiveItems.PYRAEN_HOE.get());
+                        pOutput.accept(DefensiveItems.PYRAEN_PAXEL.get());
                         pOutput.accept(DefensiveItems.PYRAEN_HALBERD.get());
                         pOutput.accept(DefensiveItems.PYRAEN_SCYTHE.get());
                         pOutput.accept(DefensiveItems.PYRAEN_GREATAXE.get());
@@ -698,6 +727,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.PYRAEN_ZWEIHANDER.get());
                         pOutput.accept(DefensiveItems.PYRAEN_THROWING_STAR.get());
 
+                        pOutput.accept(DefensiveItems.WOODEN_PAXEL.get());
                         pOutput.accept(DefensiveItems.WOODEN_HALBERD.get());
                         pOutput.accept(DefensiveItems.WOODEN_SCYTHE.get());
                         pOutput.accept(DefensiveItems.WOODEN_GREATAXE.get());
@@ -716,6 +746,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.WOODEN_ZWEIHANDER.get());
                         pOutput.accept(DefensiveItems.WOODEN_THROWING_STAR.get());
 
+                        pOutput.accept(DefensiveItems.STONE_PAXEL.get());
                         pOutput.accept(DefensiveItems.STONE_HALBERD.get());
                         pOutput.accept(DefensiveItems.STONE_SCYTHE.get());
                         pOutput.accept(DefensiveItems.STONE_GREATAXE.get());
@@ -734,6 +765,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.STONE_ZWEIHANDER.get());
                         pOutput.accept(DefensiveItems.STONE_THROWING_STAR.get());
 
+                        pOutput.accept(DefensiveItems.IRON_PAXEL.get());
                         pOutput.accept(DefensiveItems.IRON_HALBERD.get());
                         pOutput.accept(DefensiveItems.IRON_SCYTHE.get());
                         pOutput.accept(DefensiveItems.IRON_GREATAXE.get());
@@ -752,6 +784,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.IRON_ZWEIHANDER.get());
                         pOutput.accept(DefensiveItems.IRON_THROWING_STAR.get());
 
+                        pOutput.accept(DefensiveItems.GOLDEN_PAXEL.get());
                         pOutput.accept(DefensiveItems.GOLDEN_HALBERD.get());
                         pOutput.accept(DefensiveItems.GOLDEN_SCYTHE.get());
                         pOutput.accept(DefensiveItems.GOLDEN_GREATAXE.get());
@@ -770,6 +803,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.GOLDEN_ZWEIHANDER.get());
                         pOutput.accept(DefensiveItems.GOLDEN_THROWING_STAR.get());
 
+                        pOutput.accept(DefensiveItems.DIAMOND_PAXEL.get());
                         pOutput.accept(DefensiveItems.DIAMOND_HALBERD.get());
                         pOutput.accept(DefensiveItems.DIAMOND_SCYTHE.get());
                         pOutput.accept(DefensiveItems.DIAMOND_GREATAXE.get());
@@ -788,6 +822,7 @@ public class DefensiveCreativeModeTabs {
                         pOutput.accept(DefensiveItems.DIAMOND_ZWEIHANDER.get());
                         pOutput.accept(DefensiveItems.DIAMOND_THROWING_STAR.get());
 
+                        pOutput.accept(DefensiveItems.NETHERITE_PAXEL.get());
                         pOutput.accept(DefensiveItems.NETHERITE_HALBERD.get());
                         pOutput.accept(DefensiveItems.NETHERITE_SCYTHE.get());
                         pOutput.accept(DefensiveItems.NETHERITE_GREATAXE.get());

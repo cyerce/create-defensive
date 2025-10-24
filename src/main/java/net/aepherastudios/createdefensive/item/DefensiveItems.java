@@ -409,6 +409,42 @@ public class DefensiveItems {
     public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
             () -> new DefensiveArmorItem(DefensiveArmorMaterials.STEEL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> ALUMINUM_CROWN = ITEMS.register("aluminum_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_ALUMINUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_CROWN = ITEMS.register("silver_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_SILVER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_CROWN = ITEMS.register("platinum_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_PLATINUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_CROWN = ITEMS.register("steel_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_STEEL, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_CROWN = ITEMS.register("copper_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_COPPER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_CROWN = ITEMS.register("zinc_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_ZINC, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_CROWN = ITEMS.register("brass_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_BRASS, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_CROWN = ITEMS.register("wooden_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_WOOD, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> STONE_CROWN = ITEMS.register("stone_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_STONE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_CROWN = ITEMS.register("iron_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_IRON, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_CROWN = ITEMS.register("golden_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_GOLD, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_CROWN = ITEMS.register("netherite_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_NETHERITE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_CROWN = ITEMS.register("electrum_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_ELECTRUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> STARDUST_CROWN = ITEMS.register("stardust_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_STARDUST, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> PYRAEN_CROWN = ITEMS.register("pyraen_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_PYRAEN, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_GOLD_CROWN = ITEMS.register("rose_gold_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_ROSE_GOLD, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> VIOLET_GOLD_CROWN = ITEMS.register("violet_gold_crown",
+            () -> new ArmorItem(DefensiveArmorMaterials.REGAL_VIOLET_GOLD, ArmorItem.Type.HELMET, new Item.Properties()));
+
+
     public static final RegistryObject<Item> DEV_CHARGER = ITEMS.register("dev_charger", () -> new DevChargerItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> POWER_ARMOR_TERMINAL = ITEMS.register("power_armor_terminal", () -> new ArmorOpenerItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
 
@@ -458,6 +494,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.ALUMINUM, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_HOE = ITEMS.register("aluminum_hoe",
             () -> new HoeItem(DefensiveToolTiers.ALUMINUM, 0, -1.6f, new Item.Properties()));
+    public static final RegistryObject<Item> ALUMINUM_PAXEL = ITEMS.register("aluminum_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.ALUMINUM, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_HALBERD = ITEMS.register("aluminum_halberd",
             () -> new HalberdItem(DefensiveToolTiers.ALUMINUM, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_POLEAXE = ITEMS.register("aluminum_poleaxe",
@@ -501,6 +539,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.SILVER, 1.5f, -2.6f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
             () -> new HoeItem(DefensiveToolTiers.SILVER, 0, -1.6f, new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_PAXEL = ITEMS.register("silver_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.SILVER, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_HALBERD = ITEMS.register("silver_halberd",
             () -> new HalberdItem(DefensiveToolTiers.SILVER, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_POLEAXE = ITEMS.register("silver_poleaxe",
@@ -544,6 +584,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.PLATINUM, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
             () -> new HoeItem(DefensiveToolTiers.PLATINUM, 0, -2f, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINUM_PAXEL = ITEMS.register("platinum_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.PLATINUM, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_HALBERD = ITEMS.register("platinum_halberd",
             () -> new HalberdItem(DefensiveToolTiers.PLATINUM, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_POLEAXE = ITEMS.register("platinum_poleaxe",
@@ -587,6 +629,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.STEEL, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
             () -> new HoeItem(DefensiveToolTiers.STEEL, 0, -2f, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_PAXEL = ITEMS.register("steel_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.STEEL, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_HALBERD = ITEMS.register("steel_halberd",
             () -> new HalberdItem(DefensiveToolTiers.STEEL, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_POLEAXE = ITEMS.register("steel_poleaxe",
@@ -630,6 +674,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.COPPER, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe",
             () -> new HoeItem(DefensiveToolTiers.COPPER, 0, -2f, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_PAXEL = ITEMS.register("copper_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.COPPER, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_HALBERD = ITEMS.register("copper_halberd",
             () -> new HalberdItem(DefensiveToolTiers.COPPER, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_POLEAXE = ITEMS.register("copper_poleaxe",
@@ -673,6 +719,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.ZINC, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_HOE = ITEMS.register("zinc_hoe",
             () -> new HoeItem(DefensiveToolTiers.ZINC, 0, -2f, new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_PAXEL = ITEMS.register("zinc_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.ZINC, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_HALBERD = ITEMS.register("zinc_halberd",
             () -> new HalberdItem(DefensiveToolTiers.ZINC, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ZINC_POLEAXE = ITEMS.register("zinc_poleaxe",
@@ -716,6 +764,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.BRASS, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_HOE = ITEMS.register("brass_hoe",
             () -> new HoeItem(DefensiveToolTiers.BRASS, 0, -2f, new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_PAXEL = ITEMS.register("brass_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.BRASS, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_HALBERD = ITEMS.register("brass_halberd",
             () -> new HalberdItem(DefensiveToolTiers.BRASS, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> BRASS_POLEAXE = ITEMS.register("brass_poleaxe",
@@ -759,6 +809,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.ROSE_QUARTZ, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_HOE = ITEMS.register("rose_quartz_hoe",
             () -> new HoeItem(DefensiveToolTiers.ROSE_QUARTZ, 0, -2f, new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_PAXEL = ITEMS.register("rose_quartz_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.ROSE_QUARTZ, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_HALBERD = ITEMS.register("rose_quartz_halberd",
             () -> new HalberdItem(DefensiveToolTiers.ROSE_QUARTZ, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ROSE_QUARTZ_POLEAXE = ITEMS.register("rose_quartz_poleaxe",
@@ -802,6 +854,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.ELECTRUM, 1.5f, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_HOE = ITEMS.register("electrum_hoe",
             () -> new HoeItem(DefensiveToolTiers.ELECTRUM, 0, -1.8f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_PAXEL = ITEMS.register("electrum_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.ELECTRUM, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_HALBERD = ITEMS.register("electrum_halberd",
             () -> new HalberdItem(DefensiveToolTiers.ELECTRUM, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ELECTRUM_POLEAXE = ITEMS.register("electrum_poleaxe",
@@ -845,6 +899,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.STARDUST, 1.5f, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_HOE = ITEMS.register("stardust_hoe",
             () -> new HoeItem(DefensiveToolTiers.STARDUST, 0, -1.8f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STARDUST_PAXEL = ITEMS.register("stardust_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.STARDUST, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> STARDUST_HALBERD = ITEMS.register("stardust_halberd",
             () -> new HalberdItem(DefensiveToolTiers.STARDUST, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> STARDUST_POLEAXE = ITEMS.register("stardust_poleaxe",
@@ -888,6 +944,8 @@ public class DefensiveItems {
             () -> new ShovelItem(DefensiveToolTiers.PYRAEN, 1.5f, -2.8f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_HOE = ITEMS.register("pyraen_hoe",
             () -> new HoeItem(DefensiveToolTiers.PYRAEN, 0, -1.8f, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> PYRAEN_PAXEL = ITEMS.register("pyraen_paxel",
+            () -> new PaxelItem(DefensiveToolTiers.PYRAEN, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> PYRAEN_HALBERD = ITEMS.register("pyraen_halberd",
             () -> new HalberdItem(DefensiveToolTiers.PYRAEN, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> PYRAEN_POLEAXE = ITEMS.register("pyraen_poleaxe",
@@ -921,6 +979,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> PYRAEN_CROSSBOW = ITEMS.register("pyraen_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(11288)));
 
+    public static final RegistryObject<Item> WOODEN_PAXEL = ITEMS.register("wooden_paxel",
+            () -> new PaxelItem(Tiers.WOOD, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_HALBERD = ITEMS.register("wooden_halberd",
             () -> new HalberdItem(Tiers.WOOD, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_POLEAXE = ITEMS.register("wooden_poleaxe",
@@ -964,6 +1024,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> WOODEN_CROSSBOW = ITEMS.register("wooden_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(91)));
 
+    public static final RegistryObject<Item> STONE_PAXEL = ITEMS.register("stone_paxel",
+            () -> new PaxelItem(Tiers.STONE, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_HALBERD = ITEMS.register("stone_halberd",
             () -> new HalberdItem(Tiers.STONE, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> STONE_POLEAXE = ITEMS.register("stone_poleaxe",
@@ -997,6 +1059,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> STONE_CROSSBOW = ITEMS.register("stone_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(201)));
 
+    public static final RegistryObject<Item> IRON_PAXEL = ITEMS.register("iron_paxel",
+            () -> new PaxelItem(Tiers.IRON, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_HALBERD = ITEMS.register("iron_halberd",
             () -> new HalberdItem(Tiers.IRON, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> IRON_POLEAXE = ITEMS.register("iron_poleaxe",
@@ -1030,6 +1094,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> IRON_CROSSBOW = ITEMS.register("iron_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(384)));
 
+    public static final RegistryObject<Item> GOLDEN_PAXEL = ITEMS.register("golden_paxel",
+            () -> new PaxelItem(Tiers.GOLD, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_HALBERD = ITEMS.register("golden_halberd",
             () -> new HalberdItem(Tiers.GOLD, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_POLEAXE = ITEMS.register("golden_poleaxe",
@@ -1063,6 +1129,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> GOLDEN_CROSSBOW = ITEMS.register("golden_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(49)));
 
+    public static final RegistryObject<Item> DIAMOND_PAXEL = ITEMS.register("diamond_paxel",
+            () -> new PaxelItem(Tiers.DIAMOND, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_HALBERD = ITEMS.register("diamond_halberd",
             () -> new HalberdItem(Tiers.DIAMOND, 4, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_POLEAXE = ITEMS.register("diamond_poleaxe",
@@ -1096,6 +1164,8 @@ public class DefensiveItems {
     public static final RegistryObject<Item> DIAMOND_CROSSBOW = ITEMS.register("diamond_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().durability(2398)));
 
+    public static final RegistryObject<Item> NETHERITE_PAXEL = ITEMS.register("netherite_paxel",
+            () -> new PaxelItem(Tiers.NETHERITE, 5, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_HALBERD = ITEMS.register("netherite_halberd",
             () -> new HalberdItem(Tiers.NETHERITE, 4, -2.7f, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> NETHERITE_POLEAXE = ITEMS.register("netherite_poleaxe",
@@ -1128,6 +1198,7 @@ public class DefensiveItems {
             () -> new CompoundBowItem(new Item.Properties().fireResistant().durability(3120)));
     public static final RegistryObject<Item> NETHERITE_CROSSBOW = ITEMS.register("netherite_crossbow",
             () -> new CompoundCrossbowItem(new Item.Properties().fireResistant().durability(3120)));
+
 
     public static final RegistryObject<Item> ALUMINUM_ARROW = ITEMS.register("aluminum_arrow", () -> new AluminumArrowItem(2f, new Item.Properties()));
     public static final RegistryObject<Item> SILVER_ARROW = ITEMS.register("silver_arrow", () -> new SilverArrowItem(2.2f, new Item.Properties()));
